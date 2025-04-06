@@ -28,7 +28,7 @@ Grupo: 4
 |   Cuadros Rodriguez, Juan Alejandro    |    u20221a359    |
 |   Fiorella Jarama Peñaloza    |   u202120418  |
 |  Lucas Coronel, Nadia Alessandra   |    U202120430    |
-|   Moreno Vergara, Johan Raúl  |    U202217239    |
+|   Moreno Vergara, Johan Raúl  |    u20201c105    |
 |  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
 
 Abril 2025
