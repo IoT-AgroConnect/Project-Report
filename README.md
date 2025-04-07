@@ -64,7 +64,7 @@ Empoderar a los granjeros a través de soluciones tecnológicas de vanguardia pa
 Liderar la innovación tecnológica en la gestión de la crianza de cuyes, promoviendo el bienestar animal y la sostenibilidad en esta industria específica, con miras a expandirnos hacia otros tipos de animales en el futuro.
 
 <p align="center">
-  <img src="https://freeimage.host/i/3Y0zHX9"
+  <img src="img/logo.png"
   alt="logo de AgroConnect"
   width="200">
 </p>
