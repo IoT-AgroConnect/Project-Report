@@ -31,7 +31,7 @@ Grupo: 4
 |   Moreno Vergara, Johan Raúl  |    u20201c105    |
 |  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
 
-Abril 2025
+Abril 2025 r
 
 </div>
 
