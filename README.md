@@ -31,7 +31,7 @@ Grupo: 4
 |   Moreno Vergara, Johan Raúl  |    u20201c105    |
 |  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
 
-Abril 2025 r
+Abril 2025 
 
 </div>
 
@@ -78,12 +78,12 @@ _Imagen 1. Logo de la aplicación AgroCuy_
 <table>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="800px">
+      <img src="img/sebas_perfil.jpeg" alt="Foto de perfil de" width="800px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Ramírez Méndez, Sebastián André</b></p>
       <p>
-        Descripcion
+        Soy una persona entusiasta que disfruta colaborar en equipo, y me caracterizo por ser transparente en mis objetivos y en mi enfoque de trabajo. Me enorgullece la capacidad que tengo para complementar a mi equipo en áreas donde puedan necesitar apoyo. Mi pasión por mi carrera me impulsa a desafiar mis habilidades y aspirar a alcanzar todo su potencial.
       </p>
     </td>
   </tr>
