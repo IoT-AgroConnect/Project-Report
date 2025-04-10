@@ -287,6 +287,145 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 
 ## Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
+### 2.1.1. Análisis competitivo
+<table>
+  <tr>
+    <th colspan="6" valign="top">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="4" valign="top">Objetivo 1: Adquirir conocimiento acerca de las propuestas ofrecidas por nuestros competidores y obtener enseñanzas a partir de las áreas en las que presentan limitaciones.<br>
+    Objetivo 2: Identificar los puntos fuertes y las limitaciones de nuestros competidores con el fin de formular una estrategia competitiva sólida y efectiva.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2" valign="top">Empresa/App</td>
+    <td valign="top">AgroConnect </td>
+    <td valign="top">BestFarm</td>
+    <td valign="top">CattleMax</td>
+    <td valign="top">BarnTools</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="img/logo.png" alt="Logo AgroConnect" height="100px"></td>
+    <td valign="top"><img src="img/bestfarm_logo.png" alt="Logo BestFarm" height="100px"></td>
+    <td valign="top"><img src="img/cattlemax_logo.png" alt="Logo CattleMax" height="100px"></td>
+    <td valign="top"><img src="img/barntool_logo.png" alt="Logo BarnTools" height="100px"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil</td>
+    <td valign="top">Overview</td>
+    <td valign="top">Una aplicación integral desarrollada por AgroTech para mejorar la gestión de granjas de cuyes en el Perú. Ofrece asesoramiento especializado y herramientas tecnológicas para optimizar la alimentación, salud y sostenibilidad en la crianza de cuyes, empoderando a los granjeros a través de la innovación tecnológica.</td>
+    <td valign="top">Plataforma integral de gestión agrícola que abarca una amplia gama de actividades agrícolas, incluyendo cultivos y ganadería.</td>
+    <td valign="top">Aplicación especializada en la gestión de ganado. Está diseñada específicamente para ayudar a los ganaderos a llevar un registro detallado de su ganado, gestionar la salud y el seguimiento de la reproducción.</td>
+    <td valign="top">BarnTools es una aplicación que se centra en la gestión de animales de granja en general, incluyendo ganado, aves de corral y otros animales. </td>
+  </tr>
+  <tr>
+    <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td valign="top">La ventaja competitiva de AgroConnect es la integración completa de tecnología y asesoramiento especializado. Esto significa que no solo proporcionamos herramientas tecnológicas avanzadas a través de AgroConnect, sino que también ofrecemos orientación y asesoramiento específico para la crianza de cuyes.</td>
+    <td valign="top">La ventaja competitiva de BestFarm radica en su enfoque de la gestión agrícola, que permite a los usuarios gestionar tanto cultivos como animales en una sola plataforma.</td>
+    <td valign="top">La principal ventaja competitiva de CattleMax es que ofrece características y herramientas específicas para el ganado, lo que lo convierte en una opción sólida para ganaderos que buscan una solución dedicada.</td>
+    <td valign="top">La ventaja competitiva de BarnTools radica en su capacidad para gestionar una variedad de animales de granja, lo que la hace adecuada para granjeros con múltiple variedad de ganado.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil de Marketing</td>
+    <td valign="top">Mercado objetivo</td>
+    <td valign="top">El mercado objetivo de AgroConnect son los criadores de cuyes en Perú, así como otros actores involucrados en la cadena de producción y comercialización de productos cárnicos de cuy.</td>
+    <td valign="top">El mercado objetivo de BestFarm incluye a agricultores y ganaderos que gestionan operaciones mixtas de cultivos y ganado.</td>
+    <td valign="top">El mercado objetivo de CattleMax son los ganaderos y criadores de ganado de todas las escalas.</td>
+    <td valign="top">El mercado objetivo de BarnTools son los granjeros y ganaderos que gestionan una variedad de animales</td>
+  </tr>
+  <tr>
+    <td valign="top">Estrategias de marketing</td>
+    <td valign="top">Campañas educativas en línea y fuera de línea para resaltar los beneficios de AgroConnet en términos de mejora de la productividad, bienestar animal y sostenibilidad en la crianza de cuyes.</td>
+    <td valign="top">Promoción en ferias agrícolas y ganaderas para mostrar la versatilidad de la plataforma.</td>
+    <td valign="top">Colaboración con asociaciones ganaderas y veterinarios especializados en ganado.</td>
+    <td valign="top">Publicidad en revistas agrícolas y ganaderas</td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top">Perfil de Producto</td>
+    <td valign="top">Productos & Servicios</td>
+    <td valign="top">Plataforma integral de gestión para la crianza de cuyes. Ofreciendo una solución completa para la gestión eficiente de granjas de cuyes.</td>
+    <td valign="top">Plataforma integral de gestión agrícola para cultivos y animales, planificación de cultivos, programación de tareas, seguimiento de salud, análisis de datos agrícolas</td>
+    <td valign="top">Plataforma de gestión de ganado bovino, registro de animales, seguimiento de salud, programación de tareas, seguimiento de reproducción, gestión de gastos.</td>
+    <td valign="top">Plataforma versátil para la gestión de animales de granja en general, registro de animales, seguimiento de salud, programación de tareas.</td>
+  </tr>
+  <tr>
+    <td valign="top">Precios & Costos</td>
+    <td valign="top">Modelo de suscripción mensual o anual. Los precios varían según la escala de la operación y las funcionalidades requeridas.</td>
+    <td valign="top">BestFarm utiliza  precios basados en suscripción.</td>
+    <td valign="top">CattleMax utiliza  precios basados en suscripción.</td>
+    <td valign="top">BarnTools utiliza  precios basados en la suscripción.</td>
+  </tr>
+  <tr>
+    <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">AgroConnect se distribuye principalmente a través de una plataforma web accesible desde cualquier navegador. También ofrece una aplicación móvil.</td>
+    <td valign="top">BestFarm se distribuye a través de una plataforma web</td>
+    <td valign="top">CattleMax se distribuye a través de una plataforma web y ofrece una aplicación móvil</td>
+    <td valign="top">BarnTools se distribuye principalmente a través de una plataforma web accesible desde navegadores de computadoras de escritorio y dispositivos móviles.</td>
+  </tr>
+  <tr>
+    <td rowspan="4" valign="top">Análisis SWOT</td>
+    <td valign="top">Fortalezas</td>
+    <td valign="top">- Integración completa de tecnología y asesoramiento especializado.<br>
+    - Mejora del bienestar animal y la sostenibilidad en la crianza de cuyes.<br>
+    - Plataforma integral que aborda múltiples aspectos de la gestión de granjas de cuyes.<br>
+    - Potencial para expandirse hacia otros tipos de animales en el futuro.
+    </td>
+    <td valign="top">- Ofrece una plataforma integral para la gestión de cultivos y animales.<br>
+    - Enfoque en la agricultura.<br>
+    - Planificación y análisis de datos agrícolas.
+    </td>
+    <td valign="top">- Enfoque especializado en la gestión de ganado bovino.<br>
+    - Herramientas específicas para ganado bovino.<br>
+    - Plataforma web y aplicación móvil para mayor accesibilidad.
+    </td>
+    <td valign="top">- Versatilidad para gestionar una variedad de animales de granja.<br>
+    - Registro de animales, seguimiento de salud y programación de tareas.<br>
+    - Plataforma web y aplicación móvil para mayor accesibilidad.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Debilidades</td>
+    <td valign="top">– Posible resistencia al cambio por parte de algunos criadores de cuyes.<br>
+    - Costos de implementación y acceso a tecnología en áreas rurales o remotas.<br>
+    - Necesidad de una curva de aprendizaje para algunos usuarios menos familiarizados con la tecnología.<br>
+    - Dependencia de la conectividad a internet para el funcionamiento óptimo de la plataforma.
+    </td>
+    <td valign="top">- Competencia en nichos de mercado más específicos.<br>
+    - Puede ser percibido como demasiado complejo para usuarios con necesidades simples.
+    </td>
+    <td valign="top">- Limitado en términos de diversificación de servicios para otros tipos de animales.</td>
+    <td valign="top">- Mayor competencia en el mercado de gestión de animales de granja.</td>
+  </tr>
+  <tr>
+    <td valign="top">Oportunidades</td>
+    <td valign="top">- Creciente demanda de soluciones tecnológicas en el sector agrícola.<br>
+    - Aumento de la conciencia sobre el bienestar animal y la sostenibilidad.<br>
+    - Posibilidad de colaboraciones con instituciones gubernamentales y organizaciones agrícolas para promover el uso de tecnología en la crianza de cuyes.<br>
+    - Expansión a nuevos mercados regionales o internacionales.
+    </td>
+    <td valign="top">- Expansión hacia mercados agrícolas más amplios.<br>
+    - Colaboración con proveedores de tecnología agrícola.
+    </td>
+    <td valign="top">- Expansión hacia otros nichos de mercado ganadero.</td>
+    <td valign="top">- Colaboración con proveedores de tecnología agrícola.</td>
+  </tr>
+  <tr>
+    <td valign="top">Amenazas</td>
+    <td valign="top">- Competencia de otras soluciones tecnológicas en el mercado agrícola.<br>
+    - Cambios en la regulación gubernamental que podrían afectar la industria de la crianza de cuyes.
+    </td>
+    <td valign="top">- Competidores especializados en áreas específicas de la agricultura</td>
+    <td valign="top">- Cambios en las regulaciones ganaderas.</td>
+    <td valign="top">- Competidores especializados en áreas específicas de la gestión de animales de granja.</td>
+  </tr>
+</table>
+
+
+
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
 ## Anexos y Bibliografía 
