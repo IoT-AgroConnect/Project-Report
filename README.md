@@ -80,6 +80,47 @@ Abril 2025
 ------
 
 # Contenido
+## Student Outcome
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Criterio específico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+    <td>
+      <strong>Moreno Vergara, Johan</strong><br>
+      <em>TB1</em><br>
+      Para esta entrega nos pusimos de acuerdo para tener reuniones para elegir el tema de nuestro proyecto y delegar responsabilidades. Además de una reunión para corroborar el correcto avance de cada uno de los miembros de nuestro equipo.<br>
+      <br>
+      <strong>Apellidos, Nombre</strong><br>
+      <em>TB1</em><br>
+      …  
+    </td>
+    <td>
+      Conclusiones Generales...<br>
+    </td>
+  </tr>
+  <tr>
+    <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+    <td>
+      <strong>Moreno Vergara, Johan</strong><br>
+      <em>TB1</em><br>
+      Se establecieron fechas de entrega para cada tarea delegada, de esa forma aseguramos que se cumpla el objetivo de cada miembro de equipo y poder tener el trabajo en fechas específicas antes de la entrega.<br>
+      <br>
+      <strong>Apellidos, Nombre</strong><br>
+      <em>TB1</em><br>
+      …  
+    </td>
+    <td>
+       Conclusiones Generales...<br>
+    </td>
+  </tr>
+</table>
+
+
 ## Capítulo I: Introducción 
 
 ## 1.1. Startup Profile
@@ -324,43 +365,4 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
 ## Anexos y Bibliografía 
-## Student Outcome
-
-<table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <th>Criterio específico</th>
-    <th>Acciones realizadas</th>
-    <th>Conclusiones</th>
-  </tr>
-  <tr>
-    <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
-    <td>
-      <strong>Moreno Vergara, Johan</strong><br>
-      <em>TB1</em><br>
-      Para esta entrega nos pusimos de acuerdo para tener reuniones para elegir el tema de nuestro proyecto y delegar responsabilidades. Además de una reunión para corroborar el correcto avance de cada uno de los miembros de nuestro equipo.<br>
-      <br>
-      <strong>Apellidos, Nombre</strong><br>
-      <em>TB1</em><br>
-      …  
-    </td>
-    <td>
-      Conclusiones Generales...<br>
-    </td>
-  </tr>
-  <tr>
-    <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
-    <td>
-      <strong>Moreno Vergara, Johan</strong><br>
-      <em>TB1</em><br>
-      Se establecieron fechas de entrega para cada tarea delegada, de esa forma aseguramos que se cumpla el objetivo de cada miembro de equipo y poder tener el trabajo en fechas específicas antes de la entrega.<br>
-      <br>
-      <strong>Apellidos, Nombre</strong><br>
-      <em>TB1</em><br>
-      …  
-    </td>
-    <td>
-       Conclusiones Generales...<br>
-    </td>
-  </tr>
-</table>
 
