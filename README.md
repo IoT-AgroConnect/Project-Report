@@ -150,7 +150,7 @@ _Imagen 1. Logo de la aplicación AgroCuy_
     <td valign="top">
       <p><b>Moreno Vergara, Johan Raúl</b></p>
       <p>
-        Me llamo Johan y soy estudiante de la carrera de Ing de Software. Soy una persona bastante optimista y responsable. Me apasionan los temas de Ciberseguridad e Inteligencia Artificial. Cuento con conocimientos en Python, SQL, ciberseguridad y entrenamiento de modelos de IA y algunos frameworks de desarrollo web. Dentro de mis hoobies está practicar arte marciales como el boxeo, Muay-Thai y MMA. Me comprometo a apoyar a mi equipo y poner en práctica mis conocimientos. 
+        Me llamo Johan y soy estudiante de la carrera de Ingeniería de Software. Soy una persona bastante optimista y responsable. Me apasionan los temas de ciberseguridad e inteligencia artificial. Cuento con conocimientos en Python, SQL, ciberseguridad, entrenamiento de modelos de IA y algunos frameworks de desarrollo web.Dentro de mis hobbies está practicar artes marciales como el boxeo, Muay Thai y MMA. Me comprometo a apoyar a mi equipo y poner en práctica mis conocimientos.
       </p>
     </td>
   </tr>
