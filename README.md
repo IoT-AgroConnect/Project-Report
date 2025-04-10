@@ -145,12 +145,12 @@ _Imagen 1. Logo de la aplicación AgroCuy_
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="800px">
+      <img src="https://i.postimg.cc/yxcDXfTV/RREeduc-Foto-Carnet-Johan-Moreno-min-1.png" alt="Foto de perfil de Johan" width="800px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Moreno Vergara, Johan Raúl</b></p>
       <p>
-        Descripcion
+        Me llamo Johan y soy estudiante de la carrera de Ing de Software. Soy una persona bastante optimista y responsable. Me apasionan los temas de Ciberseguridad e Inteligencia Artificial. Cuento con conocimientos en Python, SQL, ciberseguridad y entrenamiento de modelos de IA y algunos frameworks de desarrollo web. Dentro de mis hoobies está practicar arte marciales como el boxeo, Muay-Thai y MMA. Me comprometo a apoyar a mi equipo y poner en práctica mis conocimientos. 
       </p>
     </td>
   </tr>
