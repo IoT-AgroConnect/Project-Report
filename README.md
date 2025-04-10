@@ -39,6 +39,40 @@ Abril 2025
 
 ## Registro de Versiones Del Informe
 
+<table>
+  <tr>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autores</th>
+    <th>Descripción de modificación</th>
+  </tr>
+  <tr>
+    <td rowspan="5">TB1</td>
+    <td rowspan="5">04/10/2025</td>
+    <td>Cuadros Rodriguez, Juan Alejandro</td>
+    <td rowspan="5">
+      <strong>Capítulo I</strong>: Introducción<br>
+      <strong>Capítulo II</strong>: Requirements Elicitation & Analysis<br>
+      <strong>Capítulo III</strong>: Requirements Specification<br>
+      <strong>Capítulo IV</strong>: Solution Software Design
+    </td>
+  </tr>
+  <tr>
+    <td>Fiorella Jarama Peñaloza</td>
+  </tr>
+  <tr>
+    <td>Lucas Coronel, Nadia Alessandra</td>
+  </tr>
+  <tr>
+    <td>Moreno Vergara, Johan Raúl</td>
+  </tr>
+  <tr>
+    <td>Ramirez Mendez, Sebastian Andre</td>
+  </tr>
+</table>
+
+
+
 ## Project Report Collaboration Insights
 
 ### **Reporte de colaboración de la entrega del TB1:**
