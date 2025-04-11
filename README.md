@@ -371,6 +371,12 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 [Enlace de la imagen aquí](https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png)
 
+#### 4.1.1.3 Bounded Context Canvases. 
+
+<p>En este canvas definimos el Bounded Context del sistema de monitoreo para criaderos de cuyes, donde detallamos su propósito, comunicaciones, decisiones clave y lenguaje ubicuo. Representa cómo interactúan sensores, usuarios y alertas dentro del sistema.<p><br>
+<img src="https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png" alt="Bounded Context Canvas - Cuyes" width="900">
+
+[Enlace de la imagen aquí](https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png)
 
 
 ## Anexos y Bibliografía 
