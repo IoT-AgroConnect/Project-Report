@@ -442,6 +442,32 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 **Servicio al cliente excepcional:** Nos comprometemos a brindar un excelente servicio al cliente, proporcionando soporte técnico, capacitación y asistencia personalizada para garantizar la satisfacción y fidelidad de nuestros usuarios.
 
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+**Segmento: Asesor**
+1.  ¿Cuál es su experiencia en la granja y cuántos años lleva trabajando en este campo? ¿Ha utilizado o está familiarizado con sistemas de monitoreo o control automatizados en granjas?
+2.  ¿Qué tipo de asesoramiento o servicios específicos ofrece a los criadores en su trabajo actual? ¿Cómo podría la información en tiempo real proporcionada por sensores IoT (temperatura, humedad, etc.) complementar o mejorar su asesoramiento?
+3. ¿Qué tipo de alertas o notificaciones generadas por un sistema IoT serían más útiles para usted como asesor?
+4. ¿Cuáles considera que son los desafíos más comunes que enfrentan los criadores de cuyes principiantes en la gestión de sus granjas? ¿Cómo podría un sistema IoT ayudar a mitigar estos desafíos?
+5. ¿Cuál ha sido su experiencia con herramientas o sistemas tecnológicos en el ámbito agropecuario? 
+6. ¿Tiene alguna experiencia previa con sensores, actuadores o plataformas de hardware similares a Arduino, aunque no sea directamente en la crianza de cuyes? 
+7. ¿Ha tenido alguna experiencia previa con tecnologías aplicadas a la agricultura o la ganadería, como sensores, actuadores o plataformas de hardware similar a Arduino? ¿Cuál fue su impresión sobre el uso de estas tecnologías?
+8. Pensando en una plataforma que incorpore datos de dispositivos IoT en las granjas, ¿qué características o funcionalidades le gustaría ver que faciliten su labor de asesoramiento (por ejemplo, visualización de datos históricos, alertas personalizables, informes basados en datos de sensores)?
+9. ¿Qué temas específicos dentro de la crianza de cuyes considera que son de mayor interés para los criadores principiantes y que podrían abordarse de manera efectiva utilizando la información proporcionada por un sistema IoT?
+10. ¿De qué manera cree que una plataforma como "AgroConnect" con integración IoT podría ser beneficiosa tanto para los criadores principiantes como para los asesores en la industria?
+
+**Segmento: Criador de cuyes**
+1. ¿Cuál es el tamaño aproximado de su operación y qué tipo de animales roedores cría? ¿Ha implementado o considerado alguna forma de automatización o monitoreo tecnológico en su granja, aunque sea a pequeña escala?
+2. En su día a día, ¿cuáles son los mayores desafíos que enfrenta en la gestión de su granja de cuyes? ¿Cree que un sistema de monitoreo automatizado basado en sensores (como los que se podrían implementar con Arduino) podría ayudar a mitigar alguno de estos desafíos?
+3. Actualmente, ¿qué métodos o herramientas utiliza para llevar un registro del estado de salud y otras variables importantes de sus animales? ¿Cómo podría la información recopilada automáticamente por sensores (por ejemplo, temperatura ambiental, patrones de actividad) complementar o mejorar sus registros actuales?
+4. ¿Cómo planifica y organiza las tareas diarias relacionadas con la alimentación, el cuidado de los animales y el mantenimiento de las instalaciones? ¿Podría un sistema IoT con la capacidad de enviar alertas o incluso controlar ciertos dispositivos (si aplica) optimizar estas tareas?
+5. ¿Qué tipo de información o pronóstico suele consultar para tomar decisiones en su granja (por ejemplo, pronóstico del tiempo)? ¿Sería útil recibir alertas o información predictiva basada en los datos históricos recopilados por sensores en su propia granja?
+6. ¿Ha utilizado alguna aplicación o herramienta móvil para la gestión de su granja? ¿Cuáles han sido sus experiencias? ¿Estaría dispuesto a utilizar una interfaz móvil para visualizar los datos de sensores de su granja y recibir alertas importantes?
+7. ¿Qué tipo de información o recursos adicionales le gustaría tener a su disposición para mejorar la gestión de su granja de cuyes? ¿Consideraría valioso recibir recomendaciones o alertas basadas en el análisis de los datos recopilados por su propio sistema IoT o de otras granjas similares?
+8. ¿Cuál es su opinión sobre la posibilidad de recibir asesoramiento y orientación de criadores más experimentados a través de plataformas en línea o aplicaciones, complementado con datos objetivos sobre las condiciones de su granja proporcionados por un sistema IoT? ¿Cree que esta información adicional podría hacer que el asesoramiento remoto sea más efectivo?
+
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
