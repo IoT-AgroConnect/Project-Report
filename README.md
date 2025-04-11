@@ -364,5 +364,14 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
+#### 4.1.1.2 Domain Message Flows Modeling.
+
+<p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p><br>
+<img src="https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png" alt="Domain Message Flow - Cuyes" width="800">
+
+[Enlace de la imagen aquí](https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png)
+
+
+
 ## Anexos y Bibliografía 
 
