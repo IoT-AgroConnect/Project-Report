@@ -468,6 +468,146 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 7. ¿Qué tipo de información o recursos adicionales le gustaría tener a su disposición para mejorar la gestión de su granja de cuyes? ¿Consideraría valioso recibir recomendaciones o alertas basadas en el análisis de los datos recopilados por su propio sistema IoT o de otras granjas similares?
 8. ¿Cuál es su opinión sobre la posibilidad de recibir asesoramiento y orientación de criadores más experimentados a través de plataformas en línea o aplicaciones, complementado con datos objetivos sobre las condiciones de su granja proporcionados por un sistema IoT? ¿Cree que esta información adicional podría hacer que el asesoramiento remoto sea más efectivo?
 
+### 2.2.2. Registro de entrevistas
+
+**Entrevista N 1 - Asesor:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista1.png" width="100%">
+
+_Imagen 3. Entrevista a _
+
+**Resumen:** 
+
+
+**Entrevista N 2 - Asesor:** 
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista2.png" width="100%">
+
+_Imagen 4. Entrevista a _
+
+**Resumen:**
+
+
+
+**Entrevista N 3 - Asesor:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista3.jpg" width="100%">
+
+_Imagen 5. Entrevista a _
+
+**Resumen:**
+
+
+
+**Entrevista N 4 - Asesor:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista4.png" width="100%">
+
+_Imagen 6. Entrevista a _
+
+**Resumen:**
+
+
+**Entrevista N 5 - Asesor:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista5.png" width="100%">
+
+_Imagen 7. Entrevista a_
+
+**Resumen:**
+
+
+**Entrevista N 6 - Criador:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista6.png" width="100%">
+
+_Imagen 8. Entrevista a _
+
+**Resumen:** 
+
+
+**Entrevista N 7 - Criador:** 
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista7.png" width="100%">
+
+_Imagen 9. Entrevista a _
+
+**Resumen:**
+
+
+**Entrevista N 8 - Criador:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista8.jpg" width="100%">
+
+_Imagen 9. Entrevista a _
+
+**Resumen:**
+
+
+**Entrevista N 9 - Criador:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista9.png" width="100%">
+
+_Imagen 9. Entrevista a _
+
+**Resumen:**
+
+
+
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
