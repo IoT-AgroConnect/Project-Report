@@ -299,6 +299,15 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 | **Thinking** | "Qué útil que pueda mostrar mi experiencia desde el inicio." | "Puedo tener una visión clara de lo que pasa en la granja sin estar presente." | "Todo lo que necesito para comunicarme con el criador está en la misma app." | "El monitoreo en tiempo real me permite dar asesorías más precisas y útiles." |
 | **Feeling** | <p>- Seguro de que los criadores verán mi perfil y querrán contactarme.</p><p>- Orgulloso de mostrar mis logros en el área.</p> | <p>- Confiado por poder detectar problemas sin tener que estar físicamente en la granja.</p><p>- Tranquilo gracias a los datos que ya están organizados.</p> | <p>- Cómodo porque la app me facilita la coordinación.</p><p>- Satisfecho al ver que el criador puede explicarme su situación con datos.</p> | <p>- Orgulloso de brindar soluciones efectivas desde cualquier lugar.</p><p>- Inspirado al ver cómo la tecnología mejora mi labor como asesor.</p> |
 
+## 3.1. To-Be Scenario Mapping  
+**Segmento: Criadores**  
+<br>
+
+| **Phases** | **Instalación y Configuración Inicial** | **Monitoreo del estado de la granja** | **Consulta con el asesor** | **Seguimiento continuo** |
+| :- | :- | :- | :- | :- |
+| **Doing** | - Instalo la app “AgroCuy” y configuro los sensores en cada jaula.<br>- Registro las jaulas, cuyes por jaula, tipo de alimentación y horarios de dispensadores. | - Reviso en tiempo real desde la app el estado del agua, temperatura y comida de cada jaula.<br>- Recibo alertas si falta agua, está contaminada o si hay condiciones fuera del rango ideal. | - Solicito asesoría con un técnico disponible desde la sección de “Consultas”.<br>- Envío automáticamente los datos recolectados por los sensores al asesor. | - Aplico las recomendaciones dadas por el asesor.<br>- Continúo revisando el estado diario de mi granja desde la app.<br>- Reprogramo videollamadas si vuelven a surgir alertas. |
+| **Thinking** | "Qué útil que la app me ayude desde el inicio a organizar mis jaulas y sensores." | "Es genial ver todo el estado de mi granja desde el celular, sin tener que estar entrando a cada jaula." | "Puedo obtener ayuda personalizada y rápida gracias a que el asesor ve lo mismo que yo." | "Con esta app puedo llevar un control constante y profesional sin ser un experto." |
+| **Feeling** | <p>- Motivado al ver que puedo automatizar partes importantes de mi granja.</p><p>- Seguro al configurar sensores correctamente.</p> | <p>- Tranquilo al ver que todo está bajo control o cuando se me alerta a tiempo.</p><p>- Confiado en que tengo visibilidad de lo que pasa con mis cuyes.</p> | <p>- Satisfecho de poder contactar a un asesor y recibir consejos sin salir de casa.</p><p>- Agradecido por el soporte que tengo en tiempo real.</p> | <p>- Comprometido a seguir mejorando mi crianza.</p><p>- Contento de ver resultados positivos gracias al monitoreo y el acompañamiento técnico.</p> |
 
 
 ## Capítulo IV: Solution Software Design
