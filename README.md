@@ -606,6 +606,35 @@ _Imagen 9. Entrevista a _
 
 **Resumen:**
 
+### 2.2.3. Análisis de entrevistas
+
+**Formas de difusión de información de los asesores**
+|Formas de difusión|X|X|X|
+| - | - | - | - |
+|Charlas|X| | |
+|Grupos de discusion en línea|X| |X|
+|Visita presencial| |X|X|
+|Videos en línea| | |X|
+
+<img src="img/piechart1.png" alt="% Asesores que apoyan nuestra idea">
+
+_Imagen 12. Gráfico circular - Asesores_
+
+Gracias a las entrevistas realizadas, comprendimos que los asesores suelen brindar apoyo a través de internet o a conocidos. Así, al comentarle sobre nuestra idea de aplicación web para poder brindar asesorías a criadores de cuyes, indicaron que les pareció muy buena idea ya que brinda mejor comunicación y confiabilidad.
+
+**Desafíos que tienen los asesores con la crianza de cuyes**
+|Desafíos de crianza|X|X|X|
+| - | - | - | - |
+|Gestión de alimentación|X|X|X|
+|Mantenimiento de galpones|X| | |
+|Control de enfermedades|X|X|X|
+|Gestión de espacio| |X| |
+
+<img src="img/piechart2.png" alt="% Criadores que apoyan nuestra idea">
+
+_Imagen 13. Gráfico circular - Criadores_
+
+Asimismo, obtuvimos la conclusión de que los criadores de cuyes suelen tener dificultad para gestionar correctamente la alimentación y control de enfermedades, además de gestionar recursos de la granja en sí. De esta forma, al comentarle sobre nuestra idea de aplicación web para poder recibir asesorías de personas con experiencia y gestionar los recursos de su granja, indicaron que les pareció muy buena idea ya que sería un mejor recurso para obtener información confiable.
 
 
 
