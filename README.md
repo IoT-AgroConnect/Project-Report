@@ -637,6 +637,182 @@ _Imagen 13. Gráfico circular - Criadores_
 Asimismo, obtuvimos la conclusión de que los criadores de cuyes suelen tener dificultad para gestionar correctamente la alimentación y control de enfermedades, además de gestionar recursos de la granja en sí. De esta forma, al comentarle sobre nuestra idea de aplicación web para poder recibir asesorías de personas con experiencia y gestionar los recursos de su granja, indicaron que les pareció muy buena idea ya que sería un mejor recurso para obtener información confiable.
 
 
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+Para la realización de las fichas de User Personas se han considerado los 2 segmentos objetivos: asesores y criadores de cuyes. Se elaborarán las fichas con la información recopilada de las entrevistas sobre su perfil.
+
+**Segmento Asesor**
+
+<img src="img/persona_asesor.png" alt="Persona Asesor">
+
+_Imagen 14. User Persona - Asesor_
+
+**Segmento Criador**
+
+<img src="img/persona_criador.png" alt="Persona Criador">
+
+_Imagen 15. User Persona - Criador_
+
+### 2.3.2. User Task Matrix
+
+<table>
+  <tr>
+    <th rowspan="2" valign="top"><b>Task Matrix</b></th>
+    <th colspan="2" valign="top"><b>Asesores</b></th>
+    <th colspan="2" valign="top"><b>Criadores</b></th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Frecuencia</b></td>
+    <td valign="top"><b>Importancia</b></td>
+    <td valign="top"><b>Frecuencia</b></td>
+    <td valign="top"><b>Importancia</b></td>
+  </tr>
+  <tr>
+    <td>Alimentar a los cuyes</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Diaria</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Proporcionar agua limpia</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Diaria</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Limpiar jaulas</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Semanal</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Comprar suministros y alimentos</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Mensual</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Vender cuyes</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Gestionar gastos y ganancias</td>
+    <td>Mensual</td>
+    <td>Media</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Monitorear la salud y el bienestar de los cuyes</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+    <td>Siempre</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Investigar sobre nuevas prácticas y tecnologías para la crianza de cuyes</td>
+    <td>Mensual</td>
+    <td>Media</td>
+    <td>Casi Nunca</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+    <td>Realizar seguimiento y evaluación de progreso de granjas</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Participar de sesiones de asesoramiento para recibir información actualizada</td>
+    <td>Mensual</td>
+    <td>Media</td>
+    <td>Mensual</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Resolver problemas específicos en las granjas</td>
+    <td>Según necesidad</td>
+    <td>Muy Alta</td>
+    <td>Según necesidad</td>
+    <td>Muy Alta</td>
+  </tr>
+  <tr>
+    <td>Desarrollar y/o asistir a sesiones de capacitación sobre técnicas de crianza</td>
+    <td>A veces</td>
+    <td>Alta</td>
+    <td>A veces</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Elaborar y/o leer informes de progreso con recomendaciones</td>
+    <td>Trimestral</td>
+    <td>Alta</td>
+    <td>Trimestral</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Evaluar las condiciones y necesidades de las granjas de forma presencial</td>
+    <td>Casi nunca</td>
+    <td>Alta</td>
+    <td>Diaria</td>
+    <td>Media</td>
+  </tr>
+</table>
+
+<br>
+A partir del User Task Matrix, resaltaremos las tareas de mayor trascendencia. Entre ellas tenemos ‘monitorear la salud y bienestar de los cuyes’ ya que los criadores están pendientes constantemente de la salud de los cuyes viendo comportamientos inusuales y posibles enfermedades para comunicárselo a los asesores quienes otorgarían consejos sobre el accionar ante una posible enfermedad o comportamiento inusual. Esta tarea es fundamental para que haya una producción exitosa y sin contratiempos.
+
+Asimismo, la tarea de ‘realizar seguimiento y evaluación de progreso de granjas’ es fundamental por el mismo motivo porque permite una mejora continua en el rendimiento de las granjas.
+
+Por otro lado, las principales diferencias entre ambos segmentos radican en las actividades diarias dentro del criadero ya que solo participan los criadores para asegurarse de la salud y crecimiento de los cuyes. Por lo tanto, los criadores están monitoreando constantemente las condiciones de sus granjas, mientras que los asesores tienen que separar una fecha para realizar esto de forma presencial.
+
+Finalmente, la principal coincidencia encontrada es que tanto los asesores como los criadores deben estar preparados para solucionar problemas específicos cuando estos aparezcan.
+
+
+### 2.3.3. User Journey Mapping
+
+Para el segmento de los asesores especializados, se ha considerado desde el momento en que reciben una solicitud de servicio por parte de un criador de cuyes hasta el seguimiento de los avances con respecto a los cambios planteados.
+Por otro lado, para el segmento de criadores de cuyes se tomó en cuenta desde la búsqueda inicial de información y contactos de asesores hasta la implementación de nuevos conocimientos y el análisis de resultados obtenidos.
+
+**Segmento Asesor**
+
+<img src="img/journeymap_asesor.png" alt="Journey Map Asesor">
+
+_Imagen 16. User Journey Map - Asesor_
+
+**Segmento Criador**
+
+<img src="img/journeymap_criador.png" alt="Journey Map Criador">
+
+_Imagen 17. User Journey Map - Criador_
+
+### 2.3.4. Empathy Mapping
+
+En esta sección, se desarrollaron los Empathy Maps de cada segmento objetivo. Se utilizó una plantilla de EXPressia que contiene los apartados que debe tener el Empathy Map junto a preguntas que se respondieron conforme a lo identificado de nuestro segmento objetivo para desarrollar este artefacto.
+
+**Segmento Asesor**
+
+<img src="img/empathymap_asesor.png" alt="Empathy Map Asesor">
+
+_Imagen 18. Empathy Map - Asesor_
+
+**Segmento Criador**
+
+<img src="img/empathymap_criador.png" alt="Empathy Map Criador">
+
+_Imagen 19. Empathy Map - Criador_
+
+
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
