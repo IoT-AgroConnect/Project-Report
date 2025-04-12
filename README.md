@@ -492,15 +492,15 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 **Contextos Identificados:**
 
 1. **Security:** gestiona la autenticación y perfiles de criadores y asesores técnicos.  
-2. **Environmental Alerts:** monitorea las condiciones dentro de las jaulas y emite alertas cuando se detectan situaciones críticas.  
+2. **Monitoring:** monitorea las condiciones dentro de las jaulas y emite alertas cuando se detectan situaciones críticas.  
 3. **Breeding:** permite gestionar la cantidad de cuyes por jaula, el estado del agua y el uso de dispensadores automáticos de comida.  
 4. **Consulting:** facilita la interacción entre criadores y asesores mediante videollamadas, programación de citas y gestión de disponibilidad.  
 
 **Bounded Context Security**
   <img src="img/bounded_context_security.png" alt="Bounded Context Security" width="800">
 
-**Bounded Context Environmental Alerts**
-    <img src="img/bounded_context_enviormental.png" alt="Bounded Context Environmental" width="800">
+**Bounded Context Monitoring**
+    <img src="img/bounded_context_enviormental.png" alt="Bounded Context Monitoring" width="800">
 
 **Bounded Context Breeding**
     <img src="img/bounded_context_breeding.png" alt="Bounded Context Breeding" width="800">
@@ -508,6 +508,8 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 **Bounded Context Consulting**
     <img src="img/bounded_context_consulting.png" alt="Bounded Context Consulting" width="800">
 
+**Bounded Context All - Vista Completa**
+    <img src="img/bounded_context_consulting.png" alt="Bounded Context Consulting" width="800">
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
@@ -522,6 +524,32 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 <img src="https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png" alt="Bounded Context Canvas - Cuyes" width="900">
 
 [Enlace de la imagen aquí](https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png)
+
+#### 4.1.2. Context Mapping.
+
+### **4.1.2. Context Mapping**
+
+<p>Una vez definidos nuestros Bounded Contexts, realizamos el mapeo de sus relaciones para comprender cómo se comunican dentro del sistema de AgroCuy y asignar los patrones adecuados según su interacción.</p>
+
+<p>
+– <strong>Security</strong> provee autenticación y manejo de perfiles tanto para criadores como para asesores técnicos. Es utilizado por los demás contextos, pero no depende de ninguno. Esta relación fue clasificada como <strong>Shared Kernel</strong>, ya que su lógica y entidades clave deben ser consistentes y compartidas de forma controlada.
+</p>
+
+<p>
+– <strong>Monitoring</strong> detecta situaciones como falta de agua o comida, y genera alertas críticas. Esta información es consumida por <strong>Breeding</strong> para tomar decisiones sobre el manejo de jaulas. Dado que Breeding depende del lenguaje de eventos generado por Monitoring, aplicamos el patrón <strong>Conformist</strong>.
+</p>
+
+<p>
+– <strong>Consulting</strong> se encarga de la programación de citas, videollamadas y disponibilidad de asesores. Su interacción con <strong>Security</strong> (para acceder al perfil del asesor o criador) sigue el patrón <strong>Customer–Supplier</strong>, ya que Consulting consume datos que Security expone.
+</p>
+
+<p>
+– Además, la comunicación entre <strong>Breeding</strong> y <strong>Monitoring</strong> también puede considerarse como <strong>Published Language</strong> en algunos escenarios, cuando ambos deben interpretar eventos de forma coherente (por ejemplo, para emitir alertas o automatizar los dispensadores).
+</p>
+
+<p>
+Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identificar dependencias y definir una arquitectura que mantenga separadas las responsabilidades de cada módulo en AgroCuy.
+</p>
 
 
 ## Anexos y Bibliografía 
