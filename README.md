@@ -364,6 +364,80 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
+## 4.1. Strategic-Level Domain-Driven Design. 
+### 4.1.1. EventStorming. 
+
+<p>Realizamos nuestro proceso de event storming a través de la herramienta MIRO, donde trazamos todo el recorrido del sistema. Iniciamos con la fase inicial de Unstructured Exploration, en la cual discutimos y contrastamos nuestras ideas respecto a los eventos clave del dominio, guiándonos por las sugerencias recomendadas y centrandonos en el objetivo numero uno de nuestro proyecto. Asimismo, tomamos en cuenta diversos aspectos al elegir los eventos, tales como su importancia, recurrencia y momento de ocurrencia.<p>
+
+**Step 1: Unstructured Exploration**
+
+<p>Iniciamos con una exploración libre del dominio, donde cada integrante propuso eventos clave desde su perspectiva. Esta etapa nos permitió intercambiar ideas, descubrir puntos relevantes y construir una comprensión compartida del proceso. Para seleccionar los eventos, consideramos criterios como relevancia, frecuencia y temporalidad.<p>
+
+<img src="img/unstructured_exploration.png" alt="Unstructured_exploration" width="800">
+
+**Step 2: Timelines**
+<p>En esta fase organizamos los eventos del dominio de forma cronológica. Esto nos permitió visualizar el flujo completo del sistema, identificar el orden natural de los eventos y comprender mejor cómo interactúan los actores dentro del proceso de crianza de cuyes.<p>
+
+<img src="img/timelines_1.png" alt="Timeline 1" width="800">
+
+<img src="img/timelines_2.png" alt="Timeline 2" width="800">
+
+<img src="img/timelines_3.png" alt="Timeline 3" width="800">
+
+<img src="img/timelines_4.png" alt="Timeline 4" width="800">
+
+<img src="img/timelines_5.png" alt="Timeline 5" width="800">
+
+**Step 3: Paint Points**
+<p>Detectamos los puntos críticos o problemáticos que enfrentan tanto los criadores como el sistema actual. Estos incluían desde la falta de alertas oportunas sobre condiciones ambientales, hasta la dificultad de acceso a asesoría en tiempo real para criadores principiantes.<p>
+
+<img src="img/paint_points_1.png" alt="Paint Point 1" width="800">
+
+<img src="img/paint_points_2.png" alt="Paint Point 2" width="800">
+
+<img src="img/paint_points_3.png" alt="Paint Point 31" width="800">
+
+<img src="img/paint_points_4.png" alt="Paint Point 4" width="800">
+
+**Step 4: Pivotal Points**
+<p>Identificamos los momentos clave que marcan cambios importantes dentro del proceso, como el momento en que se detecta un problema ambiental o cuando se solicita ayuda a un experto. Estos puntos nos ayudaron a definir posibles mejoras de alto impacto.<p>
+
+<img src="img/pivotal_points.png" alt="Pivotal Points" width="800">
+
+**Step 5: Commands**
+<p>Aquí definimos las acciones que los usuarios o el sistema pueden ejecutar, como "Registrar Alerta", "Consultar Experto", o "Actualizar Condiciones de Jaula". Cada comando representa una intención concreta que da lugar a eventos en el dominio.<p>
+
+<img src="img/commands.png" alt="Commands" width="800">
+
+**Step 6: Policies**
+<p>Establecimos las reglas de negocio que deben ejecutarse de forma automática ante ciertos eventos. Por ejemplo, si se detecta una temperatura fuera del rango, se activa una política que genera y envía una alerta al criador correspondiente.<p>
+
+<img src="img/policies.png" alt="Policies" width="800">
+
+**Step 7: Read Models**
+<p>Diseñamos los modelos de lectura que permitirán consultar el estado de la jaula, historial de alertas, perfiles de expertos y más. Estos modelos están optimizados para las necesidades de visualización de los usuarios dentro de la app.<p>
+
+<img src="img/read_models.png" alt="Read Models" width="800">
+
+**Step 8: External Systems**
+<p>Identificamos los sistemas externos que interactúan con AgroCuy, como servicios de notificación (por ejemplo, Firebase para el envío de alertas), APIs de sensores, o incluso plataformas externas para aprendizaje y asesoramiento remoto.<p>
+
+<img src="img/external_systems.png" alt="External Systems" width="800">
+
+**Step 9: Aggregates**
+<p>Por último, definimos los aggregates, que representan los límites consistentes del dominio. Un ejemplo claro fue el aggregate de AlertaDeMonitoreoDeJaula, que encapsula la lógica de generación y notificación de alertas por condiciones anómalas en las jaulas. Este aggregate centraliza todo el comportamiento relacionado con el monitoreo ambiental, siendo clave para garantizar una crianza automatizada y segura.<p>
+
+<img src="img/aggregate_sesion_usuario.png" alt="Aggregate Sesion Usuario" width="800">
+
+<img src="img/aggregate_alerta.png" alt="Aggregate Alerta Jaulas" width="800">
+
+<img src="img/aggregate_asesoria.png" alt="Aggregate Asesoria" width="800">
+
+<img src="img/aggregate_jaula_inventario.png" alt="Aggregate Jaula e inventario" width="800">
+
+
+#### 4.1.1.1 Candidate Context Discovery.
+
 #### 4.1.1.2 Domain Message Flows Modeling.
 
 <p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p><br>
