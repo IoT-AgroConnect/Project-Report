@@ -288,6 +288,19 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
+
+### 3.1. To-Be Scenario Mapping  
+**Segmento: Asesor**  
+<br>
+
+| **Phases** | **Registro y personalización del perfil** | **Revisión del estado de la granja** | **Comunicación con el criador** | **Asesoramiento remoto** |
+| :- | :- | :- | :- | :- |
+| **Doing** | - Ingreso a la app “AgroCuy” y me registro como asesor especializado.<br>- Personalizo mi perfil con experiencia, especialidades y horarios disponibles para asesorías. | - Accedo al dashboard del criador para revisar en tiempo real el estado del agua, temperatura, humedad y dispensadores de comida en cada jaula.<br>- Verifico alertas activas generadas por el sistema de monitoreo. | - Recibo una solicitud de asesoría del criador junto a las alertas y el estado de su granja.<br>- Le escribo dentro de la misma app para coordinar una videollamada. | - Realizo la videollamada programada directamente desde AgroCuy.<br>- Le doy recomendaciones con base en los datos que observé previamente.<br>- Sugiero acciones para mejorar la crianza según lo monitoreado. |
+| **Thinking** | "Qué útil que pueda mostrar mi experiencia desde el inicio." | "Puedo tener una visión clara de lo que pasa en la granja sin estar presente." | "Todo lo que necesito para comunicarme con el criador está en la misma app." | "El monitoreo en tiempo real me permite dar asesorías más precisas y útiles." |
+| **Feeling** | <p>- Seguro de que los criadores verán mi perfil y querrán contactarme.</p><p>- Orgulloso de mostrar mis logros en el área.</p> | <p>- Confiado por poder detectar problemas sin tener que estar físicamente en la granja.</p><p>- Tranquilo gracias a los datos que ya están organizados.</p> | <p>- Cómodo porque la app me facilita la coordinación.</p><p>- Satisfecho al ver que el criador puede explicarme su situación con datos.</p> | <p>- Orgulloso de brindar soluciones efectivas desde cualquier lugar.</p><p>- Inspirado al ver cómo la tecnología mejora mi labor como asesor.</p> |
+
+
+
 ## Capítulo IV: Solution Software Design
 ## Anexos y Bibliografía 
 ## Student Outcome
