@@ -371,7 +371,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 🔗 [Ver Figma](https://www.figma.com/design/bBQCiFvraA0jM3SFmloKWi/Event-Storming---IoT?node-id=0-1&t=uHqde6eWHW5RX70z-1)
 
-<img src="img/event-storming-figma.png" alt="Unstructured_exploration" width="800">
+<img src="img/event-storming-figma.PNG" alt="Unstructured_exploration" width="800">
 
 <br>
 
