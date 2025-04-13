@@ -469,11 +469,11 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 <img src="img/aggregate_alerta.png" alt="Aggregate Alerta Jaulas" width="800">
 
-<img src="img/aggregate_asesoria.png" alt="Aggregate Asesoria" width="800">
+<img src="img/aggregate_asesoria.PNG" alt="Aggregate Asesoria" width="800">
 
 <img src="img/aggregate_jaula_inventario.png" alt="Aggregate Jaula e inventario" width="800">
 
-<img src="img/aggregate_publicacion.png" alt="Aggregate Asesoria" width="800">
+<img src="img/aggregate_publicacion.PNG" alt="Aggregate Publication" width="800">
 
 
 #### 4.1.1.1 Candidate Context Discovery.
@@ -519,7 +519,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
     <img src="img/bounded_context_consulting.png" alt="Bounded Context Consulting" width="800">
 
 **Bounded Context Publication**
-    <img src="img/bounded_context_publication.png" alt="Bounded Context Publication" width="800">
+    <img src="img/bounded_context_publication.PNG" alt="Bounded Context Publication" width="800">
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
@@ -565,7 +565,7 @@ Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identif
 </p>
 
 **Bounded Context All - Vista Completa**
-    <img src="img/bounded_context_all_view.png" alt="Bounded Context Consulting" width="800">
+    <img src="img/bounded_context_all_view.PNG" alt="Bounded Context Consulting" width="800">
 
 ## Anexos y Bibliografía 
 
