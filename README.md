@@ -469,7 +469,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 <img src="img/aggregate_alerta.png" alt="Aggregate Alerta Jaulas" width="800">
 
-<img src="img/aggregate_asesoria.PNG" alt="Aggregate Asesoria" width="800">
+<img src="img/aggregate_asesoria.png" alt="Aggregate Asesoria" width="800">
 
 <img src="img/aggregate_jaula_inventario.png" alt="Aggregate Jaula e inventario" width="800">
 
