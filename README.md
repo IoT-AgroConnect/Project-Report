@@ -493,6 +493,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 - Confirmación y gestión de citas por parte de los asesores.
 - Gestión de cuentas para criadores y asesores.
 - Reportes visuales y estado en tiempo real.
+- Publicaciones.
 
 **Priorización de Contextos:**  
 <p>La priorización de bounded contexts nos ayudó a enfocar el diseño del sistema en torno a lo que realmente sostiene el valor de AgroCuy. Al distinguir los núcleos del dominio, pudimos aislar lógicas críticas que deben evolucionar de forma independiente y con alta cohesión.</p>
@@ -503,6 +504,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 2. **Monitoring:** monitorea las condiciones dentro de las jaulas y emite alertas cuando se detectan situaciones críticas.  
 3. **Breeding:** permite gestionar la cantidad de cuyes por jaula, el estado del agua y el uso de dispensadores automáticos de comida.  
 4. **Consulting:** facilita la interacción entre criadores y asesores mediante videollamadas, programación de citas y gestión de disponibilidad.  
+5. **Publication:** facilita que los asesores técnicos publiquen contenido relacionado a su experiencia o conocimientos, permitiendo visibilizar su perfil y atraer a potenciales criadores interesados en su asesoría.
 
 **Bounded Context Security**
   <img src="img/bounded_context_security.png" alt="Bounded Context Security" width="800">
@@ -516,8 +518,8 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 **Bounded Context Consulting**
     <img src="img/bounded_context_consulting.png" alt="Bounded Context Consulting" width="800">
 
-**Bounded Context All - Vista Completa**
-    <img src="img/bounded_context_consulting.png" alt="Bounded Context Consulting" width="800">
+**Bounded Context Publication**
+    <img src="img/bounded_context_publication.png" alt="Bounded Context Publication" width="800">
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
@@ -551,6 +553,9 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 – <strong>Consulting</strong> se encarga de la programación de citas, videollamadas y disponibilidad de asesores. Su interacción con <strong>Security</strong> (para acceder al perfil del asesor o criador) sigue el patrón <strong>Customer–Supplier</strong>, ya que Consulting consume datos que Security expone.
 </p>
 
+– <strong>Publication</strong> se encargar de la gestion de publicaciones de asesores para mayor visibilidad. Su interacción con <strong>Security</strong> (para acceder al perfil del asesor o criador) sigue el patrón <strong>Customer–Supplier</strong>, ya que Consulting consume datos que Security expone.
+</p>
+
 <p>
 – Además, la comunicación entre <strong>Breeding</strong> y <strong>Monitoring</strong> también puede considerarse como <strong>Published Language</strong> en algunos escenarios, cuando ambos deben interpretar eventos de forma coherente (por ejemplo, para emitir alertas o automatizar los dispensadores).
 </p>
@@ -559,6 +564,8 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identificar dependencias y definir una arquitectura que mantenga separadas las responsabilidades de cada módulo en AgroCuy.
 </p>
 
+**Bounded Context All - Vista Completa**
+    <img src="img/bounded_context_all_view.png" alt="Bounded Context Consulting" width="800">
 
 ## Anexos y Bibliografía 
 
