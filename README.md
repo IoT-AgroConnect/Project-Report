@@ -367,7 +367,13 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 ## 4.1. Strategic-Level Domain-Driven Design. 
 ### 4.1.1. EventStorming. 
 
-<p>Realizamos nuestro proceso de event storming a través de la herramienta MIRO, donde trazamos todo el recorrido del sistema. Iniciamos con la fase inicial de Unstructured Exploration, en la cual discutimos y contrastamos nuestras ideas respecto a los eventos clave del dominio, guiándonos por las sugerencias recomendadas y centrandonos en el objetivo numero uno de nuestro proyecto. Asimismo, tomamos en cuenta diversos aspectos al elegir los eventos, tales como su importancia, recurrencia y momento de ocurrencia.<p>
+<p>Realizamos nuestro proceso de event storming a través de la herramienta Figma, donde trazamos todo el recorrido del sistema. Iniciamos con la fase inicial de Unstructured Exploration, en la cual discutimos y contrastamos nuestras ideas respecto a los eventos clave del dominio, guiándonos por las sugerencias recomendadas y centrandonos en el objetivo numero uno de nuestro proyecto. Asimismo, tomamos en cuenta diversos aspectos al elegir los eventos, tales como su importancia, recurrencia y momento de ocurrencia.<p>
+
+🔗 [Ver Figma](https://www.figma.com/design/bBQCiFvraA0jM3SFmloKWi/Event-Storming---IoT?node-id=0-1&t=uHqde6eWHW5RX70z-1)
+
+<img src="img/event-storming-figma.png" alt="Unstructured_exploration" width="800">
+
+<br>
 
 **Step 1: Unstructured Exploration**
 
@@ -466,6 +472,8 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 <img src="img/aggregate_asesoria.png" alt="Aggregate Asesoria" width="800">
 
 <img src="img/aggregate_jaula_inventario.png" alt="Aggregate Jaula e inventario" width="800">
+
+<img src="img/aggregate_publicacion.png" alt="Aggregate Asesoria" width="800">
 
 
 #### 4.1.1.1 Candidate Context Discovery.
