@@ -309,7 +309,6 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 | **Thinking** | "Qué útil que la app me ayude desde el inicio a organizar mis jaulas y sensores." | "Es genial ver todo el estado de mi granja desde el celular, sin tener que estar entrando a cada jaula." | "Puedo obtener ayuda personalizada y rápida gracias a que el asesor ve lo mismo que yo." | "Con esta app puedo llevar un control constante y profesional sin ser un experto." |
 | **Feeling** | <p>- Motivado al ver que puedo automatizar partes importantes de mi granja.</p><p>- Seguro al configurar sensores correctamente.</p> | <p>- Tranquilo al ver que todo está bajo control o cuando se me alerta a tiempo.</p><p>- Confiado en que tengo visibilidad de lo que pasa con mis cuyes.</p> | <p>- Satisfecho de poder contactar a un asesor y recibir consejos sin salir de casa.</p><p>- Agradecido por el soporte que tengo en tiempo real.</p> | <p>- Comprometido a seguir mejorando mi crianza.</p><p>- Contento de ver resultados positivos gracias al monitoreo y el acompañamiento técnico.</p> |
 
-### 3.2. User Stories
 
 ## 3.2. User Stories
 
@@ -362,6 +361,22 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
 |US41|Detección automática de agua en mal estado o escasez, con alertas para el criador|**Como** criador **quiero** que el sistema detecte cuando el agua está en mal estado o hay escasez **para** recibir una alerta inmediata.|<p>**Escenario 1: Detección de agua en mal estado**</p><p>**Given** hay sensores que monitorean la calidad del agua.</p><p>**When** se detecta un valor anormal.</p><p>**Then** se genera una alerta que indica el problema y se sugiere una acción.</p>|E09|
 |US42|Activación y programación de dispensación automática de alimento en horarios establecidos|**Como** criador **quiero** programar horarios automáticos de dispensación de alimento **para** asegurar que los animales coman a tiempo sin intervención manual.|<p>**Escenario 1: Programación de horarios**</p><p>**Given** el criador configura los horarios desde la interfaz.</p><p>**When** se alcanza la hora programada.</p><p>**Then** se activa automáticamente el dispensador y se registra la acción.</p>|E09|
 |US43|Alerta de necesidad de limpieza cuando se detecta un nivel alto de CO₂ o condiciones desfavorables|**Como** criador **quiero** recibir alertas de limpieza **para** mantener un ambiente saludable cuando los niveles de CO₂ u otras condiciones lo indiquen.|<p>**Escenario 1: Activación de alerta de limpieza**</p><p>**Given** el sistema monitorea niveles de CO₂ en tiempo real.</p><p>**When** se supera el umbral de CO₂ permitido.</p><p>**Then** se emite una alerta que sugiere realizar una limpieza del espacio afectado.</p>|E09|
+
+## 3.3. Impact Mapping
+
+Este mapa de impacto permite visualizar cómo las funcionalidades del sistema contribuyen a los objetivos del criador y asesor, conectando necesidades clave con acciones del sistema y entregables concretos. A continuación, se presentan los distintos segmentos del mapa clasificados por área funcional.
+
+**Segmento: Criador**
+
+<img src="img/impact-map-criador.png" alt="ImpactMap Criador">
+ 
+ _Imagen 20. impact map - criador_
+
+ **Segmento: Asesor**
+
+<img src="img/impact-map-asesor.png" alt="ImpactMap Asesor">
+ 
+ _Imagen 21. impact map - asesor_
 
 
 ## Capítulo IV: Solution Software Design
