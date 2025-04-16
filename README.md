@@ -362,6 +362,533 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 
 ## Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
+### 2.1.1. Análisis competitivo
+<table>
+  <tr>
+    <th colspan="6" valign="top">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="4" valign="top">Objetivo 1: Adquirir conocimiento acerca de las propuestas ofrecidas por nuestros competidores y obtener enseñanzas a partir de las áreas en las que presentan limitaciones.<br>
+    Objetivo 2: Identificar los puntos fuertes y las limitaciones de nuestros competidores con el fin de formular una estrategia competitiva sólida y efectiva.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2" valign="top">Empresa/App</td>
+    <td valign="top">AgroConnect </td>
+    <td valign="top">BestFarm</td>
+    <td valign="top">CattleMax</td>
+    <td valign="top">BarnTools</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="img/logo.png" alt="Logo AgroConnect" height="100px"></td>
+    <td valign="top"><img src="img/bestfarm_logo.png" alt="Logo BestFarm" height="100px"></td>
+    <td valign="top"><img src="img/cattlemax_logo.png" alt="Logo CattleMax" height="100px"></td>
+    <td valign="top"><img src="img/barntool_logo.png" alt="Logo BarnTools" height="100px"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil</td>
+    <td valign="top">Overview</td>
+    <td valign="top">Una aplicación integral desarrollada por AgroTech para mejorar la gestión de granjas de cuyes en el Perú. Ofrece asesoramiento especializado y herramientas tecnológicas para optimizar la alimentación, salud y sostenibilidad en la crianza de cuyes, empoderando a los granjeros a través de la innovación tecnológica.</td>
+    <td valign="top">Plataforma integral de gestión agrícola que abarca una amplia gama de actividades agrícolas, incluyendo cultivos y ganadería.</td>
+    <td valign="top">Aplicación especializada en la gestión de ganado. Está diseñada específicamente para ayudar a los ganaderos a llevar un registro detallado de su ganado, gestionar la salud y el seguimiento de la reproducción.</td>
+    <td valign="top">BarnTools es una aplicación que se centra en la gestión de animales de granja en general, incluyendo ganado, aves de corral y otros animales. </td>
+  </tr>
+  <tr>
+    <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td valign="top">La ventaja competitiva de AgroConnect es la integración completa de tecnología y asesoramiento especializado. Esto significa que no solo proporcionamos herramientas tecnológicas avanzadas a través de AgroConnect, sino que también ofrecemos orientación y asesoramiento específico para la crianza de cuyes.</td>
+    <td valign="top">La ventaja competitiva de BestFarm radica en su enfoque de la gestión agrícola, que permite a los usuarios gestionar tanto cultivos como animales en una sola plataforma.</td>
+    <td valign="top">La principal ventaja competitiva de CattleMax es que ofrece características y herramientas específicas para el ganado, lo que lo convierte en una opción sólida para ganaderos que buscan una solución dedicada.</td>
+    <td valign="top">La ventaja competitiva de BarnTools radica en su capacidad para gestionar una variedad de animales de granja, lo que la hace adecuada para granjeros con múltiple variedad de ganado.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil de Marketing</td>
+    <td valign="top">Mercado objetivo</td>
+    <td valign="top">El mercado objetivo de AgroConnect son los criadores de cuyes en Perú, así como otros actores involucrados en la cadena de producción y comercialización de productos cárnicos de cuy.</td>
+    <td valign="top">El mercado objetivo de BestFarm incluye a agricultores y ganaderos que gestionan operaciones mixtas de cultivos y ganado.</td>
+    <td valign="top">El mercado objetivo de CattleMax son los ganaderos y criadores de ganado de todas las escalas.</td>
+    <td valign="top">El mercado objetivo de BarnTools son los granjeros y ganaderos que gestionan una variedad de animales</td>
+  </tr>
+  <tr>
+    <td valign="top">Estrategias de marketing</td>
+    <td valign="top">Campañas educativas en línea y fuera de línea para resaltar los beneficios de AgroConnet en términos de mejora de la productividad, bienestar animal y sostenibilidad en la crianza de cuyes.</td>
+    <td valign="top">Promoción en ferias agrícolas y ganaderas para mostrar la versatilidad de la plataforma.</td>
+    <td valign="top">Colaboración con asociaciones ganaderas y veterinarios especializados en ganado.</td>
+    <td valign="top">Publicidad en revistas agrícolas y ganaderas</td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top">Perfil de Producto</td>
+    <td valign="top">Productos & Servicios</td>
+    <td valign="top">Plataforma integral de gestión para la crianza de cuyes. Ofreciendo una solución completa para la gestión eficiente de granjas de cuyes.</td>
+    <td valign="top">Plataforma integral de gestión agrícola para cultivos y animales, planificación de cultivos, programación de tareas, seguimiento de salud, análisis de datos agrícolas</td>
+    <td valign="top">Plataforma de gestión de ganado bovino, registro de animales, seguimiento de salud, programación de tareas, seguimiento de reproducción, gestión de gastos.</td>
+    <td valign="top">Plataforma versátil para la gestión de animales de granja en general, registro de animales, seguimiento de salud, programación de tareas.</td>
+  </tr>
+  <tr>
+    <td valign="top">Precios & Costos</td>
+    <td valign="top">Modelo de suscripción mensual o anual. Los precios varían según la escala de la operación y las funcionalidades requeridas.</td>
+    <td valign="top">BestFarm utiliza  precios basados en suscripción.</td>
+    <td valign="top">CattleMax utiliza  precios basados en suscripción.</td>
+    <td valign="top">BarnTools utiliza  precios basados en la suscripción.</td>
+  </tr>
+  <tr>
+    <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">AgroConnect se distribuye principalmente a través de una plataforma web accesible desde cualquier navegador. También ofrece una aplicación móvil.</td>
+    <td valign="top">BestFarm se distribuye a través de una plataforma web</td>
+    <td valign="top">CattleMax se distribuye a través de una plataforma web y ofrece una aplicación móvil</td>
+    <td valign="top">BarnTools se distribuye principalmente a través de una plataforma web accesible desde navegadores de computadoras de escritorio y dispositivos móviles.</td>
+  </tr>
+  <tr>
+    <td rowspan="4" valign="top">Análisis SWOT</td>
+    <td valign="top">Fortalezas</td>
+    <td valign="top">- Integración completa de tecnología y asesoramiento especializado.<br>
+    - Mejora del bienestar animal y la sostenibilidad en la crianza de cuyes.<br>
+    - Plataforma integral que aborda múltiples aspectos de la gestión de granjas de cuyes.<br>
+    - Potencial para expandirse hacia otros tipos de animales en el futuro.
+    </td>
+    <td valign="top">- Ofrece una plataforma integral para la gestión de cultivos y animales.<br>
+    - Enfoque en la agricultura.<br>
+    - Planificación y análisis de datos agrícolas.
+    </td>
+    <td valign="top">- Enfoque especializado en la gestión de ganado bovino.<br>
+    - Herramientas específicas para ganado bovino.<br>
+    - Plataforma web y aplicación móvil para mayor accesibilidad.
+    </td>
+    <td valign="top">- Versatilidad para gestionar una variedad de animales de granja.<br>
+    - Registro de animales, seguimiento de salud y programación de tareas.<br>
+    - Plataforma web y aplicación móvil para mayor accesibilidad.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Debilidades</td>
+    <td valign="top">– Posible resistencia al cambio por parte de algunos criadores de cuyes.<br>
+    - Costos de implementación y acceso a tecnología en áreas rurales o remotas.<br>
+    - Necesidad de una curva de aprendizaje para algunos usuarios menos familiarizados con la tecnología.<br>
+    - Dependencia de la conectividad a internet para el funcionamiento óptimo de la plataforma.
+    </td>
+    <td valign="top">- Competencia en nichos de mercado más específicos.<br>
+    - Puede ser percibido como demasiado complejo para usuarios con necesidades simples.
+    </td>
+    <td valign="top">- Limitado en términos de diversificación de servicios para otros tipos de animales.</td>
+    <td valign="top">- Mayor competencia en el mercado de gestión de animales de granja.</td>
+  </tr>
+  <tr>
+    <td valign="top">Oportunidades</td>
+    <td valign="top">- Creciente demanda de soluciones tecnológicas en el sector agrícola.<br>
+    - Aumento de la conciencia sobre el bienestar animal y la sostenibilidad.<br>
+    - Posibilidad de colaboraciones con instituciones gubernamentales y organizaciones agrícolas para promover el uso de tecnología en la crianza de cuyes.<br>
+    - Expansión a nuevos mercados regionales o internacionales.
+    </td>
+    <td valign="top">- Expansión hacia mercados agrícolas más amplios.<br>
+    - Colaboración con proveedores de tecnología agrícola.
+    </td>
+    <td valign="top">- Expansión hacia otros nichos de mercado ganadero.</td>
+    <td valign="top">- Colaboración con proveedores de tecnología agrícola.</td>
+  </tr>
+  <tr>
+    <td valign="top">Amenazas</td>
+    <td valign="top">- Competencia de otras soluciones tecnológicas en el mercado agrícola.<br>
+    - Cambios en la regulación gubernamental que podrían afectar la industria de la crianza de cuyes.
+    </td>
+    <td valign="top">- Competidores especializados en áreas específicas de la agricultura</td>
+    <td valign="top">- Cambios en las regulaciones ganaderas.</td>
+    <td valign="top">- Competidores especializados en áreas específicas de la gestión de animales de granja.</td>
+  </tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+**Estrategias:**
+
+**Diferenciación del producto:** Destacaremos las características únicas de AgroConnect, como la integración completa de tecnología y asesoramiento especializado, para diferenciarnos claramente de otras soluciones en el mercado.
+
+**Enfoque en el valor agregado:** Nos centraremos en comunicar y demostrar el valor agregado que AgroConnect ofrece a los criadores de cuyes, resaltando los beneficios tangibles como la mejora del bienestar animal, la eficiencia operativa y la sostenibilidad.
+
+
+**Tácticas:**
+
+**Marketing de contenido:** Crearemos contenido educativo y relevante sobre la crianza de cuyes, tecnología agrícola y prácticas sostenibles, para posicionarnos como líderes de pensamiento en el sector y atraer a clientes potenciales.
+
+**Programas de prueba y demostraciones:** Ofreceremos programas de prueba gratuitos y demostraciones en granjas para permitir a los clientes experimentar directamente los beneficios de AgroConnect y generar confianza en nuestra solución.
+
+**Desarrollo de alianzas estratégicas:** Buscaremos colaboraciones con instituciones agrícolas, asociaciones de criadores de cuyes y otras empresas del sector para ampliar nuestra red de clientes y aumentar la visibilidad de AgroConnect.
+
+**Servicio al cliente excepcional:** Nos comprometemos a brindar un excelente servicio al cliente, proporcionando soporte técnico, capacitación y asistencia personalizada para garantizar la satisfacción y fidelidad de nuestros usuarios.
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+**Segmento: Asesor**
+1.  ¿Cuál es su experiencia en la granja y cuántos años lleva trabajando en este campo? ¿Ha utilizado o está familiarizado con sistemas de monitoreo o control automatizados en granjas?
+2.  ¿Qué tipo de asesoramiento o servicios específicos ofrece a los criadores en su trabajo actual? ¿Cómo podría la información en tiempo real proporcionada por sensores IoT (temperatura, humedad, etc.) complementar o mejorar su asesoramiento?
+3. ¿Qué tipo de alertas o notificaciones generadas por un sistema IoT serían más útiles para usted como asesor?
+4. ¿Cuáles considera que son los desafíos más comunes que enfrentan los criadores de cuyes principiantes en la gestión de sus granjas? ¿Cómo podría un sistema IoT ayudar a mitigar estos desafíos?
+5. ¿Cuál ha sido su experiencia con herramientas o sistemas tecnológicos en el ámbito agropecuario? 
+6. ¿Tiene alguna experiencia previa con sensores, actuadores o plataformas de hardware similares a Arduino, aunque no sea directamente en la crianza de cuyes? 
+7. ¿Ha tenido alguna experiencia previa con tecnologías aplicadas a la agricultura o la ganadería, como sensores, actuadores o plataformas de hardware similar a Arduino? ¿Cuál fue su impresión sobre el uso de estas tecnologías?
+8. Pensando en una plataforma que incorpore datos de dispositivos IoT en las granjas, ¿qué características o funcionalidades le gustaría ver que faciliten su labor de asesoramiento (por ejemplo, visualización de datos históricos, alertas personalizables, informes basados en datos de sensores)?
+9. ¿Qué temas específicos dentro de la crianza de cuyes considera que son de mayor interés para los criadores principiantes y que podrían abordarse de manera efectiva utilizando la información proporcionada por un sistema IoT?
+10. ¿De qué manera cree que una plataforma como "AgroConnect" con integración IoT podría ser beneficiosa tanto para los criadores principiantes como para los asesores en la industria?
+
+**Segmento: Criador de cuyes**
+1. ¿Cuál es el tamaño aproximado de su operación y qué tipo de animales roedores cría? ¿Ha implementado o considerado alguna forma de automatización o monitoreo tecnológico en su granja, aunque sea a pequeña escala?
+2. En su día a día, ¿cuáles son los mayores desafíos que enfrenta en la gestión de su granja de cuyes? ¿Cree que un sistema de monitoreo automatizado basado en sensores (como los que se podrían implementar con Arduino) podría ayudar a mitigar alguno de estos desafíos?
+3. Actualmente, ¿qué métodos o herramientas utiliza para llevar un registro del estado de salud y otras variables importantes de sus animales? ¿Cómo podría la información recopilada automáticamente por sensores (por ejemplo, temperatura ambiental, patrones de actividad) complementar o mejorar sus registros actuales?
+4. ¿Cómo planifica y organiza las tareas diarias relacionadas con la alimentación, el cuidado de los animales y el mantenimiento de las instalaciones? ¿Podría un sistema IoT con la capacidad de enviar alertas o incluso controlar ciertos dispositivos (si aplica) optimizar estas tareas?
+5. ¿Qué tipo de información o pronóstico suele consultar para tomar decisiones en su granja (por ejemplo, pronóstico del tiempo)? ¿Sería útil recibir alertas o información predictiva basada en los datos históricos recopilados por sensores en su propia granja?
+6. ¿Ha utilizado alguna aplicación o herramienta móvil para la gestión de su granja? ¿Cuáles han sido sus experiencias? ¿Estaría dispuesto a utilizar una interfaz móvil para visualizar los datos de sensores de su granja y recibir alertas importantes?
+7. ¿Qué tipo de información o recursos adicionales le gustaría tener a su disposición para mejorar la gestión de su granja de cuyes? ¿Consideraría valioso recibir recomendaciones o alertas basadas en el análisis de los datos recopilados por su propio sistema IoT o de otras granjas similares?
+8. ¿Cuál es su opinión sobre la posibilidad de recibir asesoramiento y orientación de criadores más experimentados a través de plataformas en línea o aplicaciones, complementado con datos objetivos sobre las condiciones de su granja proporcionados por un sistema IoT? ¿Cree que esta información adicional podría hacer que el asesoramiento remoto sea más efectivo?
+
+### 2.2.2. Registro de entrevistas
+
+**Entrevista N 1 - Asesor:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista1.png" width="100%">
+
+_Imagen 3. Entrevista a _
+
+**Resumen:** 
+
+
+**Entrevista N 2 - Asesor:** 
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista2.png" width="100%">
+
+_Imagen 4. Entrevista a _
+
+**Resumen:**
+
+
+
+**Entrevista N 3 - Asesor:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista3.jpg" width="100%">
+
+_Imagen 5. Entrevista a _
+
+**Resumen:**
+
+
+
+**Entrevista N 4 - Asesor:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista4.png" width="100%">
+
+_Imagen 6. Entrevista a _
+
+**Resumen:**
+
+
+**Entrevista N 5 - Asesor:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista5.png" width="100%">
+
+_Imagen 7. Entrevista a_
+
+**Resumen:**
+
+
+**Entrevista N 6 - Criador:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista6.png" width="100%">
+
+_Imagen 8. Entrevista a _
+
+**Resumen:** 
+
+
+**Entrevista N 7 - Criador:** 
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista7.png" width="100%">
+
+_Imagen 9. Entrevista a _
+
+**Resumen:**
+
+
+**Entrevista N 8 - Criador:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista8.jpg" width="100%">
+
+_Imagen 9. Entrevista a _
+
+**Resumen:**
+
+
+**Entrevista N 9 - Criador:**
+
+**Entrevistador:** 
+
+**Entrevistado:** 
+
+**Link de la entrevista:** 
+
+<img src="img/entrevista9.png" width="100%">
+
+_Imagen 9. Entrevista a _
+
+**Resumen:**
+
+### 2.2.3. Análisis de entrevistas
+
+**Formas de difusión de información de los asesores**
+|Formas de difusión|X|X|X|
+| - | - | - | - |
+|Charlas|X| | |
+|Grupos de discusion en línea|X| |X|
+|Visita presencial| |X|X|
+|Videos en línea| | |X|
+
+<img src="img/piechart1.png" alt="% Asesores que apoyan nuestra idea">
+
+_Imagen 12. Gráfico circular - Asesores_
+
+Gracias a las entrevistas realizadas, comprendimos que los asesores suelen brindar apoyo a través de internet o a conocidos. Así, al comentarle sobre nuestra idea de aplicación web para poder brindar asesorías a criadores de cuyes, indicaron que les pareció muy buena idea ya que brinda mejor comunicación y confiabilidad.
+
+**Desafíos que tienen los asesores con la crianza de cuyes**
+|Desafíos de crianza|X|X|X|
+| - | - | - | - |
+|Gestión de alimentación|X|X|X|
+|Mantenimiento de galpones|X| | |
+|Control de enfermedades|X|X|X|
+|Gestión de espacio| |X| |
+
+<img src="img/piechart2.png" alt="% Criadores que apoyan nuestra idea">
+
+_Imagen 13. Gráfico circular - Criadores_
+
+Asimismo, obtuvimos la conclusión de que los criadores de cuyes suelen tener dificultad para gestionar correctamente la alimentación y control de enfermedades, además de gestionar recursos de la granja en sí. De esta forma, al comentarle sobre nuestra idea de aplicación web para poder recibir asesorías de personas con experiencia y gestionar los recursos de su granja, indicaron que les pareció muy buena idea ya que sería un mejor recurso para obtener información confiable.
+
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+Para la realización de las fichas de User Personas se han considerado los 2 segmentos objetivos: asesores y criadores de cuyes. Se elaborarán las fichas con la información recopilada de las entrevistas sobre su perfil.
+
+**Segmento Asesor**
+
+<img src="img/persona_asesor.png" alt="Persona Asesor">
+
+_Imagen 14. User Persona - Asesor_
+
+**Segmento Criador**
+
+<img src="img/persona_criador.png" alt="Persona Criador">
+
+_Imagen 15. User Persona - Criador_
+
+### 2.3.2. User Task Matrix
+
+<table>
+  <tr>
+    <th rowspan="2" valign="top"><b>Task Matrix</b></th>
+    <th colspan="2" valign="top"><b>Asesores</b></th>
+    <th colspan="2" valign="top"><b>Criadores</b></th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Frecuencia</b></td>
+    <td valign="top"><b>Importancia</b></td>
+    <td valign="top"><b>Frecuencia</b></td>
+    <td valign="top"><b>Importancia</b></td>
+  </tr>
+  <tr>
+    <td>Alimentar a los cuyes</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Diaria</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Proporcionar agua limpia</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Diaria</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Limpiar jaulas</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Semanal</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Comprar suministros y alimentos</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Mensual</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Vender cuyes</td>
+    <td>Nunca</td>
+    <td>Ninguna</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Gestionar gastos y ganancias</td>
+    <td>Mensual</td>
+    <td>Media</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Monitorear la salud y el bienestar de los cuyes</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+    <td>Siempre</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Investigar sobre nuevas prácticas y tecnologías para la crianza de cuyes</td>
+    <td>Mensual</td>
+    <td>Media</td>
+    <td>Casi Nunca</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+    <td>Realizar seguimiento y evaluación de progreso de granjas</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Participar de sesiones de asesoramiento para recibir información actualizada</td>
+    <td>Mensual</td>
+    <td>Media</td>
+    <td>Mensual</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Resolver problemas específicos en las granjas</td>
+    <td>Según necesidad</td>
+    <td>Muy Alta</td>
+    <td>Según necesidad</td>
+    <td>Muy Alta</td>
+  </tr>
+  <tr>
+    <td>Desarrollar y/o asistir a sesiones de capacitación sobre técnicas de crianza</td>
+    <td>A veces</td>
+    <td>Alta</td>
+    <td>A veces</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Elaborar y/o leer informes de progreso con recomendaciones</td>
+    <td>Trimestral</td>
+    <td>Alta</td>
+    <td>Trimestral</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Evaluar las condiciones y necesidades de las granjas de forma presencial</td>
+    <td>Casi nunca</td>
+    <td>Alta</td>
+    <td>Diaria</td>
+    <td>Media</td>
+  </tr>
+</table>
+
+<br>
+A partir del User Task Matrix, resaltaremos las tareas de mayor trascendencia. Entre ellas tenemos ‘monitorear la salud y bienestar de los cuyes’ ya que los criadores están pendientes constantemente de la salud de los cuyes viendo comportamientos inusuales y posibles enfermedades para comunicárselo a los asesores quienes otorgarían consejos sobre el accionar ante una posible enfermedad o comportamiento inusual. Esta tarea es fundamental para que haya una producción exitosa y sin contratiempos.
+
+Asimismo, la tarea de ‘realizar seguimiento y evaluación de progreso de granjas’ es fundamental por el mismo motivo porque permite una mejora continua en el rendimiento de las granjas.
+
+Por otro lado, las principales diferencias entre ambos segmentos radican en las actividades diarias dentro del criadero ya que solo participan los criadores para asegurarse de la salud y crecimiento de los cuyes. Por lo tanto, los criadores están monitoreando constantemente las condiciones de sus granjas, mientras que los asesores tienen que separar una fecha para realizar esto de forma presencial.
+
+Finalmente, la principal coincidencia encontrada es que tanto los asesores como los criadores deben estar preparados para solucionar problemas específicos cuando estos aparezcan.
+
+
+### 2.3.3. User Journey Mapping
+
+Para el segmento de los asesores especializados, se ha considerado desde el momento en que reciben una solicitud de servicio por parte de un criador de cuyes hasta el seguimiento de los avances con respecto a los cambios planteados.
+Por otro lado, para el segmento de criadores de cuyes se tomó en cuenta desde la búsqueda inicial de información y contactos de asesores hasta la implementación de nuevos conocimientos y el análisis de resultados obtenidos.
+
+**Segmento Asesor**
+
+<img src="img/journeymap_asesor.png" alt="Journey Map Asesor">
+
+_Imagen 16. User Journey Map - Asesor_
+
+**Segmento Criador**
+
+<img src="img/journeymap_criador.png" alt="Journey Map Criador">
+
+_Imagen 17. User Journey Map - Criador_
+
+### 2.3.4. Empathy Mapping
+
+En esta sección, se desarrollaron los Empathy Maps de cada segmento objetivo. Se utilizó una plantilla de EXPressia que contiene los apartados que debe tener el Empathy Map junto a preguntas que se respondieron conforme a lo identificado de nuestro segmento objetivo para desarrollar este artefacto.
+
+**Segmento Asesor**
+
+<img src="img/empathymap_asesor.png" alt="Empathy Map Asesor">
+
+_Imagen 18. Empathy Map - Asesor_
+
+**Segmento Criador**
+
+<img src="img/empathymap_criador.png" alt="Empathy Map Criador">
+
+_Imagen 19. Empathy Map - Criador_
+
+
+
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping  
