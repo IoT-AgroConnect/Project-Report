@@ -180,7 +180,7 @@ _Imagen 1. Logo de la aplicación AgroCuy_
     <td valign="top">
       <p><b>Lucas Coronel, Nadia Alessandra</b></p>
       <p>
-        Mi nombre es Nadia Alessandra Lucas Coronel y soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. Me considero una persona entusiasta, perseverante y responsable. Cuento con conocimientos en SQL, C++, Python, HTML, CSS, JavaScript y metodologías ágiles. Me comprometo a aplicar mis conocimientos de manera efectiva para contribuir al desarrollo de soluciones de software de alta calidad.
+        Mi nombre es Nadia Alessandra Lucas Coronel y soy estudiante de octavo ciclo de la carrera de Ingeniería de Software. Me considero una persona entusiasta, perseverante y responsable. Cuento con conocimientos en SQL, C++, Python, HTML, CSS, JavaScript, despligue y metodologías ágiles. Me comprometo a aplicar mis conocimientos de manera efectiva para contribuir al desarrollo de soluciones de software de alta calidad.
       </p>
     </td>
   </tr>
@@ -1035,6 +1035,163 @@ Para trabajar el Product Backlog, se utilizó la herramienta Trello, la cual se 
 |37|US42|Activación y programación de dispensación automática de alimento en horarios establecidos|**Como** criador **quiero** programar horarios automáticos de dispensación de alimento **para** asegurar que los animales coman a tiempo sin intervención manual.|5|
 |38|US43|Alerta de necesidad de limpieza cuando se detecta un nivel alto de CO₂ o condiciones desfavorables|**Como** criador **quiero** recibir alertas de limpieza **para** mantener un ambiente saludable cuando los niveles de CO₂ u otras condiciones lo indiquen.|5|
 ## Capítulo IV: Solution Software Design
+## 4.1. Strategic-Level Domain-Driven Design. 
+### 4.1.1. EventStorming. 
+
+<p>Realizamos nuestro proceso de event storming a través de la herramienta Figma, donde trazamos todo el recorrido del sistema. Iniciamos con la fase inicial de Unstructured Exploration, en la cual discutimos y contrastamos nuestras ideas respecto a los eventos clave del dominio, guiándonos por las sugerencias recomendadas y centrandonos en el objetivo numero uno de nuestro proyecto. Asimismo, tomamos en cuenta diversos aspectos al elegir los eventos, tales como su importancia, recurrencia y momento de ocurrencia.<p>
+
+🔗 [Ver Figma](https://www.figma.com/design/bBQCiFvraA0jM3SFmloKWi/Event-Storming---IoT?node-id=0-1&t=uHqde6eWHW5RX70z-1)
+
+<img src="img/event-storming-figma.PNG" alt="Unstructured_exploration" width="800">
+
+<br>
+
+**Step 1: Unstructured Exploration**
+
+<p>Iniciamos con una exploración libre del dominio, donde cada integrante propuso eventos clave desde su perspectiva. Esta etapa nos permitió intercambiar ideas, descubrir puntos relevantes y construir una comprensión compartida del proceso. Para seleccionar los eventos, consideramos criterios como relevancia, frecuencia y temporalidad.<p>
+
+<img src="img/unstructured_exploration.png" alt="Unstructured_exploration" width="800">
+<br>
+<br>
+<br>
+<br>
+
+**Step 2: Timelines**
+<p>En esta fase organizamos los eventos del dominio de forma cronológica. Esto nos permitió visualizar el flujo completo del sistema, identificar el orden natural de los eventos y comprender mejor cómo interactúan los actores dentro del proceso de crianza de cuyes.<p>
+
+<img src="img/timelines_1.png" alt="Timeline 1" width="800">
+
+<img src="img/timelines_2.png" alt="Timeline 2" width="800">
+
+<img src="img/timelines_3.png" alt="Timeline 3" width="800">
+
+<img src="img/timelines_4.png" alt="Timeline 4" width="800">
+
+<img src="img/timelines_5.png" alt="Timeline 5" width="800">
+<br>
+<br>
+<br>
+<br>
+
+**Step 3: Paint Points**
+<p>Detectamos los puntos críticos o problemáticos que enfrentan tanto los criadores como el sistema actual. Estos incluían desde la falta de alertas oportunas sobre condiciones ambientales, hasta la dificultad de acceso a asesoría en tiempo real para criadores principiantes.<p>
+
+<img src="img/paint_points_1.png" alt="Paint Point 1" width="800">
+
+<img src="img/paint_points_2.png" alt="Paint Point 2" width="800">
+
+<img src="img/paint_points_3.png" alt="Paint Point 31" width="800">
+
+<img src="img/paint_points_4.png" alt="Paint Point 4" width="800">
+<br>
+<br>
+<br>
+<br>
+
+**Step 4: Pivotal Points**
+<p>Identificamos los momentos clave que marcan cambios importantes dentro del proceso, como el momento en que se detecta un problema ambiental o cuando se solicita ayuda a un experto. Estos puntos nos ayudaron a definir posibles mejoras de alto impacto.<p>
+
+<img src="img/pivotal_points.png" alt="Pivotal Points" width="800">
+<br>
+<br>
+<br>
+<br>
+
+**Step 5: Commands**
+<p>Aquí definimos las acciones que los usuarios o el sistema pueden ejecutar, como "Registrar Alerta", "Consultar Experto", o "Actualizar Condiciones de Jaula". Cada comando representa una intención concreta que da lugar a eventos en el dominio.<p>
+
+<img src="img/commands.png" alt="Commands" width="800">
+<br>
+<br>
+<br>
+<br>
+
+**Step 6: Policies**
+<p>Establecimos las reglas de negocio que deben ejecutarse de forma automática ante ciertos eventos. Por ejemplo, si se detecta una temperatura fuera del rango, se activa una política que genera y envía una alerta al criador correspondiente.<p>
+
+<img src="img/policies.png" alt="Policies" width="800">
+<br>
+<br>
+<br>
+<br>
+
+**Step 7: Read Models**
+<p>Diseñamos los modelos de lectura que permitirán consultar el estado de la jaula, historial de alertas, perfiles de expertos y más. Estos modelos están optimizados para las necesidades de visualización de los usuarios dentro de la app.<p>
+
+<img src="img/read_models.png" alt="Read Models" width="800">
+<br>
+<br>
+<br>
+<br>
+
+**Step 8: External Systems**
+<p>Identificamos los sistemas externos que interactúan con AgroCuy, como servicios de notificación (por ejemplo, Firebase para el envío de alertas), APIs de sensores, o incluso plataformas externas para aprendizaje y asesoramiento remoto.<p>
+
+<img src="img/external_systems.png" alt="External Systems" width="800">
+<br>
+<br>
+<br>
+<br>
+
+**Step 9: Aggregates**
+<p>Por último, definimos los aggregates, que representan los límites consistentes del dominio. Un ejemplo claro fue el aggregate de AlertaDeMonitoreoDeJaula, que encapsula la lógica de generación y notificación de alertas por condiciones anómalas en las jaulas. Este aggregate centraliza todo el comportamiento relacionado con el monitoreo ambiental, siendo clave para garantizar una crianza automatizada y segura.<p>
+
+<img src="img/aggregate_sesion_usuario.png" alt="Aggregate Sesion Usuario" width="800">
+
+<img src="img/aggregate_alerta.png" alt="Aggregate Alerta Jaulas" width="800">
+
+<img src="img/aggregate_asesoria.png" alt="Aggregate Asesoria" width="800">
+
+<img src="img/aggregate_jaula_inventario.png" alt="Aggregate Jaula e inventario" width="800">
+
+<img src="img/aggregate_publicacion.PNG" alt="Aggregate Publication" width="800">
+
+
+#### 4.1.1.1 Candidate Context Discovery.
+
+**Identificación de Valores del Negocio:**  
+<p>Analizamos los aspectos fundamentales del negocio: el monitoreo automatizado de variables ambientales, el control de dispensadores de comida en horarios definidos, la detección de condiciones del agua, la gestión de jaulas y distribución de cuyes, y la comunicación entre criadores y asesores técnicos. Estos valores permiten una crianza más eficiente, segura y con acompañamiento personalizado, promoviendo buenas prácticas en la comunidad agropecuaria.</p>
+
+**Identificación de Funcionalidades Clave:**  
+<p>A partir de estos valores, identificamos funcionalidades esenciales para el sistema:</p>
+
+- Gestión de alertas ambientales (temperatura, humedad, calidad del agua).
+- Control de dispensadores de comida por horario.
+- Gestión de jaulas y cantidad de cuyes por jaula.
+- Notificación de agua insuficiente o en mal estado.
+- Videollamadas entre criadores y asesores técnicos.
+- Calendario de disponibilidad de asesores y solicitud de citas.
+- Confirmación y gestión de citas por parte de los asesores.
+- Gestión de cuentas para criadores y asesores.
+- Reportes visuales y estado en tiempo real.
+- Publicaciones.
+
+**Priorización de Contextos:**  
+<p>La priorización de bounded contexts nos ayudó a enfocar el diseño del sistema en torno a lo que realmente sostiene el valor de AgroCuy. Al distinguir los núcleos del dominio, pudimos aislar lógicas críticas que deben evolucionar de forma independiente y con alta cohesión.</p>
+
+**Contextos Identificados:**
+
+1. **Security:** gestiona la autenticación y perfiles de criadores y asesores técnicos.  
+2. **Monitoring:** monitorea las condiciones dentro de las jaulas y emite alertas cuando se detectan situaciones críticas.  
+3. **Breeding:** permite gestionar la cantidad de cuyes por jaula, el estado del agua y el uso de dispensadores automáticos de comida.  
+4. **Consulting:** facilita la interacción entre criadores y asesores mediante videollamadas, programación de citas y gestión de disponibilidad.  
+5. **Publication:** facilita que los asesores técnicos publiquen contenido relacionado a su experiencia o conocimientos, permitiendo visibilizar su perfil y atraer a potenciales criadores interesados en su asesoría.
+
+**Bounded Context Security**
+  <img src="img/bounded_context_security.png" alt="Bounded Context Security" width="800">
+
+**Bounded Context Monitoring**
+    <img src="img/bounded_context_enviormental.png" alt="Bounded Context Monitoring" width="800">
+
+**Bounded Context Breeding**
+    <img src="img/bounded_context_breeding.png" alt="Bounded Context Breeding" width="800">
+
+**Bounded Context Consulting**
+    <img src="img/bounded_context_consulting.png" alt="Bounded Context Consulting" width="800">
+
+**Bounded Context Publication**
+    <img src="img/bounded_context_publication.PNG" alt="Bounded Context Publication" width="800">
+
 #### 4.1.1.2 Domain Message Flows Modeling.
 
 <p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p><br>
@@ -1049,6 +1206,37 @@ Para trabajar el Product Backlog, se utilizó la herramienta Trello, la cual se 
 
 [Enlace de la imagen aquí](https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png)
 
+#### 4.1.2. Context Mapping.
+
+### **4.1.2. Context Mapping**
+
+<p>Una vez definidos nuestros Bounded Contexts, realizamos el mapeo de sus relaciones para comprender cómo se comunican dentro del sistema de AgroCuy y asignar los patrones adecuados según su interacción.</p>
+
+<p>
+– <strong>Security</strong> provee autenticación y manejo de perfiles tanto para criadores como para asesores técnicos. Es utilizado por los demás contextos, pero no depende de ninguno. Esta relación fue clasificada como <strong>Shared Kernel</strong>, ya que su lógica y entidades clave deben ser consistentes y compartidas de forma controlada.
+</p>
+
+<p>
+– <strong>Monitoring</strong> detecta situaciones como falta de agua o comida, y genera alertas críticas. Esta información es consumida por <strong>Breeding</strong> para tomar decisiones sobre el manejo de jaulas. Dado que Breeding depende del lenguaje de eventos generado por Monitoring, aplicamos el patrón <strong>Conformist</strong>.
+</p>
+
+<p>
+– <strong>Consulting</strong> se encarga de la programación de citas, videollamadas y disponibilidad de asesores. Su interacción con <strong>Security</strong> (para acceder al perfil del asesor o criador) sigue el patrón <strong>Customer–Supplier</strong>, ya que Consulting consume datos que Security expone.
+</p>
+
+– <strong>Publication</strong> se encargar de la gestion de publicaciones de asesores para mayor visibilidad. Su interacción con <strong>Security</strong> (para acceder al perfil del asesor o criador) sigue el patrón <strong>Customer–Supplier</strong>, ya que Consulting consume datos que Security expone.
+</p>
+
+<p>
+– Además, la comunicación entre <strong>Breeding</strong> y <strong>Monitoring</strong> también puede considerarse como <strong>Published Language</strong> en algunos escenarios, cuando ambos deben interpretar eventos de forma coherente (por ejemplo, para emitir alertas o automatizar los dispensadores).
+</p>
+
+<p>
+Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identificar dependencias y definir una arquitectura que mantenga separadas las responsabilidades de cada módulo en AgroCuy.
+</p>
+
+**Bounded Context All - Vista Completa**
+    <img src="img/bounded_context_all_view.PNG" alt="Bounded Context Consulting" width="800">
 
 ## Anexos y Bibliografía 
 
