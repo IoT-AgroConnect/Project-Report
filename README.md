@@ -447,26 +447,48 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 ### 2.2.1. Diseño de entrevistas
 
 **Segmento: Asesor**
-1.  ¿Cuál es su experiencia en la granja y cuántos años lleva trabajando en este campo? ¿Ha utilizado o está familiarizado con sistemas de monitoreo o control automatizados en granjas?
-2.  ¿Qué tipo de asesoramiento o servicios específicos ofrece a los criadores en su trabajo actual? ¿Cómo podría la información en tiempo real proporcionada por sensores IoT (temperatura, humedad, etc.) complementar o mejorar su asesoramiento?
-3. ¿Qué tipo de alertas o notificaciones generadas por un sistema IoT serían más útiles para usted como asesor?
-4. ¿Cuáles considera que son los desafíos más comunes que enfrentan los criadores de cuyes principiantes en la gestión de sus granjas? ¿Cómo podría un sistema IoT ayudar a mitigar estos desafíos?
-5. ¿Cuál ha sido su experiencia con herramientas o sistemas tecnológicos en el ámbito agropecuario? 
-6. ¿Tiene alguna experiencia previa con sensores, actuadores o plataformas de hardware similares a Arduino, aunque no sea directamente en la crianza de cuyes? 
-7. ¿Ha tenido alguna experiencia previa con tecnologías aplicadas a la agricultura o la ganadería, como sensores, actuadores o plataformas de hardware similar a Arduino? ¿Cuál fue su impresión sobre el uso de estas tecnologías?
-8. Pensando en una plataforma que incorpore datos de dispositivos IoT en las granjas, ¿qué características o funcionalidades le gustaría ver que faciliten su labor de asesoramiento (por ejemplo, visualización de datos históricos, alertas personalizables, informes basados en datos de sensores)?
-9. ¿Qué temas específicos dentro de la crianza de cuyes considera que son de mayor interés para los criadores principiantes y que podrían abordarse de manera efectiva utilizando la información proporcionada por un sistema IoT?
-10. ¿De qué manera cree que una plataforma como "AgroConnect" con integración IoT podría ser beneficiosa tanto para los criadores principiantes como para los asesores en la industria?
+1. ¿Cuál es su experiencia trabajando en granjas y cuántos años lleva en este campo? ¿Ha utilizado o está familiarizado con sistemas que permiten monitorear o controlar automáticamente las condiciones dentro de una granja?
+
+2. En su trabajo actual, ¿qué tipo de ayuda o asesoramiento brinda a los criadores? ¿Qué aspectos considera más importantes a tener en cuenta en una granja de cuyes?
+
+3. ¿Cuáles considera que son los problemas más comunes que enfrentan los nuevos criadores de cuyes? ¿Cómo podría ayudar una herramienta que muestre información actualizada sobre el ambiente de la granja?
+
+4. ¿Qué tipo de alertas o funciones automáticas cree que serían más útiles para usted como asesor o para los criadores? Por ejemplo: avisos por temperatura alta, humedad baja, falta de alimento, o reportes automáticos.
+
+5. ¿Ha tenido alguna experiencia previa con tecnologías aplicadas al campo, como sensores, termómetros digitales o sistemas automáticos? ¿Qué impresión le dejaron?
+
+6. ¿Qué tipo de información del ambiente de la granja considera más valiosa para el cuidado de los cuyes? Por ejemplo: temperatura, humedad, ventilación, calidad del aire, entre otros.
+
+7. ¿Cómo cree que podría beneficiarse su trabajo si tuviera acceso desde su celular o computadora a datos en tiempo real sobre varias granjas que asesora?
+
+8. Pensando en una herramienta como “AgroConnect”, ¿qué funciones le parecerían más útiles? Por ejemplo: ver historial de datos, recibir alertas, comparar granjas o generar reportes automáticos.
+
+9. ¿Cree que los criadores estarían dispuestos a utilizar una plataforma digital sencilla si les ayudara a tener mejores resultados? ¿Qué factores cree que facilitarían su adopción?
+
+10. ¿Qué tipo de capacitación o acompañamiento considera necesario para que los criadores puedan aprovechar este tipo de herramientas tecnológicas en su día a día?
+
 
 **Segmento: Criador de cuyes**
-1. ¿Cuál es el tamaño aproximado de su operación y qué tipo de animales roedores cría? ¿Ha implementado o considerado alguna forma de automatización o monitoreo tecnológico en su granja, aunque sea a pequeña escala?
-2. En su día a día, ¿cuáles son los mayores desafíos que enfrenta en la gestión de su granja de cuyes? ¿Cree que un sistema de monitoreo automatizado basado en sensores (como los que se podrían implementar con Arduino) podría ayudar a mitigar alguno de estos desafíos?
-3. Actualmente, ¿qué métodos o herramientas utiliza para llevar un registro del estado de salud y otras variables importantes de sus animales? ¿Cómo podría la información recopilada automáticamente por sensores (por ejemplo, temperatura ambiental, patrones de actividad) complementar o mejorar sus registros actuales?
-4. ¿Cómo planifica y organiza las tareas diarias relacionadas con la alimentación, el cuidado de los animales y el mantenimiento de las instalaciones? ¿Podría un sistema IoT con la capacidad de enviar alertas o incluso controlar ciertos dispositivos (si aplica) optimizar estas tareas?
-5. ¿Qué tipo de información o pronóstico suele consultar para tomar decisiones en su granja (por ejemplo, pronóstico del tiempo)? ¿Sería útil recibir alertas o información predictiva basada en los datos históricos recopilados por sensores en su propia granja?
-6. ¿Ha utilizado alguna aplicación o herramienta móvil para la gestión de su granja? ¿Cuáles han sido sus experiencias? ¿Estaría dispuesto a utilizar una interfaz móvil para visualizar los datos de sensores de su granja y recibir alertas importantes?
-7. ¿Qué tipo de información o recursos adicionales le gustaría tener a su disposición para mejorar la gestión de su granja de cuyes? ¿Consideraría valioso recibir recomendaciones o alertas basadas en el análisis de los datos recopilados por su propio sistema IoT o de otras granjas similares?
-8. ¿Cuál es su opinión sobre la posibilidad de recibir asesoramiento y orientación de criadores más experimentados a través de plataformas en línea o aplicaciones, complementado con datos objetivos sobre las condiciones de su granja proporcionados por un sistema IoT? ¿Cree que esta información adicional podría hacer que el asesoramiento remoto sea más efectivo?
+
+1. ¿Cuántos cuyes cría actualmente y desde hace cuánto tiempo se dedica a esta actividad? ¿Cría algún otro tipo de animal además de cuyes?
+
+2. En su día a día, ¿cuáles son los principales problemas o dificultades que enfrenta al cuidar su granja? Por ejemplo: cambios de temperatura, falta de alimento, enfermedades, organización del tiempo, etc.
+
+3. ¿Lleva algún tipo de registro sobre el estado de salud, crecimiento o producción de sus cuyes? ¿Utiliza cuadernos, Excel u otra herramienta?
+
+4. ¿Cómo se organiza para alimentar a los animales, controlar su salud y mantener las instalaciones limpias? ¿Cree que una herramienta que le avise con alarmas o recordatorios podría ayudarle en estas tareas?
+
+5. ¿Qué información consulta normalmente para tomar decisiones en su granja? Por ejemplo: pronóstico del clima, consejos de otros criadores, experiencia personal, etc.
+
+6. Si existiera un sistema que le informe automáticamente sobre la temperatura, humedad o actividad de los animales, ¿le parecería útil? ¿Qué información le gustaría recibir y cómo preferiría verla: por celular, mensajes de texto, o de otro modo?
+
+7. ¿Ha usado alguna vez una aplicación o herramienta digital para gestionar su granja? ¿Cómo fue esa experiencia?
+
+8. ¿Qué tipo de información o apoyo adicional le gustaría tener para mejorar su crianza de cuyes? Por ejemplo: alertas automáticas, consejos personalizados, videos educativos, etc.
+
+9. ¿Le interesaría recibir orientación o ayuda de otros criadores con más experiencia a través de una aplicación o grupo en línea? ¿Cree que esa ayuda sería más útil si se basara en datos reales de su granja?
+
+10. ¿Estaría dispuesto a probar una herramienta tecnológica si fuera sencilla de usar, le ayudara a ahorrar tiempo y mejorara la salud de sus animales? ¿Qué condiciones o garantías necesitaría para animarse a probarla?
 
 ### 2.2.2. Registro de entrevistas
 
