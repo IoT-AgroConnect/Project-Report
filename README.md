@@ -535,7 +535,6 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 [Enlace de la imagen aquí](https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png)
 
-#### 4.1.2. Context Mapping.
 
 ### **4.1.2. Context Mapping**
 
@@ -566,6 +565,66 @@ Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identif
 
 **Bounded Context All - Vista Completa**
     <img src="img/bounded_context_all_view.PNG" alt="Bounded Context Consulting" width="800">
+
+## 4.1.3. Software Architecture
+### 4.1.3.1. Software Architecture System Landscape Diagram
+### 4.1.3.1. Software Architecture Context Level Diagrams
+### 4.1.3.1. Software Architecture Container Level Diagrams
+### 4.1.3.1. Software Architecture Deploymeny Diagrams
+
+<br>
+
+## 4.2. Tactical-Level Domain-Driven Design
+
+<br><br>
+### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.X.1. Domain Layer
+### 4.2.X.2. Interface Layer
+### 4.2.X.3. Infrastructure Layer
+### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.X.6.2. Bounded Context Database Design Diagram
+<br><br>
+### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.X.1. Domain Layer
+### 4.2.X.2. Interface Layer
+### 4.2.X.3. Infrastructure Layer
+### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.X.6.2. Bounded Context Database Design Diagram
+<br><br>
+### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.X.1. Domain Layer
+### 4.2.X.2. Interface Layer
+### 4.2.X.3. Infrastructure Layer
+### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.X.6.2. Bounded Context Database Design Diagram
+<br><br>
+### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.X.1. Domain Layer
+### 4.2.X.2. Interface Layer
+### 4.2.X.3. Infrastructure Layer
+### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.X.6.2. Bounded Context Database Design Diagram
+<br><br>
+### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.X.1. Domain Layer
+### 4.2.X.2. Interface Layer
+### 4.2.X.3. Infrastructure Layer
+### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+
+
+<br>
 
 ## Anexos y Bibliografía 
 
