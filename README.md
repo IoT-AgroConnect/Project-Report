@@ -893,19 +893,201 @@ El sistema diferencia principalmente entre dos tipos de usuarios: **criadores** 
 ### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ### 4.2.X.6.2. Bounded Context Database Design Diagram
 <br><br>
-### 4.2.X. Bounded Context: <Bounded Context Name>
-### 4.2.X.1. Domain Layer
-### 4.2.X.2. Interface Layer
-### 4.2.X.3. Application Layer
-### 4.2.X.4. Infrastructure Layer
-### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-### 4.2.X.6.2. Bounded Context Database Design Diagram
 
+### 4.2.5. Bounded Context: Publication
 
+### 4.2.5.1. Domain Layer
+
+A continuación, se presenta la organización del Domain Layer siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
 
 <br>
 
-## Anexos y Bibliografía 
+## Aggregate
+
+<table>
+  <thead>
+    <tr><th>Entidad</th><th>Atributos Clave</th><th>Métodos</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Publication </td>
+      <td>
+        title, description, image, advisor_id
+      </td>
+      <td>
+        updatePublicationContent()
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Value Objects
+
+<table>
+  <thead>
+    <tr><th>VO</th><th>Atributos</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PublicationContent.java</td>
+      <td>title, descrition, image</td>
+      <td>Define el contenido de cada publicación</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Domain Services
+
+<table>
+  <thead>
+    <tr><th>Servicio</th><th>Métodos</th><th>Responsabilidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PublicationCommandService</td>
+      <td>
+        CreatePublicationCommand(),<br/>
+        UpdatePublicationCommand (),<br/>
+        DeletePublicationCommand()
+      </td>
+      <td>Este servicio define la lógica para crear, actualizar y eliminar publicaciones a partir de comandos específicos, siguiendo el patrón Command Handler en una arquitectura orientada al dominio (DDD)</td>
+    </tr>
+    <tr>
+      <td>PublicationQueryService</td>
+      <td>
+        GetAllPublicationsQuery(),<br/>
+        GetPublicationByIdQuery(),<br/>
+        GetPublicationsByAdvisorIdQuery()
+      </td>
+      <td>Este servicio representa el módulo de consultas (Query Service) del patrón CQRS, y se encarga de recuperar publicaciones mediante distintos criterios (todas, por ID o por asesor), sin modificar el estado del sistema.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.2.5.2. Interface Layer
+
+En esta sección se describe la Capa de Interfaz de la plataforma AgroConnect, específicamente para la gestión de publicaciones. Se destaca el controlador PublicationsController, que permite a los asesores técnicos publicar contenido relacionado a su experiencia o conocimientos, lo cual contribuye a visibilizar su perfil profesional y atraer a potenciales criadores interesados en sus servicios.
+
+El contexto de esta capa incluye un controlador principal: `PublicationsController`
+
+## Controladores
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">PublicationsController</th>
+  </tr>
+  <tr>
+    <td>
+      + createPublication(resource): ResponseEntity<-PublicationResource><br/>
+      + getAllPublications(): ResponseEntity<-List<-PublicationResource>><br/>
+      + getPublicationById(publicationId): ResponseEntity<-PublicationResource><br/>
+      + updatePublication(publicationId, resource): ResponseEntity<-PublicationResource><br/>
+      + deletePublication(publicationId): ResponseEntity<br/>
+    </td>
+  </tr>
+</table>
+
+### 4.2.5.3. Application Layer
+
+La Capa de Aplicación se encarga de orquestar la ejecución de los casos de uso definidos en el dominio. En esta sección se describen los servicios de comandos y consultas (handlers) que procesan los distintos flujos relacionados con la gestión de publicaciones.
+
+---
+
+## Handlers
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">PublicationCommandServiceImpl</th>
+  </tr>
+  <tr>
+    <td>
+      + handle(CreatePublicationCommand command): Long
+    </td>
+    <td>
+      Crea una nueva publicación asociada a un asesor y la guarda en la base de datos.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      + handle(UpdatePublicationCommand command): Long
+    </td>
+    <td>
+      Actualiza el contenido, título o imagen de una publicación existente.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      + handle(DeletePublicationCommand command): void
+    </td>
+    <td>
+      Elimina una publicación del repositorio si existe.
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">PublicationQueryServiceImpl</th>
+  </tr>
+  <tr>
+    <td>
+      + handle(GetAllPublicationsQuery query): List&lt;Publication&gt;
+    </td>
+    <td>
+      Recupera la lista completa de publicaciones registradas.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      + handle(GetPublicationByIdQuery query): Optional&lt;Publication&gt;
+    </td>
+    <td>
+      Obtiene una publicación específica según su identificador único.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      + handle(GetPublicationsByAdvisorIdQuery query): List&lt;Publication&gt;
+    </td>
+    <td>
+      Devuelve todas las publicaciones asociadas a un asesor técnico específico.
+    </td>
+  </tr>
+</table>
+
+
+### 4.2.5.4. Infrastructure Layer
+
+En esta sección se describe la Capa de Infraestructura de la funcionalidad de publicaciones en la plataforma AgroConnect. Esta capa se encarga de la persistencia de datos, es decir, de comunicar el dominio con el sistema de almacenamiento (base de datos). Aquí se encuentran los repositorios JPA, que permiten ejecutar operaciones CRUD de forma declarativa sobre las entidades del dominio.
+
+#### Repositories
+
+<table>
+  <thead>
+    <tr><th>Repositorio</th><th>Métodos</th><th>Entidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PublicationRepository</td>
+      <td>
+        findAllByAdvisorId()
+      </td>
+      <td>Repository</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+### 4.2.5.6.2. Bounded Context Database Design Diagram
 
