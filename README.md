@@ -577,48 +577,329 @@ Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identif
 ## 4.2. Tactical-Level Domain-Driven Design
 
 <br><br>
+### 4.2.1. Bounded Context: Security
+### 4.2.1.1. Domain Layer
+A continuación, se presenta la organización del Domain Layer siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+<br>
+## Aggregate
+
+<table>
+  <thead>
+    <tr><th>Entidad</th><th>Atributos Clave</th><th>Métodos</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Usuario</td>
+      <td>
+        id, nombre, email, contraseña,<br/>
+        tipoPerfil (CRIADOR, ASESOR_TECNICO),<br/>
+        roles, granjas
+      </td>
+      <td>
+        autenticarUsuario(),<br/>
+        asignarRol(),<br/>
+        agregarGranja(),<br/>
+        definirTipoPerfil(),<br/>
+        obtenerPerfil()
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Value Objects
+
+<table>
+  <thead>
+    <tr><th>VO</th><th>Atributos</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rol</td>
+      <td>id, nombre, permisos</td>
+      <td>Define conjunto de permisos asignables a un usuario</td>
+    </tr>
+    <tr>
+      <td>Permiso</td>
+      <td>id, nombre, descripcion</td>
+      <td>Acción específica que puede ejecutar un usuario</td>
+    </tr>
+    <tr>
+      <td>Perfil</td>
+      <td>nombre, email, tipoPerfil, especialidad, ubicacion</td>
+      <td>Datos públicos del usuario expuestos a otros contextos</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Domain Services
+
+<table>
+  <thead>
+    <tr><th>Servicio</th><th>Métodos</th><th>Responsabilidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SecurityManagementService</td>
+      <td>
+        autenticarUsuario(),<br/>
+        registrarUsuario(),<br/>
+        asignarRol(),<br/>
+        validarPermiso(),<br/>
+        obtenerPerfil(),<br/>
+        listarUsuariosPorTipo()
+      </td>
+      <td>Orquestación de operaciones de seguridad</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Repositories
+
+<table>
+  <thead>
+    <tr><th>Repositorio</th><th>Métodos</th><th>Entidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UserRepository</td>
+      <td>
+        findById(),<br/>
+        findByEmail(),<br/>
+        findByTipoPerfil(),<br/>
+        save(),<br/>
+        deleteById()
+      </td>
+      <td>Usuario</td>
+    </tr>
+    <tr>
+      <td>RolRepository</td>
+      <td>
+        findByNombre(),<br/>
+        save(),<br/>
+        deleteById()
+      </td>
+      <td>Rol</td>
+    </tr>
+    <tr>
+      <td>PermisoRepository</td>
+      <td>
+        findByNombre(),<br/>
+        save(),<br/>
+        deleteById()
+      </td>
+      <td>Permiso</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.2.1.2. Interface Layer
+
+En esta sección, presentamos la Capa de Interfaz de nuestra plataforma de AgroConnect para la gestión de seguridad. Representa el punto de entrada para las interacciones entre los usuarios (criadores y asesores técnicos) y el sistema. Está compuesta por una serie de controladores que manejan las peticiones entrantes de los usuarios y devuelven las respuestas adecuadas, permitiendo una comunicación efectiva entre la plataforma y sus usuarios o bounded contexts consumidores.
+
+El contexto de esta capa incluye cuatro controladores principales: `UserController`, `SensorController`, `PermissionController` y `GranjaController`. Estos controladores son responsables de gestionar operaciones sobre usuarios, autenticación, sensores, permisos y granjas vinculadas.
+
+
+## Controladores
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">UserController</th>
+    <th style="width:50%;">PermissionController</th>
+  </tr>
+  <tr>
+    <td>
+      + authenticateUser(email, password): TokenDto<br/>
+      + registerUser(usuarioDto): ResponseEntity<br/>
+      + getAllUsers(): List&lt;UsuarioDto&gt;<br/>
+      + updateUser(id, usuarioDto): UsuarioDto<br/>
+      + deleteUser(id): ResponseEntity<br/>
+      + getPerfilUsuario(id): PerfilDto<br/>
+      + getUsuariosPorTipo(tipoPerfil): List&lt;UsuarioDto&gt;
+    </td>
+    <td>
+      + getAllPermissions(): List&lt;PermisoDto&gt;<br/>
+      + assignPermissionToUser(userId, permisoId): ResponseEntity<br/>
+      + removePermissionFromUser(userId, permisoId): ResponseEntity
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">SensorController</th>
+    <th style="width:50%;">GranjaController</th>
+  </tr>
+  <tr>
+    <td>
+      + getAllSensors(): List&lt;SensorDto&gt;<br/>
+      + addSensor(sensorDto): ResponseEntity<br/>
+      + updateSensor(id, sensorDto): SensorDto<br/>
+      + deleteSensor(id): ResponseEntity
+    </td>
+    <td>
+      + getGranjasByUsuario(usuarioId): List&lt;GranjaDto&gt;<br/>
+      + addGranja(granjaDto): ResponseEntity<br/>
+      + updateGranja(id, granjaDto): GranjaDto<br/>
+      + deleteGranja(id): ResponseEntity
+    </td>
+  </tr>
+</table>
+
+### 4.2.1.3. Application Layer
+
+En esta sección, se presenta la Capa de Aplicación (Application Layer) del contexto de Seguridad de AgroConnect. Esta capa actúa como intermediaria entre la lógica de dominio y la infraestructura, orquestando el flujo de datos para realizar operaciones como el registro, autenticación y manejo de perfiles.
+
+Se definen tanto Command Handlers como Event Handlers, los cuales coordinan los servicios relevantes para ejecutar acciones específicas del sistema, como asignar roles, generar perfiles o responder a eventos de login/logout.
+
+---
+
+## Handlers
+
+<table border="1" style="width:100%; text-align:left; background-color:#ffffe0;">
+  <tr>
+    <th style="width:50%;">UserRegistrationCommandHandler</th>
+    <th style="width:50%;">AssignRoleCommandHandler</th>
+  </tr>
+  <tr>
+    <td>
+      + userService: UserService<br/>
+      + handle(RegisterUserCommand command): Usuario
+    </td>
+    <td>
+      + userService: UserService<br/>
+      + handle(AssignRoleCommand command): void
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="1" style="width:100%; text-align:left; background-color:#ffffe0;">
+  <tr>
+    <th style="width:50%;">ProfileRequestedEventHandler</th>
+    <th style="width:50%;">UserLogoutEventHandler</th>
+  </tr>
+  <tr>
+    <td>
+      + userService: UserService<br/>
+      + handle(ProfileRequestedEvent event): Perfil
+    </td>
+    <td>
+      + authService: AuthService<br/>
+      + handle(UserLoggedOutEvent event): void
+    </td>
+  </tr>
+</table>
+
+### 4.2.1.4. Infrastructure Layer
+
+En esta sección, se presenta la Capa de Infraestructura (Infrastructure Layer) dentro del contexto de Seguridad de AgroConnect. Esta capa proporciona los componentes técnicos y de soporte que permiten la interacción con bases de datos, servicios de autenticación y almacenamiento de perfiles. 
+
+Su función principal es implementar los contratos definidos en el dominio y permitir la persistencia de los datos relacionados con usuarios, roles, permisos y sensores. Además, se asegura de que la lógica de seguridad y autenticación funcione correctamente en conjunto con tecnologías como Spring Security y OAuth 2.0.
+
+Los repositorios definidos en esta capa utilizan frameworks como Spring Data JPA para la persistencia, y representan un puente entre la lógica de negocio y el almacenamiento físico de datos.
+<br>
+## Repositorios
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">UserRepository</th>
+    <th style="width:50%;">RoleRepository</th>
+  </tr>
+  <tr>
+    <td>
+      + findById(userId: UUID): Usuario<br/>
+      + findByEmail(email: String): Usuario<br/>
+      + findByTipoPerfil(tipoPerfil: Enum): List&lt;Usuario&gt;<br/>
+      + save(usuario: Usuario): void<br/>
+      + deleteById(userId: UUID): void
+    </td>
+    <td>
+      + findByNombre(nombre: String): Rol<br/>
+      + save(rol: Rol): void<br/>
+      + deleteById(rolId: UUID): void
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">PermisoRepository</th>
+    <th style="width:50%;">SensorRepository</th>
+  </tr>
+  <tr>
+    <td>
+      + findByNombre(nombre: String): Permiso<br/>
+      + save(permiso: Permiso): void<br/>
+      + deleteById(permisoId: UUID): void
+    </td>
+    <td>
+      + findById(sensorId: UUID): Sensor<br/>
+      + findByTipo(tipo: String): List&lt;Sensor&gt;<br/>
+      + save(sensor: Sensor): void<br/>
+      + deleteById(sensorId: UUID): void
+    </td>
+  </tr>
+</table>
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección se presenta el diagrama de diseño de base de datos del contexto de seguridad. El modelo de datos refleja la estructura de las entidades y sus relaciones a través de claves primarias y foráneas. Este diseño asegura la integridad referencial entre los usuarios, roles, permisos y sensores.
+
+### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+El sistema diferencia principalmente entre dos tipos de usuarios: **criadores** y **asesores técnicos**, cada uno con **niveles de acceso diferenciados**. Los criadores están vinculados directamente con las **granjas**, las cuales agrupan sensores físicos que recolectan información clave sobre las condiciones de crianza de los cuyes. Por su parte, los asesores técnicos pueden acceder a información crítica a través de permisos específicos y validaciones de seguridad.
+
+### 4.2.1.6.2. Bounded Context Database Design Diagram
+<br><br>
 ### 4.2.X. Bounded Context: <Bounded Context Name>
 ### 4.2.X.1. Domain Layer
 ### 4.2.X.2. Interface Layer
-### 4.2.X.3. Infrastructure Layer
-### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.3. Application Layer
+### 4.2.X.4. Infrastructure Layer
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 ### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ### 4.2.X.6.2. Bounded Context Database Design Diagram
 <br><br>
 ### 4.2.X. Bounded Context: <Bounded Context Name>
 ### 4.2.X.1. Domain Layer
 ### 4.2.X.2. Interface Layer
-### 4.2.X.3. Infrastructure Layer
-### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.3. Application Layer
+### 4.2.X.4. Infrastructure Layer
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 ### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ### 4.2.X.6.2. Bounded Context Database Design Diagram
 <br><br>
 ### 4.2.X. Bounded Context: <Bounded Context Name>
 ### 4.2.X.1. Domain Layer
 ### 4.2.X.2. Interface Layer
-### 4.2.X.3. Infrastructure Layer
-### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.3. Application Layer
+### 4.2.X.4. Infrastructure Layer
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 ### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ### 4.2.X.6.2. Bounded Context Database Design Diagram
 <br><br>
 ### 4.2.X. Bounded Context: <Bounded Context Name>
 ### 4.2.X.1. Domain Layer
 ### 4.2.X.2. Interface Layer
-### 4.2.X.3. Infrastructure Layer
-### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
-### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-### 4.2.X.6.2. Bounded Context Database Design Diagram
-<br><br>
-### 4.2.X. Bounded Context: <Bounded Context Name>
-### 4.2.X.1. Domain Layer
-### 4.2.X.2. Interface Layer
-### 4.2.X.3. Infrastructure Layer
-### 4.2.X.4. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.5. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.3. Application Layer
+### 4.2.X.4. Infrastructure Layer
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 ### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ### 4.2.X.6.2. Bounded Context Database Design Diagram
 
