@@ -1085,9 +1085,14 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
+<img src="img/Publication_Component_Diagram.png" alt="Read Models" width="800">
+
 ### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
+<img src="img/class_diagram_publication.png" alt="Read Models" width="800">
+
 ### 4.2.5.6.2. Bounded Context Database Design Diagram
 
+<img src="img/database_diagram_publication.png" alt="Read Models" width="800">
