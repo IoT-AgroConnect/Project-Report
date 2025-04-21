@@ -566,11 +566,47 @@ Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identif
 **Bounded Context All - Vista Completa**
     <img src="img/bounded_context_all_view.PNG" alt="Bounded Context Consulting" width="800">
 
-## 4.1.3. Software Architecture
-### 4.1.3.1. Software Architecture System Landscape Diagram
-### 4.1.3.1. Software Architecture Context Level Diagrams
-### 4.1.3.1. Software Architecture Container Level Diagrams
-### 4.1.3.1. Software Architecture Deploymeny Diagrams
+### 4.1.3. Software Architecture
+
+
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+
+El presente diagrama representa la vista de *System Landscape* de la solución **AgroCuy**, la cual forma parte de un ecosistema tecnológico orientado a mejorar la crianza y gestión de cuyes a través del uso de tecnologías web, móviles y dispositivos IoT (Arduino).
+
+Esta vista tiene como propósito mostrar los diferentes sistemas de software, dispositivos físicos y usuarios que interactúan entre sí para dar soporte completo a la automatización y asesoramiento de granjas de cuyes.
+
+La plataforma **AgroCuy** actúa como sistema central de integración, permitiendo que los **criadores de cuyes** (*Breeder*) puedan gestionar sus granjas, visualizar datos recolectados en tiempo real y recibir asesoramiento técnico remoto. Del mismo modo, los **asesores técnicos** (*Advisor*) se conectan al sistema para brindar soporte a distancia.
+
+Además, el sistema se integra con:
+
+- **Jitsi Meet**: para generar enlaces de videollamadas donde se llevan a cabo sesiones de asesoría remota.
+- **Firebase Storage**: para el almacenamiento de imágenes u otros archivos multimedia relevantes a la gestión de la granja.
+- **Módulo IoT (Arduino + sensores)**: proporciona la capacidad de recolección automatizada de datos del entorno (temperatura, humedad, etc.) y eventualmente el control de dispositivos como ventiladores o dispensadores automáticos.
+- **Aplicación móvil AgroCuy**: actúa como interfaz directa entre el criador y la plataforma, permitiéndole recibir alertas y monitorear condiciones de su granja desde cualquier lugar.
+
+Este *System Landscape* ofrece una visión clara del entorno digital y físico de AgroCuy, destacando su enfoque integral al combinar asesoría especializada con automatización, en beneficio de los productores rurales.
+
+![Diagrama de sistema AgroCuy](img/grocuy-landscape.png)
+
+
+#### **4.1.3.2. Software Architecture Context Level Diagrams**
+
+El diagrama de contexto presenta una vista de alto nivel del sistema **AgroCuy**, mostrando su relación con los actores humanos y sistemas externos que lo rodean. Este diagrama representa el primer nivel del modelo C4 (Context Diagram), enfocado en identificar **quiénes usan la plataforma y cómo interactúan con ella**, sin entrar aún en los componentes internos.
+
+**AgroCuy** es una plataforma diseñada para brindar apoyo a criadores de cuyes mediante asesoría remota, visualización de datos en tiempo real y automatización mediante sensores IoT conectados a dispositivos Arduino. Desde esta vista, se destaca la interacción directa entre los siguientes elementos:
+
+- **Criador de cuyes (Breeder):** usuario principal del sistema, que accede a AgroCuy para recibir alertas, visualizar datos del entorno de su granja, y comunicarse con asesores técnicos.
+- **Asesor técnico (Advisor):** profesional que brinda soporte y seguimiento al criador a través del sistema.
+- **Sistema de videollamadas (Jitsi Meet):** se usa para agendar y generar reuniones de asesoramiento entre criador y asesor.
+- **Módulo IoT (Arduino + sensores):** dispositivo que recolecta datos de la granja y los transmite hacia AgroCuy para su visualización y análisis.
+- **Aplicación móvil AgroCuy:** interfaz móvil que permite al criador interactuar fácilmente con la plataforma desde su dispositivo.
+
+Esta vista facilita comprender el **alcance del sistema**, sus **límites** y las **interacciones clave** que permiten su funcionamiento, sirviendo como punto de partida para niveles de detalle más específicos como el Container Diagram.
+
+![Diagrama de sistema AgroCuy](img/agrocuy-context2.png)
+
+#### 4.1.3.3. Software Architecture Container Level Diagrams
+#### 4.1.3.4. Software Architecture Deploymeny Diagrams
 
 <br>
 
