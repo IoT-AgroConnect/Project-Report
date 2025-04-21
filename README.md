@@ -902,15 +902,104 @@ El sistema diferencia principalmente entre dos tipos de usuarios: **criadores** 
 ### 4.2.1.6.2. Bounded Context Database Design Diagram
 <br><br>
 
-### 4.2.X. Bounded Context: <Bounded Context Name>
-### 4.2.X.1. Domain Layer
-### 4.2.X.2. Interface Layer
-### 4.2.X.3. Application Layer
-### 4.2.X.4. Infrastructure Layer
-### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-### 4.2.X.6.2. Bounded Context Database Design Diagram
+### 4.2.2. Bounded Context: Monitoring
+
+#### 4.2.2.1. Domain Layer
+
+A continuación, se presenta la organización del Domain Layer para el Bounded Context "Monitoring", siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+
+<br/>
+
+##### Aggregate
+
+| Entidad         | Atributos Clave                                          | Métodos                |
+|------------------|----------------------------------------------------------|------------------------|
+| MonitoringEvent  | id, type (EventType), message, severity (SeverityLevel), createdAt | alertIfCritical(), isRelevantEvent() |
+
+---
+
+##### Value Objects
+
+| VO             | Atributos               | Descripción                                                                 |
+|----------------|--------------------------|------------------------------------------------------------------------------|
+| EventType      | name                     | Tipo de evento generado en el sistema (AnimalHealth, CageTemp, AppointmentMissed) |
+| SeverityLevel  | CRITICAL, WARNING, INFO  | Clasificación del nivel de importancia de cada evento monitoreado           |
+
+---
+
+##### Domain Services
+
+| Servicio           | Métodos                                                                                   | Responsabilidad                                                      |
+|--------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| MonitoringService  | registrarEvento(), obtenerEventosCriticos(), filtrarPorTipo(), enviarAlertaSiEsNecesario() | Gestiona la lógica de registro y clasificación de eventos relevantes |
+
+---
+
+##### Repositories
+
+| Repositorio               | Métodos                                                       | Entidad          |
+|---------------------------|----------------------------------------------------------------|------------------|
+| MonitoringEventRepository | findAll(), findBySeverity(), findByType(), save(), deleteById() | MonitoringEvent  |
+
+---
+
+#### 4.2.2.2. Interface Layer
+
+La capa de interfaz define los puntos de entrada HTTP para registrar nuevos eventos del sistema, consultar alertas críticas y filtrar eventos por tipo o nivel de severidad.
+
+##### Controladores
+
+| Controlador           | Operaciones                                                                                               |
+|-----------------------|-----------------------------------------------------------------------------------------------------------|
+| MonitoringController  | + registerEvent(eventDto)<br/> + getAllEvents()<br/> + getEventsByType(type)<br/> + getCriticalEvents()<br/> + deleteEvent(id) |
+
+---
+
+#### 4.2.2.3. Application Layer
+
+Esta capa orquesta la ejecución de los casos de uso de monitoreo, incluyendo el registro de eventos, recuperación de registros y ejecución de alertas ante eventos críticos.
+
+##### Handlers
+
+| Handler                          | Método                                        | Descripción                                                             |
+|----------------------------------|-----------------------------------------------|-------------------------------------------------------------------------|
+| RegisterEventCommandHandler      | handle(RegisterEventCommand)                 | Registra un nuevo evento de monitoreo                                   |
+| GetCriticalEventsQueryHandler    | handle(GetCriticalEventsQuery)               | Obtiene todos los eventos con severidad CRITICAL                        |
+| GetEventsByTypeQueryHandler      | handle(GetEventsByTypeQuery)                 | Filtra los eventos según su tipo                                        |
+| DeleteEventCommandHandler        | handle(DeleteEventCommand)                   | Elimina un evento registrado                                            |
+
+---
+
+#### 4.2.2.4. Infrastructure Layer
+
+Esta capa proporciona acceso a persistencia e integración con otros contextos que emiten eventos relevantes. Implementa los contratos definidos en el dominio y comunica la lógica de monitoreo con la base de datos o servicios externos.
+
+##### Repositorios
+
+| Repositorio               | Métodos                                                                   |
+|---------------------------|----------------------------------------------------------------------------|
+| MonitoringEventRepository | findAll(), findByType(type), findBySeverity(level), save(event), deleteById(id) |
+
+---
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/monitoring_component_diagram.png" alt="Monitoring Component Diagram" width="800">
+
+---
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="img/class_diagram_monitoring.png" alt="Monitoring Class Diagram" width="800">
+
+---
+
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+<img src="img/database_monitoring.png" alt="Monitoring Database Diagram" width="800">
+
 
 <br><br>
 
