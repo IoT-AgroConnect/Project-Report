@@ -577,10 +577,12 @@ Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identif
 ## 4.2. Tactical-Level Domain-Driven Design
 
 <br><br>
+
 ### 4.2.1. Bounded Context: Security
 ### 4.2.1.1. Domain Layer
 A continuación, se presenta la organización del Domain Layer siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
 <br>
+
 ## Aggregate
 
 <table>
@@ -863,6 +865,7 @@ El sistema diferencia principalmente entre dos tipos de usuarios: **criadores** 
 
 ### 4.2.1.6.2. Bounded Context Database Design Diagram
 <br><br>
+
 ### 4.2.X. Bounded Context: <Bounded Context Name>
 ### 4.2.X.1. Domain Layer
 ### 4.2.X.2. Interface Layer
@@ -872,17 +875,127 @@ El sistema diferencia principalmente entre dos tipos de usuarios: **criadores** 
 ### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 ### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ### 4.2.X.6.2. Bounded Context Database Design Diagram
+
 <br><br>
-### 4.2.X. Bounded Context: <Bounded Context Name>
-### 4.2.X.1. Domain Layer
-### 4.2.X.2. Interface Layer
-### 4.2.X.3. Application Layer
-### 4.2.X.4. Infrastructure Layer
-### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+### 4.2.3. Bounded Context: Consulting <Bounded Context Consulting>
+### 4.2.3.1. Domain Layer
+A continuación, se presenta la organización del Domain Layer siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+
+## Aggregate
+
+<table>
+  <thead>
+    <tr><th>Entidad</th><th>Atributos Clave</th><th>Métodos</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Asesoria </td>
+      <td>
+        id, date, status, title, breederId, advisor_id
+      </td>
+      <td>
+        getAppointment(),
+        updateAppointment()
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Value Objects
+
+<table>
+  <thead>
+    <tr>
+      <th>VO</th>
+      <th>Atributos</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>DateAppointment.java</code></td>
+      <td><code>date</code></td>
+      <td>Define la fecha de cada cita</td>
+    </tr>
+    <tr>
+      <td><code>Status.java</code></td>
+      <td><code>PENDIENTE, TERMINADO</code></td>
+      <td>Define el estatus de cada cita</td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
+
+## Domain Services
+
+<table>
+  <thead>
+    <tr><th>Servicio</th><th>Métodos</th><th>Responsabilidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ConsultingCommandService</td>
+      <td>
+        CreateConsultingCommand(),<br/>
+        UpdateConsultingCommand (),<br/>
+        DeleteConsultingCommand()
+      </td>
+      <td>Este servicio define la lógica para crear, actualizar y eliminar publicaciones a partir de comandos específicos, siguiendo el patrón Command Handler en una arquitectura orientada al dominio (DDD)</td>
+    </tr>
+    <tr>
+      <td>ConsultingQueryService</td>
+      <td>
+        GetAllConsultingQuery(),<br/>
+        GetConsultingByIdQuery(),<br/>
+        GetConsultingByAdvisorIdQuery()
+      </td>
+      <td>Este servicio representa el módulo de consultas (Query Service) del patrón CQRS, y se encarga de recuperar publicaciones mediante distintos criterios (todas, por ID o por asesor), sin modificar el estado del sistema.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Repositories
+
+<table> <thead> <tr> <th>Repositorio</th> <th>Métodos</th> <th>Entidad</th> </tr> </thead> <tbody> <tr> <td>ConsultingRepository</td> <td> save(Consulting consulting),<br/> findById(Long id),<br/> findAll(),<br/> deleteById(Long id),<br/> findAllByAdvisorId(Long advisorId),<br/> findAllByBreederId(Long farmerId) </td> <td>Consulting</td> </tr> </tbody> </table>
+
+### 4.2.3.2. Interface Layer
+Esta capa expone las funcionalidades del contexto Assessment a través de un controlador principal. Este controlador gestiona las operaciones CRUD y las consultas disponibles.
+
+<table border="1" style="width:100%; text-align:left;"> <tr> <th style="width:50%;">ConsultingController</th> </tr> <tr> <td> + createConsulting(resource): ResponseEntity&lt;ConsultingResource&gt;<br/> + getAllConsultings(): ResponseEntity&lt;List&lt;ConsultingResource&gt;&gt;<br/> + getConsultingById(consultingId): ResponseEntity&lt;ConsultingResource&gt;<br/> + getConsultingsByAdvisorId(advisorId): ResponseEntity&lt;List&lt;ConsultingResource&gt;&gt;<br/> + getConsultingsByFarmerId(farmerId): ResponseEntity&lt;List&lt;ConsultingResource&gt;&gt;<br/> + updateConsulting(consultingId, resource): ResponseEntity&lt;ConsultingResource&gt;<br/> + deleteConsulting(consultingId): ResponseEntity&lt;Void&gt; </td> </tr> </table>
+
+### 4.2.3.3. Application Layer
+
+La Capa de Aplicación se encarga de orquestar la ejecución de los casos de uso definidos en el dominio. En esta sección se describen los servicios de comandos y consultas (handlers) que procesan los distintos flujos relacionados con la gestión de consultorías.
+
+<table border="1" style="width:100%; text-align:left;"> <tr> <th style="width:50%;">ConsultingCommandServiceImpl</th> </tr> <tr> <td> + handle(CreateConsultingCommand command): Long </td> <td> Crea una nueva consultoría entre un asesor técnico y un criador, y la guarda en la base de datos. </td> </tr> <tr> <td> + handle(UpdateConsultingCommand command): Long </td> <td> Actualiza el contenido, fecha o detalles de una consultoría existente. </td> </tr> <tr> <td> + handle(DeleteConsultingCommand command): void </td> <td> Elimina una consultoría del sistema si existe. </td> </tr> </table> <br/> <table border="1" style="width:100%; text-align:left;"> <tr> <th style="width:50%;">ConsultingQueryServiceImpl</th> </tr> <tr> <td> + handle(GetAllConsultingsQuery query): List&lt;Consulting&gt; </td> <td> Recupera la lista completa de consultorías registradas. </td> </tr> <tr> <td> + handle(GetConsultingByIdQuery query): Optional&lt;Consulting&gt; </td> <td> Obtiene una consultoría específica según su identificador único. </td> </tr> <tr> <td> + handle(GetConsultingsByAdvisorIdQuery query): List&lt;Consulting&gt; </td> <td> Devuelve todas las consultorías asociadas a un asesor técnico específico. </td> </tr> <tr> <td> + handle(GetConsultingsByFarmerIdQuery query): List&lt;Consulting&gt; </td> <td> Devuelve todas las consultorías asociadas a un criador específico. </td> </tr> </table>
+
+
+### 4.2.3.4. Infrastructure Layer
+<table> <thead> <tr><th>Repositorio</th><th>Métodos</th><th>Entidad</th></tr> </thead> <tbody> <tr> <td>ConsultingRepository</td> <td> findAllByAdvisorId()<br/> findAllByFarmerId() </td> <td>Consulting</td> </tr> </tbody> </table>
+
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/Appointment_Component_Diagram (1).png" alt="Read Models" width="800">
+
+### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="img/class_diagram_appointment.png" alt="Read Models" width="800">
+
+### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+<img src="img/Appointment_database_diagram.png" alt="Read Models" width="800">
+
 <br><br>
+
 ### 4.2.X. Bounded Context: <Bounded Context Name>
 ### 4.2.X.1. Domain Layer
 ### 4.2.X.2. Interface Layer
