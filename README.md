@@ -606,9 +606,122 @@ Esta vista facilita comprender el **alcance del sistema**, sus **límites** y la
 ![Diagrama de sistema AgroCuy](img/agrocuy-context2.png)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
-#### 4.1.3.4. Software Architecture Deploymeny Diagrams
 
-<br>
+El Container Diagram representa la segunda capa del modelo C4 para la solución **AgroCuy**, y muestra cómo se estructura el sistema como un conjunto de contenedores: aplicaciones móviles, aplicaciones web, APIs, bases de datos y componentes IoT. Cada contenedor tiene una responsabilidad clara, y se comunica con otros contenedores o sistemas externos mediante interfaces bien definidas, principalmente a través de servicios RESTful.
+
+Esta vista es fundamental para comprender la arquitectura técnica de alto nivel y los puntos de integración del sistema.
+
+### Contenedores principales del sistema AgroCuy
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Contenedor</th>
+      <th>Tecnología</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Web Application</td>
+      <td>Angular</td>
+      <td>Aplicación web utilizada por asesores técnicos para gestionar usuarios y monitorear granjas.</td>
+    </tr>
+    <tr>
+      <td>Mobile Application</td>
+      <td>Flutter</td>
+      <td>Aplicación móvil para criadores, que permite recibir notificaciones y ver información del criadero.</td>
+    </tr>
+    <tr>
+      <td>RESTful API</td>
+      <td>Spring Boot</td>
+      <td>API central que expone los servicios de negocio: autenticación, sensores, usuarios.</td>
+    </tr>
+    <tr>
+      <td>Base de Datos</td>
+      <td>PostgreSQL</td>
+      <td>Repositorio de datos que almacena información de sensores, usuarios, alertas y configuraciones.</td>
+    </tr>
+    <tr>
+      <td>Edge API</td>
+      <td>Python (Flask)</td>
+      <td>API embebida en Raspberry que conecta sensores con la nube.</td>
+    </tr>
+    <tr>
+      <td>Embedded App</td>
+      <td>Arduino C++</td>
+      <td>Firmware instalado en microcontroladores Arduino que recolecta datos del entorno y los envía.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Sistemas externos integrados
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Sistema Externo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firebase Storage</td>
+      <td>Servicio externo para almacenar archivos, imágenes y documentos generados.</td>
+    </tr>
+    <tr>
+      <td>Jitsi Meet</td>
+      <td>Plataforma de videollamadas utilizada para asesoramiento remoto.</td>
+    </tr>
+  </tbody>
+</table>
+
+![Diagrama de sistema AgroCuy](img/Container_Diagram.png)
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams
+
+El Deployment Diagram muestra cómo se distribuyen físicamente los contenedores de la solución AgroCuy en los distintos nodos del entorno de producción. Este diagrama refleja la arquitectura de despliegue real de los componentes, incluyendo servidores, dispositivos IoT, navegadores web, aplicaciones móviles y servicios externos. 
+
+El objetivo es evidenciar dónde y cómo se ejecutan los elementos del sistema en la infraestructura final, asegurando su conectividad, interoperabilidad y funcionamiento distribuido.
+
+### Nodos de despliegue y componentes
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Nodo</strong></th>
+      <th><strong>Contenedores/Sistemas desplegados</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Servidor Cloud</td>
+      <td>RESTful API, Base de Datos</td>
+    </tr>
+    <tr>
+      <td>Raspberry Pi</td>
+      <td>Edge API (Gateway IoT)</td>
+    </tr>
+    <tr>
+      <td>Arduino (Microcontrolador)</td>
+      <td>Embedded App (Firmware para sensores)</td>
+    </tr>
+    <tr>
+      <td>Navegador Web</td>
+      <td>Web Application (Angular)</td>
+    </tr>
+    <tr>
+      <td>Smartphone Android</td>
+      <td>Mobile Application (Flutter)</td>
+    </tr>
+    <tr>
+      <td>Servicios Externos</td>
+      <td>Firebase Storage, Jitsi Meet</td>
+    </tr>
+  </tbody>
+</table>
+
+![Diagrama de sistema AgroCuy](img/Deployment_Diagram.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
