@@ -164,10 +164,10 @@ _Imagen 1. Logo de la aplicación AgroCuy_
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="800px">
+      <img src="img/perfil_fiorella.jpg" alt="Foto de perfil de Fiorella" width="800px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Jarama Peñaloza, Fiorella</b></p>
       <p>
         Descripcion
       </p>
@@ -180,7 +180,7 @@ _Imagen 1. Logo de la aplicación AgroCuy_
     <td valign="top">
       <p><b>Lucas Coronel, Nadia Alessandra</b></p>
       <p>
-        Mi nombre es Nadia Alessandra Lucas Coronel y soy estudiante de octavo ciclo de la carrera de Ingeniería de Software. Me considero una persona entusiasta, perseverante y responsable. Cuento con conocimientos en SQL, C++, Python, HTML, CSS, JavaScript, despligue y metodologías ágiles. Me comprometo a aplicar mis conocimientos de manera efectiva para contribuir al desarrollo de soluciones de software de alta calidad.
+        Mi nombre es Fiorella Jarama Peñaloza y soy estudiante de séptimo ciclo de Ingeniería de Software. Me considero una persona apasionada por la tecnología, curiosa y orientada al detalle. Tengo experiencia en Flutter, MySQL, APIs, y estoy en constante aprendizaje sobre Inteligencia Artificial. Mi objetivo es aplicar mis habilidades para desarrollar soluciones innovadoras y eficientes, contribuyendo a proyectos que tengan un impacto positivo y sostenible.
       </p>
     </td>
   </tr>
