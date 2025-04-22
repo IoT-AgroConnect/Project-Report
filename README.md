@@ -736,22 +736,27 @@ A continuación, se presenta la organización del Domain Layer siguiendo la estr
 
 <table>
   <thead>
-    <tr><th>Entidad</th><th>Atributos Clave</th><th>Métodos</th></tr>
+    <tr>
+      <th>Entidad</th>
+      <th>Atributos Clave</th>
+      <th>Value Objects Asociados</th>
+      <th>Métodos / Reglas</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
       <td>Usuario</td>
+      <td>id, nombre, email, contraseña, tipoPerfil, roles, granjas</td>
+      <td>Rol, Permiso, Perfil</td>
       <td>
-        id, nombre, email, contraseña,<br/>
-        tipoPerfil (CRIADOR, ASESOR_TECNICO),<br/>
-        roles, granjas
-      </td>
-      <td>
-        autenticarUsuario(),<br/>
-        asignarRol(),<br/>
-        agregarGranja(),<br/>
-        definirTipoPerfil(),<br/>
-        obtenerPerfil()
+        autenticarUsuario()<br>
+        asignarRol()<br>
+        agregarGranja()<br>
+        definirTipoPerfil()<br>
+        obtenerPerfil()<br>
+        validarPerfilUnico()<br>
+        esAsesor()<br>
+        esCriador()
       </td>
     </tr>
   </tbody>
@@ -763,7 +768,11 @@ A continuación, se presenta la organización del Domain Layer siguiendo la estr
 
 <table>
   <thead>
-    <tr><th>VO</th><th>Atributos</th><th>Descripción</th></tr>
+    <tr>
+      <th>VO</th>
+      <th>Atributos</th>
+      <th>Descripción</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
@@ -790,17 +799,21 @@ A continuación, se presenta la organización del Domain Layer siguiendo la estr
 
 <table>
   <thead>
-    <tr><th>Servicio</th><th>Métodos</th><th>Responsabilidad</th></tr>
+    <tr>
+      <th>Servicio</th>
+      <th>Métodos</th>
+      <th>Responsabilidad</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
       <td>SecurityManagementService</td>
       <td>
-        autenticarUsuario(),<br/>
-        registrarUsuario(),<br/>
-        asignarRol(),<br/>
-        validarPermiso(),<br/>
-        obtenerPerfil(),<br/>
+        autenticarUsuario()<br>
+        registrarUsuario()<br>
+        asignarRol()<br>
+        validarPermiso()<br>
+        obtenerPerfil()<br>
         listarUsuariosPorTipo()
       </td>
       <td>Orquestación de operaciones de seguridad</td>
@@ -1004,15 +1017,23 @@ Los repositorios definidos en esta capa utilizan frameworks como Spring Data JPA
 </table>
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/Security_Diagram.png" alt="Security Component Diagram" width="800">
+
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
+### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 En esta sección se presenta el diagrama de diseño de base de datos del contexto de seguridad. El modelo de datos refleja la estructura de las entidades y sus relaciones a través de claves primarias y foráneas. Este diseño asegura la integridad referencial entre los usuarios, roles, permisos y sensores.
 
-### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="img/Security_UML.png" alt="Security Component Diagram" width="800">
+
+
+### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 El sistema diferencia principalmente entre dos tipos de usuarios: **criadores** y **asesores técnicos**, cada uno con **niveles de acceso diferenciados**. Los criadores están vinculados directamente con las **granjas**, las cuales agrupan sensores físicos que recolectan información clave sobre las condiciones de crianza de los cuyes. Por su parte, los asesores técnicos pueden acceder a información crítica a través de permisos específicos y validaciones de seguridad.
 
-### 4.2.1.6.2. Bounded Context Database Design Diagram
+<img src="img/Security_dbDiagram.png" alt="Security Component Diagram" width="800">
+
 <br><br>
 
 ### 4.2.2. Bounded Context: Monitoring
