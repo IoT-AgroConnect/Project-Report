@@ -523,10 +523,25 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
-<p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p><br>
-<img src="https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png" alt="Domain Message Flow - Cuyes" width="800">
+<p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p>
 
-[Enlace de la imagen aquí](https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png)
+**Monitoreo**
+
+<img src="img/Domain Message Flow - Monitoreo.png" alt="Domain Message Flow - Monitoreo" width="800">
+
+**Seguridad**
+
+<img src="img/Domain Message Flow - Seguridad.png" alt="Domain Message Flow - Seguridad" width="800">
+
+**Brending**
+
+<img src="img/Domain Message Flow - Brending.png" alt="Domain Message Flow - Brending" width="800">
+
+**Consulta**
+
+<img src="img/Domain Message Flow - Consulta.png" alt="Domain Message Flow - Consulta" width="800">
+
+
 
 #### 4.1.1.3 Bounded Context Canvases. 
 
