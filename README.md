@@ -500,7 +500,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 **Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a359_upc_edu_pe/EYS0xa-efP9Bv_S3UivgU_sBpK9WbYQWb8LzkdfJkRaevw?e=UuTWHZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-<img src="img/entrevista1.png" width="100%">
+<img src="img/Entrevista_1.png" width="100%">
 
 _Imagen 3. Entrevista a _
 
