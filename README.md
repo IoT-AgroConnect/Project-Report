@@ -494,17 +494,19 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 **Entrevista N 1 - Asesor:**
 
-**Entrevistador:** 
+**Entrevistador:** Juan Cuadros
 
-**Entrevistado:** 
+**Entrevistado:** Daniela Flores
 
-**Link de la entrevista:** 
+**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a359_upc_edu_pe/EYS0xa-efP9Bv_S3UivgU_sBpK9WbYQWb8LzkdfJkRaevw?e=UuTWHZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 <img src="img/entrevista1.png" width="100%">
 
 _Imagen 3. Entrevista a _
 
 **Resumen:** 
+
+Daniela proviene de una familia con una sólida tradición en la crianza de cuyes, acumulando más de ocho años de experiencia brindando asesoría técnica a diversas granjas. Es médica veterinaria de profesión, lo que respalda su conocimiento especializado en el bienestar animal. En la granja familiar, han comenzado a incorporar tecnología de monitoreo, como termohigrómetros digitales que permiten registrar datos y emitir alertas básicas, lo cual ha representado un avance importante en la gestión de las condiciones ambientales. Respecto a AgroConnect, Daniela considera que es una herramienta valiosa para fortalecer la interacción entre criadores y asesores técnicos. Además, sugiere que la plataforma podría potenciar aún más su utilidad si, luego de recolectar los datos de los sensores, se generara automáticamente un reporte que facilite el análisis y la toma de decisiones, optimizando así la asesoría y el manejo de las granjas.
 
 
 **Entrevista N 2 - Asesor:** 
