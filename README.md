@@ -545,11 +545,23 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 #### 4.1.1.3 Bounded Context Canvases. 
 
-<p>En este canvas definimos el Bounded Context del sistema de monitoreo para criaderos de cuyes, donde detallamos su propósito, comunicaciones, decisiones clave y lenguaje ubicuo. Representa cómo interactúan sensores, usuarios y alertas dentro del sistema.<p><br>
-<img src="https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png" alt="Bounded Context Canvas - Cuyes" width="900">
+<p>En este canvas definimos el Bounded Context del sistema de monitoreo para criaderos de cuyes, donde detallamos su propósito, comunicaciones, decisiones clave y lenguaje ubicuo. Representa cómo interactúan sensores, usuarios y alertas dentro del sistema.<p>
 
-[Enlace de la imagen aquí](https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png)
+**Monitoreo**
 
+<img src="img/Bounded Context Canvases - Monitoreo.png" alt="Bounded Context Canvases - Monitoreo" width="800">
+
+**Seguridad**
+
+<img src="img/Bounded Context Canvases - Seguridad.png" alt="Bounded Context Canvases - Seguridad" width="800">
+
+**Brending**
+
+<img src="img/Bounded Context Canvases - Brending.png" alt="Bounded Context Canvases - Brending" width="800">
+
+**Consulta**
+
+<img src="img/Bounded Context Canvases - Consulta.png" alt="Bounded Context Canvases - Consulta" width="800">
 
 ### **4.1.2. Context Mapping**
 
