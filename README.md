@@ -498,7 +498,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 **Entrevistado:** Daniela Flores
 
-**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a359_upc_edu_pe/EYS0xa-efP9Bv_S3UivgU_sBpK9WbYQWb8LzkdfJkRaevw?e=UuTWHZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a359_upc_edu_pe/EZPC9R2VNzVMnLoZ5b6c5a8B0gDxmvVSHtWD0PHTp1txVA?e=dInCwF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 <img src="img/Entrevista_1.png" width="100%">
 
