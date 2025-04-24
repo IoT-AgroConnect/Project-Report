@@ -567,13 +567,16 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 ### 2.2.2. Registro de entrevistas
 
+**Link de la entrevista:** [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a359_upc_edu_pe/EZPC9R2VNzVMnLoZ5b6c5a8B0gDxmvVSHtWD0PHTp1txVA?e=dInCwF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 **Entrevista N 1 - Asesor:**
 
 **Entrevistador:** Juan Cuadros
 
 **Entrevistado:** Daniela Flores
 
-**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a359_upc_edu_pe/EZPC9R2VNzVMnLoZ5b6c5a8B0gDxmvVSHtWD0PHTp1txVA?e=dInCwF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 
 <img src="img/Entrevista_1.png" width="100%">
 
@@ -651,7 +654,7 @@ Carla Pereyra, una criadora de cuyes con experiencia, actualmente está a cargo 
 
 <img src="img/entrevista6.png" width="100%">
 
-_Imagen 7. Entrevista a Willy Valentin_ 
+_Imagen 8. Entrevista a Willy Valentin_ 
 
 **Resumen:**
 Willy, un joven de 21 años de Lima, comparte la experiencia de su familia, que lleva aproximadamente 4 años criando cuyes, con una población actual de alrededor de 90 ejemplares, además de otros animales. Uno de los principales retos que enfrentan es la variabilidad climática, ya que tanto el calor excesivo como el frío afectan negativamente la crianza.
