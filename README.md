@@ -577,7 +577,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 <img src="img/Entrevista_1.png" width="100%">
 
-_Imagen 3. Entrevista a _
+_Imagen 3. Entrevista a Daniela Flores_
 
 **Resumen:** 
 
@@ -608,30 +608,33 @@ _Imagen 4. Entrevista a _
 
 **Link de la entrevista:** 
 
-<img src="img/entrevista3.jpg" width="100%">
+<img src="img/Entrevista_3.png" width="100%">
 
-_Imagen 5. Entrevista a _
+_Imagen 5. Entrevista _
 
-**Resumen:**
+**Resumen:** 
 
 
 
-**Entrevista N 4 - Asesor:**
+**Criadores**
 
-**Entrevistador:** 
+**Entrevista N 4 - Criador:**
 
-**Entrevistado:** 
+**Entrevistador:**  Fiorella Jarama 
+
+**Entrevistado:** Claudia Ramos
 
 **Link de la entrevista:** 
 
-<img src="img/entrevista4.png" width="100%">
+<img src="img/Entrevista_4.png" width="100%">
 
-_Imagen 6. Entrevista a _
+_Imagen 6. Entrevista a Claudia Ramos_
 
-**Resumen:**
+**Resumen:** 
+Claudia Ramos, una criadora principiante de cuyes de 23 años con 6 meses de experiencia y 25 cuyes a su cuidado, compartió en la entrevista que enfrenta principalmente dificultades para organizar su tiempo y adaptarse a las condiciones climáticas que afectan a los animales. Actualmente no lleva un registro constante de salud o crecimiento, aunque ha intentado usar un cuaderno. Le gustaría contar con una herramienta tecnológica sencilla que le brinde recordatorios, alertas sobre temperatura y consejos personalizados, preferiblemente en forma de notificaciones en su celular. También valoraría mucho el acceso a videos explicativos y el apoyo de criadores con más experiencia, especialmente si los consejos se basan en datos reales de su granja. Claudia no ha utilizado aplicaciones específicas para la crianza, pero está abierta a probar alguna siempre que sea fácil de usar, segura y venga con una guía inicial.
 
 
-**Entrevista N 5 - Asesor:**
+**Entrevista N 5 - Criador:**
 
 **Entrevistador:** 
 
@@ -642,66 +645,6 @@ _Imagen 6. Entrevista a _
 <img src="img/entrevista5.png" width="100%">
 
 _Imagen 7. Entrevista a_
-
-**Resumen:**
-
-
-**Entrevista N 6 - Criador:**
-
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/entrevista6.png" width="100%">
-
-_Imagen 8. Entrevista a _
-
-**Resumen:** 
-
-
-**Entrevista N 7 - Criador:** 
-
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/entrevista7.png" width="100%">
-
-_Imagen 9. Entrevista a _
-
-**Resumen:**
-
-
-**Entrevista N 8 - Criador:**
-
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/entrevista8.jpg" width="100%">
-
-_Imagen 9. Entrevista a _
-
-**Resumen:**
-
-
-**Entrevista N 9 - Criador:**
-
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/entrevista9.png" width="100%">
-
-_Imagen 9. Entrevista a _
 
 **Resumen:**
 
