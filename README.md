@@ -586,39 +586,31 @@ Daniela proviene de una familia con una sólida tradición en la crianza de cuye
 
 **Entrevista N 2 - Asesor:** 
 
-**Entrevistador:** 
+**Entrevistador:** Nadia Lucas
 
-**Entrevistado:** 
+**Entrevistado:** Nayeli Chavez
 
 **Link de la entrevista:** 
 
 <img src="img/entrevista2.png" width="100%">
 
-_Imagen 4. Entrevista a _
+_Imagen 4. Entrevista a Nayeli Chavez_ 
 
 **Resumen:**
 
+Nayeli cuenta con dos años de experiencia como asesora técnica especializada en la crianza de cuyes, respaldada por su formación en Zootecnia en la Universidad Agraria La Molina. Desde su egreso, ha apoyado a pequeños y medianos productores altoandinos, brindando asesoría en cuatro pilares fundamentales: alimentación, sanidad, manejo reproductivo y cuidado ambiental.
 
+Si bien no ha implementado sistemas de monitoreo en granjas, ha investigado soluciones tecnológicas empleadas en otros países como China, incluyendo sensores ambientales y plataformas automáticas. Considera que los cuyes son altamente sensibles a variaciones bruscas de temperatura, lo que puede derivar en pérdidas significativas.
 
-**Entrevista N 3 - Asesor:**
+Nayeli identifica como una gran necesidad la incorporación de herramientas que proporcionen datos en tiempo real sobre temperatura, humedad y ventilación, además de alertas ante condiciones extremas o escasez de alimento. Propone la generación de reportes automáticos con gráficos sencillos, notificaciones móviles ante incidentes, y funcionalidades como historial de datos, comparación entre granjas y asistencia para la gestión diaria.
 
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/Entrevista_3.png" width="100%">
-
-_Imagen 5. Entrevista _
-
-**Resumen:** 
+En su experiencia, muchos criadores tienen temor de usar plataformas digitales, por lo que resalta la importancia de que estas sean intuitivas y demuestren mejoras tangibles en productividad. Recomienda acompañar la tecnología con capacitaciones prácticas realizadas en las propias granjas, con soporte técnico y materiales impresos, facilitando así la adopción tecnológica y la optimización del manejo de los cuyes.
 
 
 
 **Criadores**
 
-**Entrevista N 4 - Criador:**
+**Entrevista N 3 - Criador:**
 
 **Entrevistador:**  Fiorella Jarama 
 
@@ -634,49 +626,94 @@ _Imagen 6. Entrevista a Claudia Ramos_
 Claudia Ramos, una criadora principiante de cuyes de 23 años con 6 meses de experiencia y 25 cuyes a su cuidado, compartió en la entrevista que enfrenta principalmente dificultades para organizar su tiempo y adaptarse a las condiciones climáticas que afectan a los animales. Actualmente no lleva un registro constante de salud o crecimiento, aunque ha intentado usar un cuaderno. Le gustaría contar con una herramienta tecnológica sencilla que le brinde recordatorios, alertas sobre temperatura y consejos personalizados, preferiblemente en forma de notificaciones en su celular. También valoraría mucho el acceso a videos explicativos y el apoyo de criadores con más experiencia, especialmente si los consejos se basan en datos reales de su granja. Claudia no ha utilizado aplicaciones específicas para la crianza, pero está abierta a probar alguna siempre que sea fácil de usar, segura y venga con una guía inicial.
 
 
-**Entrevista N 5 - Criador:**
+**Entrevista N 4 - Criador:**
 
-**Entrevistador:** 
+**Entrevistador:** Sebastian Ramirez
 
-**Entrevistado:** 
+**Entrevistado:** Carla Pereyra
 
-**Link de la entrevista:** 
+
 
 <img src="img/entrevista5.png" width="100%">
 
-_Imagen 7. Entrevista a_
+_Imagen 7. Entrevista a Carla Pereyra_ 
 
 **Resumen:**
+Carla Pereyra, una criadora de cuyes con experiencia, actualmente está a cargo de 20 ejemplares. Nos compartió las necesidades que enfrenta en su labor y las mejoras que desearía implementar. En la actualidad, realiza el registro de sus cuyes de forma manual, utilizando un cuaderno, ya que aún no ha adoptado herramientas digitales. Le gustaría contar con alertas sobre la temperatura ambiental de sus animales, notificaciones relacionadas con su alimentación, y recibir asesoría de criadores especializados. Aunque nunca ha utilizado aplicaciones para esta actividad, está interesada en probar una que le ofrezca beneficios concretos para el cuidado de sus cuyes, y que le brinde confianza y respaldo en su uso.
+
+**Entrevista N 5 - Criador:**
+
+**Entrevistador:** Johan Moreno
+
+**Entrevistado:** Willy Valentin
+
+
+
+<img src="img/entrevista6.png" width="100%">
+
+_Imagen 7. Entrevista a Willy Valentin_ 
+
+**Resumen:**
+Willy, un joven de 21 años de Lima, comparte la experiencia de su familia, que lleva aproximadamente 4 años criando cuyes, con una población actual de alrededor de 90 ejemplares, además de otros animales. Uno de los principales retos que enfrentan es la variabilidad climática, ya que tanto el calor excesivo como el frío afectan negativamente la crianza.
+
+Su familiar gestiona la información de manera manual, utilizando cuadernos para el conteo de cuyes y el registro de compras de alimento. La limpieza de las jaulas se realiza de forma periódica cada dos días, momento en el cual también observan el estado general de los animales. Para tomar decisiones, se apoyan en datos climáticos consultados desde sus teléfonos móviles.
+
+Willy considera que para su familia sería muy útil contar con una herramienta que muestre la temperatura ambiental y envíe notificaciones al respecto. Aunque no han utilizado aplicaciones para la gestión de la granja, están interesados en implementar una que facilite el monitoreo y la recepción de alertas en tiempo real.
+
+Además, ve con buenos ojos que la plataforma incluya consejos, tutoriales y recomendaciones prácticas sobre la crianza, así como la posibilidad de conectar con otros criadores de distintas regiones para compartir experiencias, superando las limitaciones del contacto presencial actual.
+
 
 ### 2.2.3. Análisis de entrevistas
 
-**Formas de difusión de información de los asesores**
-|Formas de difusión|X|X|X|
-| - | - | - | - |
-|Charlas|X| | |
-|Grupos de discusion en línea|X| |X|
-|Visita presencial| |X|X|
-|Videos en línea| | |X|
+### Desafíos Relacionados con la Monitorización y el Uso de Sensores
 
-<img src="img/piechart1.png" alt="% Asesores que apoyan nuestra idea">
+#### Desafíos Identificados por Asesores Técnicos
 
-_Imagen 12. Gráfico circular - Asesores_
+| Desafíos en la crianza                  | Daniela Flores | Nayeli Chavez | Otros Asesores |
+|-----------------------------------------|----------------|----------------|----------------|
+| Gestión de la alimentación              | X              | X              | X              |
+| Mantenimiento de condiciones ambientales| X              | X              | X              |
+| Control de enfermedades                 | X              | X              | X              |
+| Falta de datos en tiempo real           | X              | X              | X              |
+| Dificultad para adopción tecnológica    |                | X              | X              |
+| Capacitación limitada para criadores    |                | X              | X              |
 
-Gracias a las entrevistas realizadas, comprendimos que los asesores suelen brindar apoyo a través de internet o a conocidos. Así, al comentarle sobre nuestra idea de aplicación web para poder brindar asesorías a criadores de cuyes, indicaron que les pareció muy buena idea ya que brinda mejor comunicación y confiabilidad.
 
-**Desafíos que tienen los asesores con la crianza de cuyes**
-|Desafíos de crianza|X|X|X|
-| - | - | - | - |
-|Gestión de alimentación|X|X|X|
-|Mantenimiento de galpones|X| | |
-|Control de enfermedades|X|X|X|
-|Gestión de espacio| |X| |
+<img src="img/piechart_asesores.png" alt="% de Asesores que identifican desafíos relacionados con la monitorización" width="80%">
 
-<img src="img/piechart2.png" alt="% Criadores que apoyan nuestra idea">
+_Imagen 11. Gráfico circular - Desafíos de Asesores_
 
-_Imagen 13. Gráfico circular - Criadores_
+- **Análisis:** Los asesores consideran esencial contar con herramientas que automaticen la captura y análisis de datos ambientales, lo cual mejoraría significativamente el control sanitario y la eficiencia de las granjas. La adopción tecnológica debe ir acompañada de capacitaciones.
 
-Asimismo, obtuvimos la conclusión de que los criadores de cuyes suelen tener dificultad para gestionar correctamente la alimentación y control de enfermedades, además de gestionar recursos de la granja en sí. De esta forma, al comentarle sobre nuestra idea de aplicación web para poder recibir asesorías de personas con experiencia y gestionar los recursos de su granja, indicaron que les pareció muy buena idea ya que sería un mejor recurso para obtener información confiable.
+---
+
+#### Desafíos Identificados por Criadores
+
+| Desafíos en la crianza                  | Carla Pereyra  | Willy Valentin | Claudia Ramos |
+|-----------------------------------------|----------------|----------------|----------------|
+| Registro manual de datos                | X              | X              | X              |
+| Falta de monitoreo ambiental            | X              | X              | X              |
+| Dependencia del clima sin control       | X              | X              | X              |
+| Falta de alertas para toma de decisiones| X              | X              | X              |
+| Limitado acceso a asesoría técnica      | X              |                | X              |
+| Falta de experiencia en manejo          |                |                | X              |
+| Deseo de conectarse con otros criadores |                | X              | X              |
+
+
+
+<img src="img/piechart_criadores.png" alt="% de Criadores que identifican desafíos relacionados con la monitorización" width="100%">
+
+_Imagen 12. Gráfico circular - Desafíos de Criadores_
+
+- **Análisis:** Los criadores identifican que la falta de información en tiempo real limita su capacidad de reaccionar ante problemas. Están abiertos a soluciones digitales, siempre que estas sean accesibles, intuitivas, y les ofrezcan beneficios claros como alertas y conexión con otros criadores.
+
+---
+
+### Conclusión Integrada
+
+Los desafíos compartidos por asesores y criadores giran en torno a la **falta de datos en tiempo real**, el **control ambiental insuficiente**, y la **necesidad de asistencia técnica** basada en información confiable. La implementación de sensores y plataformas de monitoreo es vista como una solución clave para **mejorar la toma de decisiones** y **reducir la incertidumbre** en la gestión diaria de las granjas de cuyes.
+
+Esta información refuerza la propuesta de AgroConnect como una herramienta capaz de **automatizar el monitoreo**, **emitir alertas**, y **facilitar la colaboración** entre criadores y asesores, promoviendo una **crianza más eficiente y tecnológica**.
 
 
 ## 2.3. Needfinding
