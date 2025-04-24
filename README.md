@@ -567,7 +567,7 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 ### 2.2.2. Registro de entrevistas
 
-**Link de la entrevista:** [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a359_upc_edu_pe/EZPC9R2VNzVMnLoZ5b6c5a8B0gDxmvVSHtWD0PHTp1txVA?e=dInCwF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Link de las entrevistas:** [Ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMyG21NhDYkWcIYIW4BL7pKsp-FbNONAAcnh6-dlg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E2ug3L)
 
 
 **Entrevista N 1 - Asesor:**
