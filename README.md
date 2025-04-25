@@ -205,9 +205,10 @@ Abril 2025
       <em>TB1</em><br>
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
-      Me aseguré de que todos estuviéramos avanzando de forma constante, hice revisiones (reus) del trabajo del equipo y ofrecí apoyo cuando alguien se quedaba atrás.
-      <strong>Apellidos, Nombre</strong><br>
+      Me aseguré de que todos estuviéramos avanzando de forma constante, hice revisiones (reus) del trabajo del equipo y ofrecí apoyo cuando alguien se quedaba atrás.<br>
+      <strong>Ramirez Mendez, Sebastián André</strong><br>
       <em>TB1</em><br>
+      Me encargué de coordinar la estructura del documento y asegurar que cada sección tuviera coherencia, además de participar en la redacción de los antecedentes del proyecto y revisión técnica del contenido.<br>
       <strong>Moreno Vergara, Johan</strong><br>
       <em>TB1</em><br>
       Para esta entrega nos pusimos de acuerdo para tener reuniones para elegir el tema de nuestro proyecto y delegar responsabilidades. Además de una reunión para corroborar el correcto avance de cada uno de los miembros de nuestro equipo.<br>
@@ -227,9 +228,10 @@ Abril 2025
       <em>TB1</em><br>
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
-      Fomenté un ambiente donde todos pudieran participar, ayudé a organizar las tareas del equipo y propuse metas claras para cumplir con los entregables a tiempo.
-      <strong>Apellidos, Nombre</strong><br>
+      Fomenté un ambiente donde todos pudieran participar, ayudé a organizar las tareas del equipo y propuse metas claras para cumplir con los entregables a tiempo.<br>
+      <strong>Ramirez Mendez, Sebastian Andre</strong><br>
       <em>TB1</em><br>
+      Propicié un entorno colaborativo asegurando la participación de todos los miembros, ayudé a definir metas claras, y coordiné la planificación de tareas para que se cumplieran los objetivos del equipo dentro de los plazos establecidos.<br>
       <strong>Moreno Vergara, Johan</strong><br>
       <em>TB1</em><br>
       Se establecieron fechas de entrega para cada tarea delegada, de esa forma aseguramos que se cumpla el objetivo de cada miembro de equipo y poder tener el trabajo en fechas específicas antes de la entrega.<br>
