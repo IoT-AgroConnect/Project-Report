@@ -2325,17 +2325,25 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 
 <img src="img/database_diagram_publication.png" alt="Read Models" width="800">
 
+<br><br>
+<br><br>
 
 # Conclusiones
 
 ## Avance de Conclusiones y recomendaciones
 
+* La implementación del proceso Lean UX permitió a AgroTech identificar objetivos clave, competidores y necesidades del mercado. Desde la definición de problemas hasta la creación del Lean UX canvas, cada paso mejoró la eficiencia y agilidad en el desarrollo de AgroConnect.
+
+* AgroTech llevó a cabo un análisis de competidores y actividades de needfinding, como entrevistas, para entender las necesidades de sus usuarios, lo que resultó en la creación de AgroConnect como solución.
+
+* Los requisitos iniciales del proyecto se identificaron mediante herramientas como empathy mappings, user personas y user stories, que ayudaron a diseñar una experiencia de usuario satisfactoria y optimizar el desarrollo de la aplicación a través de un product backlog priorizado.
+
 # Bibliografía
 
 # Anexos
 
-## Anexo N°1: 
+### Anexo N°1: 
 
-## Anexo N°2: 
+### Anexo N°2: 
 
-## Anexo N°3: 
+### Anexo N°3: 
