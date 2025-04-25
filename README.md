@@ -2356,8 +2356,10 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 
 ### Anexo N°1: EventStorming - Figma
 
-
+https://www.figma.com/design/bBQCiFvraA0jM3SFmloKWi/Event-Storming---IoT?node-id=0-1&t=uHqde6eWHW5RX70z-1 
 
 ### Anexo N°2: Video Entrevistas - TB1
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMyG21NhDYkWcIYIW4Bqez_n89UYtLGVZP2rhv7wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PqnF4I 
 
 ### Anexo N°3: Video Exposicion - TB1
