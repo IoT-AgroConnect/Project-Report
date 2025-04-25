@@ -201,8 +201,9 @@ Abril 2025
   <tr>
     <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
     <td>
-      <strong>Apellidos, Nombre</strong><br>
+      <strong>Cuadros Rodriguez, Juan Alejandro</strong><br>
       <em>TB1</em><br>
+      Realicé la investigación y revisión de los puntos del trabajo, lo que me permitió implementar adecuadamente la redacción del proyecto y asegurar la correcta revisión del contenido.
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Me aseguré de que todos estuviéramos avanzando de forma constante, hice revisiones (reus) del trabajo del equipo y ofrecí apoyo cuando alguien se quedaba atrás.<br>
@@ -224,8 +225,9 @@ Abril 2025
   <tr>
     <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
     <td>
-      <strong>Apellidos, Nombre</strong><br>
+      <strong>Cuadros Rodriguez, Juan Alejandro</strong><br>
       <em>TB1</em><br>
+      e estableció un ambiente de colaboración, por lo que se implementó un sistema de fechas de entrega, acompañado del compromiso del equipo para cumplir con los plazos establecidos.
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Fomenté un ambiente donde todos pudieran participar, ayudé a organizar las tareas del equipo y propuse metas claras para cumplir con los entregables a tiempo.<br>
