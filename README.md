@@ -2324,3 +2324,18 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 ### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 <img src="img/database_diagram_publication.png" alt="Read Models" width="800">
+
+
+# Conclusiones
+
+## Avance de Conclusiones y recomendaciones
+
+# Bibliografía
+
+# Anexos
+
+## Anexo N°1: 
+
+## Anexo N°2: 
+
+## Anexo N°3: 
