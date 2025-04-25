@@ -129,15 +129,51 @@ Abril 2025
     - [4.1.3.2. Container Level Diagrams](#4132-container-level-diagrams)
     - [4.1.3.3. Deployment Diagrams](#4133-deployment-diagrams)
 - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-  - [4.2.X. Bounded Context: &lt;Bounded Context Name&gt;](#42x-bounded-context-name)
-    - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-    - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-    - [4.2.X.3. Application Layer](#42x3-application-layer)
-    - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-    - [4.2.X.5. Component Level Diagrams](#42x5-component-level-diagrams)
-    - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
-      - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
-      - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
+  - [4.2.1. Bounded Context: Security](#421-bounded-context-security)
+    - [4.2.1.1. Domain Layer](#4211-domain-layer)
+    - [4.2.1.2. Interface Layer](#4212-interface-layer)
+    - [4.2.1.3. Application Layer](#4213-application-layer)
+    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+    - [4.2.1.5. Component Level Diagrams](#4215-component-level-diagrams)
+    - [4.2.1.6. Code Level Diagrams](#4216-code-level-diagrams)
+      - [4.2.1.6.1. Domain Layer Class Diagrams](#42161-domain-layer-class-diagrams)
+      - [4.2.1.6.2. Database Design Diagram](#42162-database-design-diagram)
+    - [4.2.2. Bounded Context: Monitoring](#422-bounded-context-monitoring)
+    - [4.2.2.1. Domain Layer](#4221-domain-layer)
+    - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [4.2.2.5. Component Level Diagrams](#4225-component-level-diagrams)
+    - [4.2.2.6. Code Level Diagrams](#4226-code-level-diagrams)
+      - [4.2.2.6.1. Domain Layer Class Diagrams](#42261-domain-layer-class-diagrams)
+      - [4.2.2.6.2. Database Design Diagram](#42262-database-design-diagram)
+    - [4.2.3. Bounded Context: Consulting](#423-bounded-context-consulting)
+    - [4.2.3.1. Domain Layer](#4231-domain-layer)
+    - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+    - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams)
+    - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams)
+      - [4.2.3.6.1. Domain Layer Class Diagrams](#42361-domain-layer-class-diagrams)
+      - [4.2.3.6.2. Database Design Diagram](#42362-database-design-diagram)
+    - [4.2.4. Bounded Context: Management](#424-bounded-context-management)
+    - [4.2.4.1. Domain Layer](#4241-domain-layer)
+    - [4.2.4.2. Interface Layer](#4242-interface-layer)
+    - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [4.2.4.5. Component Level Diagrams](#4245-component-level-diagrams)
+    - [4.2.4.6. Code Level Diagrams](#4246-code-level-diagrams)
+      - [4.2.4.6.1. Domain Layer Class Diagrams](#42461-domain-layer-class-diagrams)
+      - [4.2.4.6.2. Database Design Diagram](#42462-database-design-diagram)
+    - [4.2.5. Bounded Context: Publication](#425-bounded-context-publication)
+    - [4.2.5.1. Domain Layer](#4251-domain-layer)
+    - [4.2.5.2. Interface Layer](#4252-interface-layer)
+    - [4.2.5.3. Application Layer](#4253-application-layer)
+    - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+    - [4.2.5.5. Component Level Diagrams](#4255-component-level-diagrams)
+    - [4.2.5.6. Code Level Diagrams](#4256-code-level-diagrams)
+      - [4.2.5.6.1. Domain Layer Class Diagrams](#42561-domain-layer-class-diagrams)
+      - [4.2.5.6.2. Database Design Diagram](#42562-database-design-diagram)
 
 ## [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
 - [5.1. Style Guidelines](#51-style-guidelines)
@@ -203,7 +239,7 @@ Abril 2025
     <td>
       <strong>Cuadros Rodriguez, Juan Alejandro</strong><br>
       <em>TB1</em><br>
-      Realicé la investigación y revisión de los puntos del trabajo, lo que me permitió implementar adecuadamente la redacción del proyecto y asegurar la correcta revisión del contenido.
+      Realicé la investigación y revisión de los puntos del trabajo, lo que me permitió implementar adecuadamente la redacción del proyecto y asegurar la correcta revisión del contenido.<br>
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Me aseguré de que todos estuviéramos avanzando de forma constante, hice revisiones (reus) del trabajo del equipo y ofrecí apoyo cuando alguien se quedaba atrás.<br>
@@ -227,7 +263,7 @@ Abril 2025
     <td>
       <strong>Cuadros Rodriguez, Juan Alejandro</strong><br>
       <em>TB1</em><br>
-      e estableció un ambiente de colaboración, por lo que se implementó un sistema de fechas de entrega, acompañado del compromiso del equipo para cumplir con los plazos establecidos.
+      e estableció un ambiente de colaboración, por lo que se implementó un sistema de fechas de entrega, acompañado del compromiso del equipo para cumplir con los plazos establecidos.<br>
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Fomenté un ambiente donde todos pudieran participar, ayudé a organizar las tareas del equipo y propuse metas claras para cumplir con los entregables a tiempo.<br>
