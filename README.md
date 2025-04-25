@@ -307,12 +307,12 @@ _Imagen 1. Logo de la aplicación AgroCuy_
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="700px">
+      <img src="img/Juan-Photo.png" alt="Foto de perfil de" width="700px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Cuadros Rodriguez, Juan Alejandro</b></p>
       <p>
-        Descripcion
+        Mi nombre es Juan Cuadros me considero una persona responsable, paciente y comprometida. Tengo conocimientos en los lenguajes de programación C/C++, Python y Java. Además de experiencia en gran manejo de datos usando SQL. También tengo conocimientos en Análisis de vulnerabilidades y explotación de datos. Estoy comprometido con el equipo y el proyecto.
       </p>
     </td>
   </tr>
