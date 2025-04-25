@@ -80,6 +80,116 @@ Abril 2025
 ------
 
 # Contenido
+
+## [Capítulo I: Introducción](#capítulo-i-introducción)
+- [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
+## [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+
+## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
+
+## [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+  - [4.1.1. EventStorming](#411-eventstorming)
+    - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+    - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+    - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+  - [4.1.2. Context Mapping](#412-context-mapping)
+  - [4.1.3. Software Architecture](#413-software-architecture)
+    - [4.1.3.1. System Landscape Diagram](#4131-system-landscape-diagram)
+    - [4.1.3.2. Context Level Diagrams](#4132-context-level-diagrams)
+    - [4.1.3.2. Container Level Diagrams](#4132-container-level-diagrams)
+    - [4.1.3.3. Deployment Diagrams](#4133-deployment-diagrams)
+- [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+  - [4.2.X. Bounded Context: &lt;Bounded Context Name&gt;](#42x-bounded-context-name)
+    - [4.2.X.1. Domain Layer](#42x1-domain-layer)
+    - [4.2.X.2. Interface Layer](#42x2-interface-layer)
+    - [4.2.X.3. Application Layer](#42x3-application-layer)
+    - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
+    - [4.2.X.5. Component Level Diagrams](#42x5-component-level-diagrams)
+    - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
+      - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
+      - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
+
+## [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+- [5.1. Style Guidelines](#51-style-guidelines)
+  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+- [5.2. Information Architecture](#52-information-architecture)
+  - [5.2.1. Organization Systems](#521-organization-systems)
+  - [5.2.2. Labeling Systems](#522-labeling-systems)
+  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+  - [5.2.4. Searching Systems](#524-searching-systems)
+  - [5.2.5. Navigation Systems](#525-navigation-systems)
+- [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+- [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+  - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+  - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
+  - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
+- [5.5. Applications Prototyping](#55-applications-prototyping)
+
+## [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+- [6.1. Software Configuration Management](#61-software-configuration-management)
+  - [6.1.1. Development Environment Configuration](#611-development-environment-configuration)
+  - [6.1.2. Source Code Management](#612-source-code-management)
+  - [6.1.3. Style Guide & Conventions](#613-style-guide--conventions)
+  - [6.1.4. Deployment Configuration](#614-deployment-configuration)
+- [6.2. Implementation](#62-implementation)
+  - [6.2.X. Sprint n](#62x-sprint-n)
+    - [6.2.X.1. Sprint Planning](#62x1-sprint-planning)
+    - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
+    - [6.2.X.3. Sprint Backlog](#62x3-sprint-backlog)
+    - [6.2.X.4. Development Evidence](#62x4-development-evidence)
+    - [6.2.X.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
+    - [6.2.X.6. Execution Evidence](#62x6-execution-evidence)
+    - [6.2.X.7. Services Documentation](#62x7-services-documentation)
+    - [6.2.X.8. Software Deployment Evidence](#62x8-software-deployment-evidence)
+    - [6.2.X.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
+- [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+- [6.4. Video About-the-Product](#64-video-about-the-product)
+
+## [Conclusiones](#conclusiones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+
+
+
 ## Student Outcome
 
 <table border="1" cellpadding="8" cellspacing="0">
@@ -91,6 +201,13 @@ Abril 2025
   <tr>
     <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
     <td>
+      <strong>Apellidos, Nombre</strong><br>
+      <em>TB1</em><br>
+      <strong>Jarama Peñaloza, Fiorella</strong><br>
+      <em>TB1</em><br>
+      Me aseguré de que todos estuviéramos avanzando de forma constante, hice revisiones (reus) del trabajo del equipo y ofrecí apoyo cuando alguien se quedaba atrás.
+      <strong>Apellidos, Nombre</strong><br>
+      <em>TB1</em><br>
       <strong>Moreno Vergara, Johan</strong><br>
       <em>TB1</em><br>
       Para esta entrega nos pusimos de acuerdo para tener reuniones para elegir el tema de nuestro proyecto y delegar responsabilidades. Además de una reunión para corroborar el correcto avance de cada uno de los miembros de nuestro equipo.<br>
@@ -106,6 +223,13 @@ Abril 2025
   <tr>
     <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
     <td>
+      <strong>Apellidos, Nombre</strong><br>
+      <em>TB1</em><br>
+      <strong>Jarama Peñaloza, Fiorella</strong><br>
+      <em>TB1</em><br>
+      Fomenté un ambiente donde todos pudieran participar, ayudé a organizar las tareas del equipo y propuse metas claras para cumplir con los entregables a tiempo.
+      <strong>Apellidos, Nombre</strong><br>
+      <em>TB1</em><br>
       <strong>Moreno Vergara, Johan</strong><br>
       <em>TB1</em><br>
       Se establecieron fechas de entrega para cada tarea delegada, de esa forma aseguramos que se cumpla el objetivo de cada miembro de equipo y poder tener el trabajo en fechas específicas antes de la entrega.<br>
@@ -164,12 +288,12 @@ _Imagen 1. Logo de la aplicación AgroCuy_
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="800px">
+      <img src="img/perfil_fiorella.jpg" alt="Foto de perfil de Fiorella" width="800px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Jarama Peñaloza, Fiorella</b></p>
       <p>
-        Descripcion
+        Mi nombre es Fiorella Jarama Peñaloza y soy estudiante de séptimo ciclo de Ingeniería de Software. Me considero una persona apasionada por la tecnología, curiosa y orientada al detalle. Tengo experiencia en Flutter, MySQL, APIs, y estoy en constante aprendizaje sobre Inteligencia Artificial. Mi objetivo es aplicar mis habilidades para desarrollar soluciones innovadoras y eficientes, contribuyendo a proyectos que tengan un impacto positivo y sostenible.
       </p>
     </td>
   </tr>
@@ -197,12 +321,12 @@ _Imagen 1. Logo de la aplicación AgroCuy_
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="700px">
+      <img src="img/Juan-Photo.png" alt="Foto de perfil de" width="700px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Cuadros Rodriguez, Juan Alejandro</b></p>
       <p>
-        Descripcion
+        Mi nombre es Juan Cuadros me considero una persona responsable, paciente y comprometida. Tengo conocimientos en los lenguajes de programación C/C++, Python y Java. Además de experiencia en gran manejo de datos usando SQL. También tengo conocimientos en Análisis de vulnerabilidades y explotación de datos. Estoy comprometido con el equipo y el proyecto.
       </p>
     </td>
   </tr>
@@ -522,194 +646,201 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 ### 2.2.1. Diseño de entrevistas
 
 **Segmento: Asesor**
-1.  ¿Cuál es su experiencia en la granja y cuántos años lleva trabajando en este campo? ¿Ha utilizado o está familiarizado con sistemas de monitoreo o control automatizados en granjas?
-2.  ¿Qué tipo de asesoramiento o servicios específicos ofrece a los criadores en su trabajo actual? ¿Cómo podría la información en tiempo real proporcionada por sensores IoT (temperatura, humedad, etc.) complementar o mejorar su asesoramiento?
-3. ¿Qué tipo de alertas o notificaciones generadas por un sistema IoT serían más útiles para usted como asesor?
-4. ¿Cuáles considera que son los desafíos más comunes que enfrentan los criadores de cuyes principiantes en la gestión de sus granjas? ¿Cómo podría un sistema IoT ayudar a mitigar estos desafíos?
-5. ¿Cuál ha sido su experiencia con herramientas o sistemas tecnológicos en el ámbito agropecuario? 
-6. ¿Tiene alguna experiencia previa con sensores, actuadores o plataformas de hardware similares a Arduino, aunque no sea directamente en la crianza de cuyes? 
-7. ¿Ha tenido alguna experiencia previa con tecnologías aplicadas a la agricultura o la ganadería, como sensores, actuadores o plataformas de hardware similar a Arduino? ¿Cuál fue su impresión sobre el uso de estas tecnologías?
-8. Pensando en una plataforma que incorpore datos de dispositivos IoT en las granjas, ¿qué características o funcionalidades le gustaría ver que faciliten su labor de asesoramiento (por ejemplo, visualización de datos históricos, alertas personalizables, informes basados en datos de sensores)?
-9. ¿Qué temas específicos dentro de la crianza de cuyes considera que son de mayor interés para los criadores principiantes y que podrían abordarse de manera efectiva utilizando la información proporcionada por un sistema IoT?
-10. ¿De qué manera cree que una plataforma como "AgroConnect" con integración IoT podría ser beneficiosa tanto para los criadores principiantes como para los asesores en la industria?
+1. ¿Cuál es su experiencia trabajando en granjas y cuántos años lleva en este campo? ¿Ha utilizado o está familiarizado con sistemas que permiten monitorear o controlar automáticamente las condiciones dentro de una granja?
+
+2. En su trabajo actual, ¿qué tipo de ayuda o asesoramiento brinda a los criadores? ¿Qué aspectos considera más importantes a tener en cuenta en una granja de cuyes?
+
+3. ¿Cuáles considera que son los problemas más comunes que enfrentan los nuevos criadores de cuyes? ¿Cómo podría ayudar una herramienta que muestre información actualizada sobre el ambiente de la granja?
+
+4. ¿Qué tipo de alertas o funciones automáticas cree que serían más útiles para usted como asesor o para los criadores? Por ejemplo: avisos por temperatura alta, humedad baja, falta de alimento, o reportes automáticos.
+
+5. ¿Ha tenido alguna experiencia previa con tecnologías aplicadas al campo, como sensores, termómetros digitales o sistemas automáticos? ¿Qué impresión le dejaron?
+
+6. ¿Qué tipo de información del ambiente de la granja considera más valiosa para el cuidado de los cuyes? Por ejemplo: temperatura, humedad, ventilación, calidad del aire, entre otros.
+
+7. ¿Cómo cree que podría beneficiarse su trabajo si tuviera acceso desde su celular o computadora a datos en tiempo real sobre varias granjas que asesora?
+
+8. Pensando en una herramienta como “AgroConnect”, ¿qué funciones le parecerían más útiles? Por ejemplo: ver historial de datos, recibir alertas, comparar granjas o generar reportes automáticos.
+
+9. ¿Cree que los criadores estarían dispuestos a utilizar una plataforma digital sencilla si les ayudara a tener mejores resultados? ¿Qué factores cree que facilitarían su adopción?
+
+10. ¿Qué tipo de capacitación o acompañamiento considera necesario para que los criadores puedan aprovechar este tipo de herramientas tecnológicas en su día a día?
+
 
 **Segmento: Criador de cuyes**
-1. ¿Cuál es el tamaño aproximado de su operación y qué tipo de animales roedores cría? ¿Ha implementado o considerado alguna forma de automatización o monitoreo tecnológico en su granja, aunque sea a pequeña escala?
-2. En su día a día, ¿cuáles son los mayores desafíos que enfrenta en la gestión de su granja de cuyes? ¿Cree que un sistema de monitoreo automatizado basado en sensores (como los que se podrían implementar con Arduino) podría ayudar a mitigar alguno de estos desafíos?
-3. Actualmente, ¿qué métodos o herramientas utiliza para llevar un registro del estado de salud y otras variables importantes de sus animales? ¿Cómo podría la información recopilada automáticamente por sensores (por ejemplo, temperatura ambiental, patrones de actividad) complementar o mejorar sus registros actuales?
-4. ¿Cómo planifica y organiza las tareas diarias relacionadas con la alimentación, el cuidado de los animales y el mantenimiento de las instalaciones? ¿Podría un sistema IoT con la capacidad de enviar alertas o incluso controlar ciertos dispositivos (si aplica) optimizar estas tareas?
-5. ¿Qué tipo de información o pronóstico suele consultar para tomar decisiones en su granja (por ejemplo, pronóstico del tiempo)? ¿Sería útil recibir alertas o información predictiva basada en los datos históricos recopilados por sensores en su propia granja?
-6. ¿Ha utilizado alguna aplicación o herramienta móvil para la gestión de su granja? ¿Cuáles han sido sus experiencias? ¿Estaría dispuesto a utilizar una interfaz móvil para visualizar los datos de sensores de su granja y recibir alertas importantes?
-7. ¿Qué tipo de información o recursos adicionales le gustaría tener a su disposición para mejorar la gestión de su granja de cuyes? ¿Consideraría valioso recibir recomendaciones o alertas basadas en el análisis de los datos recopilados por su propio sistema IoT o de otras granjas similares?
-8. ¿Cuál es su opinión sobre la posibilidad de recibir asesoramiento y orientación de criadores más experimentados a través de plataformas en línea o aplicaciones, complementado con datos objetivos sobre las condiciones de su granja proporcionados por un sistema IoT? ¿Cree que esta información adicional podría hacer que el asesoramiento remoto sea más efectivo?
+
+1. ¿Cuántos cuyes cría actualmente y desde hace cuánto tiempo se dedica a esta actividad? ¿Cría algún otro tipo de animal además de cuyes?
+
+2. En su día a día, ¿cuáles son los principales problemas o dificultades que enfrenta al cuidar su granja? Por ejemplo: cambios de temperatura, falta de alimento, enfermedades, organización del tiempo, etc.
+
+3. ¿Lleva algún tipo de registro sobre el estado de salud, crecimiento o producción de sus cuyes? ¿Utiliza cuadernos, Excel u otra herramienta?
+
+4. ¿Cómo se organiza para alimentar a los animales, controlar su salud y mantener las instalaciones limpias? ¿Cree que una herramienta que le avise con alarmas o recordatorios podría ayudarle en estas tareas?
+
+5. ¿Qué información consulta normalmente para tomar decisiones en su granja? Por ejemplo: pronóstico del clima, consejos de otros criadores, experiencia personal, etc.
+
+6. Si existiera un sistema que le informe automáticamente sobre la temperatura, humedad o actividad de los animales, ¿le parecería útil? ¿Qué información le gustaría recibir y cómo preferiría verla: por celular, mensajes de texto, o de otro modo?
+
+7. ¿Ha usado alguna vez una aplicación o herramienta digital para gestionar su granja? ¿Cómo fue esa experiencia?
+
+8. ¿Qué tipo de información o apoyo adicional le gustaría tener para mejorar su crianza de cuyes? Por ejemplo: alertas automáticas, consejos personalizados, videos educativos, etc.
+
+9. ¿Le interesaría recibir orientación o ayuda de otros criadores con más experiencia a través de una aplicación o grupo en línea? ¿Cree que esa ayuda sería más útil si se basara en datos reales de su granja?
+
+10. ¿Estaría dispuesto a probar una herramienta tecnológica si fuera sencilla de usar, le ayudara a ahorrar tiempo y mejorara la salud de sus animales? ¿Qué condiciones o garantías necesitaría para animarse a probarla?
 
 ### 2.2.2. Registro de entrevistas
 
+**Link de las entrevistas:** [Ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMyG21NhDYkWcIYIW4BL7pKsp-FbNONAAcnh6-dlg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E2ug3L)
+
+
 **Entrevista N 1 - Asesor:**
 
-**Entrevistador:** 
+**Entrevistador:** Juan Cuadros
 
-**Entrevistado:** 
+**Entrevistado:** Daniela Flores
 
-**Link de la entrevista:** 
 
-<img src="img/entrevista1.png" width="100%">
 
-_Imagen 3. Entrevista a _
+<img src="img/Entrevista_1.png" width="100%">
+
+_Imagen 3. Entrevista a Daniela Flores_
 
 **Resumen:** 
+
+Daniela proviene de una familia con una sólida tradición en la crianza de cuyes, acumulando más de ocho años de experiencia brindando asesoría técnica a diversas granjas. Es médica veterinaria de profesión, lo que respalda su conocimiento especializado en el bienestar animal. En la granja familiar, han comenzado a incorporar tecnología de monitoreo, como termohigrómetros digitales que permiten registrar datos y emitir alertas básicas, lo cual ha representado un avance importante en la gestión de las condiciones ambientales. Respecto a AgroConnect, Daniela considera que es una herramienta valiosa para fortalecer la interacción entre criadores y asesores técnicos. Además, sugiere que la plataforma podría potenciar aún más su utilidad si, luego de recolectar los datos de los sensores, se generara automáticamente un reporte que facilite el análisis y la toma de decisiones, optimizando así la asesoría y el manejo de las granjas.
 
 
 **Entrevista N 2 - Asesor:** 
 
-**Entrevistador:** 
+**Entrevistador:** Nadia Lucas
 
-**Entrevistado:** 
+**Entrevistado:** Nayeli Chavez
 
 **Link de la entrevista:** 
 
 <img src="img/entrevista2.png" width="100%">
 
-_Imagen 4. Entrevista a _
+_Imagen 4. Entrevista a Nayeli Chavez_ 
 
 **Resumen:**
 
+Nayeli cuenta con dos años de experiencia como asesora técnica especializada en la crianza de cuyes, respaldada por su formación en Zootecnia en la Universidad Agraria La Molina. Desde su egreso, ha apoyado a pequeños y medianos productores altoandinos, brindando asesoría en cuatro pilares fundamentales: alimentación, sanidad, manejo reproductivo y cuidado ambiental.
 
+Si bien no ha implementado sistemas de monitoreo en granjas, ha investigado soluciones tecnológicas empleadas en otros países como China, incluyendo sensores ambientales y plataformas automáticas. Considera que los cuyes son altamente sensibles a variaciones bruscas de temperatura, lo que puede derivar en pérdidas significativas.
 
-**Entrevista N 3 - Asesor:**
+Nayeli identifica como una gran necesidad la incorporación de herramientas que proporcionen datos en tiempo real sobre temperatura, humedad y ventilación, además de alertas ante condiciones extremas o escasez de alimento. Propone la generación de reportes automáticos con gráficos sencillos, notificaciones móviles ante incidentes, y funcionalidades como historial de datos, comparación entre granjas y asistencia para la gestión diaria.
 
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/entrevista3.jpg" width="100%">
-
-_Imagen 5. Entrevista a _
-
-**Resumen:**
+En su experiencia, muchos criadores tienen temor de usar plataformas digitales, por lo que resalta la importancia de que estas sean intuitivas y demuestren mejoras tangibles en productividad. Recomienda acompañar la tecnología con capacitaciones prácticas realizadas en las propias granjas, con soporte técnico y materiales impresos, facilitando así la adopción tecnológica y la optimización del manejo de los cuyes.
 
 
 
-**Entrevista N 4 - Asesor:**
+**Criadores**
 
-**Entrevistador:** 
+**Entrevista N 3 - Criador:**
 
-**Entrevistado:** 
+**Entrevistador:**  Fiorella Jarama 
+
+**Entrevistado:** Claudia Ramos
 
 **Link de la entrevista:** 
 
-<img src="img/entrevista4.png" width="100%">
+<img src="img/Entrevista_4.png" width="100%">
 
-_Imagen 6. Entrevista a _
+_Imagen 6. Entrevista a Claudia Ramos_
 
-**Resumen:**
+**Resumen:** 
+Claudia Ramos, una criadora principiante de cuyes de 23 años con 6 meses de experiencia y 25 cuyes a su cuidado, compartió en la entrevista que enfrenta principalmente dificultades para organizar su tiempo y adaptarse a las condiciones climáticas que afectan a los animales. Actualmente no lleva un registro constante de salud o crecimiento, aunque ha intentado usar un cuaderno. Le gustaría contar con una herramienta tecnológica sencilla que le brinde recordatorios, alertas sobre temperatura y consejos personalizados, preferiblemente en forma de notificaciones en su celular. También valoraría mucho el acceso a videos explicativos y el apoyo de criadores con más experiencia, especialmente si los consejos se basan en datos reales de su granja. Claudia no ha utilizado aplicaciones específicas para la crianza, pero está abierta a probar alguna siempre que sea fácil de usar, segura y venga con una guía inicial.
 
 
-**Entrevista N 5 - Asesor:**
+**Entrevista N 4 - Criador:**
 
-**Entrevistador:** 
+**Entrevistador:** Sebastian Ramirez
 
-**Entrevistado:** 
+**Entrevistado:** Carla Pereyra
 
-**Link de la entrevista:** 
+
 
 <img src="img/entrevista5.png" width="100%">
 
-_Imagen 7. Entrevista a_
+_Imagen 7. Entrevista a Carla Pereyra_ 
 
 **Resumen:**
+Carla Pereyra, una criadora de cuyes con experiencia, actualmente está a cargo de 20 ejemplares. Nos compartió las necesidades que enfrenta en su labor y las mejoras que desearía implementar. En la actualidad, realiza el registro de sus cuyes de forma manual, utilizando un cuaderno, ya que aún no ha adoptado herramientas digitales. Le gustaría contar con alertas sobre la temperatura ambiental de sus animales, notificaciones relacionadas con su alimentación, y recibir asesoría de criadores especializados. Aunque nunca ha utilizado aplicaciones para esta actividad, está interesada en probar una que le ofrezca beneficios concretos para el cuidado de sus cuyes, y que le brinde confianza y respaldo en su uso.
+
+**Entrevista N 5 - Criador:**
+
+**Entrevistador:** Johan Moreno
+
+**Entrevistado:** Willy Valentin
 
 
-**Entrevista N 6 - Criador:**
-
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
 
 <img src="img/entrevista6.png" width="100%">
 
-_Imagen 8. Entrevista a _
-
-**Resumen:** 
-
-
-**Entrevista N 7 - Criador:** 
-
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/entrevista7.png" width="100%">
-
-_Imagen 9. Entrevista a _
+_Imagen 8. Entrevista a Willy Valentin_ 
 
 **Resumen:**
+Willy, un joven de 21 años de Lima, comparte la experiencia de su familia, que lleva aproximadamente 4 años criando cuyes, con una población actual de alrededor de 90 ejemplares, además de otros animales. Uno de los principales retos que enfrentan es la variabilidad climática, ya que tanto el calor excesivo como el frío afectan negativamente la crianza.
 
+Su familiar gestiona la información de manera manual, utilizando cuadernos para el conteo de cuyes y el registro de compras de alimento. La limpieza de las jaulas se realiza de forma periódica cada dos días, momento en el cual también observan el estado general de los animales. Para tomar decisiones, se apoyan en datos climáticos consultados desde sus teléfonos móviles.
 
-**Entrevista N 8 - Criador:**
+Willy considera que para su familia sería muy útil contar con una herramienta que muestre la temperatura ambiental y envíe notificaciones al respecto. Aunque no han utilizado aplicaciones para la gestión de la granja, están interesados en implementar una que facilite el monitoreo y la recepción de alertas en tiempo real.
 
-**Entrevistador:** 
+Además, ve con buenos ojos que la plataforma incluya consejos, tutoriales y recomendaciones prácticas sobre la crianza, así como la posibilidad de conectar con otros criadores de distintas regiones para compartir experiencias, superando las limitaciones del contacto presencial actual.
 
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/entrevista8.jpg" width="100%">
-
-_Imagen 9. Entrevista a _
-
-**Resumen:**
-
-
-**Entrevista N 9 - Criador:**
-
-**Entrevistador:** 
-
-**Entrevistado:** 
-
-**Link de la entrevista:** 
-
-<img src="img/entrevista9.png" width="100%">
-
-_Imagen 9. Entrevista a _
-
-**Resumen:**
 
 ### 2.2.3. Análisis de entrevistas
 
-**Formas de difusión de información de los asesores**
-|Formas de difusión|X|X|X|
-| - | - | - | - |
-|Charlas|X| | |
-|Grupos de discusion en línea|X| |X|
-|Visita presencial| |X|X|
-|Videos en línea| | |X|
+### Desafíos Relacionados con la Monitorización y el Uso de Sensores
 
-<img src="img/piechart1.png" alt="% Asesores que apoyan nuestra idea">
+#### Desafíos Identificados por Asesores Técnicos
 
-_Imagen 12. Gráfico circular - Asesores_
+| Desafíos en la crianza                  | Daniela Flores | Nayeli Chavez | Otros Asesores |
+|-----------------------------------------|----------------|----------------|----------------|
+| Gestión de la alimentación              | X              | X              | X              |
+| Mantenimiento de condiciones ambientales| X              | X              | X              |
+| Control de enfermedades                 | X              | X              | X              |
+| Falta de datos en tiempo real           | X              | X              | X              |
+| Dificultad para adopción tecnológica    |                | X              | X              |
+| Capacitación limitada para criadores    |                | X              | X              |
 
-Gracias a las entrevistas realizadas, comprendimos que los asesores suelen brindar apoyo a través de internet o a conocidos. Así, al comentarle sobre nuestra idea de aplicación web para poder brindar asesorías a criadores de cuyes, indicaron que les pareció muy buena idea ya que brinda mejor comunicación y confiabilidad.
 
-**Desafíos que tienen los asesores con la crianza de cuyes**
-|Desafíos de crianza|X|X|X|
-| - | - | - | - |
-|Gestión de alimentación|X|X|X|
-|Mantenimiento de galpones|X| | |
-|Control de enfermedades|X|X|X|
-|Gestión de espacio| |X| |
+<img src="img/piechart_asesores.png" alt="% de Asesores que identifican desafíos relacionados con la monitorización" width="80%">
 
-<img src="img/piechart2.png" alt="% Criadores que apoyan nuestra idea">
+_Imagen 11. Gráfico circular - Desafíos de Asesores_
 
-_Imagen 13. Gráfico circular - Criadores_
+- **Análisis:** Los asesores consideran esencial contar con herramientas que automaticen la captura y análisis de datos ambientales, lo cual mejoraría significativamente el control sanitario y la eficiencia de las granjas. La adopción tecnológica debe ir acompañada de capacitaciones.
 
-Asimismo, obtuvimos la conclusión de que los criadores de cuyes suelen tener dificultad para gestionar correctamente la alimentación y control de enfermedades, además de gestionar recursos de la granja en sí. De esta forma, al comentarle sobre nuestra idea de aplicación web para poder recibir asesorías de personas con experiencia y gestionar los recursos de su granja, indicaron que les pareció muy buena idea ya que sería un mejor recurso para obtener información confiable.
+---
+
+#### Desafíos Identificados por Criadores
+
+| Desafíos en la crianza                  | Carla Pereyra  | Willy Valentin | Claudia Ramos |
+|-----------------------------------------|----------------|----------------|----------------|
+| Registro manual de datos                | X              | X              | X              |
+| Falta de monitoreo ambiental            | X              | X              | X              |
+| Dependencia del clima sin control       | X              | X              | X              |
+| Falta de alertas para toma de decisiones| X              | X              | X              |
+| Limitado acceso a asesoría técnica      | X              |                | X              |
+| Falta de experiencia en manejo          |                |                | X              |
+| Deseo de conectarse con otros criadores |                | X              | X              |
+
+
+
+<img src="img/piechart_criadores.png" alt="% de Criadores que identifican desafíos relacionados con la monitorización" width="100%">
+
+_Imagen 12. Gráfico circular - Desafíos de Criadores_
+
+- **Análisis:** Los criadores identifican que la falta de información en tiempo real limita su capacidad de reaccionar ante problemas. Están abiertos a soluciones digitales, siempre que estas sean accesibles, intuitivas, y les ofrezcan beneficios claros como alertas y conexión con otros criadores.
+
+---
+
+### Conclusión Integrada
+
+Los desafíos compartidos por asesores y criadores giran en torno a la **falta de datos en tiempo real**, el **control ambiental insuficiente**, y la **necesidad de asistencia técnica** basada en información confiable. La implementación de sensores y plataformas de monitoreo es vista como una solución clave para **mejorar la toma de decisiones** y **reducir la incertidumbre** en la gestión diaria de las granjas de cuyes.
+
+Esta información refuerza la propuesta de AgroConnect como una herramienta capaz de **automatizar el monitoreo**, **emitir alertas**, y **facilitar la colaboración** entre criadores y asesores, promoviendo una **crianza más eficiente y tecnológica**.
 
 
 ## 2.3. Needfinding
@@ -887,7 +1018,48 @@ _Imagen 18. Empathy Map - Asesor_
 
 _Imagen 19. Empathy Map - Criador_
 
+### 2.3.5. As-is Scenario Mapping.
 
+**Segmento: Asesor**
+
+|**Phases**|**Búsqueda de de trabajo**|**Publicar su experiencia en el rubro** |**Comunicación con el ganadero**|**Asesorar al ganadero**|
+| :- | :- | :- | :- | :- |
+|**Doing**|- Busca la manera de llegar a más público, creándose  foros de difusión, cuentas de instagram,etc.Para que así más personas adquieran sus servicios.|- Habiendo creado su perfil, empieza a publicar información acerca de él, la experiencia que tiene en el campo, el rubro con el que se especializa, entre otros datos relevantes que ayuden a captar el interés del cliente.|-Se comunica con el ganadero mediante whatsapp, instagram o en llamadas cortas explicando los beneficios de su servicio.|- Mediante whatsapp y luego de haber llegado a un acuerdo se reúne con el ganador para poder asesorar en lo que necesita|
+|**Thinking**|- "Necesito que me contraten para poder generar ingresos."|- "Espero que la información que publique interese a los clientes."|- "Es importante comunicarse con la persona, sin embargo no llegó a comprender que exactamente desea."|- "El asesoramiento que brinda al ganadero ha sido no tan eficiente pero sí eficaz."|
+|**Feeling**|<p>-Estresado por no saber donde debo posicionarme para poder buscar trabajo. </p><p>- Decepcionado por no conocer una página o aplicación que me brinde la facilidad de conectar con mis clientes.</p>|<p>- Preocupado sobre qué dirán las personas al ver lo que ofrezco.</p><p>- Tímido al publicar mi información en mi feed.</p>|<p>- Satisfecho por haber conseguido un cliente dispuesto a contratarme.</p><p>- Confundido porque el cliente no detalla bien qué servicio  desea  de mí.</p>|<p>- Satisfecho de haber culminado mi asesoramiento continuo al cliente.</p><p></p><p>-Frustrado por el tiempo que me demore en asesorar debido a la gran cantidad de herramientas que he usado.</p>|
+
+**Segmento: Criador**
+
+|**Phases**|**Búsqueda de Información y Asesoramiento**|**Comunicación con el Asesor** |**Registro de Datos y Asesoramiento**|**Uso Continuo**|
+| :- | :- | :- | :- | :- |
+|**Doing**|- Busca información sobre la crianza de cuyes en línea y en libros especializados.|- Contacta a un asesor a través de la aplicación para obtener asesoramiento sobre la crianza de su ganado de cuyes.|<p>- Proporciona detalles sobre su ganado de cuyes, como la cantidad, la salud, la alimentación y otros aspectos relevantes, al asesor. </p><p>- Recibe asesoramiento y recomendaciones del asesor.</p>|- Mantiene una comunicación regular con el asesor para recibir orientación continua sobre la crianza de su ganado de cuyes.|
+|**Thinking**|- "Necesito encontrar información precisa y útil para mejorar la crianza de mi ganado de cuyes."|- "Espero que el asesor tenga el conocimiento necesario para ayudarme."|- "Es importante proporcionar datos precisos para recibir un asesoramiento efectivo."|- "La relación continua con el asesor es clave para el éxito de mi ganado de cuyes."|
+|**Feeling**|<p>- Motivado por mejorar la salud y la productividad de su ganado de cuyes.</p><p>`- Interesado en aprender más sobre la crianza de cuyes</p>|<p>- Optimista sobre la posibilidad de recibir asesoramiento valioso del asesor.</p><p>- Satisfecho al establecer una comunicación efectiva.</p>|<p>- Satisfecho por recibir recomendaciones que benefician a su ganado de cuyes. </p><p>- Responsable de seguir las recomendaciones del asesor.</p>|<p>- Satisfecho con la relación continua con el asesor. </p><p>- Comprometido con mejorar su ganadería de cuyes a largo plazo.</p>|
+
+## 2.4. Ubiquitous Language.
+
+En esta sección, se definirán términos utilizados a lo largo del proyecto para que se pueda comprender para todos los miembros del equipo y agentes interesados. 
+
+- **Guinea pig breeder** (Criador de cuyes): Persona dedicada a la crianza y producción de cuyes con el fin de obtener carne y otros productos derivados de estos animales.
+- **Ganadero** (Rancher): Individuo dedicado a la crianza de animales. En este contexto, es otra forma de llamar a los criadores de cuyes, pero de forma más general. Los ganaderos son responsables del cuidado diario de los cuyes, incluida la alimentación, el manejo del hábitat y la reproducción.
+- **Advisor** (Asesor): En el contexto del proyecto, es una persona con experiencia y conocimientos especializados en la crianza de cuyes y prácticas agrícolas relacionadas. Su papel es brindar apoyo personalizado para resolver desafíos específicos que enfrentan los criadores en el cuidado de los cuyes.
+- **Guinea pig farm** (Granja de cuyes): Instalación destinada a la cría y manejo de cuyes, equipada con las infraestructuras necesarias para su cuidado y reproducción.
+- **Animal welfare** (Bienestar animal): Estado de salud física y psicológica de los cuyes que garantiza su crecimiento óptimo, garantizado mediante prácticas de crianza adecuadas que respetan sus necesidades naturales.
+- **Sustainable agricultural practices** (Prácticas agrícolas sostenibles): Técnicas y métodos de producción que preservan los recursos naturales y minimizan el impacto ambiental negativo, contribuyendo a la conservación a largo plazo del medio ambiente y los ecosistemas.
+
+- **Self-sustainable** (Auto-sustentable): En el contexto de la crianza de cuyes, se refiere a la práctica de consumir los cuyes criados en la granja principalmente para satisfacer las necesidades alimenticias de los criadores y sus familias. En lugar de venderlos para generar ingresos adicionales.
+
+- **Shed** (Galpón): Es el ambiente donde se construyen o colocan las pozas o jaulas para criar a los cuyes, lo que permite un mejor control de los animales.
+
+- **Cage** (Jaula): Espacio donde vive un grupo de cuyes normalmente construidos de madera o mallas metálicas.
+
+- **Resources** (Recursos): Elementos físicos necesarios para la crianza de cuyes como el alimento que consumen los cuyes, la medicina para los cuyes enfermos, o recursos de producción como pueden ser las pieles de los cuyes.
+
+- **Expenses** (Gastos): Inversiones de dinero del criador para cubrir las necesidades de la crianza como puede ser la compra de los alimentos de los cuyes.
+
+- **Review** (Reseña): Evaluación del desempeño de un asesor durante una cita. Consta de calificación (con rango de 0 a 5 estrellas) y de un comentario opcional.
+
+- **Appointment** (Cita): Encuentro programado entre el criador y el asesor con el objetivo de recibir asistencia técnica en desafíos en la crianza, y con el objetivo de recibir recomendaciones.
 
 ## Capítulo III: Requirements Specification
 
@@ -956,7 +1128,7 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
 |US34|Uso de nuestra API para manejar recursos y gastos|**Como** desarrollador **quiero** integrar un API **para** gestionar la información de los recursos y gastos de los criadores en la base de datos, de manera que pueda realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) a través de solicitudes HTTP.|<p>**Escenario 1: Integrar un API para manejar las solicitudes HTTP de los recursos o gastos**</p><p>**Given** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración.</p><p>**When** el desarrollador envía una solicitud de tipo GET, POST, PUT o DELETE con los datos solicitados del recurso o gasto a la API.</p><p>**Then** La API responde con un código de estado correspondiente (200 OK o 201 Created)  y se realiza la operación solicitada.</p><p>**Escenario 2: Manejar errores en la Integración de API para Solicitudes HTTP de recursos o gastos**</p><p>**Given** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**When** el desarrollador envía una solicitud de tipo GET, POST, PUT o DELETE con los datos solicitados del recurso o gasto a la API y ocurre un error.</p><p>**Then** la API responde con un código de estado correspondiente al error (400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 500 Internal Server Error).</p><p>**And** el sistema captura el error y proporciona un mensaje de error descriptivo que ayuda al desarrollador a identificar y corregir el problema.</p>|E08|
 |US35|Uso de nuestra API para manejar la reserva de citas entre asesores y criadores|**Como** desarrollador **quiero** integrar un API **para** gestionar la información de las citas entre asesores y criadores en la base de datos, de manera que pueda realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) a través de solicitudes HTTP.|<p>**Escenario 1: Integrar un API para manejar las solicitudes HTTP de las citas y horarios disponibles de asesores**</p><p>**Given** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración.</p><p>**When** el desarrollador envía una solicitud de tipo GET, POST, PUT o DELETE con los datos solicitados de una cita entre un asesor y un criador a la API.</p><p>**Then** La API responde con un código de estado correspondiente (200 OK o 201 Created)  y se realiza la operación solicitada.</p><p>**Escenario 2: Manejar errores en la Integración de API para Solicitudes HTTP de citas y horarios disponibles de asesores**</p><p>**Given** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**When** el desarrollador envía una solicitud de tipo GET, POST, PUT o DELETE con los datos solicitados de de una cita entre un asesor y un criador a la API y ocurre un error.</p><p>**Then** la API responde con un código de estado correspondiente al error (400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 500 Internal Server Error).</p><p>**And** el sistema captura el error y proporciona un mensaje de error descriptivo que ayuda al desarrollador a identificar y corregir el problema.</p>|E08|
 |US36|Uso de nuestra API para manejar las jaulas y animales|**Como** desarrollador **quiero** integrar un API **para** gestionar la información de las jaulas y los animales de los criadores en la base de datos, de manera que pueda realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) a través de solicitudes HTTP.|<p>**Escenario 1: Integrar un API para manejar las solicitudes HTTP de las jaulas o animales**</p><p>**Given** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**When** el desarrollador envía una solicitud de tipo GET, POST, PUT o DELETE con los datos solicitados de la jaula o animal a la API.</p><p>**Then** La API responde con un código de estado correspondiente (200 OK o 201 Created)  y se realiza la operación solicitada.</p><p>**Escenario 2: Manejar errores en la Integración de API para Solicitudes HTTP de jaulas o animales**</p><p>**Given** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**When** el desarrollador envía una solicitud de tipo GET, POST, PUT o DELETE con los datos solicitados de la jaula o animal a la API y ocurre un error.</p><p>**Then** la API responde con un código de estado correspondiente al error (400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 500 Internal Server Error).</p><p>**And** el sistema captura el error y proporciona un mensaje de error descriptivo que ayuda al desarrollador a identificar y corregir el problema.</p>|E08| 
-|US37|Integración con API para monitorear sensores de granja (IoT)|**Como** desarrollador **quiero** conectar sensores IoT mediante una API **para** monitorear en tiempo real los parámetros ambientales dentro de la granja.|<p>**Escenario 1: Integración exitosa con sensores IoT**</p><p>**Given** el desarrollador tiene acceso a la API y los sensores IoT están correctamente instalados.</p><p>**When** se realiza una solicitud GET para obtener los datos de los sensores.</p><p>**Then** el sistema muestra la información en tiempo real de temperatura, humedad, CO₂ y estado del agua.</p><p>**Escenario 2: Fallo en la conexión con sensores IoT**</p><p>**Given** los sensores IoT están desconectados o mal configurados.</p><p>**When** el sistema intenta conectarse a la API de sensores.</p><p>**Then** se muestra un mensaje de error indicando que no se pueden recuperar los datos y se sugiere verificar la conexión.</p>|E08|
+|US37|Integración con API para monitorear sensores de granja (IoT)|**Como** desarrollador **quiero** conectar sensores IoT mediante una API **para** monitorear en tiempo real los parámetros ambientales dentro de la granja.|<p>**Escenario 1: Integración exitosa con sensores IoT**</p><p>**Given** el desarrollador tiene acceso a la API y los sensores IoT están correctamente instalados.</p><p>**When** se realiza una solicitud GET para obtener los datos de los sensores.</p><p>**Then** el sistema muestra la información en tiempo real de temperatura, humedad, CO₂ y estado del agua.</p><p>**Escenario 2: Fallo en la conexión con sensores IoT**</p><p>**Given** los sensores IoT están desconectados o mal configurados.</p><p>**When** el sistema intenta conectarse a la API de sensores.</p><p>**Then** se muestra un mensaje de error indicando que no se pueden recuperar los datos y se sugiere verificar la conexión.</p>|E09|
 |US38|Recepción de alertas cuando los parámetros ambientales (temperatura, humedad, CO₂, agua) exceden los rangos aceptables|**Como** criador **quiero** recibir alertas automáticas **para** saber cuándo los parámetros ambientales están fuera de los rangos normales.|<p>**Escenario 1: Parámetro excede el rango**</p><p>**Given** los sensores están midiendo parámetros ambientales en tiempo real.</p><p>**When** un valor supera el límite configurado.</p><p>**Then** se genera una alerta visual y sonora en el sistema y se envía una notificación al criador.</p>|E09|
 |US39|Visualización de gráficas históricas de parámetros ambientales para análisis de comportamiento|**Como** criador **quiero** ver gráficas históricas **para** analizar el comportamiento ambiental y tomar mejores decisiones.|<p>**Escenario 1: Acceso a datos históricos**</p><p>**Given** hay datos almacenados sobre los parámetros de la granja.</p><p>**When** el criador accede al módulo de gráficas.</p><p>**Then** se muestran líneas de tiempo con valores de temperatura, humedad, CO₂ y agua por fecha y hora.</p>|E09|
 |US40|Configuración personalizada por el criador de los rangos aceptables de temperatura, humedad, nivel de CO₂ y estado del agua|**Como** criador **quiero** personalizar los valores de los rangos aceptables **para** que las alertas se ajusten a las necesidades de mi granja.|<p>**Escenario 1: Configuración de rangos**</p><p>**Given** el criador accede a la sección de configuración.</p><p>**When** el criador introduce nuevos valores límite para los parámetros.</p><p>**Then** el sistema guarda la configuración y la utiliza para generar futuras alertas.</p>|E09|
@@ -1194,19 +1366,45 @@ Para trabajar el Product Backlog, se utilizó la herramienta Trello, la cual se 
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
-<p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p><br>
-<img src="https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png" alt="Domain Message Flow - Cuyes" width="800">
+<p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p>
 
-[Enlace de la imagen aquí](https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png)
+**Monitoreo**
+
+<img src="img/Domain Message Flow - Monitoreo.png" alt="Domain Message Flow - Monitoreo" width="800">
+
+**Seguridad**
+
+<img src="img/Domain Message Flow - Seguridad.png" alt="Domain Message Flow - Seguridad" width="800">
+
+**Brending**
+
+<img src="img/Domain Message Flow - Brending.png" alt="Domain Message Flow - Brending" width="800">
+
+**Consulta**
+
+<img src="img/Domain Message Flow - Consulta.png" alt="Domain Message Flow - Consulta" width="800">
+
+
 
 #### 4.1.1.3 Bounded Context Canvases. 
 
-<p>En este canvas definimos el Bounded Context del sistema de monitoreo para criaderos de cuyes, donde detallamos su propósito, comunicaciones, decisiones clave y lenguaje ubicuo. Representa cómo interactúan sensores, usuarios y alertas dentro del sistema.<p><br>
-<img src="https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png" alt="Bounded Context Canvas - Cuyes" width="900">
+<p>En este canvas definimos el Bounded Context del sistema de monitoreo para criaderos de cuyes, donde detallamos su propósito, comunicaciones, decisiones clave y lenguaje ubicuo. Representa cómo interactúan sensores, usuarios y alertas dentro del sistema.<p>
 
-[Enlace de la imagen aquí](https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png)
+**Monitoreo**
 
-#### 4.1.2. Context Mapping.
+<img src="img/Bounded Context Canvases - Monitoreo.png" alt="Bounded Context Canvases - Monitoreo" width="800">
+
+**Seguridad**
+
+<img src="img/Bounded Context Canvases - Seguridad.png" alt="Bounded Context Canvases - Seguridad" width="800">
+
+**Brending**
+
+<img src="img/Bounded Context Canvases - Brending.png" alt="Bounded Context Canvases - Brending" width="800">
+
+**Consulta**
+
+<img src="img/Bounded Context Canvases - Consulta.png" alt="Bounded Context Canvases - Consulta" width="800">
 
 ### **4.1.2. Context Mapping**
 
@@ -1238,5 +1436,944 @@ Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identif
 **Bounded Context All - Vista Completa**
     <img src="img/bounded_context_all_view.PNG" alt="Bounded Context Consulting" width="800">
 
-## Anexos y Bibliografía 
+### 4.1.3. Software Architecture
 
+
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+
+El presente diagrama representa la vista de *System Landscape* de la solución **AgroCuy**, la cual forma parte de un ecosistema tecnológico orientado a mejorar la crianza y gestión de cuyes a través del uso de tecnologías web, móviles y dispositivos IoT (Arduino).
+
+Esta vista tiene como propósito mostrar los diferentes sistemas de software, dispositivos físicos y usuarios que interactúan entre sí para dar soporte completo a la automatización y asesoramiento de granjas de cuyes.
+
+La plataforma **AgroCuy** actúa como sistema central de integración, permitiendo que los **criadores de cuyes** (*Breeder*) puedan gestionar sus granjas, visualizar datos recolectados en tiempo real y recibir asesoramiento técnico remoto. Del mismo modo, los **asesores técnicos** (*Advisor*) se conectan al sistema para brindar soporte a distancia.
+
+Además, el sistema se integra con:
+
+- **Jitsi Meet**: para generar enlaces de videollamadas donde se llevan a cabo sesiones de asesoría remota.
+- **Firebase Storage**: para el almacenamiento de imágenes u otros archivos multimedia relevantes a la gestión de la granja.
+- **Módulo IoT (Arduino + sensores)**: proporciona la capacidad de recolección automatizada de datos del entorno (temperatura, humedad, etc.) y eventualmente el control de dispositivos como ventiladores o dispensadores automáticos.
+- **Aplicación móvil AgroCuy**: actúa como interfaz directa entre el criador y la plataforma, permitiéndole recibir alertas y monitorear condiciones de su granja desde cualquier lugar.
+
+Este *System Landscape* ofrece una visión clara del entorno digital y físico de AgroCuy, destacando su enfoque integral al combinar asesoría especializada con automatización, en beneficio de los productores rurales.
+
+![Diagrama de sistema AgroCuy](img/grocuy-landscape.png)
+
+
+#### **4.1.3.2. Software Architecture Context Level Diagrams**
+
+El diagrama de contexto presenta una vista de alto nivel del sistema **AgroCuy**, mostrando su relación con los actores humanos y sistemas externos que lo rodean. Este diagrama representa el primer nivel del modelo C4 (Context Diagram), enfocado en identificar **quiénes usan la plataforma y cómo interactúan con ella**, sin entrar aún en los componentes internos.
+
+**AgroCuy** es una plataforma diseñada para brindar apoyo a criadores de cuyes mediante asesoría remota, visualización de datos en tiempo real y automatización mediante sensores IoT conectados a dispositivos Arduino. Desde esta vista, se destaca la interacción directa entre los siguientes elementos:
+
+- **Criador de cuyes (Breeder):** usuario principal del sistema, que accede a AgroCuy para recibir alertas, visualizar datos del entorno de su granja, y comunicarse con asesores técnicos.
+- **Asesor técnico (Advisor):** profesional que brinda soporte y seguimiento al criador a través del sistema.
+- **Sistema de videollamadas (Jitsi Meet):** se usa para agendar y generar reuniones de asesoramiento entre criador y asesor.
+- **Módulo IoT (Arduino + sensores):** dispositivo que recolecta datos de la granja y los transmite hacia AgroCuy para su visualización y análisis.
+- **Aplicación móvil AgroCuy:** interfaz móvil que permite al criador interactuar fácilmente con la plataforma desde su dispositivo.
+
+Esta vista facilita comprender el **alcance del sistema**, sus **límites** y las **interacciones clave** que permiten su funcionamiento, sirviendo como punto de partida para niveles de detalle más específicos como el Container Diagram.
+
+![Diagrama de sistema AgroCuy](img/agrocuy-context2.png)
+
+#### 4.1.3.3. Software Architecture Container Level Diagrams
+
+El Container Diagram representa la segunda capa del modelo C4 para la solución **AgroCuy**, y muestra cómo se estructura el sistema como un conjunto de contenedores: aplicaciones móviles, aplicaciones web, APIs, bases de datos y componentes IoT. Cada contenedor tiene una responsabilidad clara, y se comunica con otros contenedores o sistemas externos mediante interfaces bien definidas, principalmente a través de servicios RESTful.
+
+Esta vista es fundamental para comprender la arquitectura técnica de alto nivel y los puntos de integración del sistema.
+
+### Contenedores principales del sistema AgroCuy
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Contenedor</th>
+      <th>Tecnología</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Web Application</td>
+      <td>Angular</td>
+      <td>Aplicación web utilizada por asesores técnicos para gestionar usuarios y monitorear granjas.</td>
+    </tr>
+    <tr>
+      <td>Mobile Application</td>
+      <td>Flutter</td>
+      <td>Aplicación móvil para criadores, que permite recibir notificaciones y ver información del criadero.</td>
+    </tr>
+    <tr>
+      <td>RESTful API</td>
+      <td>Spring Boot</td>
+      <td>API central que expone los servicios de negocio: autenticación, sensores, usuarios.</td>
+    </tr>
+    <tr>
+      <td>Base de Datos</td>
+      <td>PostgreSQL</td>
+      <td>Repositorio de datos que almacena información de sensores, usuarios, alertas y configuraciones.</td>
+    </tr>
+    <tr>
+      <td>Edge API</td>
+      <td>Python (Flask)</td>
+      <td>API embebida en Raspberry que conecta sensores con la nube.</td>
+    </tr>
+    <tr>
+      <td>Embedded App</td>
+      <td>Arduino C++</td>
+      <td>Firmware instalado en microcontroladores Arduino que recolecta datos del entorno y los envía.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Sistemas externos integrados
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Sistema Externo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firebase Storage</td>
+      <td>Servicio externo para almacenar archivos, imágenes y documentos generados.</td>
+    </tr>
+    <tr>
+      <td>Jitsi Meet</td>
+      <td>Plataforma de videollamadas utilizada para asesoramiento remoto.</td>
+    </tr>
+  </tbody>
+</table>
+
+![Diagrama de sistema AgroCuy](img/Container_Diagram.png)
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams
+
+El Deployment Diagram muestra cómo se distribuyen físicamente los contenedores de la solución AgroCuy en los distintos nodos del entorno de producción. Este diagrama refleja la arquitectura de despliegue real de los componentes, incluyendo servidores, dispositivos IoT, navegadores web, aplicaciones móviles y servicios externos. 
+
+El objetivo es evidenciar dónde y cómo se ejecutan los elementos del sistema en la infraestructura final, asegurando su conectividad, interoperabilidad y funcionamiento distribuido.
+
+### Nodos de despliegue y componentes
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Nodo</strong></th>
+      <th><strong>Contenedores/Sistemas desplegados</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Servidor Cloud</td>
+      <td>RESTful API, Base de Datos</td>
+    </tr>
+    <tr>
+      <td>Raspberry Pi</td>
+      <td>Edge API (Gateway IoT)</td>
+    </tr>
+    <tr>
+      <td>Arduino (Microcontrolador)</td>
+      <td>Embedded App (Firmware para sensores)</td>
+    </tr>
+    <tr>
+      <td>Navegador Web</td>
+      <td>Web Application (Angular)</td>
+    </tr>
+    <tr>
+      <td>Smartphone Android</td>
+      <td>Mobile Application (Flutter)</td>
+    </tr>
+    <tr>
+      <td>Servicios Externos</td>
+      <td>Firebase Storage, Jitsi Meet</td>
+    </tr>
+  </tbody>
+</table>
+
+![Diagrama de sistema AgroCuy](img/Deployment_Diagram.png)
+
+## 4.2. Tactical-Level Domain-Driven Design
+
+<br><br>
+
+### 4.2.1. Bounded Context: Security
+### 4.2.1.1. Domain Layer
+A continuación, se presenta la organización del Domain Layer siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+<br>
+
+## Aggregate
+
+<table>
+  <thead>
+    <tr>
+      <th>Entidad</th>
+      <th>Atributos Clave</th>
+      <th>Value Objects Asociados</th>
+      <th>Métodos / Reglas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Usuario</td>
+      <td>id, nombre, email, contraseña, tipoPerfil, roles, granjas</td>
+      <td>Rol, Permiso, Perfil</td>
+      <td>
+        autenticarUsuario()<br>
+        asignarRol()<br>
+        agregarGranja()<br>
+        definirTipoPerfil()<br>
+        obtenerPerfil()<br>
+        validarPerfilUnico()<br>
+        esAsesor()<br>
+        esCriador()
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Value Objects
+
+<table>
+  <thead>
+    <tr>
+      <th>VO</th>
+      <th>Atributos</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rol</td>
+      <td>id, nombre, permisos</td>
+      <td>Define conjunto de permisos asignables a un usuario</td>
+    </tr>
+    <tr>
+      <td>Permiso</td>
+      <td>id, nombre, descripcion</td>
+      <td>Acción específica que puede ejecutar un usuario</td>
+    </tr>
+    <tr>
+      <td>Perfil</td>
+      <td>nombre, email, tipoPerfil, especialidad, ubicacion</td>
+      <td>Datos públicos del usuario expuestos a otros contextos</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Domain Services
+
+<table>
+  <thead>
+    <tr>
+      <th>Servicio</th>
+      <th>Métodos</th>
+      <th>Responsabilidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SecurityManagementService</td>
+      <td>
+        autenticarUsuario()<br>
+        registrarUsuario()<br>
+        asignarRol()<br>
+        validarPermiso()<br>
+        obtenerPerfil()<br>
+        listarUsuariosPorTipo()
+      </td>
+      <td>Orquestación de operaciones de seguridad</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Repositories
+
+<table>
+  <thead>
+    <tr><th>Repositorio</th><th>Métodos</th><th>Entidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UserRepository</td>
+      <td>
+        findById(),<br/>
+        findByEmail(),<br/>
+        findByTipoPerfil(),<br/>
+        save(),<br/>
+        deleteById()
+      </td>
+      <td>Usuario</td>
+    </tr>
+    <tr>
+      <td>RolRepository</td>
+      <td>
+        findByNombre(),<br/>
+        save(),<br/>
+        deleteById()
+      </td>
+      <td>Rol</td>
+    </tr>
+    <tr>
+      <td>PermisoRepository</td>
+      <td>
+        findByNombre(),<br/>
+        save(),<br/>
+        deleteById()
+      </td>
+      <td>Permiso</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.2.1.2. Interface Layer
+
+En esta sección, presentamos la Capa de Interfaz de nuestra plataforma de AgroConnect para la gestión de seguridad. Representa el punto de entrada para las interacciones entre los usuarios (criadores y asesores técnicos) y el sistema. Está compuesta por una serie de controladores que manejan las peticiones entrantes de los usuarios y devuelven las respuestas adecuadas, permitiendo una comunicación efectiva entre la plataforma y sus usuarios o bounded contexts consumidores.
+
+El contexto de esta capa incluye cuatro controladores principales: `UserController`, `SensorController`, `PermissionController` y `GranjaController`. Estos controladores son responsables de gestionar operaciones sobre usuarios, autenticación, sensores, permisos y granjas vinculadas.
+
+
+## Controladores
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">UserController</th>
+    <th style="width:50%;">PermissionController</th>
+  </tr>
+  <tr>
+    <td>
+      + authenticateUser(email, password): TokenDto<br/>
+      + registerUser(usuarioDto): ResponseEntity<br/>
+      + getAllUsers(): List&lt;UsuarioDto&gt;<br/>
+      + updateUser(id, usuarioDto): UsuarioDto<br/>
+      + deleteUser(id): ResponseEntity<br/>
+      + getPerfilUsuario(id): PerfilDto<br/>
+      + getUsuariosPorTipo(tipoPerfil): List&lt;UsuarioDto&gt;
+    </td>
+    <td>
+      + getAllPermissions(): List&lt;PermisoDto&gt;<br/>
+      + assignPermissionToUser(userId, permisoId): ResponseEntity<br/>
+      + removePermissionFromUser(userId, permisoId): ResponseEntity
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">SensorController</th>
+    <th style="width:50%;">GranjaController</th>
+  </tr>
+  <tr>
+    <td>
+      + getAllSensors(): List&lt;SensorDto&gt;<br/>
+      + addSensor(sensorDto): ResponseEntity<br/>
+      + updateSensor(id, sensorDto): SensorDto<br/>
+      + deleteSensor(id): ResponseEntity
+    </td>
+    <td>
+      + getGranjasByUsuario(usuarioId): List&lt;GranjaDto&gt;<br/>
+      + addGranja(granjaDto): ResponseEntity<br/>
+      + updateGranja(id, granjaDto): GranjaDto<br/>
+      + deleteGranja(id): ResponseEntity
+    </td>
+  </tr>
+</table>
+
+### 4.2.1.3. Application Layer
+
+En esta sección, se presenta la Capa de Aplicación (Application Layer) del contexto de Seguridad de AgroConnect. Esta capa actúa como intermediaria entre la lógica de dominio y la infraestructura, orquestando el flujo de datos para realizar operaciones como el registro, autenticación y manejo de perfiles.
+
+Se definen tanto Command Handlers como Event Handlers, los cuales coordinan los servicios relevantes para ejecutar acciones específicas del sistema, como asignar roles, generar perfiles o responder a eventos de login/logout.
+
+---
+
+## Handlers
+
+<table border="1" style="width:100%; text-align:left; background-color:#ffffe0;">
+  <tr>
+    <th style="width:50%;">UserRegistrationCommandHandler</th>
+    <th style="width:50%;">AssignRoleCommandHandler</th>
+  </tr>
+  <tr>
+    <td>
+      + userService: UserService<br/>
+      + handle(RegisterUserCommand command): Usuario
+    </td>
+    <td>
+      + userService: UserService<br/>
+      + handle(AssignRoleCommand command): void
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="1" style="width:100%; text-align:left; background-color:#ffffe0;">
+  <tr>
+    <th style="width:50%;">ProfileRequestedEventHandler</th>
+    <th style="width:50%;">UserLogoutEventHandler</th>
+  </tr>
+  <tr>
+    <td>
+      + userService: UserService<br/>
+      + handle(ProfileRequestedEvent event): Perfil
+    </td>
+    <td>
+      + authService: AuthService<br/>
+      + handle(UserLoggedOutEvent event): void
+    </td>
+  </tr>
+</table>
+
+### 4.2.1.4. Infrastructure Layer
+
+En esta sección, se presenta la Capa de Infraestructura (Infrastructure Layer) dentro del contexto de Seguridad de AgroConnect. Esta capa proporciona los componentes técnicos y de soporte que permiten la interacción con bases de datos, servicios de autenticación y almacenamiento de perfiles. 
+
+Su función principal es implementar los contratos definidos en el dominio y permitir la persistencia de los datos relacionados con usuarios, roles, permisos y sensores. Además, se asegura de que la lógica de seguridad y autenticación funcione correctamente en conjunto con tecnologías como Spring Security y OAuth 2.0.
+
+Los repositorios definidos en esta capa utilizan frameworks como Spring Data JPA para la persistencia, y representan un puente entre la lógica de negocio y el almacenamiento físico de datos.
+<br>
+## Repositorios
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">UserRepository</th>
+    <th style="width:50%;">RoleRepository</th>
+  </tr>
+  <tr>
+    <td>
+      + findById(userId: UUID): Usuario<br/>
+      + findByEmail(email: String): Usuario<br/>
+      + findByTipoPerfil(tipoPerfil: Enum): List&lt;Usuario&gt;<br/>
+      + save(usuario: Usuario): void<br/>
+      + deleteById(userId: UUID): void
+    </td>
+    <td>
+      + findByNombre(nombre: String): Rol<br/>
+      + save(rol: Rol): void<br/>
+      + deleteById(rolId: UUID): void
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">PermisoRepository</th>
+    <th style="width:50%;">SensorRepository</th>
+  </tr>
+  <tr>
+    <td>
+      + findByNombre(nombre: String): Permiso<br/>
+      + save(permiso: Permiso): void<br/>
+      + deleteById(permisoId: UUID): void
+    </td>
+    <td>
+      + findById(sensorId: UUID): Sensor<br/>
+      + findByTipo(tipo: String): List&lt;Sensor&gt;<br/>
+      + save(sensor: Sensor): void<br/>
+      + deleteById(sensorId: UUID): void
+    </td>
+  </tr>
+</table>
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/Security_Diagram.png" alt="Security Component Diagram" width="800">
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+En esta sección se presenta el diagrama de diseño de base de datos del contexto de seguridad. El modelo de datos refleja la estructura de las entidades y sus relaciones a través de claves primarias y foráneas. Este diseño asegura la integridad referencial entre los usuarios, roles, permisos y sensores.
+
+<img src="img/Security_UML.png" alt="Security Component Diagram" width="800">
+
+
+### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+El sistema diferencia principalmente entre dos tipos de usuarios: **criadores** y **asesores técnicos**, cada uno con **niveles de acceso diferenciados**. Los criadores están vinculados directamente con las **granjas**, las cuales agrupan sensores físicos que recolectan información clave sobre las condiciones de crianza de los cuyes. Por su parte, los asesores técnicos pueden acceder a información crítica a través de permisos específicos y validaciones de seguridad.
+
+<img src="img/Security_dbDiagram.png" alt="Security Component Diagram" width="800">
+
+<br><br>
+
+### 4.2.2. Bounded Context: Monitoring
+
+#### 4.2.2.1. Domain Layer
+
+A continuación, se presenta la organización del Domain Layer para el Bounded Context "Monitoring", siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+
+<br/>
+
+##### Aggregate
+
+| Entidad         | Atributos Clave                                          | Métodos                |
+|------------------|----------------------------------------------------------|------------------------|
+| MonitoringEvent  | id, type (EventType), message, severity (SeverityLevel), createdAt | alertIfCritical(), isRelevantEvent() |
+
+---
+
+##### Value Objects
+
+| VO             | Atributos               | Descripción                                                                 |
+|----------------|--------------------------|------------------------------------------------------------------------------|
+| EventType      | name                     | Tipo de evento generado en el sistema (AnimalHealth, CageTemp, AppointmentMissed) |
+| SeverityLevel  | CRITICAL, WARNING, INFO  | Clasificación del nivel de importancia de cada evento monitoreado           |
+
+---
+
+##### Domain Services
+
+| Servicio           | Métodos                                                                                   | Responsabilidad                                                      |
+|--------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| MonitoringService  | registrarEvento(), obtenerEventosCriticos(), filtrarPorTipo(), enviarAlertaSiEsNecesario() | Gestiona la lógica de registro y clasificación de eventos relevantes |
+
+---
+
+##### Repositories
+
+| Repositorio               | Métodos                                                       | Entidad          |
+|---------------------------|----------------------------------------------------------------|------------------|
+| MonitoringEventRepository | findAll(), findBySeverity(), findByType(), save(), deleteById() | MonitoringEvent  |
+
+---
+
+#### 4.2.2.2. Interface Layer
+
+La capa de interfaz define los puntos de entrada HTTP para registrar nuevos eventos del sistema, consultar alertas críticas y filtrar eventos por tipo o nivel de severidad.
+
+##### Controladores
+
+| Controlador           | Operaciones                                                                                               |
+|-----------------------|-----------------------------------------------------------------------------------------------------------|
+| MonitoringController  | + registerEvent(eventDto)<br/> + getAllEvents()<br/> + getEventsByType(type)<br/> + getCriticalEvents()<br/> + deleteEvent(id) |
+
+---
+
+#### 4.2.2.3. Application Layer
+
+Esta capa orquesta la ejecución de los casos de uso de monitoreo, incluyendo el registro de eventos, recuperación de registros y ejecución de alertas ante eventos críticos.
+
+##### Handlers
+
+| Handler                          | Método                                        | Descripción                                                             |
+|----------------------------------|-----------------------------------------------|-------------------------------------------------------------------------|
+| RegisterEventCommandHandler      | handle(RegisterEventCommand)                 | Registra un nuevo evento de monitoreo                                   |
+| GetCriticalEventsQueryHandler    | handle(GetCriticalEventsQuery)               | Obtiene todos los eventos con severidad CRITICAL                        |
+| GetEventsByTypeQueryHandler      | handle(GetEventsByTypeQuery)                 | Filtra los eventos según su tipo                                        |
+| DeleteEventCommandHandler        | handle(DeleteEventCommand)                   | Elimina un evento registrado                                            |
+
+---
+
+#### 4.2.2.4. Infrastructure Layer
+
+Esta capa proporciona acceso a persistencia e integración con otros contextos que emiten eventos relevantes. Implementa los contratos definidos en el dominio y comunica la lógica de monitoreo con la base de datos o servicios externos.
+
+##### Repositorios
+
+| Repositorio               | Métodos                                                                   |
+|---------------------------|----------------------------------------------------------------------------|
+| MonitoringEventRepository | findAll(), findByType(type), findBySeverity(level), save(event), deleteById(id) |
+
+---
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/monitoring_component_diagram.png" alt="Monitoring Component Diagram" width="800">
+
+---
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="img/class_diagram_monitoring.png" alt="Monitoring Class Diagram" width="800">
+
+---
+
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+<img src="img/database_monitoring.png" alt="Monitoring Database Diagram" width="800">
+
+
+<br><br>
+
+### 4.2.3. Bounded Context: Consulting <Bounded Context Consulting>
+### 4.2.3.1. Domain Layer
+A continuación, se presenta la organización del Domain Layer siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+
+## Aggregate
+
+<table>
+  <thead>
+    <tr><th>Entidad</th><th>Atributos Clave</th><th>Métodos</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Asesoria </td>
+      <td>
+        id, date, status, title, breederId, advisor_id
+      </td>
+      <td>
+        getAppointment(),
+        updateAppointment()
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Value Objects
+
+<table>
+  <thead>
+    <tr>
+      <th>VO</th>
+      <th>Atributos</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>DateAppointment.java</code></td>
+      <td><code>date</code></td>
+      <td>Define la fecha de cada cita</td>
+    </tr>
+    <tr>
+      <td><code>Status.java</code></td>
+      <td><code>PENDIENTE, TERMINADO</code></td>
+      <td>Define el estatus de cada cita</td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
+
+## Domain Services
+
+<table>
+  <thead>
+    <tr><th>Servicio</th><th>Métodos</th><th>Responsabilidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ConsultingCommandService</td>
+      <td>
+        CreateConsultingCommand(),<br/>
+        UpdateConsultingCommand (),<br/>
+        DeleteConsultingCommand()
+      </td>
+      <td>Este servicio define la lógica para crear, actualizar y eliminar publicaciones a partir de comandos específicos, siguiendo el patrón Command Handler en una arquitectura orientada al dominio (DDD)</td>
+    </tr>
+    <tr>
+      <td>ConsultingQueryService</td>
+      <td>
+        GetAllConsultingQuery(),<br/>
+        GetConsultingByIdQuery(),<br/>
+        GetConsultingByAdvisorIdQuery()
+      </td>
+      <td>Este servicio representa el módulo de consultas (Query Service) del patrón CQRS, y se encarga de recuperar publicaciones mediante distintos criterios (todas, por ID o por asesor), sin modificar el estado del sistema.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Repositories
+
+<table> <thead> <tr> <th>Repositorio</th> <th>Métodos</th> <th>Entidad</th> </tr> </thead> <tbody> <tr> <td>ConsultingRepository</td> <td> save(Consulting consulting),<br/> findById(Long id),<br/> findAll(),<br/> deleteById(Long id),<br/> findAllByAdvisorId(Long advisorId),<br/> findAllByBreederId(Long farmerId) </td> <td>Consulting</td> </tr> </tbody> </table>
+
+### 4.2.3.2. Interface Layer
+Esta capa expone las funcionalidades del contexto Assessment a través de un controlador principal. Este controlador gestiona las operaciones CRUD y las consultas disponibles.
+
+<table border="1" style="width:100%; text-align:left;"> <tr> <th style="width:50%;">ConsultingController</th> </tr> <tr> <td> + createConsulting(resource): ResponseEntity&lt;ConsultingResource&gt;<br/> + getAllConsultings(): ResponseEntity&lt;List&lt;ConsultingResource&gt;&gt;<br/> + getConsultingById(consultingId): ResponseEntity&lt;ConsultingResource&gt;<br/> + getConsultingsByAdvisorId(advisorId): ResponseEntity&lt;List&lt;ConsultingResource&gt;&gt;<br/> + getConsultingsByFarmerId(farmerId): ResponseEntity&lt;List&lt;ConsultingResource&gt;&gt;<br/> + updateConsulting(consultingId, resource): ResponseEntity&lt;ConsultingResource&gt;<br/> + deleteConsulting(consultingId): ResponseEntity&lt;Void&gt; </td> </tr> </table>
+
+### 4.2.3.3. Application Layer
+
+La Capa de Aplicación se encarga de orquestar la ejecución de los casos de uso definidos en el dominio. En esta sección se describen los servicios de comandos y consultas (handlers) que procesan los distintos flujos relacionados con la gestión de consultorías.
+
+<table border="1" style="width:100%; text-align:left;"> <tr> <th style="width:50%;">ConsultingCommandServiceImpl</th> </tr> <tr> <td> + handle(CreateConsultingCommand command): Long </td> <td> Crea una nueva consultoría entre un asesor técnico y un criador, y la guarda en la base de datos. </td> </tr> <tr> <td> + handle(UpdateConsultingCommand command): Long </td> <td> Actualiza el contenido, fecha o detalles de una consultoría existente. </td> </tr> <tr> <td> + handle(DeleteConsultingCommand command): void </td> <td> Elimina una consultoría del sistema si existe. </td> </tr> </table> <br/> <table border="1" style="width:100%; text-align:left;"> <tr> <th style="width:50%;">ConsultingQueryServiceImpl</th> </tr> <tr> <td> + handle(GetAllConsultingsQuery query): List&lt;Consulting&gt; </td> <td> Recupera la lista completa de consultorías registradas. </td> </tr> <tr> <td> + handle(GetConsultingByIdQuery query): Optional&lt;Consulting&gt; </td> <td> Obtiene una consultoría específica según su identificador único. </td> </tr> <tr> <td> + handle(GetConsultingsByAdvisorIdQuery query): List&lt;Consulting&gt; </td> <td> Devuelve todas las consultorías asociadas a un asesor técnico específico. </td> </tr> <tr> <td> + handle(GetConsultingsByFarmerIdQuery query): List&lt;Consulting&gt; </td> <td> Devuelve todas las consultorías asociadas a un criador específico. </td> </tr> </table>
+
+
+### 4.2.3.4. Infrastructure Layer
+<table> <thead> <tr><th>Repositorio</th><th>Métodos</th><th>Entidad</th></tr> </thead> <tbody> <tr> <td>ConsultingRepository</td> <td> findAllByAdvisorId()<br/> findAllByFarmerId() </td> <td>Consulting</td> </tr> </tbody> </table>
+
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/Appointment_Component_Diagram (1).png" alt="Read Models" width="800">
+
+### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="img/class_diagram_appointment.png" alt="Read Models" width="800">
+
+### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+<img src="img/Appointment_database_diagram.png" alt="Read Models" width="800">
+
+<br><br>
+
+### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.X.1. Domain Layer
+### 4.2.X.2. Interface Layer
+### 4.2.X.3. Application Layer
+### 4.2.X.4. Infrastructure Layer
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.X.6.2. Bounded Context Database Design Diagram
+<br><br>
+
+### 4.2.5. Bounded Context: Publication
+
+### 4.2.5.1. Domain Layer
+
+A continuación, se presenta la organización del Domain Layer siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+
+<br>
+
+## Aggregate
+
+<table>
+  <thead>
+    <tr><th>Entidad</th><th>Atributos Clave</th><th>Métodos</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Publication </td>
+      <td>
+        title, description, image, advisor_id
+      </td>
+      <td>
+        updatePublicationContent()
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Value Objects
+
+<table>
+  <thead>
+    <tr><th>VO</th><th>Atributos</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PublicationContent.java</td>
+      <td>title, descrition, image</td>
+      <td>Define el contenido de cada publicación</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Domain Services
+
+<table>
+  <thead>
+    <tr><th>Servicio</th><th>Métodos</th><th>Responsabilidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PublicationCommandService</td>
+      <td>
+        CreatePublicationCommand(),<br/>
+        UpdatePublicationCommand (),<br/>
+        DeletePublicationCommand()
+      </td>
+      <td>Este servicio define la lógica para crear, actualizar y eliminar publicaciones a partir de comandos específicos, siguiendo el patrón Command Handler en una arquitectura orientada al dominio (DDD)</td>
+    </tr>
+    <tr>
+      <td>PublicationQueryService</td>
+      <td>
+        GetAllPublicationsQuery(),<br/>
+        GetPublicationByIdQuery(),<br/>
+        GetPublicationsByAdvisorIdQuery()
+      </td>
+      <td>Este servicio representa el módulo de consultas (Query Service) del patrón CQRS, y se encarga de recuperar publicaciones mediante distintos criterios (todas, por ID o por asesor), sin modificar el estado del sistema.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.2.5.2. Interface Layer
+
+En esta sección se describe la Capa de Interfaz de la plataforma AgroConnect, específicamente para la gestión de publicaciones. Se destaca el controlador PublicationsController, que permite a los asesores técnicos publicar contenido relacionado a su experiencia o conocimientos, lo cual contribuye a visibilizar su perfil profesional y atraer a potenciales criadores interesados en sus servicios.
+
+El contexto de esta capa incluye un controlador principal: `PublicationsController`
+
+## Controladores
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">PublicationsController</th>
+  </tr>
+  <tr>
+    <td>
+      + createPublication(resource): ResponseEntity<-PublicationResource><br/>
+      + getAllPublications(): ResponseEntity<-List<-PublicationResource>><br/>
+      + getPublicationById(publicationId): ResponseEntity<-PublicationResource><br/>
+      + updatePublication(publicationId, resource): ResponseEntity<-PublicationResource><br/>
+      + deletePublication(publicationId): ResponseEntity<br/>
+    </td>
+  </tr>
+</table>
+
+### 4.2.5.3. Application Layer
+
+La Capa de Aplicación se encarga de orquestar la ejecución de los casos de uso definidos en el dominio. En esta sección se describen los servicios de comandos y consultas (handlers) que procesan los distintos flujos relacionados con la gestión de publicaciones.
+
+---
+
+## Handlers
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">PublicationCommandServiceImpl</th>
+  </tr>
+  <tr>
+    <td>
+      + handle(CreatePublicationCommand command): Long
+    </td>
+    <td>
+      Crea una nueva publicación asociada a un asesor y la guarda en la base de datos.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      + handle(UpdatePublicationCommand command): Long
+    </td>
+    <td>
+      Actualiza el contenido, título o imagen de una publicación existente.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      + handle(DeletePublicationCommand command): void
+    </td>
+    <td>
+      Elimina una publicación del repositorio si existe.
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table border="1" style="width:100%; text-align:left;">
+  <tr>
+    <th style="width:50%;">PublicationQueryServiceImpl</th>
+  </tr>
+  <tr>
+    <td>
+      + handle(GetAllPublicationsQuery query): List&lt;Publication&gt;
+    </td>
+    <td>
+      Recupera la lista completa de publicaciones registradas.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      + handle(GetPublicationByIdQuery query): Optional&lt;Publication&gt;
+    </td>
+    <td>
+      Obtiene una publicación específica según su identificador único.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      + handle(GetPublicationsByAdvisorIdQuery query): List&lt;Publication&gt;
+    </td>
+    <td>
+      Devuelve todas las publicaciones asociadas a un asesor técnico específico.
+    </td>
+  </tr>
+</table>
+
+
+### 4.2.5.4. Infrastructure Layer
+
+En esta sección se describe la Capa de Infraestructura de la funcionalidad de publicaciones en la plataforma AgroConnect. Esta capa se encarga de la persistencia de datos, es decir, de comunicar el dominio con el sistema de almacenamiento (base de datos). Aquí se encuentran los repositorios JPA, que permiten ejecutar operaciones CRUD de forma declarativa sobre las entidades del dominio.
+
+#### Repositories
+
+<table>
+  <thead>
+    <tr><th>Repositorio</th><th>Métodos</th><th>Entidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PublicationRepository</td>
+      <td>
+        findAllByAdvisorId()
+      </td>
+      <td>Repository</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/Publication_Component_Diagram.png" alt="Read Models" width="800">
+
+### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="img/class_diagram_publication.png" alt="Read Models" width="800">
+
+### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+<img src="img/database_diagram_publication.png" alt="Read Models" width="800">
+
+<br><br>
+<br><br>
+
+# Conclusiones
+
+## Avance de Conclusiones y recomendaciones
+
+* La implementación del proceso Lean UX permitió a AgroTech identificar objetivos clave, competidores y necesidades del mercado. Desde la definición de problemas hasta la creación del Lean UX canvas, cada paso mejoró la eficiencia y agilidad en el desarrollo de AgroConnect.
+
+* AgroTech ha realizado un análisis exhaustivo de sus competidores, así como entrevistas y actividades de needfinding para comprender las necesidades de sus usuarios. Lo anteriormente desarrollado se realizó en el capítulo II, dónde se realizó dicha investigación y análisis que aportaron con la creación de una solución como lo es AgroConnect, para que satisfaga las necesidades reales de sus usuarios.
+
+* Los requisitos iniciales del proyecto se identificaron mediante herramientas como empathy mappings, user personas y user stories, que ayudaron a diseñar una experiencia de usuario satisfactoria y optimizar el desarrollo de la aplicación a través de un product backlog priorizado.
+
+# Bibliografía
+
+* Aguilar, G., Bustamante, J., Bazán, V. y Falcón, N. (2011). Diagnóstico situacional de la crianza de cuyes en una zona de Cajamarca. _Revista de Investigaciones Veterinarias del Perú, 22_(1), 09-14. http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S1609-91172011000100002&lng=es&tlng=es
+
+* Guerra, C. (2009). _Manual técnico de crianza de cuyes_. Cedepas. https://www.cedepas.org.pe/sites/default/files/manual_tecnico_de_crianza_de_cuyes.pdf
+
+* Instituto Nacional de Innovación Agraria. (23 de enero de 2023). Razas de cuyes del INIA mejoran un 20% la productividad de la crianza familiar y consumo de carne. _El Peruano_. https://www.elperuano.pe/noticia/225260-razas-de-cuyes-del-inia-mejoran-un-20-la-productividad-de-la-crianza-familiar-y-consumo-de-carne
+
+* Luque, R. (2023). _Meta Tags | Las 7 más importantes en SEO_. SEOcrawl. https://seocrawl.com/meta-tags/
+
+* Ministerio de Desarrollo Agrario y Riego. (2023). _Cadena productiva de cuyes_. https://cdn.www.gob.pe/uploads/document/file/4061856/Cadena%20productiva%20de%20cuy.pdf
+
+* SENASA. (2019). _Cajamarca es el principal productor de cuy en el Perú_. https://www.senasa.gob.pe/senasacontigo/cajamarca-es-el-principal-productor-de-cuy-en-el-peru/
+
+# Anexos
+
+### Anexo N°1: EventStorming - Figma
+
+https://www.figma.com/design/bBQCiFvraA0jM3SFmloKWi/Event-Storming---IoT?node-id=0-1&t=uHqde6eWHW5RX70z-1 
+
+### Anexo N°2: Video Entrevistas - TB1
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMyG21NhDYkWcIYIW4Bqez_n89UYtLGVZP2rhv7wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PqnF4I 
+
+### Anexo N°3: Video Exposicion - TB1
