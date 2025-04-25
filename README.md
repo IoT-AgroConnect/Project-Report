@@ -169,7 +169,7 @@ _Imagen 1. Logo de la aplicación AgroCuy_
     <td valign="top">
       <p><b>Jarama Peñaloza, Fiorella</b></p>
       <p>
-        Descripcion
+        Mi nombre es Fiorella Jarama Peñaloza y soy estudiante de séptimo ciclo de Ingeniería de Software. Me considero una persona apasionada por la tecnología, curiosa y orientada al detalle. Tengo experiencia en Flutter, MySQL, APIs, y estoy en constante aprendizaje sobre Inteligencia Artificial. Mi objetivo es aplicar mis habilidades para desarrollar soluciones innovadoras y eficientes, contribuyendo a proyectos que tengan un impacto positivo y sostenible.
       </p>
     </td>
   </tr>
@@ -180,7 +180,7 @@ _Imagen 1. Logo de la aplicación AgroCuy_
     <td valign="top">
       <p><b>Lucas Coronel, Nadia Alessandra</b></p>
       <p>
-        Mi nombre es Fiorella Jarama Peñaloza y soy estudiante de séptimo ciclo de Ingeniería de Software. Me considero una persona apasionada por la tecnología, curiosa y orientada al detalle. Tengo experiencia en Flutter, MySQL, APIs, y estoy en constante aprendizaje sobre Inteligencia Artificial. Mi objetivo es aplicar mis habilidades para desarrollar soluciones innovadoras y eficientes, contribuyendo a proyectos que tengan un impacto positivo y sostenible.
+        Mi nombre es Nadia Alessandra Lucas Coronel y soy estudiante de octavo ciclo de la carrera de Ingeniería de Software. Me considero una persona entusiasta, perseverante y responsable. Cuento con conocimientos en SQL, C++, Python, HTML, CSS, JavaScript, despligue y metodologías ágiles. Me comprometo a aplicar mis conocimientos de manera efectiva para contribuir al desarrollo de soluciones de software de alta calidad.
       </p>
     </td>
   </tr>
@@ -1242,18 +1242,45 @@ Para trabajar el Product Backlog, se utilizó la herramienta Trello, la cual se 
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
-<p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p><br>
-<img src="https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png" alt="Domain Message Flow - Cuyes" width="800">
+<p>Este gráfico muestra cómo el usuario interactúa con el sistema para monitorear a sus cuyes. A través de la interfaz web/app, se solicita información del criadero y los parámetros medidos, la cual es obtenida desde sensores IoT. Si se detecta un valor fuera de rango, se activa una alerta y se notifica al usuario en tiempo real.<p>
 
-[Enlace de la imagen aquí](https://i.postimg.cc/J4LXYMxV/Domain-Message-Flow-drawio.png)
+**Monitoreo**
+
+<img src="img/Domain Message Flow - Monitoreo.png" alt="Domain Message Flow - Monitoreo" width="800">
+
+**Seguridad**
+
+<img src="img/Domain Message Flow - Seguridad.png" alt="Domain Message Flow - Seguridad" width="800">
+
+**Brending**
+
+<img src="img/Domain Message Flow - Brending.png" alt="Domain Message Flow - Brending" width="800">
+
+**Consulta**
+
+<img src="img/Domain Message Flow - Consulta.png" alt="Domain Message Flow - Consulta" width="800">
+
+
 
 #### 4.1.1.3 Bounded Context Canvases. 
 
-<p>En este canvas definimos el Bounded Context del sistema de monitoreo para criaderos de cuyes, donde detallamos su propósito, comunicaciones, decisiones clave y lenguaje ubicuo. Representa cómo interactúan sensores, usuarios y alertas dentro del sistema.<p><br>
-<img src="https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png" alt="Bounded Context Canvas - Cuyes" width="900">
+<p>En este canvas definimos el Bounded Context del sistema de monitoreo para criaderos de cuyes, donde detallamos su propósito, comunicaciones, decisiones clave y lenguaje ubicuo. Representa cómo interactúan sensores, usuarios y alertas dentro del sistema.<p>
 
-[Enlace de la imagen aquí](https://i.postimg.cc/HjDFXV1L/Bounded-Context-Canvases.png)
+**Monitoreo**
 
+<img src="img/Bounded Context Canvases - Monitoreo.png" alt="Bounded Context Canvases - Monitoreo" width="800">
+
+**Seguridad**
+
+<img src="img/Bounded Context Canvases - Seguridad.png" alt="Bounded Context Canvases - Seguridad" width="800">
+
+**Brending**
+
+<img src="img/Bounded Context Canvases - Brending.png" alt="Bounded Context Canvases - Brending" width="800">
+
+**Consulta**
+
+<img src="img/Bounded Context Canvases - Consulta.png" alt="Bounded Context Canvases - Consulta" width="800">
 
 ### **4.1.2. Context Mapping**
 
@@ -1285,13 +1312,162 @@ Este mapeo nos ayuda a establecer relaciones claras entre los contextos, identif
 **Bounded Context All - Vista Completa**
     <img src="img/bounded_context_all_view.PNG" alt="Bounded Context Consulting" width="800">
 
-## 4.1.3. Software Architecture
-### 4.1.3.1. Software Architecture System Landscape Diagram
-### 4.1.3.1. Software Architecture Context Level Diagrams
-### 4.1.3.1. Software Architecture Container Level Diagrams
-### 4.1.3.1. Software Architecture Deploymeny Diagrams
+### 4.1.3. Software Architecture
 
-<br>
+
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+
+El presente diagrama representa la vista de *System Landscape* de la solución **AgroCuy**, la cual forma parte de un ecosistema tecnológico orientado a mejorar la crianza y gestión de cuyes a través del uso de tecnologías web, móviles y dispositivos IoT (Arduino).
+
+Esta vista tiene como propósito mostrar los diferentes sistemas de software, dispositivos físicos y usuarios que interactúan entre sí para dar soporte completo a la automatización y asesoramiento de granjas de cuyes.
+
+La plataforma **AgroCuy** actúa como sistema central de integración, permitiendo que los **criadores de cuyes** (*Breeder*) puedan gestionar sus granjas, visualizar datos recolectados en tiempo real y recibir asesoramiento técnico remoto. Del mismo modo, los **asesores técnicos** (*Advisor*) se conectan al sistema para brindar soporte a distancia.
+
+Además, el sistema se integra con:
+
+- **Jitsi Meet**: para generar enlaces de videollamadas donde se llevan a cabo sesiones de asesoría remota.
+- **Firebase Storage**: para el almacenamiento de imágenes u otros archivos multimedia relevantes a la gestión de la granja.
+- **Módulo IoT (Arduino + sensores)**: proporciona la capacidad de recolección automatizada de datos del entorno (temperatura, humedad, etc.) y eventualmente el control de dispositivos como ventiladores o dispensadores automáticos.
+- **Aplicación móvil AgroCuy**: actúa como interfaz directa entre el criador y la plataforma, permitiéndole recibir alertas y monitorear condiciones de su granja desde cualquier lugar.
+
+Este *System Landscape* ofrece una visión clara del entorno digital y físico de AgroCuy, destacando su enfoque integral al combinar asesoría especializada con automatización, en beneficio de los productores rurales.
+
+![Diagrama de sistema AgroCuy](img/grocuy-landscape.png)
+
+
+#### **4.1.3.2. Software Architecture Context Level Diagrams**
+
+El diagrama de contexto presenta una vista de alto nivel del sistema **AgroCuy**, mostrando su relación con los actores humanos y sistemas externos que lo rodean. Este diagrama representa el primer nivel del modelo C4 (Context Diagram), enfocado en identificar **quiénes usan la plataforma y cómo interactúan con ella**, sin entrar aún en los componentes internos.
+
+**AgroCuy** es una plataforma diseñada para brindar apoyo a criadores de cuyes mediante asesoría remota, visualización de datos en tiempo real y automatización mediante sensores IoT conectados a dispositivos Arduino. Desde esta vista, se destaca la interacción directa entre los siguientes elementos:
+
+- **Criador de cuyes (Breeder):** usuario principal del sistema, que accede a AgroCuy para recibir alertas, visualizar datos del entorno de su granja, y comunicarse con asesores técnicos.
+- **Asesor técnico (Advisor):** profesional que brinda soporte y seguimiento al criador a través del sistema.
+- **Sistema de videollamadas (Jitsi Meet):** se usa para agendar y generar reuniones de asesoramiento entre criador y asesor.
+- **Módulo IoT (Arduino + sensores):** dispositivo que recolecta datos de la granja y los transmite hacia AgroCuy para su visualización y análisis.
+- **Aplicación móvil AgroCuy:** interfaz móvil que permite al criador interactuar fácilmente con la plataforma desde su dispositivo.
+
+Esta vista facilita comprender el **alcance del sistema**, sus **límites** y las **interacciones clave** que permiten su funcionamiento, sirviendo como punto de partida para niveles de detalle más específicos como el Container Diagram.
+
+![Diagrama de sistema AgroCuy](img/agrocuy-context2.png)
+
+#### 4.1.3.3. Software Architecture Container Level Diagrams
+
+El Container Diagram representa la segunda capa del modelo C4 para la solución **AgroCuy**, y muestra cómo se estructura el sistema como un conjunto de contenedores: aplicaciones móviles, aplicaciones web, APIs, bases de datos y componentes IoT. Cada contenedor tiene una responsabilidad clara, y se comunica con otros contenedores o sistemas externos mediante interfaces bien definidas, principalmente a través de servicios RESTful.
+
+Esta vista es fundamental para comprender la arquitectura técnica de alto nivel y los puntos de integración del sistema.
+
+### Contenedores principales del sistema AgroCuy
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Contenedor</th>
+      <th>Tecnología</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Web Application</td>
+      <td>Angular</td>
+      <td>Aplicación web utilizada por asesores técnicos para gestionar usuarios y monitorear granjas.</td>
+    </tr>
+    <tr>
+      <td>Mobile Application</td>
+      <td>Flutter</td>
+      <td>Aplicación móvil para criadores, que permite recibir notificaciones y ver información del criadero.</td>
+    </tr>
+    <tr>
+      <td>RESTful API</td>
+      <td>Spring Boot</td>
+      <td>API central que expone los servicios de negocio: autenticación, sensores, usuarios.</td>
+    </tr>
+    <tr>
+      <td>Base de Datos</td>
+      <td>PostgreSQL</td>
+      <td>Repositorio de datos que almacena información de sensores, usuarios, alertas y configuraciones.</td>
+    </tr>
+    <tr>
+      <td>Edge API</td>
+      <td>Python (Flask)</td>
+      <td>API embebida en Raspberry que conecta sensores con la nube.</td>
+    </tr>
+    <tr>
+      <td>Embedded App</td>
+      <td>Arduino C++</td>
+      <td>Firmware instalado en microcontroladores Arduino que recolecta datos del entorno y los envía.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Sistemas externos integrados
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Sistema Externo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firebase Storage</td>
+      <td>Servicio externo para almacenar archivos, imágenes y documentos generados.</td>
+    </tr>
+    <tr>
+      <td>Jitsi Meet</td>
+      <td>Plataforma de videollamadas utilizada para asesoramiento remoto.</td>
+    </tr>
+  </tbody>
+</table>
+
+![Diagrama de sistema AgroCuy](img/Container_Diagram.png)
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams
+
+El Deployment Diagram muestra cómo se distribuyen físicamente los contenedores de la solución AgroCuy en los distintos nodos del entorno de producción. Este diagrama refleja la arquitectura de despliegue real de los componentes, incluyendo servidores, dispositivos IoT, navegadores web, aplicaciones móviles y servicios externos. 
+
+El objetivo es evidenciar dónde y cómo se ejecutan los elementos del sistema en la infraestructura final, asegurando su conectividad, interoperabilidad y funcionamiento distribuido.
+
+### Nodos de despliegue y componentes
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Nodo</strong></th>
+      <th><strong>Contenedores/Sistemas desplegados</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Servidor Cloud</td>
+      <td>RESTful API, Base de Datos</td>
+    </tr>
+    <tr>
+      <td>Raspberry Pi</td>
+      <td>Edge API (Gateway IoT)</td>
+    </tr>
+    <tr>
+      <td>Arduino (Microcontrolador)</td>
+      <td>Embedded App (Firmware para sensores)</td>
+    </tr>
+    <tr>
+      <td>Navegador Web</td>
+      <td>Web Application (Angular)</td>
+    </tr>
+    <tr>
+      <td>Smartphone Android</td>
+      <td>Mobile Application (Flutter)</td>
+    </tr>
+    <tr>
+      <td>Servicios Externos</td>
+      <td>Firebase Storage, Jitsi Meet</td>
+    </tr>
+  </tbody>
+</table>
+
+![Diagrama de sistema AgroCuy](img/Deployment_Diagram.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
@@ -1306,22 +1482,27 @@ A continuación, se presenta la organización del Domain Layer siguiendo la estr
 
 <table>
   <thead>
-    <tr><th>Entidad</th><th>Atributos Clave</th><th>Métodos</th></tr>
+    <tr>
+      <th>Entidad</th>
+      <th>Atributos Clave</th>
+      <th>Value Objects Asociados</th>
+      <th>Métodos / Reglas</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
       <td>Usuario</td>
+      <td>id, nombre, email, contraseña, tipoPerfil, roles, granjas</td>
+      <td>Rol, Permiso, Perfil</td>
       <td>
-        id, nombre, email, contraseña,<br/>
-        tipoPerfil (CRIADOR, ASESOR_TECNICO),<br/>
-        roles, granjas
-      </td>
-      <td>
-        autenticarUsuario(),<br/>
-        asignarRol(),<br/>
-        agregarGranja(),<br/>
-        definirTipoPerfil(),<br/>
-        obtenerPerfil()
+        autenticarUsuario()<br>
+        asignarRol()<br>
+        agregarGranja()<br>
+        definirTipoPerfil()<br>
+        obtenerPerfil()<br>
+        validarPerfilUnico()<br>
+        esAsesor()<br>
+        esCriador()
       </td>
     </tr>
   </tbody>
@@ -1333,7 +1514,11 @@ A continuación, se presenta la organización del Domain Layer siguiendo la estr
 
 <table>
   <thead>
-    <tr><th>VO</th><th>Atributos</th><th>Descripción</th></tr>
+    <tr>
+      <th>VO</th>
+      <th>Atributos</th>
+      <th>Descripción</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
@@ -1360,17 +1545,21 @@ A continuación, se presenta la organización del Domain Layer siguiendo la estr
 
 <table>
   <thead>
-    <tr><th>Servicio</th><th>Métodos</th><th>Responsabilidad</th></tr>
+    <tr>
+      <th>Servicio</th>
+      <th>Métodos</th>
+      <th>Responsabilidad</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
       <td>SecurityManagementService</td>
       <td>
-        autenticarUsuario(),<br/>
-        registrarUsuario(),<br/>
-        asignarRol(),<br/>
-        validarPermiso(),<br/>
-        obtenerPerfil(),<br/>
+        autenticarUsuario()<br>
+        registrarUsuario()<br>
+        asignarRol()<br>
+        validarPermiso()<br>
+        obtenerPerfil()<br>
         listarUsuariosPorTipo()
       </td>
       <td>Orquestación de operaciones de seguridad</td>
@@ -1574,26 +1763,123 @@ Los repositorios definidos en esta capa utilizan frameworks como Spring Data JPA
 </table>
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/Security_Diagram.png" alt="Security Component Diagram" width="800">
+
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
+### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 En esta sección se presenta el diagrama de diseño de base de datos del contexto de seguridad. El modelo de datos refleja la estructura de las entidades y sus relaciones a través de claves primarias y foráneas. Este diseño asegura la integridad referencial entre los usuarios, roles, permisos y sensores.
 
-### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+<img src="img/Security_UML.png" alt="Security Component Diagram" width="800">
+
+
+### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 El sistema diferencia principalmente entre dos tipos de usuarios: **criadores** y **asesores técnicos**, cada uno con **niveles de acceso diferenciados**. Los criadores están vinculados directamente con las **granjas**, las cuales agrupan sensores físicos que recolectan información clave sobre las condiciones de crianza de los cuyes. Por su parte, los asesores técnicos pueden acceder a información crítica a través de permisos específicos y validaciones de seguridad.
 
-### 4.2.1.6.2. Bounded Context Database Design Diagram
+<img src="img/Security_dbDiagram.png" alt="Security Component Diagram" width="800">
+
 <br><br>
 
-### 4.2.X. Bounded Context: <Bounded Context Name>
-### 4.2.X.1. Domain Layer
-### 4.2.X.2. Interface Layer
-### 4.2.X.3. Application Layer
-### 4.2.X.4. Infrastructure Layer
-### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-### 4.2.X.6.2. Bounded Context Database Design Diagram
+### 4.2.2. Bounded Context: Monitoring
+
+#### 4.2.2.1. Domain Layer
+
+A continuación, se presenta la organización del Domain Layer para el Bounded Context "Monitoring", siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+
+<br/>
+
+##### Aggregate
+
+| Entidad         | Atributos Clave                                          | Métodos                |
+|------------------|----------------------------------------------------------|------------------------|
+| MonitoringEvent  | id, type (EventType), message, severity (SeverityLevel), createdAt | alertIfCritical(), isRelevantEvent() |
+
+---
+
+##### Value Objects
+
+| VO             | Atributos               | Descripción                                                                 |
+|----------------|--------------------------|------------------------------------------------------------------------------|
+| EventType      | name                     | Tipo de evento generado en el sistema (AnimalHealth, CageTemp, AppointmentMissed) |
+| SeverityLevel  | CRITICAL, WARNING, INFO  | Clasificación del nivel de importancia de cada evento monitoreado           |
+
+---
+
+##### Domain Services
+
+| Servicio           | Métodos                                                                                   | Responsabilidad                                                      |
+|--------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| MonitoringService  | registrarEvento(), obtenerEventosCriticos(), filtrarPorTipo(), enviarAlertaSiEsNecesario() | Gestiona la lógica de registro y clasificación de eventos relevantes |
+
+---
+
+##### Repositories
+
+| Repositorio               | Métodos                                                       | Entidad          |
+|---------------------------|----------------------------------------------------------------|------------------|
+| MonitoringEventRepository | findAll(), findBySeverity(), findByType(), save(), deleteById() | MonitoringEvent  |
+
+---
+
+#### 4.2.2.2. Interface Layer
+
+La capa de interfaz define los puntos de entrada HTTP para registrar nuevos eventos del sistema, consultar alertas críticas y filtrar eventos por tipo o nivel de severidad.
+
+##### Controladores
+
+| Controlador           | Operaciones                                                                                               |
+|-----------------------|-----------------------------------------------------------------------------------------------------------|
+| MonitoringController  | + registerEvent(eventDto)<br/> + getAllEvents()<br/> + getEventsByType(type)<br/> + getCriticalEvents()<br/> + deleteEvent(id) |
+
+---
+
+#### 4.2.2.3. Application Layer
+
+Esta capa orquesta la ejecución de los casos de uso de monitoreo, incluyendo el registro de eventos, recuperación de registros y ejecución de alertas ante eventos críticos.
+
+##### Handlers
+
+| Handler                          | Método                                        | Descripción                                                             |
+|----------------------------------|-----------------------------------------------|-------------------------------------------------------------------------|
+| RegisterEventCommandHandler      | handle(RegisterEventCommand)                 | Registra un nuevo evento de monitoreo                                   |
+| GetCriticalEventsQueryHandler    | handle(GetCriticalEventsQuery)               | Obtiene todos los eventos con severidad CRITICAL                        |
+| GetEventsByTypeQueryHandler      | handle(GetEventsByTypeQuery)                 | Filtra los eventos según su tipo                                        |
+| DeleteEventCommandHandler        | handle(DeleteEventCommand)                   | Elimina un evento registrado                                            |
+
+---
+
+#### 4.2.2.4. Infrastructure Layer
+
+Esta capa proporciona acceso a persistencia e integración con otros contextos que emiten eventos relevantes. Implementa los contratos definidos en el dominio y comunica la lógica de monitoreo con la base de datos o servicios externos.
+
+##### Repositorios
+
+| Repositorio               | Métodos                                                                   |
+|---------------------------|----------------------------------------------------------------------------|
+| MonitoringEventRepository | findAll(), findByType(type), findBySeverity(level), save(event), deleteById(id) |
+
+---
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/monitoring_component_diagram.png" alt="Monitoring Component Diagram" width="800">
+
+---
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="img/class_diagram_monitoring.png" alt="Monitoring Class Diagram" width="800">
+
+---
+
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+<img src="img/database_monitoring.png" alt="Monitoring Database Diagram" width="800">
+
 
 <br><br>
 
