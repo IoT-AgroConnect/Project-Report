@@ -1282,16 +1282,245 @@ La Capa de Aplicación se encarga de orquestar la ejecución de los casos de uso
 
 <br><br>
 
-### 4.2.X. Bounded Context: <Bounded Context Name>
-### 4.2.X.1. Domain Layer
-### 4.2.X.2. Interface Layer
-### 4.2.X.3. Application Layer
-### 4.2.X.4. Infrastructure Layer
-### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-### 4.2.X.6.2. Bounded Context Database Design Diagram
-<br><br>
+### 4.2.4. Bounded Context: Management
+### 4.2.4.1. Domain Layer
+
+A continuación, se presenta la organización del Domain Layer siguiendo la estructura: Aggregate, Value Objects, Domain Services y Repositories, con todos los elementos organizados en tablas independientes.
+
+## Aggregate
+
+<table>
+  <thead>
+    <tr><th>Entidad</th><th>Atributos Clave</th><th>Métodos</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Cage </td>
+      <td>
+        id, name, size, observations, breederId
+      </td>
+      <td>
+        getCage(), updateCage()
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Value Objects
+
+<table>
+  <thead>
+    <tr>
+      <th>VO</th>
+      <th>Atributos</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>Name.java</code></td>
+      <td><code>name</code></td>
+      <td>Define el nombre (animal, recurso o gasto)</td>
+    </tr>
+    <tr>
+      <td><code>Size.java</code></td>
+      <td><code>size</code></td>
+      <td>Define el tamaño de una jaula</td>
+    </tr>
+    <tr>
+      <td><code>Observations.java</code></td>
+      <td><code>observations</code></td>
+      <td>Observaciones generales</td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
+
+## Domain Services
+
+<table>
+  <thead>
+    <tr><th>Servicio</th><th>Métodos</th><th>Responsabilidad</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ManagementCommandService</td>
+      <td>
+        CreateResourceCommand(), <br/> UpdateResourceCommand(), <br/> DeleteResourceCommand(),<br/> CreateAnimalCommand()
+      </td>
+      <td>Encargado de crear, actualizar o eliminar entidades (gastos, recursos, animales, jaulas, etc.) siguiendo el patrón Command Handler.</td>
+    </tr>
+    <tr>
+      <td>ManagementQueryService</td>
+      <td>
+        GetAllResourcesQuery(),<br/> GetAnimalsByCageIdQuery()
+      </td>
+      <td>Representa el módulo de consultas. Recupera información de recursos, animales y gastos. No modifica el estado del sistema.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Repositories
+
+<table> <thead> <tr> <th>Repositorio</th> <th>Métodos</th> <th>Entidad</th> </tr> </thead> <tbody> <tr> <td>ManagementRepository</td> <td> save(), findAll(), findById(), deleteById(), findAllByCageId(), findAllByBreederId() </td> <td>Cage, Animal, Resource, Expense</td> </tr> </tbody> </table>
+
+### 4.2.4.2. Interface Layer
+
+Esta capa expone las funcionalidades del contexto Management a través de un controlador principal. Este controlador gestiona las operaciones CRUD y las consultas disponibles.
+
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">ManagementController</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>+ createResource(resource):</td>
+      <td>ResponseEntity&lt;ResourceResource&gt;</td>
+    </tr>
+    <tr>
+      <td>+ getAllResources():</td>
+      <td>ResponseEntity&lt;List&lt;ResourceResource&gt;&gt;</td>
+    </tr>
+    <tr>
+      <td>+ getResourceById(resourceId):</td>
+      <td>ResponseEntity&lt;ResourceResource&gt;</td>
+    </tr>
+    <tr>
+      <td>+ deleteResource(resourceId):</td>
+      <td>ResponseEntity&lt;Void&gt;</td>
+    </tr>
+    <tr>
+      <td>+ createAnimal(animal):</td>
+      <td>ResponseEntity&lt;AnimalResource&gt;</td>
+    </tr>
+    <tr>
+      <td>+ getAnimalsByCageId(cageId):</td>
+      <td>ResponseEntity&lt;List&lt;AnimalResource&gt;&gt;</td>
+    </tr>
+    <tr>
+      <td>+ updateCage(cageId, cage):</td>
+      <td>ResponseEntity&lt;CageResource&gt;</td>
+    </tr>
+    <tr>
+      <td>+ getExpensesByBreederId(breederId):</td>
+      <td>ResponseEntity&lt;List&lt;ExpenseResource&gt;&gt;</td>
+    </tr>
+    <tr>
+      <td>+ createExpense(expense):</td>
+      <td>ResponseEntity&lt;ExpenseResource&gt;</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.2.4.3. Application Layer
+
+La Capa de Aplicación se encarga de orquestar la ejecución de los casos de uso definidos en el dominio. 
+En esta sección se describen los servicios de comandos y consultas (handlers) que procesan los distintos flujos relacionados con la gestión del inventario de la granja.
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">ManagementCommandServiceImpl</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>+ handle(CreateResourceCommand command): Long</td>
+      <td>Crea un nuevo recurso y lo guarda en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>+ handle(UpdateResourceCommand command): Long</td>
+      <td>Actualiza los detalles de un recurso existente.</td>
+    </tr>
+    <tr>
+      <td>+ handle(DeleteResourceCommand command): void</td>
+      <td>Elimina un recurso del sistema si existe.</td>
+    </tr>
+    <tr>
+      <td>+ handle(CreateAnimalCommand command): Long</td>
+      <td>Crea un nuevo cuy y lo asigna a una jaula.</td>
+    </tr>
+    <tr>
+      <td>+ handle(UpdateCageCommand command): Long</td>
+      <td>Actualiza los datos de una jaula.</td>
+    </tr>
+    <tr>
+      <td>+ handle(CreateExpenseCommand command): Long</td>
+      <td>Registra un nuevo gasto para el criador.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">ManagementQueryServiceImpl</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>+ handle(GetAllResourcesQuery query): List&lt;Resource&gt;</td>
+      <td>Recupera todos los recursos registrados.</td>
+    </tr>
+    <tr>
+      <td>+ handle(GetAnimalsByCageIdQuery query): List&lt;Animal&gt;</td>
+      <td>Recupera los cuyes pertenecientes a una jaula específica.</td>
+    </tr>
+    <tr>
+      <td>+ handle(GetExpensesByBreederIdQuery query): List&lt;Expense&gt;</td>
+      <td>Recupera los gastos asociados a un criador específico.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### 4.2.4.4. Infrastructure Layer
+
+Esta sección describe la Capa de Infraestructura del contexto Management. Esta capa se encarga de la persistencia de datos, es decir, de comunicar el dominio con el sistema de almacenamiento (base de datos). 
+Aquí se encuentran los repositorios JPA que permiten ejecutar operaciones CRUD de forma declarativa sobre las entidades del dominio.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Métodos</th>
+      <th>Entidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ManagementRepository</td>
+      <td>findAllByCageId(), findAllByBreederId()</td>
+      <td>Cage, Animal, Resource, Expense</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/Management_Component_Diagram_Managment.png" alt="Management Component Diagram" style="width:100%; max-width:800px;" />
+
+### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+<img src="img/class_diagram_management.png" alt="Class Diagram - Management" style="width:100%; max-width:800px;" />
+
+
+### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+<img src="img/Database Design Diagram - Managment.png" alt="Database Design Diagram - Management" style="width:100%; max-width:1000px;" />
 
 ### 4.2.5. Bounded Context: Publication
 
