@@ -243,6 +243,9 @@ Abril 2025
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Me aseguré de que todos estuviéramos avanzando de forma constante, hice revisiones (reus) del trabajo del equipo y ofrecí apoyo cuando alguien se quedaba atrás.<br>
+      <strong>Lucas Coronel, Nadia Alessandra</strong><br>
+<em>TB1</em><br>
+Me encargué de dividir el trabajo de manera equitativa y de establecer plazos de entrega claros para cada miembro del equipo. Además, coordiné las tareas, asegurándome de que cada persona comprendiera sus responsabilidades y los objetivos a alcanzar. Realicé un seguimiento constante del progreso y brindé apoyo para resolver dudas o dificultades que surgieran durante el desarrollo del proyecto.<br>
       <strong>Ramirez Mendez, Sebastián André</strong><br>
       <em>TB1</em><br>
       Me encargué de coordinar la estructura del documento y asegurar que cada sección tuviera coherencia, además de participar en la redacción de los antecedentes del proyecto y revisión técnica del contenido.<br>
@@ -250,12 +253,11 @@ Abril 2025
       <em>TB1</em><br>
       Para esta entrega nos pusimos de acuerdo para tener reuniones para elegir el tema de nuestro proyecto y delegar responsabilidades. Además de una reunión para corroborar el correcto avance de cada uno de los miembros de nuestro equipo.<br>
       <br>
-      <strong>Apellidos, Nombre</strong><br>
-      <em>TB1</em><br>
       …  
     </td>
     <td>
-      Conclusiones Generales...<br>
+      <em>TB1</em><br>
+      Durante el desarrollo del proyecto, el equipo demostró un liderazgo compartido y efectivo, basado en la colaboración continua. Cada miembro asumió responsabilidades específicas, apoyó a sus compañeros y mantuvo una comunicación constante para garantizar la calidad de los entregables. Gracias a esta dinámica, logramos integrar nuestras habilidades individuales en un trabajo cohesivo y bien estructurado.<br>
     </td>
   </tr>
   <tr>
@@ -267,6 +269,9 @@ Abril 2025
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Fomenté un ambiente donde todos pudieran participar, ayudé a organizar las tareas del equipo y propuse metas claras para cumplir con los entregables a tiempo.<br>
+      <strong>Lucas Coronel, Nadia Alessandra</strong><br>
+<em>TB1</em><br>
+Fomenté un entorno colaborativo e inclusivo, asegurándome de que todos los integrantes se sintieran escuchados y valorados. Establecí metas claras para el equipo, planifiqué la distribución de tareas según las fortalezas de cada miembro y definí plazos de entrega realistas. Gracias a esta organización y al acompañamiento constante, cumplimos con los objetivos planteados de manera eficiente.<br>
       <strong>Ramirez Mendez, Sebastian Andre</strong><br>
       <em>TB1</em><br>
       Propicié un entorno colaborativo asegurando la participación de todos los miembros, ayudé a definir metas claras, y coordiné la planificación de tareas para que se cumplieran los objetivos del equipo dentro de los plazos establecidos.<br>
@@ -274,12 +279,11 @@ Abril 2025
       <em>TB1</em><br>
       Se establecieron fechas de entrega para cada tarea delegada, de esa forma aseguramos que se cumpla el objetivo de cada miembro de equipo y poder tener el trabajo en fechas específicas antes de la entrega.<br>
       <br>
-      <strong>Apellidos, Nombre</strong><br>
-      <em>TB1</em><br>
       …  
     </td>
     <td>
-       Conclusiones Generales...<br>
+       <em>TB1</em><br>
+      El equipo promovió un ambiente inclusivo en el que todos los integrantes participaron activamente en la toma de decisiones y en el desarrollo de las tareas asignadas. Se establecieron metas claras y realistas, acompañadas de una planificación adecuada que permitió cumplir con los plazos establecidos. La colaboración y el compromiso de cada miembro fueron claves para alcanzar los objetivos propuestos de manera organizada y efectiva. <br>
     </td>
   </tr>
 </table>
