@@ -700,6 +700,8 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 **Entrevistado:** Daniela Flores
 
+**Duración**: [00:00:08 – 00:06:00] (**5 minutos 52 segundos**)
+
 
 
 <img src="img/Entrevista_1.png" width="100%">
@@ -717,7 +719,8 @@ Daniela proviene de una familia con una sólida tradición en la crianza de cuye
 
 **Entrevistado:** Nayeli Chavez
 
-**Link de la entrevista:** 
+**Duración**: [00:06:00 – 00:13:02] (**7 minutos 2 segundos**)
+
 
 <img src="img/entrevista2.png" width="100%">
 
@@ -734,47 +737,15 @@ Nayeli identifica como una gran necesidad la incorporación de herramientas que 
 En su experiencia, muchos criadores tienen temor de usar plataformas digitales, por lo que resalta la importancia de que estas sean intuitivas y demuestren mejoras tangibles en productividad. Recomienda acompañar la tecnología con capacitaciones prácticas realizadas en las propias granjas, con soporte técnico y materiales impresos, facilitando así la adopción tecnológica y la optimización del manejo de los cuyes.
 
 
-
 **Criadores**
 
 **Entrevista N 3 - Criador:**
-
-**Entrevistador:**  Fiorella Jarama 
-
-**Entrevistado:** Claudia Ramos
-
-**Link de la entrevista:** 
-
-<img src="img/Entrevista_4.png" width="100%">
-
-_Imagen 6. Entrevista a Claudia Ramos_
-
-**Resumen:** 
-Claudia Ramos, una criadora principiante de cuyes de 23 años con 6 meses de experiencia y 25 cuyes a su cuidado, compartió en la entrevista que enfrenta principalmente dificultades para organizar su tiempo y adaptarse a las condiciones climáticas que afectan a los animales. Actualmente no lleva un registro constante de salud o crecimiento, aunque ha intentado usar un cuaderno. Le gustaría contar con una herramienta tecnológica sencilla que le brinde recordatorios, alertas sobre temperatura y consejos personalizados, preferiblemente en forma de notificaciones en su celular. También valoraría mucho el acceso a videos explicativos y el apoyo de criadores con más experiencia, especialmente si los consejos se basan en datos reales de su granja. Claudia no ha utilizado aplicaciones específicas para la crianza, pero está abierta a probar alguna siempre que sea fácil de usar, segura y venga con una guía inicial.
-
-
-**Entrevista N 4 - Criador:**
-
-**Entrevistador:** Sebastian Ramirez
-
-**Entrevistado:** Carla Pereyra
-
-
-
-<img src="img/entrevista5.png" width="100%">
-
-_Imagen 7. Entrevista a Carla Pereyra_ 
-
-**Resumen:**
-Carla Pereyra, una criadora de cuyes con experiencia, actualmente está a cargo de 20 ejemplares. Nos compartió las necesidades que enfrenta en su labor y las mejoras que desearía implementar. En la actualidad, realiza el registro de sus cuyes de forma manual, utilizando un cuaderno, ya que aún no ha adoptado herramientas digitales. Le gustaría contar con alertas sobre la temperatura ambiental de sus animales, notificaciones relacionadas con su alimentación, y recibir asesoría de criadores especializados. Aunque nunca ha utilizado aplicaciones para esta actividad, está interesada en probar una que le ofrezca beneficios concretos para el cuidado de sus cuyes, y que le brinde confianza y respaldo en su uso.
-
-**Entrevista N 5 - Criador:**
 
 **Entrevistador:** Johan Moreno
 
 **Entrevistado:** Willy Valentin
 
-
+**Duración**: [00:13:02 – 00:17:27] (**4 minutos 25 segundos**)
 
 <img src="img/entrevista6.png" width="100%">
 
@@ -788,6 +759,38 @@ Su familiar gestiona la información de manera manual, utilizando cuadernos para
 Willy considera que para su familia sería muy útil contar con una herramienta que muestre la temperatura ambiental y envíe notificaciones al respecto. Aunque no han utilizado aplicaciones para la gestión de la granja, están interesados en implementar una que facilite el monitoreo y la recepción de alertas en tiempo real.
 
 Además, ve con buenos ojos que la plataforma incluya consejos, tutoriales y recomendaciones prácticas sobre la crianza, así como la posibilidad de conectar con otros criadores de distintas regiones para compartir experiencias, superando las limitaciones del contacto presencial actual.
+
+
+**Entrevista N 4 - Criador:**
+
+**Entrevistador:**  Fiorella Jarama 
+
+**Entrevistado:** Claudia Ramos
+
+**Duración**: [00:17:27 – 00:22:12] (**4 minutos 45 segundos**)
+
+<img src="img/Entrevista_4.png" width="100%">
+
+_Imagen 6. Entrevista a Claudia Ramos_
+
+**Resumen:** 
+Claudia Ramos, una criadora principiante de cuyes de 23 años con 6 meses de experiencia y 25 cuyes a su cuidado, compartió en la entrevista que enfrenta principalmente dificultades para organizar su tiempo y adaptarse a las condiciones climáticas que afectan a los animales. Actualmente no lleva un registro constante de salud o crecimiento, aunque ha intentado usar un cuaderno. Le gustaría contar con una herramienta tecnológica sencilla que le brinde recordatorios, alertas sobre temperatura y consejos personalizados, preferiblemente en forma de notificaciones en su celular. También valoraría mucho el acceso a videos explicativos y el apoyo de criadores con más experiencia, especialmente si los consejos se basan en datos reales de su granja. Claudia no ha utilizado aplicaciones específicas para la crianza, pero está abierta a probar alguna siempre que sea fácil de usar, segura y venga con una guía inicial.
+
+
+**Entrevista N 5 - Criador:**
+
+**Entrevistador:** Sebastian Ramirez
+
+**Entrevistado:** Carla Pereyra
+
+**Duración**: [00:22:12 – 00:25:40] (**3 minutos 28 segundos**)
+
+<img src="img/entrevista5.png" width="100%">
+
+_Imagen 7. Entrevista a Carla Pereyra_ 
+
+**Resumen:**
+Carla Pereyra, una criadora de cuyes con experiencia, actualmente está a cargo de 20 ejemplares. Nos compartió las necesidades que enfrenta en su labor y las mejoras que desearía implementar. En la actualidad, realiza el registro de sus cuyes de forma manual, utilizando un cuaderno, ya que aún no ha adoptado herramientas digitales. Le gustaría contar con alertas sobre la temperatura ambiental de sus animales, notificaciones relacionadas con su alimentación, y recibir asesoría de criadores especializados. Aunque nunca ha utilizado aplicaciones para esta actividad, está interesada en probar una que le ofrezca beneficios concretos para el cuidado de sus cuyes, y que le brinde confianza y respaldo en su uso.
 
 
 ### 2.2.3. Análisis de entrevistas
