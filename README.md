@@ -2399,6 +2399,8 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 
 * Los requisitos iniciales del proyecto se identificaron mediante herramientas como empathy mappings, user personas y user stories, que ayudaron a diseñar una experiencia de usuario satisfactoria y optimizar el desarrollo de la aplicación a través de un product backlog priorizado.
 
+* La identificación de los Bounded Contexts y la realización del Context Mapping en AgroCuy nos permitió comprender de manera precisa las relaciones de dependencia, colaboración y comunicación entre los distintos módulos del sistema. Al aplicar patrones de interacción como Shared Kernel, Conformist, Customer–Supplier y Published Language, pudimos establecer límites claros de responsabilidad, asegurar la consistencia en los datos compartidos y reducir el acoplamiento entre contextos. Este análisis resulta fundamental para diseñar una arquitectura robusta, escalable y alineada a los principios de Domain-Driven Design, garantizando que cada área funcional de AgroCuy pueda evolucionar de forma independiente pero coordinada dentro del ecosistema general.
+
 # Bibliografía
 
 * Aguilar, G., Bustamante, J., Bazán, V. y Falcón, N. (2011). Diagnóstico situacional de la crianza de cuyes en una zona de Cajamarca. _Revista de Investigaciones Veterinarias del Perú, 22_(1), 09-14. http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S1609-91172011000100002&lng=es&tlng=es
