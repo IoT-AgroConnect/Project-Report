@@ -26,7 +26,7 @@ Grupo: 4
 |          Integrantes          |      Código      |
 |:-----------------------------:|:-------------------:|
 |   Cuadros Rodriguez, Juan Alejandro    |    u20221a359    |
-|   Fiorella Jarama Peñaloza    |   u202120418  |
+|   Jarama Peñaloza, Fiorella    |   u202120418  |
 |  Lucas Coronel, Nadia Alessandra   |    U202120430    |
 |   Moreno Vergara, Johan Raúl  |    u20201c105    |
 |  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
