@@ -381,7 +381,7 @@ Las Search Engine Optimization (Etiquetas SEO) y las Meta Tags (Meta Etiquetas) 
 ````
 
 <p align="center">
-  <img src="img/seotags.JPG" alt="SEO tags" width="600">
+  <img src="img/seotags.jpeg" alt="SEO tags" width="600">
 </p>
 
 _Imagen 35. SEO tags de AgroConnect_
@@ -440,7 +440,7 @@ En este apartado, nos enfocaremos en el diseño de la interfaz de usuario (UI) d
 **Wireframe - sección de ‘Inicio’ de AgroConnect:** la sección tendrá una imagen de fondo llamativa con un mensaje que refleja el objetivo de la startup para llamar la atención de posibles usuarios.
 
 <p align="center">
-  <img src="img/wireframe-landing-about-app.JPG" alt="Pagina Acerca de" width="600">
+  <img src="img/wireframe-landing-about-app.jpeg" alt="Pagina Acerca de" width="600">
 </p>
 
 _Imagen 36. Pagina Acerca de_
@@ -448,7 +448,7 @@ _Imagen 36. Pagina Acerca de_
 **Wireframe - sección de ‘Sobre Nosotros’:** la sección tendrá una imagen de fondo y tendrá información sobre la startup Agrotech junto con nuestra misión y visión.
 
 <p align="center">
-  <img src="img/wireframe-landing-about-us.JPG" alt="Pagina Sobre Nosotros" width="600">
+  <img src="img/wireframe-landing-about-us.jpeg" alt="Pagina Sobre Nosotros" width="600">
 </p>
 
 _Imagen 37. Pagina Sobre Nosotros_
@@ -456,7 +456,7 @@ _Imagen 37. Pagina Sobre Nosotros_
 **Wireframe - sección de ‘Características’:** la sección tendrá una imagen de fondo y tendrá información sobre los servicios que ofrecemos con nuestra aplicación AgroConnect.
 
 <p align="center">
-  <img src="img/wireframe-landing-features.JPG" alt="Pagina Características" width="600">
+  <img src="img/wireframe-landing-features.jpeg" alt="Pagina Características" width="600">
 </p>
 
 _Imagen 38. Pagina Características_
@@ -464,7 +464,7 @@ _Imagen 38. Pagina Características_
 **Wireframe - sección de ‘Contacto’:** la sección tendrá una imagen de fondo y tendrá un formulario donde los usuarios potenciales puedan escribir consultas para que sean respondidas en un correo por un miembro de AgroTech.
 
 <p align="center">
-  <img src="img/wireframe-landing-contact.JPG" alt="Pagina Contacto" width="600">
+  <img src="img/wireframe-landing-contact.jpeg" alt="Pagina Contacto" width="600">
 </p>
 
 _Imagen 39. Pagina Contacto_
