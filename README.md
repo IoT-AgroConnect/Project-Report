@@ -2618,6 +2618,42 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 <br><br>
 <br><br>
 
+# Capítulo VI Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management.
+
+### 6.1.1. Software Development Environment Configuration.
+
+### 6.1.2. Source Code Management.
+
+### 6.1.3. Source Code Style Guide & Conventions.
+
+### 6.1.4. Software Deployment Configuration.
+
+## 6.2. Landing Page, Services & Applications Implementation.
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+La planificación del primer sprint se llevó a cabo mediante una reunión virtual a través de Google Meet. Durante esta sesión, el equipo acordó los objetivos del sprint, estimó las historias de usuario y definió la capacidad de trabajo (*velocity*) para el periodo. La siguiente tabla resume la información discutida y registrada durante dicha sesión.
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** |  |
+| Fecha | 2025-05-01 |
+| Hora | 10:00 PM |
+| Lugar | Virtual (Google Meet) |
+| Preparado por | Lucas Coronel, Nadia Alessandra |
+| Participantes de la reunión de planificación | - Cuadros Rodriguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Mendez, Sebastian Andre |
+| Resumen del Sprint n–1 (Review) | No aplica — este es el primer sprint del proyecto. |
+| Resumen del Sprint n–1 (Retrospectiva) | No aplica — este es el primer sprint del proyecto. |
+| **Sprint Goal & User Stories** |  |
+| Objetivo del Sprint 1 | Implementar la página principal (*Landing Page*) del sistema AgroCuy, asegurando que sea funcional, visualmente atractiva y adaptable a dispositivos móviles. |
+| Velocidad del Sprint (Story Points esperados) | 20 |
+| Suma total de Story Points asignados | 20 |
+
 # Conclusiones
 
 ## Avance de Conclusiones y recomendaciones
