@@ -2733,6 +2733,24 @@ Durante el desarrollo del Sprint 1, se realizaron múltiples avances en el repos
 | AgroTech-UPC/Landing-Page | develop                | bc8aa23       | Merge pull request #10 from AgroTech-UPC/feature/characteristics | 01/05/2025      |
 | AgroTech-UPC/Landing-Page | main                   | 341ad78       | Merge pull request #11 from AgroTech-UPC/develop         | 01/05/2025            |
 
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 1, se desarrollaron pruebas de aceptación automatizadas utilizando el lenguaje **Gherkin**, las cuales fueron registradas en archivos `.feature` y versionadas en el repositorio correspondiente.
+
+Estas pruebas se diseñaron para validar el cumplimiento de criterios de aceptación de las User Stories priorizadas, garantizando que las funcionalidades desarrolladas cumplan con las expectativas del usuario desde una perspectiva funcional y de comportamiento.
+
+🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
+
+| **Repository**               | **Branch** | **Commit ID** | **Commit Message**                            | **Commited on (Date)** |
+|-----------------------------|------------|----------------|------------------------------------------------|-------------------------|
+| AgroTech-UPC/Acceptance-Tests | main       | 57f2c58       | feat: added feature file for US29              | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 1b94680       | feat: added feature file for US28              | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 9027b2b       | fix: fix typing error                          | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 329c774       | feat: added acceptance test for US31           | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 24c738a       | feat: added acceptance test for US30           | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 802f736       | feat: added acceptance test for US26           | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 29d85ed       | feat: added acceptance test for US27           | 01/05/2025              |
+
 
 
 
