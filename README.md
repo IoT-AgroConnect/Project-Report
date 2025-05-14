@@ -3107,6 +3107,30 @@ Se instaló firebase-tools dentro del proyecto, y luego se inició sesión.
 <img src="img/deployment5.png" width="100%">
 <p style="text-align:center"><em>Imagen 141. DeployFront - pages - 4</em></p>
 
+Se crea el proyecto Firebase en el cual se guardará todos los archivos, el cual le pusimos como nombre agroconnect-demo, y Se ejecuta el comando para instalar @angular/fire.
+
+<img src="img/deployment7.png" width="100%">
+<p style="text-align:center"><em>Imagen 142. DeployFront - pages - 5</em></p>
+
+Se selecciona la opción ng deploy -- hosting.
+<img src="img/deployment8.png" width="100%">
+<p style="text-align:center"><em>Imagen 143. DeployFront - pages - 6</em></p>
+
+Se selecciona el proyecto y se crea el enlace donde se aloja el proyecto
+<img src="img/deployment9.png" width="100%">
+<p style="text-align:center"><em>Imagen 143. DeployFront - pages - 7</em></p>
+
+Se usa el comando ng deploy para deployear la aplicación
+<img src="img/deployment11.png" width="100%">
+<p style="text-align:center"><em>Imagen 144. DeployFront - pages - 8</em></p>
+
+<img src="img/deployment12.png" width="100%">
+<p style="text-align:center"><em>Imagen 145. DeployFront - pages - 9</em></p>
+
+Finalmente, logramos acceder a nuestra aplicación deployada.
+<img src="img/deployment14.png" width="100%">
+<p style="text-align:center"><em>Imagen 146. DeployFront - pages - 10</em></p>
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
 # Conclusiones
