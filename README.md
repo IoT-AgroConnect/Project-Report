@@ -2628,6 +2628,474 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 <br><br>
 <br><br>
 
+
+
+## Capítulo V: Solution UI/UX Design 
+
+## 5.1. Style Guidelines
+
+La importancia del estilo de un producto radica en la creación de una experiencia visual armoniosa y atractiva para los usuarios. A continuación, se presentará una descripción detallada de las pautas de estilo de nuestro proyecto.
+
+### 5.1.1. General Sytle Guidelines 
+
+**Consistencia Visual**
+
+Garantizar una apariencia uniforme en todos los aspectos del producto, desde la disposición de la interfaz de usuario hasta los elementos visuales. Esto implica seleccionar colores coherentes, tipografía adecuada, estilos consistentes y una navegación web intuitiva.
+
+<p align="center">
+  <img src="img/consistencia-visual.webp" alt="Ejemplo de consistencia visual" width="600">
+</p>
+
+_Imagen 23. Ejemplo de consistencia visual_
+
+**Simplicidad**
+
+Enfatizar la simplicidad en el diseño para una experiencia de usuario intuitiva y evitar el uso excesivo de elementos que puedan hacer perder el foco de atención al usuario.
+
+<p align="center">
+  <img src="img/simplicidad.jpg" alt="Ejemplo de simplicidad" width="600">
+</p>
+
+_Imagen 24. Ejemplo de simplicidad_
+
+**Branding**
+
+El logotipo de AgroCuy se presenta en forma de un círculo, que simboliza la unidad y la conexión dentro de las comunidades agrícolas peruanas. En el centro del círculo se encuentra un cuy, animal característico de las granjas peruanas y un símbolo de la agricultura local. El cuy está representado de manera amigable y sonriente, transmitiendo la naturaleza acogedora y cercana de la plataforma. El cuy lleva un pequeño gorro de granjero como un guiño a la laboriosa comunidad agrícola.
+
+<p align="center">
+  <img src="img/logo.png" alt="logo de AgroCuy" width="200">
+</p>
+
+_Imagen 25. Logo de AgroCuy_
+
+**Typography**
+
+La tipografía elegida para AgroCuy es "Inter", una fuente sans-serif moderna y altamente legible. Este tipo de letra se destaca por su estilo limpio y contemporáneo, lo que comunica profesionalismo y actualización. La elección de Inter asegura que el texto en las interfaces de usuario sea fácilmente legible y tenga una apariencia moderna y uniforme. Además, Inter es una fuente versátil que ofrece una amplia variedad de pesos y estilos, lo que permite una adaptación flexible a diferentes contextos y tamaños de texto en la aplicación.
+
+<p align="center">
+  <img src="img/font1.png" alt="Fuentes" width="600">
+</p>
+
+_Imagen 26. Fuentes_
+
+**Colors**
+
+AgroCuy ha seleccionado una paleta de colores que comunica confiabilidad y eficiencia en la contratación de asesores especializados y en el uso de herramientas avanzadas. Los tonos predominantes, como los marrones, amarillos y anaranjados, transmiten una sensación cálida que evoca la calidez y la energía de la naturaleza presente en las granjas peruanas. Esta elección de colores no solo refleja la conexión con la tierra y las raíces agrícolas, sino que también sugiere un ambiente acogedor y estimulante para los usuarios de la plataforma.
+
+**Spacing**
+
+El spacing garantiza una distribución uniforme y un equilibrio visual en la interfaz. Se han establecido las siguientes medidas.
+
+````
+ - Botones: padding de 16px vertical y 32px horizontal 
+ - Margin entre texto 16px 
+ - Margin entre elementos 24px 
+ - Margin entre secciones 72px
+````
+
+**Diseño Visual con Patrón Z**
+
+ Vamos a incorporar el conocido Patrón Z en nuestro diseño visual, el cual dirige de manera intuitiva la atención del usuario a través de la interfaz. Este enfoque implica estratégicamente ubicar los elementos clave en las esquinas superior e inferior izquierdas, mientras que los elementos secundarios se colocan en las esquinas superior e inferior derechas. Este diseño genera un flujo visual eficaz y atractivo que mejora la experiencia del usuario.
+
+<p align="center">
+  <img src="img/patronZ.png" alt="Patron Z ejemplo" width="600">
+</p>
+
+_Imagen 27. Ejemplo de Patron Z_
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+**Colors**
+
+AgroCuy ha seleccionado cuidadosamente una paleta de colores que refleja los valores y la identidad de la plataforma. Los tonos elegidos comunican confiabilidad y eficiencia en la contratación de asesores especializados y en el uso de herramientas avanzadas.
+
+<p align="center">
+  <img src="img/colors.png" alt="Colores de AgroCuy" width="600">
+</p>
+
+_Imagen 28. Colores de AgroCuy_
+
+**Typography**
+
+La tipografía desempeña un papel fundamental en la apariencia y la legibilidad de AgroCuy. Hemos seleccionado cuidadosamente la fuente "Inter", una fuente sans-serif moderna y altamente legible.
+
+<p align="center">
+  <img src="img/font2.png" alt="Tipografia de AgroCuy" width="600">
+</p>
+
+_Imagen 29. Tipografia de AgroCuy_
+
+**Icons**
+
+Los íconos desempeñan un papel importante en la experiencia del usuario al proporcionar una representación visual rápida y reconocible de diversas funciones y características dentro de AgroCuy. Hemos seleccionado una colección de íconos que son consistentes con la identidad visual de la plataforma y que refuerzan su propósito y temática agrícola.
+
+<p align="center">
+  <img src="img/icons.png" alt="Iconos de AgroCuy" width="600">
+</p>
+
+_Imagen 30. Iconos de AgroCuy_
+
+**Spacing**
+
+El espaciado adecuado entre elementos es esencial para lograr una apariencia equilibrada y una experiencia de usuario cómoda en AgroCuy. Hemos establecido pautas claras de espaciado que garantizan coherencia y claridad en toda la plataforma.
+
+<p align="center">
+  <img src="img/spacing.png" alt="Spacing de AgroCuy" width="600">
+</p>
+
+_Imagen 31. Spacing de AgroCuy_
+
+**Grid System**
+
+El grid system es una herramienta esencial en el diseño y la organización de la interfaz de usuario de AgroCuy. Proporciona una estructura visual que ayuda a distribuir y alinear los elementos de la página de manera consistente y armoniosa en diferentes tamaños de pantalla.
+
+<p align="center">
+  <img src="img/grid.png" alt="Grid System de AgroCuy" width="600">
+</p>
+
+_Imagen 32. Grid System de AgroCuy_
+
+**Button**
+
+Los botones son elementos importantes en la interfaz de usuario de AgroCuy, ya que proporcionan una forma clara y visualmente destacada para que los usuarios realicen acciones importantes. Hemos definido un estilo de botón consistente que refleja la identidad visual de la plataforma y promueve una experiencia de usuario intuitiva y coherente.
+
+<p align="center">
+  <img src="img/button.png" alt="Button de AgroCuy" width="600">
+</p>
+
+_Imagen 33. Button de AgroCuy_
+
+**Input System**
+
+El input system es fundamental en la experiencia del usuario en AgroCuy, ya que proporciona formas para que los usuarios ingresen datos y realicen acciones dentro de la plataforma. Hemos definido un sistema de entrada consistente que garantiza una experiencia de usuario intuitiva y coherente en toda la interfaz.
+
+<p align="center">
+  <img src="img/input-system.png" alt="Input Sys AgroCuy" width="600">
+</p>
+
+_Imagen 34. Input System de AgroCuy_
+
+
+## 5.2. Information Architecture
+
+La arquitectura de información desempeña un papel fundamental en la organización y estructuración del contenido para garantizar su accesibilidad y comprensión por parte de los usuarios. En este apartado, se detallarán los sistemas de organización, etiquetado, etiquetas SEO y metaetiquetas, sistema de búsqueda y sistemas de navegación que componen la arquitectura de la información de nuestro producto.
+
+### 5.2.1. Organization Systems
+
+En AgroCuy, aplicamos un sistema de jerarquía visual para resaltar la información esencial y relevante, garantizando que los usuarios encuentren fácilmente lo que necesitan. Utilizamos una organización secuencial para guiar intuitivamente a los usuarios a través del proceso de registro y búsqueda de asesores o asesoría. En lo que respecta a la categorización de contenido, está organizado según audiencia (Criadores y Asesores)
+
+### 5.2.2. Labeling Systems
+
+En el proyecto AgroCuy se eligió implementar un sistema de etiquetado breve y fácil de comprender para los usuarios. Las etiquetas que se utilizarán son las siguientes:
+
+
+**Vista de Criador:**
+
+<table>
+  <tbody>
+  <tr>
+      <th>My Farm - Mi Granja</th>
+      <td>Se implementará un botón que permitirá a los usuarios gestionar su inventario, que incluirá medicamentos, producción de carne, fertilizante y otros elementos relacionados.</td>
+  </tr>
+  <tr>
+      <th>Advisors - Mis asesores</th>
+      <td>Se implementará un botón que permitirá a los usuarios contactar con asesores.</td>
+  </tr>
+  <tr>
+      <th>My animals - Mis animales</th>
+      <td>Se implementará un botón que permitirá al usuario llevar un registro y seguimiento de los animales en la granja.</td>
+  </tr>
+  <tr>
+      <th>Calendar - Calendario</th>
+      <td>Se implementará un botón que permitirá visualizar un calendario con las citas registradas.</td>
+  </tr>
+  <tr>
+      <th>Registry - Registro</th>
+      <td>Se implementará un botón que permitirá al usuario registrar información de nuevos animales, datos de la gastos y recursos.</td>
+  </tr>
+  <tr>
+      <th>Notifications - Notificaciones</th>
+      <td>Se implementará un botón que permitirá visualizar notificaciones respecto a las solicitudes de las ofertas de empleo.</td>
+  </tr>
+  <tr>
+      <th>Logout</th>
+      <td>Se implementará un botón que permitirá al usuario desvincularse de su cuenta.</td>
+  </tr>
+  </tbody>
+</table>
+
+<br></br>
+**Vista de Asesor:**
+
+<table>
+  <tbody>
+  <tr>
+      <th>Home - Inicio</th>
+      <td>Se implementará un botón que permitirá al usuario ver publicaciones de clientes y poder ofertar.</td>
+  </tr>
+  <tr>
+      <th>My clients - Mis clientes</th>
+      <td>Se implementará un botón que permitirá a los usuarios ver su clientes.</td>
+  </tr>
+  <tr>
+      <th>My publications - Mis publicaciones</th>
+      <td>Se implementará un botón que permitirá al usuario ver el historial de sus publicaciones de ofertas de trabajo.</td>
+  </tr>
+  <tr>
+      <th>Notifications - Notificaciones</th>
+      <td>Se implementará un botón que permitirá visualizar notificaciones respecto a las solicitudes de las ofertas de empleo y recordatorios de citas pendientes.</td>
+  </tr>
+    <tr>
+      <th>Calendar - Calendario</th>
+      <td>Se implementará un botón que permitirá visualizar un calendario con las citas registradas.</td>
+  </tr>
+  <tr>
+      <th>Logout</th>
+      <td>Se implementará un botón que permitirá al usuario desvincularse de su cuenta.</td>
+  </tr>
+</table>
+
+### 5.2.3. SEO Tags and Meta Tags
+
+Las Search Engine Optimization (Etiquetas SEO) y las Meta Tags (Meta Etiquetas) juegan un papel vital en la visibilidad y el posicionamiento del contenido en los motores de búsqueda. Existen varios tipos de etiquetas SEO y metaetiquetas, y a continuación se destacan algunas de las más relevantes para la empresa:
+
+- **Metaetiqueta de Descripción (Meta Description Tag):** Esta etiqueta ofrece una breve   descripción del contenido de la página. Aunque no influye directamente en el ranking de búsqueda, una meta descripción bien redactada puede aumentar la tasa de clics (CTR) al proporcionar a los usuarios una visión clara del contenido de la página.
+
+````
+<meta name="description" content="AgroTech ofrece soluciones tecnológicas innovadoras para mejorar la gestión de granjas de cuyes. Nuestra misión es empoderar a los granjeros con herramientas inteligentes y eficientes.">
+````
+
+**Metaetiqueta de Autor (Meta Autor Tag):** Esta etiqueta especifica el autor del contenido de la página. Esto puede ser útil para atribuir la propiedad intelectual o identificar la fuente del contenido.
+
+````
+<meta name="author" content="AgroTech">
+````
+
+**Etiqueta de Título (Title Tag):** Esta etiqueta es esencial para el SEO, ya que define el título de una página web y aparece como el título principal en los resultados de búsqueda. 
+
+````
+<title>AgroCuy</title>
+````
+
+**Etiqueta de Idioma (Language Tag):** Esta etiqueta especifica el idioma principal del contenido de la página. Es útil para la clasificación en búsquedas locales y ayuda a los motores de búsqueda a comprender el idioma del contenido.
+
+````
+<html lang="en">
+````
+
+**Metaetiqueta de Robots (Meta Robots Tag):** Esta etiqueta indica a los motores de búsqueda cómo indexar y rastrear la página. Puede especificar si la página debe ser indexada, si deben seguirse los enlaces o si se deben seguir ciertas instrucciones específicas.
+
+````
+<meta name="robots" content="index, follow"> 
+````
+
+<p align="center">
+  <img src="img/seotags.jpeg" alt="SEO tags" width="600">
+</p>
+
+_Imagen 35. SEO tags de AgroCuy_
+
+### 5.2.4. Searching Systems
+
+La aplicación AgroCuy desarrollará un sistema de búsqueda intuitivo, diseñado para que los usuarios encuentren rápidamente la información que necesitan. Este sistema se basará en filtros inteligentes que simplificarán la búsqueda de asesores, evitando así que los usuarios se vean abrumados por la cantidad de información disponible. Con esta mejora, nuestra aplicación garantizará una experiencia de usuario más fluida y satisfactoria al buscar información relevante.
+
+<table>
+  <tbody>
+  <tr>
+      <th>Ubicación</th>
+      <td>Permite al usuario buscar asesores o recibir solicitudes de asesoramiento basadas en su ubicación actual o en una ubicación específica.</td>
+  </tr>
+  <tr>
+      <th>Tipo de Asesoría</th>
+      <td>Permite al usuario buscar según el tipo de asesoría ofrecida.</td>
+  </tr>
+  <tr>
+      <th>Presupuesto</th>
+      <td>Permite al usuario buscar asesores que se ajusten a su presupuesto.</td>
+  </tr>
+  <tr>
+      <th>Experiencia</th>
+      <td>Permite al usuario buscar asesores con un nivel de experiencia específico.</td>
+  </tr>
+  <tr>
+      <th>Reputación</th>
+      <td>Permite al usuario buscar asesores según las calificaciones obtenidas.</td>
+  </tr>
+  <tr>
+      <th>Idioma</th>
+      <td>Permite al usuario buscar según el idioma.</td>
+  </tr>
+  <tr>
+      <th>Palabras Clave</th>
+      <td>Proporciona un cuadro de búsqueda donde los usuarios pueden ingresar palabras clave específicas relacionadas con el tipo de asesoría que necesitan.</td>
+  </tr>
+  </tbody>
+</table>
+
+### 5.2.5. Navigation Systems
+
+La página de inicio de AgroCuy ha sido diseñada para una experiencia fácil y completa, ofreciendo las siguientes características:
+
+ - ***Menús de Navegación:*** Los menús de navegación son una estructura estándar que se utiliza para organizar y presentar las diversas secciones y páginas de un producto. Estos menús pueden adoptar diferentes formas, como menús desplegables, ubicados en la parte superior o lateral de una página, e incluso enlaces de navegación en el pie de página.
+
+ - ***Navegación por Pestañas:*** Es un sistema que emplea pestañas para organizar el contenido en secciones o categorías. Esto permite a los usuarios cambiar entre las distintas secciones de contenido simplemente haciendo clic en las pestañas correspondientes, sin necesidad de cargar nuevas páginas.
+
+## 5.3. Landing Page UI Design
+
+En este apartado, nos enfocaremos en el diseño de la interfaz de usuario (UI) de nuestra landing page. Es crucial que los usuarios que visiten nuestra página comprendan rápidamente de qué se trata nuestro producto y qué beneficios principales ofrecemos.
+
+### 5.3.1. Landing Page Wireframe
+
+**Wireframe - sección de ‘Inicio’ de AgroCuy:** la sección tendrá una imagen de fondo llamativa con un mensaje que refleja el objetivo de la startup para llamar la atención de posibles usuarios.
+
+<p align="center">
+  <img src="img/wireframe-landing-about-app.png" alt="Pagina Acerca de" width="600">
+</p>
+
+_Imagen 36. Pagina Acerca de_
+
+**Wireframe - sección de ‘Sobre Nosotros’:** la sección tendrá una imagen de fondo y tendrá información sobre la startup Agrotech junto con nuestra misión y visión.
+
+<p align="center">
+  <img src="img/wireframe-landing-about-us.png" alt="Pagina Sobre Nosotros" width="600">
+</p>
+
+_Imagen 37. Pagina Sobre Nosotros_
+
+**Wireframe - sección de ‘Características’:** la sección tendrá una imagen de fondo y tendrá información sobre los servicios que ofrecemos con nuestra aplicación AgroCuy.
+
+<p align="center">
+  <img src="img/wireframe-landing-features.png" alt="Pagina Características" width="600">
+</p>
+
+_Imagen 38. Pagina Características_
+
+**Wireframe - sección de ‘Contacto’:** la sección tendrá una imagen de fondo y tendrá un formulario donde los usuarios potenciales puedan escribir consultas para que sean respondidas en un correo por un miembro de AgroTech.
+
+<p align="center">
+  <img src="img/wireframe-landing-contact.png" alt="Pagina Contacto" width="600">
+</p>
+
+_Imagen 39. Pagina Contacto_
+
+### 5.3.2. Landing Page Mock-up
+**Mockup - sección de ‘Inicio’ de AgroCuy:** la sección tiene una imagen de fondo llamativa con un mensaje que refleja el objetivo de la startup para llamar la atención de posibles usuarios.
+
+<p align="center">
+  <img src="img/mockup-landing-home.png" alt="Pagina de Inicio" width="600">
+</p>
+
+_Imagen 40. Mockup Pagina Inicio_
+
+**Mockup - sección de ‘Acerca de’:** la sección tiene una imagen de fondo y tiene información sobre la problemática que queremos resolver.
+
+<p align="center">
+  <img src="img/mockup-landing-about-app.png" alt="Página Acerca de la problemática" width="600">
+</p>
+
+_Imagen 41. Mockup Pagina Acerca de_
+
+**Mockup - sección de ‘Sobre Nosotros’:** la sección tiene una imagen de fondo y tiene información sobre la startup Agrotech junto con nuestra misión y visión.
+
+<p align="center">
+  <img src="img/mockup-landing-about-us.png" alt="Pagina Sobre Nosotros" width="600">
+</p>
+
+_Imagen 42. Mockup Pagina Sobre Nosotros_
+
+**Mockup - sección de ‘Características’:** la sección tiene una imagen de fondo y tiene información sobre los servicios que ofrecemos con nuestra aplicación AgroCuy.
+
+<p align="center">
+  <img src="img/mockup-landing-features.png" alt="Pagina de Características" width="600">
+</p>
+
+_Imagen 43. Mockup Pagina de Características_
+
+**Mockup - sección de ‘Contacto’:** la sección tiene una imagen de fondo y tiene un formulario donde los usuarios potenciales pueden escribir consultas para que sean respondidas en un correo por un miembro de AgroTech.
+
+<p align="center">
+  <img src="img/mockup-landing-contact.png" alt="Pagina de Contacto" width="600">
+</p>
+
+_Imagen 44. Mockup Pagina de Contacto_
+
+## 5.4. Applications UX/UI Design
+
+### 5.4.1. Applications WireFrames
+
+### Web Application:
+
+<img src="img/wireframe-webapp-signup.png" alt="Wireframe Registro Usuario" width="600">
+<img src="img/wireframe-webapp-review.png" alt="Wireframe Reseñas" width="600">
+<img src="img/wireframe-webapp-myanimals.png" alt="Wireframe Mis Animales" width="600">
+<img src="img/wireframe-webapp-advisor.png" alt="Wireframe Página Principal Asesor" width="600">
+<img src="img/wireframe-webapp-review-animal.png" alt="Wireframe Reseña Animal" width="600">
+<img src="img/wireframe-webapp-register.png" alt="Wireframe Registro General" width="600">
+<img src="img/wireframe-webapp-register-resource.png" alt="Wireframe Registro Recurso" width="600">
+<img src="img/wireframe-webapp-no-review.png" alt="Wireframe Sin Reseña" width="600">
+<img src="img/wireframe-webapp-register-cuy.png" alt="Wireframe Registro Cuy" width="600">
+<img src="img/wireframe-webapp-advisor-notifications.png" alt="Wireframe Notificaciones Asesor" width="600">
+<img src="img/wireframe-webapp-advisor-clients.png" alt="Wireframe Clientes Asesor" width="600">
+<img src="img/wireframe-webapp-advisor-notifications-new.png" alt="Wireframe Notificaciones Nuevas" width="600">
+<img src="img/wireframe-webapp-advisor-publication.png" alt="Wireframe Publicación Asesor" width="600">
+
+### Mobile Application
+
+<img src="img/wireframe-mobile-loginandregister.png" alt="Wireframe Login y Registro Móvil" width="600">
+<img src="img/wireframe-mobile-publication.png" alt="Wireframe Publicación Móvil" width="600">
+<img src="img/wireframe-mobile-calendar.png" alt="Wireframe Calendario Móvil" width="600">
+<img src="img/wireframe-mobile-advisor.png" alt="Wireframe Página Principal Asesor" width="600">
+<img src="img/wireframe-mobile-notifications.png" alt="Wireframe Notificaciones Móvil" width="600">
+<img src="img/wireframe-mobile-dates.png" alt="Wireframe Fechas Móvil" width="600">
+<img src="img/wireframe-mobile-publication-advisor.png" alt="Wireframe Publicación Asesor" width="600">
+<img src="img/wireframes-mobile-schedule-advisor.png" alt="Wireframe Horario Asesor" width="600">
+<img src="img/wireframe-mobile-notifications-advisor.png" alt="Wireframe Notificaciones Asesor" width="600">
+<img src="img/wireframe-mobile-calendar-advisor.png" alt="Wireframe Calendario Asesor" width="600">
+
+### 5.4.2. Applications WireFlow Diagrams
+
+### 5.4.3. Applications Mock-ups.
+
+### Web Application:
+  <img src="img/mockup-webapp-signup.png" alt="Pagina de Registro" width="600">
+  <img src="img/mockup-webapp-myanimals.png" alt="Pagina de Cuy" width="600">
+  <img src="img/mockup-webapp-review.png" alt="Pagina de Reseña" width="600">
+  <img src="img/mockup-webapp-advisor.png" alt="Pagina de Asesor" width="600">
+  <img src="img/mockup-webapp-register.png" alt="Pagina de Registro" width="600">
+  <img src="img/mockup-webapp-review-advisor.png" alt="Pagina de Registro Asesor" width="600">
+  <img src="img/mockup-webapp-resource-register.png" alt="Pagina de Recurso Registro" width="600">
+  <img src="img/mockup-webapp-no-clients.png" alt="Pagina de No Clientes" width="600">
+  <img src="img/mockup-webapp-publication.png" alt="Pagina de Publicacion" width="600">
+  <img src="img/mockup-webapp-no-resources-register.png" alt="Pagina de Recursos no registrados" width="600">
+  
+### IoT Application:
+  <img src="img/mockup-iot.png" alt="Pagina de IoT" width="600">
+
+### Mobile Application:
+
+### Breeder:
+
+ <img src="img/mockup-mobile-loginandregister.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-publication.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-calendar.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-advisor.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-notifications.png" alt="Pagina de Criador" width="600">
+ 
+<br>
+
+### Advisor:
+
+<img src="img/mockup-mobile-dates.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-publication-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-schedule-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-notifications-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-calendar-advisor.png" alt="Pagina de Asesor" width="600">
+
+
+### 5.4.4. Applications User Flow Diagrams
+
+## 5.5. Applications Prototyping
+
 # Capítulo VI Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management.
