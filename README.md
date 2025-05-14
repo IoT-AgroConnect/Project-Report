@@ -2618,6 +2618,247 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 <br><br>
 <br><br>
 
+# Capítulo VI Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management.
+
+### 6.1.1. Software Development Environment Configuration.
+
+### 6.1.2. Source Code Management.
+
+### 6.1.3. Source Code Style Guide & Conventions.
+
+### 6.1.4. Software Deployment Configuration.
+
+## 6.2. Landing Page, Services & Applications Implementation.
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+La planificación del primer sprint se llevó a cabo mediante una reunión virtual a través de Google Meet. Durante esta sesión, el equipo acordó los objetivos del sprint, estimó las historias de usuario y definió la capacidad de trabajo (*velocity*) para el periodo. La siguiente tabla resume la información discutida y registrada durante dicha sesión.
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** |  |
+| Fecha | 2025-05-01 |
+| Hora | 10:00 PM |
+| Lugar | Virtual (Google Meet) |
+| Preparado por | Lucas Coronel, Nadia Alessandra |
+| Participantes de la reunión de planificación | - Cuadros Rodriguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Mendez, Sebastian Andre |
+| Resumen del Sprint n–1 (Review) | No aplica — este es el primer sprint del proyecto. |
+| Resumen del Sprint n–1 (Retrospectiva) | No aplica — este es el primer sprint del proyecto. |
+| **Sprint Goal & User Stories** |  |
+| Objetivo del Sprint 1 | Nuestro enfoque está en entregar una primera versión de la página de inicio de AgroCuy que comunique claramente nuestra propuesta de valor. Creemos que esto generará visibilidad inicial e interés por parte de potenciales usuarios y partes interesadas. Esto se confirmará cuando el equipo reciba retroalimentación del cliente y se valide la consistencia visual en distintos dispositivos. |
+| Velocidad del Sprint (Story Points esperados) | 20 |
+| Suma total de Story Points asignados | 20 |
+
+#### 6.2.1.2. Aspect Leaders and Collaborators
+
+Durante este primer sprint, el equipo se organizó según los aspectos clave identificados en el desarrollo de la **Landing Page estática** del sistema AgroCuy. Cada aspecto (o feature) fue asignado con un miembro responsable como **líder (L)** y uno o más **colaboradores (C)** para facilitar el trabajo colaborativo, promover la responsabilidad compartida y optimizar la comunicación.
+
+Los aspectos considerados en este sprint fueron:
+
+- **Navbar & Footer**
+- **Sección de Inicio**
+- **Acerca De**
+- **Sobre Nosotros**
+- **Características**
+- **Contacto**
+
+A continuación, se presenta la matriz Leadership-and-Collaboration (LACX):
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Navbar & Footer** | **Inicio** | **Acerca De** | **Sobre Nosotros** | **Características** | **Contacto** |
+|----------------------------------------|----------------------|----------------------|------------|----------------|----------------------|----------------------|--------------|
+| Lucas Coronel, Nadia Alessandra        | nad21lc           | L                    | L          | C              | C                    |                      |              |
+| Ramírez Mendez, Sebastián Andre        | yorusaurio          | C                    |            | L              | C                    |                      |              |
+| Cuadros Rodriguez, Juan Alejandro      | JuanAlejandroCuadrosRodriguez          |                      |            | C              | L                    | C                    |              |
+| Moreno Vergara, Johan Raúl             | JohanMV          |                      |            |                |                      | L                    | C            |
+| Jarama Peñaloza, Fiorella              | Fio0407       |                      |            |                |                      | C                    | L            |
+
+> La asignación de líderes y colaboradores se alinea directamente con la distribución de tareas en el Sprint Backlog, garantizando coherencia entre la planificación y la ejecución técnica.
+
+
+#### 6.2.1.3. Sprint Backlog 1
+
+Durante el Sprint 1, se definió como objetivo principal la implementación de la **Landing Page estática** del sistema AgroCuy. Para gestionar eficientemente los ítems de trabajo, se utilizó una **tabla colaborativa en Trello**, la cual permitió asignar tareas, estimar el esfuerzo requerido y dar seguimiento al estado de cada actividad.
+
+🔗 [Sprint Backlog 1 en Trello](https://trello.com/b/AtaOZblV/sprint-backlog-1)
+
+<img src="img/sprintBacklog.jpg" width="100%">
+
+*Imagen 118. Sprint Backlog 1 gestionado en Trello*
+
+---
+
+A continuación, se presenta la tabla estructurada del Sprint Backlog 1, que detalla las **User Stories**, sus respectivos **Tasks**, estimaciones y responsables:
+
+| **Sprint #** | Sprint 1 |
+|--------------|----------|
+
+| **User Story ID** | **User Story**                            | **Task ID** | **Task**                                 | **Descripción**                                                                 | **Story Points** | **Responsable**        | **Estado**     |
+|------------------|--------------------------------------------|-------------|-------------------------------------------|----------------------------------------------------------------------------------|------------------|------------------------|----------------|
+| US22             | Visualización de Navbar y Footer           | TS01        | Implementación de Navbar                  | Se implementa el Navbar con diseño responsive adaptable.                        | 2                | Nadia Lucas            | Done           |
+|                  |                                            | TS02        | Implementación de Footer                  | Se implementa el Footer de forma responsive.                                    | (↑ compartido)   | Nadia Lucas            | Done           |
+| US23             | Visualización de sección de inicio         | TS03        | Implementación de página de inicio        | Se desarrolla la sección de inicio con diseño responsive y CSS propio.          | 1                | Nadia Lucas            | Done           |
+| US24             | Visualización de sección “Acerca De”       | TS04        | Implementación de sección Acerca De       | Desarrollo de la sección "Acerca De" con estructura y estilos adaptables.       | 2                | Sebastián Ramirez      | Done           |
+| US25             | Visualización de sección “Sobre Nosotros”  | TS05        | Implementación de sección Sobre Nosotros  | Sección "Sobre Nosotros" con diseño adaptativo y componentes estructurados.     | 2                | Juan Cuadros       | Done           |
+| US26             | Visualización de sección “Características” | TS06        | Implementación de sección Características | Implementación de la sección que resalta los beneficios clave del sistema.      | 2                | Johan Moreno         | Done           |
+| US27             | Visualización de sección “Contacto”        | TS07        | Implementación de sección Contacto        | Desarrollo de formulario y diseño responsive de contacto.                       | 2                | Fiorella Jarama          | Done           |
+
+
+#### 6.2.1.4. Development Evidence for Sprint Review.
+
+Durante el desarrollo del Sprint 1, se realizaron múltiples avances en el repositorio oficial de la Landing Page del sistema AgroCuy. Estos avances se documentaron a través de commits distribuidos en distintas ramas funcionales. A continuación, se detalla la evidencia de trabajo en el repositorio:
+
+🔗 Repositorio: [Landing Page AgroCuy](https://github.com/IoT-AgroConnect/Landing-Page-Main)
+
+| **Repository** | **Branch**               | **Commit ID** | **Commit Message**                                  | **Commited on (Date)** |
+|------------------|-------------------------|----------------|----------------------------------------------------------|-----------------------|
+| AgroTech-UPC/Landing-Page | feature/header-footer   | ff5467f       | feat: Preparing the workspace                            | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/header-footer   | 965448b       | feat: Complete header and footer                         | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | f450025       | Merge pull request #1 from AgroTech-UPC/header-footer    | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | bab8888       | refactor: login button deleted & padding to main         | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/contact         | 1fdfcb2       | feat: contact page completed                             | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/contact         | 2a79c52       | fix: fixed position of footer                            | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | 1c1cab7       | Merge pull request #4 from AgroTech-UPC/feature/contact  | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/home            | 12c2b0b       | feat: home page completed                                | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | b348cf3       | Merge pull request #5 from AgroTech-UPC/feature/home     | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/about-us        | bcee2f1       | feat: about us section added                             | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | f0b57ab       | Merge pull request #7 from AgroTech-UPC/feature/about-us | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/about-app       | a0f235c       | feat: Section about-app created                          | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/characteristics | 2c15c6d       | feat: features section added                             | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | 961b6fe       | Merge pull request #8 from AgroTech-UPC/feature/about-app| 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | bc8aa23       | Merge pull request #10 from AgroTech-UPC/feature/characteristics | 01/05/2025      |
+| AgroTech-UPC/Landing-Page | main                   | 341ad78       | Merge pull request #11 from AgroTech-UPC/develop         | 01/05/2025            |
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 1, se desarrollaron pruebas de aceptación automatizadas utilizando el lenguaje **Gherkin**, las cuales fueron registradas en archivos `.feature` y versionadas en el repositorio correspondiente.
+
+Estas pruebas se diseñaron para validar el cumplimiento de criterios de aceptación de las User Stories priorizadas, garantizando que las funcionalidades desarrolladas cumplan con las expectativas del usuario desde una perspectiva funcional y de comportamiento.
+
+🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
+
+| **Repository**               | **Branch** | **Commit ID** | **Commit Message**                            | **Commited on (Date)** |
+|-----------------------------|------------|----------------|------------------------------------------------|-------------------------|
+| AgroTech-UPC/Acceptance-Tests | main       | 57f2c58       | feat: added feature file for US29              | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 1b94680       | feat: added feature file for US28              | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 9027b2b       | fix: fix typing error                          | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 329c774       | feat: added acceptance test for US31           | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 24c738a       | feat: added acceptance test for US30           | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 802f736       | feat: added acceptance test for US26           | 01/05/2025              |
+| AgroTech-UPC/Acceptance-Tests | main       | 29d85ed       | feat: added acceptance test for US27           | 01/05/2025              |
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+Como parte de la evaluación del Sprint 1, se presenta la evidencia visual de los entregables desarrollados, centrados en la implementación completa de la **Landing Page estática** del sistema AgroCuy. El equipo documentó los avances a través de capturas de pantalla y un video demostrativo.
+
+🎥 **Video demostrativo**:  
+[Execution Evidence – AgroCuy Landing Page](https://youtu.be/Yi3p53UjKF0)
+
+---
+
+<img src="img/evidence_landing_page_1.png" width="100%">
+<p style="text-align:center"><em>Imagen 119. Vista general de la landing page</em></p>
+
+---
+
+### 🔹 Navbar
+
+Se desarrolló un componente de navegación adaptable (responsive), que reorganiza las secciones en un menú lateral al reducir el ancho de pantalla, mejorando la experiencia en dispositivos móviles.
+
+<img src="img/evidence_landing_page_2.png" width="100%">
+<p style="text-align:center"><em>Imagen 120. Navbar expandido en pantalla amplia</em></p>
+
+<img src="img/evidence_landing_page_3.png" width="100%">
+<p style="text-align:center"><em>Imagen 121. Navbar colapsado en vista móvil</em></p>
+
+---
+
+### 🔹 Footer
+
+El pie de página fue diseñado para adaptarse dinámicamente a distintos tamaños de pantalla, manteniendo alineación y legibilidad en todos los dispositivos.
+
+<img src="img/evidence_landing_page_4.png" width="100%">
+<p style="text-align:center"><em>Imagen 122. Footer en pantalla completa</em></p>
+
+<img src="img/evidence_landing_page_5.png" width="100%">
+<p style="text-align:center"><em>Imagen 123. Footer en vista móvil</em></p>
+
+---
+
+### 🔹 Página de Inicio
+
+Contiene una introducción clara a la plataforma AgroCuy, destacando sus beneficios principales. Se cuidó la coherencia visual y la adaptabilidad.
+
+<img src="img/evidence_landing_page_6.png" width="100%">
+<p style="text-align:center"><em>Imagen 124. Sección de bienvenida</em></p>
+
+<img src="img/evidence_landing_page_7.png" width="100%">
+<p style="text-align:center"><em>Imagen 125. Continuación de la sección de inicio</em></p>
+
+---
+
+### 🔹 Sección “Acerca De”
+
+Brinda una breve descripción sobre el propósito del sistema y su enfoque tecnológico (IoT).
+
+<img src="img/evidence_landing_page_8.png" width="100%">
+<p style="text-align:center"><em>Imagen 126. Sección "Acerca de" – parte superior</em></p>
+
+<img src="img/evidence_landing_page_9.png" width="100%">
+<p style="text-align:center"><em>Imagen 127. Sección "Acerca de" – parte inferior</em></p>
+
+---
+
+### 🔹 Sección “Sobre Nosotros”
+
+Presenta información del equipo de desarrollo y su compromiso con el proyecto.
+
+<img src="img/evidence_landing_page_10.png" width="100%">
+<p style="text-align:center"><em>Imagen 128. Introducción del equipo</em></p>
+
+<img src="img/evidence_landing_page_11.png" width="100%">
+<p style="text-align:center"><em>Imagen 129. Presentación detallada de integrantes</em></p>
+
+---
+
+### 🔹 Sección “Características”
+
+Describe las funcionalidades destacadas del sistema, como monitoreo con sensores, automatización y soporte remoto.
+
+<img src="img/evidence_landing_page_12.png" width="100%">
+<p style="text-align:center"><em>Imagen 130. Lista de características principales</em></p>
+
+<img src="img/evidence_landing_page_13.png" width="100%">
+<p style="text-align:center"><em>Imagen 131. Continuación de la sección de características</em></p>
+
+---
+
+### 🔹 Sección “Contacto”
+
+Incluye un formulario de contacto accesible y adaptado para pantallas móviles, permitiendo la comunicación con el equipo desarrollador.
+
+<img src="img/evidence_landing_page_14.png" width="100%">
+<p style="text-align:center"><em>Imagen 132. Formulario de contacto – vista principal</em></p>
+
+<img src="img/evidence_landing_page_15.png" width="100%">
+<p style="text-align:center"><em>Imagen 133. Contacto – adaptabilidad móvil</em></p>
+
+---
+
+
+
+Todos los componentes definidos para este Sprint fueron implementados exitosamente y validados visualmente, cumpliendo con el objetivo de entregar una landing page funcional, accesible y coherente con los estándares de diseño web moderno.
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint 
+
 # Conclusiones
 
 ## Avance de Conclusiones y recomendaciones
