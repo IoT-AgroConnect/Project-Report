@@ -3012,6 +3012,11 @@ _Imagen 44. Mockup Pagina de Contacto_
 ## 5.4. Applications UX/UI Design
 
 ### 5.4.1. Applications WireFrames
+
+### 5.4.2. Applications WireFlow Diagrams
+
+### 5.4.3. Applications Mock-ups.
+
 ### Web Application:
   <img src="img/mockup-webapp-signup.png" alt="Pagina de Registro" width="600">
   <img src="img/mockup-webapp-myanimals.png" alt="Pagina de Cuy" width="600">
@@ -3026,14 +3031,11 @@ _Imagen 44. Mockup Pagina de Contacto_
   
 ### IoT Application:
   <img src="img/mockup-iot.png" alt="Pagina de IoT" width="600">
-<br>
 
 ### Mobile Application:
-<br>
 
 ### Breeder:
 
-<br>
  <img src="img/mockup-mobile-loginandregister.png" alt="Pagina de Criador" width="600">
  <img src="img/mockup-mobile-publication.png" alt="Pagina de Criador" width="600">
  <img src="img/mockup-mobile-calendar.png" alt="Pagina de Criador" width="600">
@@ -3050,10 +3052,6 @@ _Imagen 44. Mockup Pagina de Contacto_
 <img src="img/mockup-mobile-notifications-advisor.png" alt="Pagina de Asesor" width="600">
 <img src="img/mockup-mobile-calendar-advisor.png" alt="Pagina de Asesor" width="600">
 
-
-### 5.4.2. Applications WireFlow Diagrams
-
-### 5.4.3. Applications Mock-ups.
 
 ### 5.4.4. Applications User Flow Diagrams
 
