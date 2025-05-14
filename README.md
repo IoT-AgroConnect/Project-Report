@@ -2962,9 +2962,9 @@ Estas pruebas se diseñaron para validar el cumplimiento de criterios de aceptac
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
-Como parte de la evaluación del Sprint 1, se presenta la evidencia visual de los entregables desarrollados, centrados en la implementación completa de la **Landing Page estática** del sistema AgroCuy. El equipo documentó los avances a través de capturas de pantalla y un video demostrativo.
+Como parte de la evaluación del Sprint 1, se presenta la evidencia visual del entregable final correspondiente a la **Landing Page estática** del sistema AgroCuy. Esta interfaz representa el primer acercamiento público del sistema, enfocada en comunicar su propuesta de valor a potenciales usuarios y partes interesadas.
 
-🎥 **Video demostrativo**:  
+🎥 **Video demostrativo – Landing Page**:  
 [Execution Evidence – AgroCuy Landing Page](https://youtu.be/Yi3p53UjKF0)
 
 ---
@@ -2976,7 +2976,7 @@ Como parte de la evaluación del Sprint 1, se presenta la evidencia visual de lo
 
 ### 🔹 Navbar
 
-Se desarrolló un componente de navegación adaptable (responsive), que reorganiza las secciones en un menú lateral al reducir el ancho de pantalla, mejorando la experiencia en dispositivos móviles.
+Se desarrolló un componente de navegación *responsive* que adapta dinámicamente sus elementos para asegurar una navegación fluida en cualquier dispositivo. En pantallas móviles, las secciones se agrupan en un menú lateral tipo hamburguesa.
 
 <img src="img/evidence_landing_page_2.png" width="100%">
 <p style="text-align:center"><em>Imagen 120. Navbar expandido en pantalla amplia</em></p>
@@ -2988,7 +2988,7 @@ Se desarrolló un componente de navegación adaptable (responsive), que reorgani
 
 ### 🔹 Footer
 
-El pie de página fue diseñado para adaptarse dinámicamente a distintos tamaños de pantalla, manteniendo alineación y legibilidad en todos los dispositivos.
+El pie de página mantiene la identidad visual del sistema, asegurando consistencia y accesibilidad en diferentes tamaños de pantalla.
 
 <img src="img/evidence_landing_page_4.png" width="100%">
 <p style="text-align:center"><em>Imagen 122. Footer en pantalla completa</em></p>
@@ -3000,7 +3000,7 @@ El pie de página fue diseñado para adaptarse dinámicamente a distintos tamañ
 
 ### 🔹 Página de Inicio
 
-Contiene una introducción clara a la plataforma AgroCuy, destacando sus beneficios principales. Se cuidó la coherencia visual y la adaptabilidad.
+La sección de bienvenida presenta una introducción clara al propósito de la plataforma AgroCuy, resaltando sus beneficios y enfoques principales.
 
 <img src="img/evidence_landing_page_6.png" width="100%">
 <p style="text-align:center"><em>Imagen 124. Sección de bienvenida</em></p>
@@ -3010,57 +3010,55 @@ Contiene una introducción clara a la plataforma AgroCuy, destacando sus benefic
 
 ---
 
-### 🔹 Sección “Acerca De”
+### 🔹 Sección “Problemática” y Segmentos Objetivo
 
-Brinda una breve descripción sobre el propósito del sistema y su enfoque tecnológico (IoT).
+Esta sección incluye tarjetas interactivas (*flip cards*) con información clave sobre los desafíos que enfrentan los criadores de cuyes. También se describen los dos segmentos objetivos del sistema: criadores y asesores técnicos.
 
-<img src="img/evidence_landing_page_8.png" width="100%">
-<p style="text-align:center"><em>Imagen 126. Sección "Acerca de" – parte superior</em></p>
-
-<img src="img/evidence_landing_page_9.png" width="100%">
-<p style="text-align:center"><em>Imagen 127. Sección "Acerca de" – parte inferior</em></p>
-
----
-
-### 🔹 Sección “Sobre Nosotros”
-
-Presenta información del equipo de desarrollo y su compromiso con el proyecto.
-
-<img src="img/evidence_landing_page_10.png" width="100%">
-<p style="text-align:center"><em>Imagen 128. Introducción del equipo</em></p>
-
-<img src="img/evidence_landing_page_11.png" width="100%">
-<p style="text-align:center"><em>Imagen 129. Presentación detallada de integrantes</em></p>
+<img src="img/landing-page-1.jpg" width="100%">
+<img src="img/landing-page-2.jpg" width="100%">
 
 ---
 
 ### 🔹 Sección “Características”
 
-Describe las funcionalidades destacadas del sistema, como monitoreo con sensores, automatización y soporte remoto.
+Se muestran las funcionalidades clave del sistema AgroCuy mediante íconos explicativos y texto conciso, con un diseño moderno y estructurado.
 
-<img src="img/evidence_landing_page_12.png" width="100%">
-<p style="text-align:center"><em>Imagen 130. Lista de características principales</em></p>
+<img src="img/landing-page-3.jpg" width="100%">
 
-<img src="img/evidence_landing_page_13.png" width="100%">
-<p style="text-align:center"><em>Imagen 131. Continuación de la sección de características</em></p>
+---
+
+### 🔹 Sección “Sobre Nosotros”
+
+Aquí se describe la identidad de la startup, su misión, visión y los integrantes del equipo. Se incluyen fotos de los miembros, fortaleciendo la conexión con el usuario.
+
+<img src="img/landing-page-4.jpg" width="100%">
+<img src="img/landing-page-5.jpg" width="100%">
 
 ---
 
 ### 🔹 Sección “Contacto”
 
-Incluye un formulario de contacto accesible y adaptado para pantallas móviles, permitiendo la comunicación con el equipo desarrollador.
+La sección de contacto presenta los canales de comunicación con el equipo, mediante un formulario responsivo que facilita el envío de consultas o sugerencias.
 
-<img src="img/evidence_landing_page_14.png" width="100%">
-<p style="text-align:center"><em>Imagen 132. Formulario de contacto – vista principal</em></p>
-
-<img src="img/evidence_landing_page_15.png" width="100%">
-<p style="text-align:center"><em>Imagen 133. Contacto – adaptabilidad móvil</em></p>
+<img src="img/landing-page-6.jpg" width="100%">
 
 ---
 
+### ✅ Conclusión del Sprint
 
+Todos los componentes definidos para este Sprint fueron implementados satisfactoriamente y validados visualmente, cumpliendo con el objetivo de entregar una landing page funcional, accesible y coherente con los estándares de diseño web moderno.
 
-Todos los componentes definidos para este Sprint fueron implementados exitosamente y validados visualmente, cumpliendo con el objetivo de entregar una landing page funcional, accesible y coherente con los estándares de diseño web moderno.
+---
+
+### 🌐 Evidencia del Frontend Web Application
+
+Además de la landing page, se implementaron funcionalidades adicionales correspondientes a las historias de usuario del **Sprint Backlog 1**. Esta primera versión funcional del Frontend refleja la estructura básica de interacción y navegación dentro de la plataforma AgroCuy.
+
+🎥 **Video demostrativo – Frontend Web Application**:  
+[Execution Evidence – AgroCuy Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EYY0ErnjEsFBiUZXlO60wHQBnqjOJRxM13gjVWm8Gpbbzg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Hd2T2Y)
+
+<img src="img/front-web-evidence.png" width="100%">
+<p style="text-align:center"><em>Imagen 134. Vista general del sistema web funcional</em></p>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
 
