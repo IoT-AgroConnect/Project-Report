@@ -1259,6 +1259,16 @@ Para trabajar el Product Backlog, se utilizó la herramienta Trello, la cual se 
 
 <p>Realizamos nuestro proceso de event storming a través de la herramienta Figma, donde trazamos todo el recorrido del sistema. Iniciamos con la fase inicial de Unstructured Exploration, en la cual discutimos y contrastamos nuestras ideas respecto a los eventos clave del dominio, guiándonos por las sugerencias recomendadas y centrandonos en el objetivo numero uno de nuestro proyecto. Asimismo, tomamos en cuenta diversos aspectos al elegir los eventos, tales como su importancia, recurrencia y momento de ocurrencia.<p>
 
+
+Leyenda: 
+  - Naraja: Eventos Clave
+  - Verde: Main Timeline
+  - Amarillo Oscuro: Pain points
+  - Azul: Commands
+  - Morado: Policies
+  - Rosado: Read Models
+  - Amarillo Claro: Sistemas Externos
+
 🔗 [Ver Figma](https://www.figma.com/design/bBQCiFvraA0jM3SFmloKWi/Event-Storming---IoT?node-id=0-1&t=uHqde6eWHW5RX70z-1)
 
 <img src="img/event-storming-figma.PNG" alt="Unstructured_exploration" width="800">
@@ -2694,18 +2704,202 @@ Durante el Sprint 1, se definió como objetivo principal la implementación de l
 
 A continuación, se presenta la tabla estructurada del Sprint Backlog 1, que detalla las **User Stories**, sus respectivos **Tasks**, estimaciones y responsables:
 
-| **Sprint #** | Sprint 1 |
-|--------------|----------|
+<table>
+  <tr>
+  <th valign="top">Sprint #</th>
+  <th colspan="7" valign="top">Sprint 1</th>
+</tr>
+<tr>
+  <td colspan="2" valign="top">User Story</td>
+  <td colspan="6" valign="top">Work-Item / Task</td>
+</tr>
+<tr>
+  <td valign="top">Id</td>
+  <td valign="top">Title</td>
+  <td valign="top">Id</td><td valign="top">Title</td>
+  <td valign="top">Description</td>
+  <td valign="top">Estimation</td><td valign="top">Assigned To</td>
+  <td valign="top">Status (To-Do / In-Process / Review / Done)</td>
+</tr>
+<tr>
+  <td rowspan="2" valign="top">US22</td>
+  <td rowspan="2" valign="top">Visualización de Navbar y Footer</td>
+  <td valign="top">TS01</td>
+  <td valign="top">Implementación de Navbar</td>
+  <td valign="top">Se implementa el navbar de forma responsive.</td>
+  <td rowspan="2" valign="top">2</td>
+  <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+</tr>
+<tr>
+  <td valign="top">TS02</td>
+  <td valign="top">Implementación de Footer</td>
+  <td valign="top">Se implementa el footer de forma responsive.</td>
+  <td valign="top">Fiorella Jarama</td>
+  <td valign="top">Done</td>
+</tr>
+<tr><td valign="top">US23</td><td valign="top">Visualización de sección de inicio</td><td valign="top">TS03</td><td valign="top">Implementación de página de inicio</td><td valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US24</td><td valign="top">Visualización de sección “Acerca De”</td><td valign="top">TS04</td><td valign="top">Implementación de sección Acerca De</td><td valign="top">Se implementa la página Acerca De, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Sebastián Ramirez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US25</td><td valign="top">Visualización de sección “Sobre Nosotros”</td><td valign="top">TS05</td><td valign="top">Implementación de sección Sobre Nosotros</td><td valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Juan Cuadros</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US26</td><td valign="top">Visualización de sección “Características”</td><td valign="top">TS06</td><td valign="top">Implementación de sección Características</td><td valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US27</td><td valign="top">Visualización de sección “Contacto”</td><td valign="top">TS07</td><td valign="top">Implementación de sección Contacto</td><td valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Johan Moreno</td><td valign="top">Done</td></tr>
+</table>
 
-| **User Story ID** | **User Story**                            | **Task ID** | **Task**                                 | **Descripción**                                                                 | **Story Points** | **Responsable**        | **Estado**     |
-|------------------|--------------------------------------------|-------------|-------------------------------------------|----------------------------------------------------------------------------------|------------------|------------------------|----------------|
-| US22             | Visualización de Navbar y Footer           | TS01        | Implementación de Navbar                  | Se implementa el Navbar con diseño responsive adaptable.                        | 2                | Nadia Lucas            | Done           |
-|                  |                                            | TS02        | Implementación de Footer                  | Se implementa el Footer de forma responsive.                                    | (↑ compartido)   | Nadia Lucas            | Done           |
-| US23             | Visualización de sección de inicio         | TS03        | Implementación de página de inicio        | Se desarrolla la sección de inicio con diseño responsive y CSS propio.          | 1                | Nadia Lucas            | Done           |
-| US24             | Visualización de sección “Acerca De”       | TS04        | Implementación de sección Acerca De       | Desarrollo de la sección "Acerca De" con estructura y estilos adaptables.       | 2                | Sebastián Ramirez      | Done           |
-| US25             | Visualización de sección “Sobre Nosotros”  | TS05        | Implementación de sección Sobre Nosotros  | Sección "Sobre Nosotros" con diseño adaptativo y componentes estructurados.     | 2                | Juan Cuadros       | Done           |
-| US26             | Visualización de sección “Características” | TS06        | Implementación de sección Características | Implementación de la sección que resalta los beneficios clave del sistema.      | 2                | Johan Moreno         | Done           |
-| US27             | Visualización de sección “Contacto”        | TS07        | Implementación de sección Contacto        | Desarrollo de formulario y diseño responsive de contacto.                       | 2                | Fiorella Jarama          | Done           |
+<table>
+    <tr>
+      <td valign="top">US01</td><td valign="top">Visualización de catálogo de asesores</td><td valign="top">TS01</td><td valign="top">Implementación de búsqueda de asesores</td><td valign="top">Se implementa el componente para la búsqueda de asesores para los criadores.</td><td valign="top">5</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US02</td><td valign="top">Visualización de información de un asesor</td><td valign="top">TS02</td><td valign="top">Implementación de vista de información de un asesor</td><td valign="top">Se implementa el componente con la vista de información de un asesor.</td><td valign="top">3</td><td valign="top">Juan Cuadros</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US03</td><td valign="top">Visualización de horarios de asesores</td><td valign="top">TS03</td><td valign="top">Implementación de vista de horarios</td><td valign="top">Se implementa el componente con la vista de los horarios disponibles del asesor.</td><td valign="top">3</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US04</td><td valign="top">Programación de citas con asesores</td><td valign="top">TS04</td><td valign="top">Implementación de vista para programar cita</td><td valign="top">Se implementa la vista para programar una cita con un asesor.</td><td valign="top">8</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US05</td><td valign="top">Visualización de información del criador de cuyes</td><td valign="top">TS05</td><td valign="top">Implementación de detalles de cita</td><td valign="top">Se implementa la página para visualizar los datos del criador previa a la cita.</td><td valign="top">5</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="2">US06</td><td valign="top" rowspan="2">Notificación de citas al asesor</td><td valign="top">TS06</td><td valign="top">Implementación de visualización de notificaciones al asesor</td><td valign="top">Se implementa el componente que muestra la vista de notificaciones para los asesores.</td><td valign="top" rowspan="2">3</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS07</td><td valign="top">Implementación de eliminación de notificaciones al asesor</td><td valign="top">Se implementa la función que permite eliminar una notificación.</td><td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="3">US07</td><td valign="top" rowspan="3">Notificación de citas al criador</td><td valign="top">TS08</td><td valign="top">Implementación de visualización de notificaciones al criador</td><td valign="top">Se implementa el componente que muestra la vista de notificaciones para los criadores.</td><td valign="top" rowspan="3">3</td>
+      <td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS09</td><td valign="top">Implementación de eliminación de notificaciones al criador</td><td valign="top">Se implementa la función que permite eliminar una notificación.</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS10</td><td valign="top">Implementación de Pantalla de Resultados Vacíos</td><td valign="top">Se implementa un componente que recibe un mensaje como parámetro y permite mostrar una vista cuando no se encuentren datos disponibles.</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US08</td><td valign="top">Calificación al asesor luego de una cita</td><td valign="top">TS11</td><td valign="top">Implementación de registro de calificación del asesor</td><td valign="top">Se implementa la funcionalidad en el componente para registrar la calificación del asesor brindada por el criador.</td><td valign="top">5</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="2">US09</td>
+      <td valign="top" rowspan="2">Gestión de una publicación</td>
+      <td valign="top">TS12</td>
+      <td valign="top">Implementación de creación de publicaciones</td>
+      <td valign="top">Se implementa el componente para crear nuevas publicaciones</td>
+      <td valign="top" rowspan="2">2</td>
+      <td valign="top">Fiorella Jarama</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS13</td>
+      <td valign="top">Implementación de eliminación de publicaciones</td>
+      <td valign="top">Se implementa la función dentro del componente de publicaciones para eliminar una publicación</td>
+      <td valign="top">Fiorella Jarama</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US10</td><td valign="top">Visualización de publicaciones de asesores</td><td valign="top">TS14</td><td valign="top">Implementación de visualización de publicaciones</td><td valign="top">Se implementa el componente para visualizar publicaciones de asesores para el criador.</td><td valign="top">3</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="3">US11</td><td valign="top" rowspan="3">Gestión de jaulas de cuyes</td><td valign="top">TS15</td><td valign="top">Implementación de registro de una jaula</td><td valign="top">Se implementa el componente para registrar una nueva jaula de cuyes.</td><td valign="top" rowspan="3">3</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">TS16</td><td valign="top">Implementación de edición de una jaula</td><td valign="top">Se implementa la función que permite editar la información de una jaula.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">TS17</td><td valign="top">Implementación de eliminación de una jaula</td><td valign="top">Se implementa la función que permite eliminar una jaula junto a la información de los cuyes que habitan en ella.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US12</td><td valign="top">Registro de información de animales</td><td valign="top">TS18</td><td valign="top">Implementación de registro de un cuy</td><td valign="top">Se implementa el componente para registrar un cuy en una jaula existente.</td><td valign="top">3</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US13</td>
+      <td rowspan="2" valign="top">Visualización y edición de información de animales</td>
+      <td valign="top">TS19</td>
+      <td valign="top">Implementación de vista de información de animales</td>
+      <td valign="top">Se implementa el componente para visualizar las jaulas y el componente para visualizar la información de los cuyes.</td>
+      <td valign="top" rowspan="2">5</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS20</td><td valign="top">Implementación de edición de información de animales</td><td valign="top">Se implementa la edición dentro de la componente de jaula, así como la edición para la componente de información de un cuy.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US15</td>
+      <td rowspan="2" valign="top">Gestión de recursos de la granja</td>
+      <td valign="top">TS22</td>
+      <td valign="top">Implementación de registro de recurso</td>
+      <td valign="top">Se implementa el componente para registrar un recurso para el criador.</td>
+      <td valign="top" rowspan="2">5</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS23</td>
+      <td valign="top">Implementación de vista de recursos</td>
+      <td valign="top">Se implementa el componente para la vista de los recursos del criador</td>
+      <td valign="top">Nadia Lucas</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US16</td>
+      <td rowspan="2" valign="top">Gestión de gastos realizados</td>
+      <td valign="top">TS24</td>
+      <td valign="top">Implementación de registro de gasto</td>
+      <td valign="top">Se implementa el componente para registrar un gasto para el criador.</td>
+      <td valign="top" rowspan="2">5</td>
+      <td valign="top">Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS25</td>
+      <td valign="top">Implementación de vista de gastos</td>
+      <td valign="top">Se implementa el componente para la vista de los recursos del criador.</td>
+      <td valign="top">Nadia Lucas</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US24</td>
+      <td valign="top">Visualización de la sección "Acerca De"</td>
+      <td valign="top">TS26</td><td valign="top">Mejorar diseño y contenido de la sección "Acerca De"</td>
+      <td valign="top">Se mejora el contenido de la página sobre la problemática, sobre nosotros, características y contacto.</td>
+      <td valign="top">2</td><td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US25</td>
+      <td valign="top">Visualización de la sección "Sobre Nosotros"</td>
+      <td valign="top">TS27</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Sobre Nosotros"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Sobre Nosotros" para proporcionar información clara y concisa sobre el equipo y la misión.</td>
+      <td valign="top">2</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US26</td>
+      <td valign="top">Visualización de la sección "Características"</td>
+      <td valign="top">TS28</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Características"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Características" para resaltar las funcionalidades clave de la plataforma.</td>
+      <td valign="top">2</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US27</td>
+      <td valign="top">Visualización de la sección "Contacto"</td>
+      <td valign="top">TS29</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Contacto"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Contacto" para facilitar la comunicación entre usuarios y el equipo de soporte.</td>
+      <td valign="top">1</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+</table>
+
 
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
@@ -2741,15 +2935,30 @@ Estas pruebas se diseñaron para validar el cumplimiento de criterios de aceptac
 
 🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
 
-| **Repository**               | **Branch** | **Commit ID** | **Commit Message**                            | **Commited on (Date)** |
-|-----------------------------|------------|----------------|------------------------------------------------|-------------------------|
-| AgroTech-UPC/Acceptance-Tests | main       | 57f2c58       | feat: added feature file for US29              | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 1b94680       | feat: added feature file for US28              | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 9027b2b       | fix: fix typing error                          | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 329c774       | feat: added acceptance test for US31           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 24c738a       | feat: added acceptance test for US30           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 802f736       | feat: added acceptance test for US26           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 29d85ed       | feat: added acceptance test for US27           | 01/05/2025              |
+| **Repository**                     | **Branch** | **Commit ID** | **Commit Message**                                      | **Commited on (Date)** |
+|-----------------------------------|------------|----------------|----------------------------------------------------------|-------------------------|
+| AgroTech-UPC/Acceptance-Tests     | main       | 818417c        | feat: added feature file for US22                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 530ab54        | feat: add feature file for US23                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 31b09e5        | feat: add feature file for US24                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | d7c8cb7        | feat: add feature file for US25                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 56c2cfe        | feat: add feature file for US26                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 3754e25        | feat: add feature file for US27                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 65a02ca        | feat: add feature file for US01                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 53394b8        | feat: add feature file for US02                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | fde5473        | feat: add feature file for US03 | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 346c658        | feat: add feature file for US04                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 1d86777        | feat: add feature file for US05                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 6a236cc        | feat: add feature file for US06                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | f2b2386        | feat: add feature file for US08                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | bdb3f98        | feat: add feature file for US08                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 7028433        | feat: add feature file for US09                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 01f5cae        | feat: add feature file for US10                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | c63680b        | feat: add feature file for US11                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | d13e372        | feat: add feature file for US12                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | c9aaece        | feat: add feature file for US13                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 01d9ce8        | feat: add feature file for US15                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 5968886        | feat: add feature file for US16                          | 14/05/2025              |
+
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
