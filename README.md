@@ -2935,15 +2935,30 @@ Estas pruebas se diseñaron para validar el cumplimiento de criterios de aceptac
 
 🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
 
-| **Repository**               | **Branch** | **Commit ID** | **Commit Message**                            | **Commited on (Date)** |
-|-----------------------------|------------|----------------|------------------------------------------------|-------------------------|
-| AgroTech-UPC/Acceptance-Tests | main       | 57f2c58       | feat: added feature file for US29              | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 1b94680       | feat: added feature file for US28              | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 9027b2b       | fix: fix typing error                          | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 329c774       | feat: added acceptance test for US31           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 24c738a       | feat: added acceptance test for US30           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 802f736       | feat: added acceptance test for US26           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 29d85ed       | feat: added acceptance test for US27           | 01/05/2025              |
+| **Repository**                     | **Branch** | **Commit ID** | **Commit Message**                                      | **Commited on (Date)** |
+|-----------------------------------|------------|----------------|----------------------------------------------------------|-------------------------|
+| AgroTech-UPC/Acceptance-Tests     | main       | 818417c        | feat: added feature file for US22                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 530ab54        | feat: add feature file for US23                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 31b09e5        | feat: add feature file for US24                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | d7c8cb7        | feat: add feature file for US25                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 56c2cfe        | feat: add feature file for US26                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 3754e25        | feat: add feature file for US27                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 65a02ca        | feat: add feature file for US01                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 53394b8        | feat: add feature file for US02                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | fde5473        | feat: add feature file for US03 | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 346c658        | feat: add feature file for US04                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 1d86777        | feat: add feature file for US05                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 6a236cc        | feat: add feature file for US06                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | f2b2386        | feat: add feature file for US08                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | bdb3f98        | feat: add feature file for US08                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 7028433        | feat: add feature file for US09                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 01f5cae        | feat: add feature file for US10                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | c63680b        | feat: add feature file for US11                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | d13e372        | feat: add feature file for US12                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | c9aaece        | feat: add feature file for US13                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 01d9ce8        | feat: add feature file for US15                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 5968886        | feat: add feature file for US16                          | 14/05/2025              |
+
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
