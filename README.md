@@ -3127,7 +3127,7 @@ Se usa el comando ng deploy para deployear la aplicación
 
 Finalmente, logramos acceder a nuestra aplicación deployada.
 <img src="img/deployment14.png" width="100%">
-<p style="text-align:center"><em>Imagen 146. DeployFront - pages - 10</em></p>
+<p style="text-align:center"><em>Imagen 146. DeployFront - pages - 10 </em></p>
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
