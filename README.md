@@ -202,16 +202,16 @@ Abril 2025
   - [6.1.3. Style Guide & Conventions](#613-style-guide--conventions)
   - [6.1.4. Deployment Configuration](#614-deployment-configuration)
 - [6.2. Implementation](#62-implementation)
-  - [6.2.X. Sprint n](#62x-sprint-n)
-    - [6.2.X.1. Sprint Planning](#62x1-sprint-planning)
-    - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-    - [6.2.X.3. Sprint Backlog](#62x3-sprint-backlog)
-    - [6.2.X.4. Development Evidence](#62x4-development-evidence)
-    - [6.2.X.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
-    - [6.2.X.6. Execution Evidence](#62x6-execution-evidence)
-    - [6.2.X.7. Services Documentation](#62x7-services-documentation)
-    - [6.2.X.8. Software Deployment Evidence](#62x8-software-deployment-evidence)
-    - [6.2.X.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
+  - [6.2.1. Sprint 1](#62x-sprint-n)
+    - [6.2.1.1. Sprint Planning](#62x1-sprint-planning)
+    - [6.2.1.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
+    - [6.2.1.3. Sprint Backlog](#62x3-sprint-backlog)
+    - [6.2.1.4. Development Evidence](#62x4-development-evidence)
+    - [6.2.1.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
+    - [6.2.1.6. Execution Evidence](#62x6-execution-evidence)
+    - [6.2.1.7. Services Documentation](#62x7-services-documentation)
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence)
+    - [6.2.1.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -735,106 +735,96 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 ### 2.2.2. Registro de entrevistas
 
-**Link de las entrevistas:** [Ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMyG21NhDYkWcIYIW4BL7pKsp-FbNONAAcnh6-dlg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E2ug3L)
+Puedes visualizar las entrevistas completas realizadas a asesores y criadores en el siguiente enlace:
 
+🔗 **[Ver entrevistas grabadas – AgroCuy](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/Ef3BzOMHxeBKpY029QWebTkBya2vl3KgeQLqDOw0BOHDDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eem7Mx)**  
+*Repositorio audiovisual en SharePoint con los registros de las entrevistas de campo realizadas.*
 
-**Entrevista N 1 - Asesor:**
+#### **Entrevista N.º 1 – Asesor**
 
-**Entrevistador:** Juan Cuadros
+- **Entrevistador:** Sebastián Ramírez  
+- **Entrevistado:** Arianna Joya  
+- **Duración:** [00:00:00 – 00:05:41] (**5 minutos 41 segundos**)  
 
-**Entrevistado:** Daniela Flores
+![Imagen 3. Entrevista a Arianna Joya](img/interview1.png)  
+*Imagen 3. Entrevista a Arianna Joya*
 
-**Duración**: [00:00:08 – 00:06:00] (**5 minutos 52 segundos**)
+**Resumen:**  
+Arianna es una asesora rural con aproximadamente 10 años de experiencia en la crianza de cuyes. Si bien no ha trabajado con sensores ni sistemas automatizados en granjas, expresó un alto interés por conocer e implementar este tipo de tecnologías. Señaló como barrera la falta de conectividad en zonas rurales, destacando la importancia de soluciones que funcionen incluso sin internet. Recalcó la necesidad de capacitaciones presenciales, visitas técnicas y pruebas piloto para demostrar la efectividad del sistema a los criadores, así como contar con soporte técnico continuo para resolver dudas recurrentes.
 
+---
 
+#### **Entrevista N.º 2 – Asesor**
 
-<img src="img/Entrevista_1.png" width="100%">
+- **Entrevistador:** Juan Cuadros  
+- **Entrevistado:** Daniela Flores  
+- **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
 
-_Imagen 3. Entrevista a Daniela Flores_
+![Imagen 4. Entrevista a Daniela Flores](img/Entrevista_1.png)  
+*Imagen 4. Entrevista a Daniela Flores*
 
-**Resumen:** 
+**Resumen:**  
+Daniela es médica veterinaria con más de ocho años de experiencia brindando asesoría técnica en granjas de cuyes. Su familia ha comenzado a usar termohigrómetros digitales para monitoreo ambiental, lo cual ha mejorado la gestión de sus animales. Considera que AgroConnect puede fortalecer la conexión entre criadores y asesores, y sugiere que el sistema genere reportes automáticos a partir de los datos recolectados para facilitar el análisis y la toma de decisiones.
 
-Daniela proviene de una familia con una sólida tradición en la crianza de cuyes, acumulando más de ocho años de experiencia brindando asesoría técnica a diversas granjas. Es médica veterinaria de profesión, lo que respalda su conocimiento especializado en el bienestar animal. En la granja familiar, han comenzado a incorporar tecnología de monitoreo, como termohigrómetros digitales que permiten registrar datos y emitir alertas básicas, lo cual ha representado un avance importante en la gestión de las condiciones ambientales. Respecto a AgroConnect, Daniela considera que es una herramienta valiosa para fortalecer la interacción entre criadores y asesores técnicos. Además, sugiere que la plataforma podría potenciar aún más su utilidad si, luego de recolectar los datos de los sensores, se generara automáticamente un reporte que facilite el análisis y la toma de decisiones, optimizando así la asesoría y el manejo de las granjas.
+---
 
+#### **Entrevista N.º 3 – Asesor**
 
-**Entrevista N 2 - Asesor:** 
+- **Entrevistador:** Nadia Lucas  
+- **Entrevistado:** Nayeli Chávez  
+- **Duración:** [00:11:33 – 00:18:35] (**7 minutos 2 segundos**)  
 
-**Entrevistador:** Nadia Lucas
+![Imagen 5. Entrevista a Nayeli Chávez](img/entrevista2.png)  
+*Imagen 5. Entrevista a Nayeli Chávez*
 
-**Entrevistado:** Nayeli Chavez
+**Resumen:**  
+Nayeli, zootecnista egresada de la UNALM, tiene 2 años de experiencia como asesora de productores altoandinos. Ha investigado sistemas implementados en otros países como China, y destaca la necesidad urgente de monitoreo en tiempo real de temperatura, humedad y CO₂. Recomienda funciones como reportes automáticos, notificaciones ante incidentes y asistencia visual. También enfatiza que muchos criadores temen usar tecnología, por lo que la plataforma debe ser intuitiva, contar con capacitaciones prácticas y soporte continuo.
 
-**Duración**: [00:06:00 – 00:13:02] (**7 minutos 2 segundos**)
+---
 
+### Entrevistas a Criadores
 
-<img src="img/entrevista2.png" width="100%">
+---
 
-_Imagen 4. Entrevista a Nayeli Chavez_ 
+#### **Entrevista N.º 4 – Criador**
 
-**Resumen:**
+- **Entrevistador:** Johan Moreno  
+- **Entrevistado:** Willy Valentín  
+- **Duración:** [00:18:35 – 00:22:55] (**4 minutos 20 segundos**)  
 
-Nayeli cuenta con dos años de experiencia como asesora técnica especializada en la crianza de cuyes, respaldada por su formación en Zootecnia en la Universidad Agraria La Molina. Desde su egreso, ha apoyado a pequeños y medianos productores altoandinos, brindando asesoría en cuatro pilares fundamentales: alimentación, sanidad, manejo reproductivo y cuidado ambiental.
+![Imagen 6. Entrevista a Willy Valentín](img/entrevista6.png)  
+*Imagen 6. Entrevista a Willy Valentín*
 
-Si bien no ha implementado sistemas de monitoreo en granjas, ha investigado soluciones tecnológicas empleadas en otros países como China, incluyendo sensores ambientales y plataformas automáticas. Considera que los cuyes son altamente sensibles a variaciones bruscas de temperatura, lo que puede derivar en pérdidas significativas.
+**Resumen:**  
+Willy, de 21 años, vive en Lima y su familia cría cuyes desde hace 4 años. Manejan 90 animales y registran datos manualmente en un cuaderno. Destacó la necesidad de conocer en tiempo real la temperatura y recibir alertas. Le interesa una herramienta que integre recomendaciones prácticas, tutoriales y conexión con otros criadores para compartir experiencias.
 
-Nayeli identifica como una gran necesidad la incorporación de herramientas que proporcionen datos en tiempo real sobre temperatura, humedad y ventilación, además de alertas ante condiciones extremas o escasez de alimento. Propone la generación de reportes automáticos con gráficos sencillos, notificaciones móviles ante incidentes, y funcionalidades como historial de datos, comparación entre granjas y asistencia para la gestión diaria.
+---
 
-En su experiencia, muchos criadores tienen temor de usar plataformas digitales, por lo que resalta la importancia de que estas sean intuitivas y demuestren mejoras tangibles en productividad. Recomienda acompañar la tecnología con capacitaciones prácticas realizadas en las propias granjas, con soporte técnico y materiales impresos, facilitando así la adopción tecnológica y la optimización del manejo de los cuyes.
+#### **Entrevista N.º 5 – Criador**
 
+- **Entrevistador:** Fiorella Jarama  
+- **Entrevistado:** Claudia Ramos  
+- **Duración:** [00:22:55 – 00:27:40] (**4 minutos 45 segundos**)  
 
-**Criadores**
+![Imagen 7. Entrevista a Claudia Ramos](img/Entrevista_4.png)  
+*Imagen 7. Entrevista a Claudia Ramos*
 
-**Entrevista N 3 - Criador:**
+**Resumen:**  
+Claudia, de 23 años, es criadora principiante con 6 meses de experiencia y 25 cuyes. No lleva registros constantes y busca una herramienta sencilla con recordatorios, alertas, consejos personalizados y tutoriales. Aunque no ha usado aplicaciones, está abierta a probar una si es segura, intuitiva y cuenta con guía de uso.
 
-**Entrevistador:** Johan Moreno
+---
 
-**Entrevistado:** Willy Valentin
+#### **Entrevista N.º 6 – Criador**
 
-**Duración**: [00:13:02 – 00:17:27] (**4 minutos 25 segundos**)
+- **Entrevistador:** Sebastián Ramírez  
+- **Entrevistado:** Carla Pereyra  
+- **Duración:** [00:27:40 – 00:31:08] (**3 minutos 28 segundos**)  
 
-<img src="img/entrevista6.png" width="100%">
+![Imagen 8. Entrevista a Carla Pereyra](img/entrevista5.png)  
+*Imagen 8. Entrevista a Carla Pereyra*
 
-_Imagen 8. Entrevista a Willy Valentin_ 
-
-**Resumen:**
-Willy, un joven de 21 años de Lima, comparte la experiencia de su familia, que lleva aproximadamente 4 años criando cuyes, con una población actual de alrededor de 90 ejemplares, además de otros animales. Uno de los principales retos que enfrentan es la variabilidad climática, ya que tanto el calor excesivo como el frío afectan negativamente la crianza.
-
-Su familiar gestiona la información de manera manual, utilizando cuadernos para el conteo de cuyes y el registro de compras de alimento. La limpieza de las jaulas se realiza de forma periódica cada dos días, momento en el cual también observan el estado general de los animales. Para tomar decisiones, se apoyan en datos climáticos consultados desde sus teléfonos móviles.
-
-Willy considera que para su familia sería muy útil contar con una herramienta que muestre la temperatura ambiental y envíe notificaciones al respecto. Aunque no han utilizado aplicaciones para la gestión de la granja, están interesados en implementar una que facilite el monitoreo y la recepción de alertas en tiempo real.
-
-Además, ve con buenos ojos que la plataforma incluya consejos, tutoriales y recomendaciones prácticas sobre la crianza, así como la posibilidad de conectar con otros criadores de distintas regiones para compartir experiencias, superando las limitaciones del contacto presencial actual.
-
-
-**Entrevista N 4 - Criador:**
-
-**Entrevistador:**  Fiorella Jarama 
-
-**Entrevistado:** Claudia Ramos
-
-**Duración**: [00:17:27 – 00:22:12] (**4 minutos 45 segundos**)
-
-<img src="img/Entrevista_4.png" width="100%">
-
-_Imagen 6. Entrevista a Claudia Ramos_
-
-**Resumen:** 
-Claudia Ramos, una criadora principiante de cuyes de 23 años con 6 meses de experiencia y 25 cuyes a su cuidado, compartió en la entrevista que enfrenta principalmente dificultades para organizar su tiempo y adaptarse a las condiciones climáticas que afectan a los animales. Actualmente no lleva un registro constante de salud o crecimiento, aunque ha intentado usar un cuaderno. Le gustaría contar con una herramienta tecnológica sencilla que le brinde recordatorios, alertas sobre temperatura y consejos personalizados, preferiblemente en forma de notificaciones en su celular. También valoraría mucho el acceso a videos explicativos y el apoyo de criadores con más experiencia, especialmente si los consejos se basan en datos reales de su granja. Claudia no ha utilizado aplicaciones específicas para la crianza, pero está abierta a probar alguna siempre que sea fácil de usar, segura y venga con una guía inicial.
-
-
-**Entrevista N 5 - Criador:**
-
-**Entrevistador:** Sebastian Ramirez
-
-**Entrevistado:** Carla Pereyra
-
-**Duración**: [00:22:12 – 00:25:40] (**3 minutos 28 segundos**)
-
-<img src="img/entrevista5.png" width="100%">
-
-_Imagen 7. Entrevista a Carla Pereyra_ 
-
-**Resumen:**
-Carla Pereyra, una criadora de cuyes con experiencia, actualmente está a cargo de 20 ejemplares. Nos compartió las necesidades que enfrenta en su labor y las mejoras que desearía implementar. En la actualidad, realiza el registro de sus cuyes de forma manual, utilizando un cuaderno, ya que aún no ha adoptado herramientas digitales. Le gustaría contar con alertas sobre la temperatura ambiental de sus animales, notificaciones relacionadas con su alimentación, y recibir asesoría de criadores especializados. Aunque nunca ha utilizado aplicaciones para esta actividad, está interesada en probar una que le ofrezca beneficios concretos para el cuidado de sus cuyes, y que le brinde confianza y respaldo en su uso.
+**Resumen:**  
+Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
 
 
 ### 2.2.3. Análisis de entrevistas
@@ -1258,6 +1248,16 @@ Para trabajar el Product Backlog, se utilizó la herramienta Trello, la cual se 
 ### 4.1.1. EventStorming. 
 
 <p>Realizamos nuestro proceso de event storming a través de la herramienta Figma, donde trazamos todo el recorrido del sistema. Iniciamos con la fase inicial de Unstructured Exploration, en la cual discutimos y contrastamos nuestras ideas respecto a los eventos clave del dominio, guiándonos por las sugerencias recomendadas y centrandonos en el objetivo numero uno de nuestro proyecto. Asimismo, tomamos en cuenta diversos aspectos al elegir los eventos, tales como su importancia, recurrencia y momento de ocurrencia.<p>
+
+
+Leyenda: 
+  - Naraja: Eventos Clave
+  - Verde: Main Timeline
+  - Amarillo Oscuro: Pain points
+  - Azul: Commands
+  - Morado: Policies
+  - Rosado: Read Models
+  - Amarillo Claro: Sistemas Externos
 
 🔗 [Ver Figma](https://www.figma.com/design/bBQCiFvraA0jM3SFmloKWi/Event-Storming---IoT?node-id=0-1&t=uHqde6eWHW5RX70z-1)
 
@@ -2617,6 +2617,489 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 
 <br><br>
 <br><br>
+
+# Capítulo VI Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management.
+
+### 6.1.1. Software Development Environment Configuration.
+
+### 6.1.2. Source Code Management.
+
+### 6.1.3. Source Code Style Guide & Conventions.
+
+### 6.1.4. Software Deployment Configuration.
+
+## 6.2. Landing Page, Services & Applications Implementation.
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+La planificación del primer sprint se llevó a cabo mediante una reunión virtual a través de Google Meet. Durante esta sesión, el equipo discutió los objetivos clave del proyecto, priorizó las historias de usuario según su valor para el negocio y complejidad técnica, y definió la capacidad de trabajo esperada (*velocity*) para el Sprint 1.
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | Primera iteración del proyecto AgroCuy, centrada en desarrollar la Landing Page institucional y una versión funcional inicial del Frontend Web Application. Se priorizaron componentes visibles al usuario, flujos de asesoría, gestión animal y publicaciones. |
+| **Fecha** | 2025-05-01 |
+| **Hora** | 10:00 PM |
+| **Lugar** | Virtual (Google Meet) |
+| **Preparado por** | Lucas Coronel, Nadia Alessandra |
+| **Participantes de la reunión de planificación** | - Cuadros Rodriguez, Juan Alejandro  <br> - Jarama Peñaloza, Fiorella <br> - Lucas Coronel, Nadia Alessandra <br> - Moreno Vergara, Johan Raúl <br> - Ramírez Mendez, Sebastián Andre |
+| **Resumen del Sprint n–1 (Review)** | No aplica — este es el primer sprint del proyecto. |
+| **Resumen del Sprint n–1 (Retrospectiva)** | No aplica — este es el primer sprint del proyecto. |
+| **Sprint Goal & User Stories** | Entregar una primera versión pública del sistema AgroCuy que incluya: (1) una Landing Page estática responsiva y alineada a la identidad visual del producto, y (2) la versión inicial del Web Frontend Application con funcionalidades esenciales como visualización del catálogo de asesores, programación de citas, gestión de publicaciones, visualización y edición de animales, y gestión de recursos y gastos. Estas funcionalidades permitirán validar la propuesta de valor con usuarios reales y establecer una base sólida para los siguientes sprints. Se desarrollaron las historias de usuario desde la US01 a la US10, US11 a la US13, US15 a la US16 y US22 a la US27. |
+| **Velocidad del Sprint (Story Points esperados)** | 20 (estimación inicial), ampliado a 90 SP dada la productividad del equipo y el compromiso asumido. |
+| **Suma total de Story Points asignados** | 90 |
+
+
+
+#### 6.2.1.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 1, el equipo se organizó en torno a los principales aspectos funcionales definidos en el **Product Backlog** y priorizados en el **Sprint Backlog**. Para cada aspecto, se designó un miembro como **Líder (L)** responsable de la implementación y otros como **Colaboradores (C)** encargados del soporte, pruebas y mejoras.
+
+Esta distribución permitió una ejecución eficiente, promoviendo la responsabilidad compartida, el aprendizaje mutuo y la trazabilidad del avance.
+
+Los aspectos cubiertos en este sprint fueron:
+
+- **Navbar & Footer**
+- **Landing Page / Sección de Inicio**
+- **Secciones informativas: Acerca De, Sobre Nosotros, Características, Contacto**
+- **Módulo de Citas (US01 - US08)**
+- **Módulo de Publicaciones (US09 - US10)**
+- **Módulo de Jaulas y Cuyes (US11 - US13)**
+- **Módulo de Recursos y Gastos (US15 - US16)**
+
+A continuación, se presenta la matriz **Leadership-and-Collaboration (LACX)**:
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | Navbar & Footer | Landing Page & Info Sections | Módulo Citas | Módulo Publicaciones | Módulo Jaulas y Cuyes | Módulo Recursos & Gastos |
+|----------------------------------------|----------------------|------------------|------------------------------|--------------|-----------------------|------------------------|--------------------------|
+| Lucas Coronel, Nadia Alessandra        | nad21lc              | C                | L                            | C            |                       |                        | L                        |
+| Ramírez Mendez, Sebastián Andre        | yorusaurio           |                  | C                            | C            |                       | L                      | L                        |
+| Cuadros Rodriguez, Juan Alejandro      | JuanAlejandroCuadrosRodriguez |              | C                            | L            |                       |                        |                          |
+| Moreno Vergara, Johan Raúl             | JohanMV              |                  | C                            |              |                       | C                      | C                        |
+| Jarama Peñaloza, Fiorella              | Fio0407              | L                | C                            | L            | L                     |                        |                          |
+
+> La matriz refleja tanto la distribución inicial como el trabajo real ejecutado. Cada miembro del equipo asumió roles clave en la entrega de componentes completos, evidenciando colaboración transversal y compromiso con los objetivos del sprint.
+
+
+#### 6.2.1.3. Sprint Backlog 1
+
+Durante el Sprint 1, se definió como objetivo principal la implementación de la **Landing Page estática** del sistema AgroCuy. Para gestionar eficientemente los ítems de trabajo, se utilizó una **tabla colaborativa en Trello**, la cual permitió asignar tareas, estimar el esfuerzo requerido y dar seguimiento al estado de cada actividad.
+
+🔗 [Sprint Backlog 1 en Trello](https://trello.com/b/AtaOZblV/sprint-backlog-1)
+
+<img src="img/sprintBacklog.jpg" width="100%">
+
+*Imagen 118. Sprint Backlog 1 gestionado en Trello*
+
+---
+
+A continuación, se presenta la tabla estructurada del Sprint Backlog 1, que detalla las **User Stories**, sus respectivos **Tasks**, estimaciones y responsables:
+
+<table>
+  <tr>
+  <th valign="top">Sprint #</th>
+  <th colspan="7" valign="top">Sprint 1</th>
+</tr>
+<tr>
+  <td colspan="2" valign="top">User Story</td>
+  <td colspan="6" valign="top">Work-Item / Task</td>
+</tr>
+<tr>
+  <td valign="top">Id</td>
+  <td valign="top">Title</td>
+  <td valign="top">Id</td><td valign="top">Title</td>
+  <td valign="top">Description</td>
+  <td valign="top">Estimation</td><td valign="top">Assigned To</td>
+  <td valign="top">Status (To-Do / In-Process / Review / Done)</td>
+</tr>
+<tr>
+  <td rowspan="2" valign="top">US22</td>
+  <td rowspan="2" valign="top">Visualización de Navbar y Footer</td>
+  <td valign="top">TS01</td>
+  <td valign="top">Implementación de Navbar</td>
+  <td valign="top">Se implementa el navbar de forma responsive.</td>
+  <td rowspan="2" valign="top">2</td>
+  <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+</tr>
+<tr>
+  <td valign="top">TS02</td>
+  <td valign="top">Implementación de Footer</td>
+  <td valign="top">Se implementa el footer de forma responsive.</td>
+  <td valign="top">Fiorella Jarama</td>
+  <td valign="top">Done</td>
+</tr>
+<tr><td valign="top">US23</td><td valign="top">Visualización de sección de inicio</td><td valign="top">TS03</td><td valign="top">Implementación de página de inicio</td><td valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US24</td><td valign="top">Visualización de sección “Acerca De”</td><td valign="top">TS04</td><td valign="top">Implementación de sección Acerca De</td><td valign="top">Se implementa la página Acerca De, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Sebastián Ramirez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US25</td><td valign="top">Visualización de sección “Sobre Nosotros”</td><td valign="top">TS05</td><td valign="top">Implementación de sección Sobre Nosotros</td><td valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Juan Cuadros</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US26</td><td valign="top">Visualización de sección “Características”</td><td valign="top">TS06</td><td valign="top">Implementación de sección Características</td><td valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US27</td><td valign="top">Visualización de sección “Contacto”</td><td valign="top">TS07</td><td valign="top">Implementación de sección Contacto</td><td valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Johan Moreno</td><td valign="top">Done</td></tr>
+</table>
+
+<table>
+    <tr>
+      <td valign="top">US01</td><td valign="top">Visualización de catálogo de asesores</td><td valign="top">TS01</td><td valign="top">Implementación de búsqueda de asesores</td><td valign="top">Se implementa el componente para la búsqueda de asesores para los criadores.</td><td valign="top">5</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US02</td><td valign="top">Visualización de información de un asesor</td><td valign="top">TS02</td><td valign="top">Implementación de vista de información de un asesor</td><td valign="top">Se implementa el componente con la vista de información de un asesor.</td><td valign="top">3</td><td valign="top">Juan Cuadros</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US03</td><td valign="top">Visualización de horarios de asesores</td><td valign="top">TS03</td><td valign="top">Implementación de vista de horarios</td><td valign="top">Se implementa el componente con la vista de los horarios disponibles del asesor.</td><td valign="top">3</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US04</td><td valign="top">Programación de citas con asesores</td><td valign="top">TS04</td><td valign="top">Implementación de vista para programar cita</td><td valign="top">Se implementa la vista para programar una cita con un asesor.</td><td valign="top">8</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US05</td><td valign="top">Visualización de información del criador de cuyes</td><td valign="top">TS05</td><td valign="top">Implementación de detalles de cita</td><td valign="top">Se implementa la página para visualizar los datos del criador previa a la cita.</td><td valign="top">5</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="2">US06</td><td valign="top" rowspan="2">Notificación de citas al asesor</td><td valign="top">TS06</td><td valign="top">Implementación de visualización de notificaciones al asesor</td><td valign="top">Se implementa el componente que muestra la vista de notificaciones para los asesores.</td><td valign="top" rowspan="2">3</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS07</td><td valign="top">Implementación de eliminación de notificaciones al asesor</td><td valign="top">Se implementa la función que permite eliminar una notificación.</td><td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="3">US07</td><td valign="top" rowspan="3">Notificación de citas al criador</td><td valign="top">TS08</td><td valign="top">Implementación de visualización de notificaciones al criador</td><td valign="top">Se implementa el componente que muestra la vista de notificaciones para los criadores.</td><td valign="top" rowspan="3">3</td>
+      <td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS09</td><td valign="top">Implementación de eliminación de notificaciones al criador</td><td valign="top">Se implementa la función que permite eliminar una notificación.</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS10</td><td valign="top">Implementación de Pantalla de Resultados Vacíos</td><td valign="top">Se implementa un componente que recibe un mensaje como parámetro y permite mostrar una vista cuando no se encuentren datos disponibles.</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US08</td><td valign="top">Calificación al asesor luego de una cita</td><td valign="top">TS11</td><td valign="top">Implementación de registro de calificación del asesor</td><td valign="top">Se implementa la funcionalidad en el componente para registrar la calificación del asesor brindada por el criador.</td><td valign="top">5</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="2">US09</td>
+      <td valign="top" rowspan="2">Gestión de una publicación</td>
+      <td valign="top">TS12</td>
+      <td valign="top">Implementación de creación de publicaciones</td>
+      <td valign="top">Se implementa el componente para crear nuevas publicaciones</td>
+      <td valign="top" rowspan="2">2</td>
+      <td valign="top">Fiorella Jarama</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS13</td>
+      <td valign="top">Implementación de eliminación de publicaciones</td>
+      <td valign="top">Se implementa la función dentro del componente de publicaciones para eliminar una publicación</td>
+      <td valign="top">Fiorella Jarama</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US10</td><td valign="top">Visualización de publicaciones de asesores</td><td valign="top">TS14</td><td valign="top">Implementación de visualización de publicaciones</td><td valign="top">Se implementa el componente para visualizar publicaciones de asesores para el criador.</td><td valign="top">3</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="3">US11</td><td valign="top" rowspan="3">Gestión de jaulas de cuyes</td><td valign="top">TS15</td><td valign="top">Implementación de registro de una jaula</td><td valign="top">Se implementa el componente para registrar una nueva jaula de cuyes.</td><td valign="top" rowspan="3">3</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">TS16</td><td valign="top">Implementación de edición de una jaula</td><td valign="top">Se implementa la función que permite editar la información de una jaula.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">TS17</td><td valign="top">Implementación de eliminación de una jaula</td><td valign="top">Se implementa la función que permite eliminar una jaula junto a la información de los cuyes que habitan en ella.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US12</td><td valign="top">Registro de información de animales</td><td valign="top">TS18</td><td valign="top">Implementación de registro de un cuy</td><td valign="top">Se implementa el componente para registrar un cuy en una jaula existente.</td><td valign="top">3</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US13</td>
+      <td rowspan="2" valign="top">Visualización y edición de información de animales</td>
+      <td valign="top">TS19</td>
+      <td valign="top">Implementación de vista de información de animales</td>
+      <td valign="top">Se implementa el componente para visualizar las jaulas y el componente para visualizar la información de los cuyes.</td>
+      <td valign="top" rowspan="2">5</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS20</td><td valign="top">Implementación de edición de información de animales</td><td valign="top">Se implementa la edición dentro de la componente de jaula, así como la edición para la componente de información de un cuy.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US15</td>
+      <td rowspan="2" valign="top">Gestión de recursos de la granja</td>
+      <td valign="top">TS22</td>
+      <td valign="top">Implementación de registro de recurso</td>
+      <td valign="top">Se implementa el componente para registrar un recurso para el criador.</td>
+      <td valign="top" rowspan="2">5</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS23</td>
+      <td valign="top">Implementación de vista de recursos</td>
+      <td valign="top">Se implementa el componente para la vista de los recursos del criador</td>
+      <td valign="top">Nadia Lucas</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US16</td>
+      <td rowspan="2" valign="top">Gestión de gastos realizados</td>
+      <td valign="top">TS24</td>
+      <td valign="top">Implementación de registro de gasto</td>
+      <td valign="top">Se implementa el componente para registrar un gasto para el criador.</td>
+      <td valign="top" rowspan="2">5</td>
+      <td valign="top">Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS25</td>
+      <td valign="top">Implementación de vista de gastos</td>
+      <td valign="top">Se implementa el componente para la vista de los recursos del criador.</td>
+      <td valign="top">Nadia Lucas</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US24</td>
+      <td valign="top">Visualización de la sección "Acerca De"</td>
+      <td valign="top">TS26</td><td valign="top">Mejorar diseño y contenido de la sección "Acerca De"</td>
+      <td valign="top">Se mejora el contenido de la página sobre la problemática, sobre nosotros, características y contacto.</td>
+      <td valign="top">2</td><td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US25</td>
+      <td valign="top">Visualización de la sección "Sobre Nosotros"</td>
+      <td valign="top">TS27</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Sobre Nosotros"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Sobre Nosotros" para proporcionar información clara y concisa sobre el equipo y la misión.</td>
+      <td valign="top">2</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US26</td>
+      <td valign="top">Visualización de la sección "Características"</td>
+      <td valign="top">TS28</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Características"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Características" para resaltar las funcionalidades clave de la plataforma.</td>
+      <td valign="top">2</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US27</td>
+      <td valign="top">Visualización de la sección "Contacto"</td>
+      <td valign="top">TS29</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Contacto"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Contacto" para facilitar la comunicación entre usuarios y el equipo de soporte.</td>
+      <td valign="top">1</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+</table>
+
+
+
+#### 6.2.1.4. Development Evidence for Sprint Review.
+
+Durante el desarrollo del Sprint 1, se realizaron múltiples avances en el repositorio oficial de la Landing Page del sistema AgroCuy. Estos avances se documentaron a través de commits distribuidos en distintas ramas funcionales. A continuación, se detalla la evidencia de trabajo en el repositorio:
+
+🔗 Repositorio: [Landing Page AgroCuy](https://github.com/IoT-AgroConnect/Landing-Page-Main)
+
+| **Repository** | **Branch**               | **Commit ID** | **Commit Message**                                  | **Commited on (Date)** |
+|------------------|-------------------------|----------------|----------------------------------------------------------|-----------------------|
+| AgroTech-UPC/Landing-Page | feature/header-footer   | ff5467f       | feat: Preparing the workspace                            | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/header-footer   | 965448b       | feat: Complete header and footer                         | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | f450025       | Merge pull request #1 from AgroTech-UPC/header-footer    | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | bab8888       | refactor: login button deleted & padding to main         | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/contact         | 1fdfcb2       | feat: contact page completed                             | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/contact         | 2a79c52       | fix: fixed position of footer                            | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | 1c1cab7       | Merge pull request #4 from AgroTech-UPC/feature/contact  | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/home            | 12c2b0b       | feat: home page completed                                | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | b348cf3       | Merge pull request #5 from AgroTech-UPC/feature/home     | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/about-us        | bcee2f1       | feat: about us section added                             | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | f0b57ab       | Merge pull request #7 from AgroTech-UPC/feature/about-us | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/about-app       | a0f235c       | feat: Section about-app created                          | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | feature/characteristics | 2c15c6d       | feat: features section added                             | 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | 961b6fe       | Merge pull request #8 from AgroTech-UPC/feature/about-app| 01/05/2025            |
+| AgroTech-UPC/Landing-Page | develop                | bc8aa23       | Merge pull request #10 from AgroTech-UPC/feature/characteristics | 01/05/2025      |
+| AgroTech-UPC/Landing-Page | main                   | 341ad78       | Merge pull request #11 from AgroTech-UPC/develop         | 01/05/2025            |
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 1, se desarrollaron pruebas de aceptación automatizadas utilizando el lenguaje **Gherkin**, las cuales fueron registradas en archivos `.feature` y versionadas en el repositorio correspondiente.
+
+Estas pruebas se diseñaron para validar el cumplimiento de criterios de aceptación de las User Stories priorizadas, garantizando que las funcionalidades desarrolladas cumplan con las expectativas del usuario desde una perspectiva funcional y de comportamiento.
+
+🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
+
+| **Repository**                     | **Branch** | **Commit ID** | **Commit Message**                                      | **Commited on (Date)** |
+|-----------------------------------|------------|----------------|----------------------------------------------------------|-------------------------|
+| AgroTech-UPC/Acceptance-Tests     | main       | 818417c        | feat: added feature file for US22                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 530ab54        | feat: add feature file for US23                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 31b09e5        | feat: add feature file for US24                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | d7c8cb7        | feat: add feature file for US25                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 56c2cfe        | feat: add feature file for US26                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 3754e25        | feat: add feature file for US27                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 65a02ca        | feat: add feature file for US01                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 53394b8        | feat: add feature file for US02                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | fde5473        | feat: add feature file for US03 | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 346c658        | feat: add feature file for US04                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 1d86777        | feat: add feature file for US05                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 6a236cc        | feat: add feature file for US06                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | f2b2386        | feat: add feature file for US08                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | bdb3f98        | feat: add feature file for US08                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 7028433        | feat: add feature file for US09                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 01f5cae        | feat: add feature file for US10                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | c63680b        | feat: add feature file for US11                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | d13e372        | feat: add feature file for US12                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | c9aaece        | feat: add feature file for US13                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 01d9ce8        | feat: add feature file for US15                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 5968886        | feat: add feature file for US16                          | 14/05/2025              |
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+Como parte de la evaluación del Sprint 1, se presenta la evidencia visual del entregable final correspondiente a la **Landing Page estática** del sistema AgroCuy. Esta interfaz representa el primer acercamiento público del sistema, enfocada en comunicar su propuesta de valor a potenciales usuarios y partes interesadas.
+
+🎥 **Video demostrativo – Landing Page**:  
+[Execution Evidence – AgroCuy Landing Page](https://youtu.be/Yi3p53UjKF0)
+
+---
+
+<img src="img/evidence_landing_page_1.png" width="100%">
+<p style="text-align:center"><em>Imagen 119. Vista general de la landing page</em></p>
+
+---
+
+### 🔹 Navbar
+
+Se desarrolló un componente de navegación *responsive* que adapta dinámicamente sus elementos para asegurar una navegación fluida en cualquier dispositivo. En pantallas móviles, las secciones se agrupan en un menú lateral tipo hamburguesa.
+
+<img src="img/evidence_landing_page_2.png" width="100%">
+<p style="text-align:center"><em>Imagen 120. Navbar expandido en pantalla amplia</em></p>
+
+<img src="img/evidence_landing_page_3.png" width="100%">
+<p style="text-align:center"><em>Imagen 121. Navbar colapsado en vista móvil</em></p>
+
+---
+
+### 🔹 Footer
+
+El pie de página mantiene la identidad visual del sistema, asegurando consistencia y accesibilidad en diferentes tamaños de pantalla.
+
+<img src="img/evidence_landing_page_4.png" width="100%">
+<p style="text-align:center"><em>Imagen 122. Footer en pantalla completa</em></p>
+
+<img src="img/evidence_landing_page_5.png" width="100%">
+<p style="text-align:center"><em>Imagen 123. Footer en vista móvil</em></p>
+
+---
+
+### 🔹 Página de Inicio
+
+La sección de bienvenida presenta una introducción clara al propósito de la plataforma AgroCuy, resaltando sus beneficios y enfoques principales.
+
+<img src="img/evidence_landing_page_6.png" width="100%">
+<p style="text-align:center"><em>Imagen 124. Sección de bienvenida</em></p>
+
+<img src="img/evidence_landing_page_7.png" width="100%">
+<p style="text-align:center"><em>Imagen 125. Continuación de la sección de inicio</em></p>
+
+---
+
+### 🔹 Sección “Problemática” y Segmentos Objetivo
+
+Esta sección incluye tarjetas interactivas (*flip cards*) con información clave sobre los desafíos que enfrentan los criadores de cuyes. También se describen los dos segmentos objetivos del sistema: criadores y asesores técnicos.
+
+<img src="img/landing-page-1.jpg" width="100%">
+<img src="img/landing-page-2.jpg" width="100%">
+
+---
+
+### 🔹 Sección “Características”
+
+Se muestran las funcionalidades clave del sistema AgroCuy mediante íconos explicativos y texto conciso, con un diseño moderno y estructurado.
+
+<img src="img/landing-page-3.jpg" width="100%">
+
+---
+
+### 🔹 Sección “Sobre Nosotros”
+
+Aquí se describe la identidad de la startup, su misión, visión y los integrantes del equipo. Se incluyen fotos de los miembros, fortaleciendo la conexión con el usuario.
+
+<img src="img/landing-page-4.jpg" width="100%">
+<img src="img/landing-page-5.jpg" width="100%">
+
+---
+
+### 🔹 Sección “Contacto”
+
+La sección de contacto presenta los canales de comunicación con el equipo, mediante un formulario responsivo que facilita el envío de consultas o sugerencias.
+
+<img src="img/landing-page-6.jpg" width="100%">
+
+---
+
+### ✅ Conclusión del Sprint
+
+Todos los componentes definidos para este Sprint fueron implementados satisfactoriamente y validados visualmente, cumpliendo con el objetivo de entregar una landing page funcional, accesible y coherente con los estándares de diseño web moderno.
+
+---
+
+### 🌐 Evidencia del Frontend Web Application
+
+Además de la landing page, se implementaron funcionalidades adicionales correspondientes a las historias de usuario del **Sprint Backlog 1**. Esta primera versión funcional del Frontend refleja la estructura básica de interacción y navegación dentro de la plataforma AgroCuy.
+
+🎥 **Video demostrativo – Frontend Web Application**:  
+[Execution Evidence – AgroCuy Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EYY0ErnjEsFBiUZXlO60wHQBnqjOJRxM13gjVWm8Gpbbzg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Hd2T2Y)
+
+<img src="img/front-web-evidence.png" width="100%">
+<p style="text-align:center"><em>Imagen 134. Vista general del sistema web funcional</em></p>
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
+Una vez acabamos de trabajar con todas las historias de usuario, realizamos el deployment del Landing Page y el Front-end web application.
+
+**Landing Page:**
+
+URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/home.html
+
+Para lograr hacer el deployment, entramos a la configuración del repositorio y a la sección de Pages. Luego, debemos seleccionar la rama sobre la cual se hará el deployment.
+
+<img src="img/despliegue-landing-githubpages.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 134. github - pages - 1</em></p>
+
+Escogimos la rama main, ya que es la rama principal sobre la cual se guarda la versión final para hacer el deployment. Una vez se escoge, se guardan los cambios.
+
+<img src="img/despliegue-landing-githubpages2.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 135. github - pages - 2</em></p>
+
+Finalmente, solo se espera a que GitHub cree la página y nos brinde el enlace.
+<img src="img/despliegue-landing-githubpages3.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 136. github - pages - 3</em></p>
+
+<img src="img/despliegue-landing-githubpages4.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 137. github - pages - 4</em></p>
+
+**Front-end web:**
+Primero, se utilizó el comando ng build para crear la carpeta dist, la cual sirve para realizar el deployment en Firebase.
+
+<img src="img/deploymentfront1.png" width="100%">
+<p style="text-align:center"><em>Imagen 138. DeployFront - pages - 1</em></p>
+
+<img src="img/deploymentfront2.png" width="100%">
+<p style="text-align:center"><em>Imagen 139. DeployFront - pages - 2</em></p>
+
+Luego, se utilizó el comando de lite-server para comprobar el funcionamiento de la aplicación.
+
+Se instaló firebase-tools dentro del proyecto, y luego se inició sesión.
+
+<img src="img/deployment4.png" width="100%">
+<p style="text-align:center"><em>Imagen 140. DeployFront - pages - 3</em></p>
+
+<img src="img/deployment5.png" width="100%">
+<p style="text-align:center"><em>Imagen 141. DeployFront - pages - 4</em></p>
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint 
 
 # Conclusiones
 
