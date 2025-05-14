@@ -2694,18 +2694,202 @@ Durante el Sprint 1, se definió como objetivo principal la implementación de l
 
 A continuación, se presenta la tabla estructurada del Sprint Backlog 1, que detalla las **User Stories**, sus respectivos **Tasks**, estimaciones y responsables:
 
-| **Sprint #** | Sprint 1 |
-|--------------|----------|
+<table>
+  <tr>
+  <th valign="top">Sprint #</th>
+  <th colspan="7" valign="top">Sprint 1</th>
+</tr>
+<tr>
+  <td colspan="2" valign="top">User Story</td>
+  <td colspan="6" valign="top">Work-Item / Task</td>
+</tr>
+<tr>
+  <td valign="top">Id</td>
+  <td valign="top">Title</td>
+  <td valign="top">Id</td><td valign="top">Title</td>
+  <td valign="top">Description</td>
+  <td valign="top">Estimation</td><td valign="top">Assigned To</td>
+  <td valign="top">Status (To-Do / In-Process / Review / Done)</td>
+</tr>
+<tr>
+  <td rowspan="2" valign="top">US22</td>
+  <td rowspan="2" valign="top">Visualización de Navbar y Footer</td>
+  <td valign="top">TS01</td>
+  <td valign="top">Implementación de Navbar</td>
+  <td valign="top">Se implementa el navbar de forma responsive.</td>
+  <td rowspan="2" valign="top">2</td>
+  <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+</tr>
+<tr>
+  <td valign="top">TS02</td>
+  <td valign="top">Implementación de Footer</td>
+  <td valign="top">Se implementa el footer de forma responsive.</td>
+  <td valign="top">Fiorella Jarama</td>
+  <td valign="top">Done</td>
+</tr>
+<tr><td valign="top">US23</td><td valign="top">Visualización de sección de inicio</td><td valign="top">TS03</td><td valign="top">Implementación de página de inicio</td><td valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US24</td><td valign="top">Visualización de sección “Acerca De”</td><td valign="top">TS04</td><td valign="top">Implementación de sección Acerca De</td><td valign="top">Se implementa la página Acerca De, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Sebastián Ramirez</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US25</td><td valign="top">Visualización de sección “Sobre Nosotros”</td><td valign="top">TS05</td><td valign="top">Implementación de sección Sobre Nosotros</td><td valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Juan Cuadros</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US26</td><td valign="top">Visualización de sección “Características”</td><td valign="top">TS06</td><td valign="top">Implementación de sección Características</td><td valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US27</td><td valign="top">Visualización de sección “Contacto”</td><td valign="top">TS07</td><td valign="top">Implementación de sección Contacto</td><td valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Johan Moreno</td><td valign="top">Done</td></tr>
+</table>
 
-| **User Story ID** | **User Story**                            | **Task ID** | **Task**                                 | **Descripción**                                                                 | **Story Points** | **Responsable**        | **Estado**     |
-|------------------|--------------------------------------------|-------------|-------------------------------------------|----------------------------------------------------------------------------------|------------------|------------------------|----------------|
-| US22             | Visualización de Navbar y Footer           | TS01        | Implementación de Navbar                  | Se implementa el Navbar con diseño responsive adaptable.                        | 2                | Nadia Lucas            | Done           |
-|                  |                                            | TS02        | Implementación de Footer                  | Se implementa el Footer de forma responsive.                                    | (↑ compartido)   | Nadia Lucas            | Done           |
-| US23             | Visualización de sección de inicio         | TS03        | Implementación de página de inicio        | Se desarrolla la sección de inicio con diseño responsive y CSS propio.          | 1                | Nadia Lucas            | Done           |
-| US24             | Visualización de sección “Acerca De”       | TS04        | Implementación de sección Acerca De       | Desarrollo de la sección "Acerca De" con estructura y estilos adaptables.       | 2                | Sebastián Ramirez      | Done           |
-| US25             | Visualización de sección “Sobre Nosotros”  | TS05        | Implementación de sección Sobre Nosotros  | Sección "Sobre Nosotros" con diseño adaptativo y componentes estructurados.     | 2                | Juan Cuadros       | Done           |
-| US26             | Visualización de sección “Características” | TS06        | Implementación de sección Características | Implementación de la sección que resalta los beneficios clave del sistema.      | 2                | Johan Moreno         | Done           |
-| US27             | Visualización de sección “Contacto”        | TS07        | Implementación de sección Contacto        | Desarrollo de formulario y diseño responsive de contacto.                       | 2                | Fiorella Jarama          | Done           |
+<table>
+    <tr>
+      <td valign="top">US01</td><td valign="top">Visualización de catálogo de asesores</td><td valign="top">TS01</td><td valign="top">Implementación de búsqueda de asesores</td><td valign="top">Se implementa el componente para la búsqueda de asesores para los criadores.</td><td valign="top">5</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US02</td><td valign="top">Visualización de información de un asesor</td><td valign="top">TS02</td><td valign="top">Implementación de vista de información de un asesor</td><td valign="top">Se implementa el componente con la vista de información de un asesor.</td><td valign="top">3</td><td valign="top">Juan Cuadros</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US03</td><td valign="top">Visualización de horarios de asesores</td><td valign="top">TS03</td><td valign="top">Implementación de vista de horarios</td><td valign="top">Se implementa el componente con la vista de los horarios disponibles del asesor.</td><td valign="top">3</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US04</td><td valign="top">Programación de citas con asesores</td><td valign="top">TS04</td><td valign="top">Implementación de vista para programar cita</td><td valign="top">Se implementa la vista para programar una cita con un asesor.</td><td valign="top">8</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US05</td><td valign="top">Visualización de información del criador de cuyes</td><td valign="top">TS05</td><td valign="top">Implementación de detalles de cita</td><td valign="top">Se implementa la página para visualizar los datos del criador previa a la cita.</td><td valign="top">5</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="2">US06</td><td valign="top" rowspan="2">Notificación de citas al asesor</td><td valign="top">TS06</td><td valign="top">Implementación de visualización de notificaciones al asesor</td><td valign="top">Se implementa el componente que muestra la vista de notificaciones para los asesores.</td><td valign="top" rowspan="2">3</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS07</td><td valign="top">Implementación de eliminación de notificaciones al asesor</td><td valign="top">Se implementa la función que permite eliminar una notificación.</td><td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="3">US07</td><td valign="top" rowspan="3">Notificación de citas al criador</td><td valign="top">TS08</td><td valign="top">Implementación de visualización de notificaciones al criador</td><td valign="top">Se implementa el componente que muestra la vista de notificaciones para los criadores.</td><td valign="top" rowspan="3">3</td>
+      <td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS09</td><td valign="top">Implementación de eliminación de notificaciones al criador</td><td valign="top">Se implementa la función que permite eliminar una notificación.</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS10</td><td valign="top">Implementación de Pantalla de Resultados Vacíos</td><td valign="top">Se implementa un componente que recibe un mensaje como parámetro y permite mostrar una vista cuando no se encuentren datos disponibles.</td><td valign="top">Nadia Lucas</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US08</td><td valign="top">Calificación al asesor luego de una cita</td><td valign="top">TS11</td><td valign="top">Implementación de registro de calificación del asesor</td><td valign="top">Se implementa la funcionalidad en el componente para registrar la calificación del asesor brindada por el criador.</td><td valign="top">5</td>
+      <td valign="top">Juan Cuadros</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="2">US09</td>
+      <td valign="top" rowspan="2">Gestión de una publicación</td>
+      <td valign="top">TS12</td>
+      <td valign="top">Implementación de creación de publicaciones</td>
+      <td valign="top">Se implementa el componente para crear nuevas publicaciones</td>
+      <td valign="top" rowspan="2">2</td>
+      <td valign="top">Fiorella Jarama</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS13</td>
+      <td valign="top">Implementación de eliminación de publicaciones</td>
+      <td valign="top">Se implementa la función dentro del componente de publicaciones para eliminar una publicación</td>
+      <td valign="top">Fiorella Jarama</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US10</td><td valign="top">Visualización de publicaciones de asesores</td><td valign="top">TS14</td><td valign="top">Implementación de visualización de publicaciones</td><td valign="top">Se implementa el componente para visualizar publicaciones de asesores para el criador.</td><td valign="top">3</td>
+      <td valign="top">Fiorella Jarama</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top" rowspan="3">US11</td><td valign="top" rowspan="3">Gestión de jaulas de cuyes</td><td valign="top">TS15</td><td valign="top">Implementación de registro de una jaula</td><td valign="top">Se implementa el componente para registrar una nueva jaula de cuyes.</td><td valign="top" rowspan="3">3</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">TS16</td><td valign="top">Implementación de edición de una jaula</td><td valign="top">Se implementa la función que permite editar la información de una jaula.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">TS17</td><td valign="top">Implementación de eliminación de una jaula</td><td valign="top">Se implementa la función que permite eliminar una jaula junto a la información de los cuyes que habitan en ella.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US12</td><td valign="top">Registro de información de animales</td><td valign="top">TS18</td><td valign="top">Implementación de registro de un cuy</td><td valign="top">Se implementa el componente para registrar un cuy en una jaula existente.</td><td valign="top">3</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US13</td>
+      <td rowspan="2" valign="top">Visualización y edición de información de animales</td>
+      <td valign="top">TS19</td>
+      <td valign="top">Implementación de vista de información de animales</td>
+      <td valign="top">Se implementa el componente para visualizar las jaulas y el componente para visualizar la información de los cuyes.</td>
+      <td valign="top" rowspan="2">5</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS20</td><td valign="top">Implementación de edición de información de animales</td><td valign="top">Se implementa la edición dentro de la componente de jaula, así como la edición para la componente de información de un cuy.</td><td valign="top">Johan Moreno</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US15</td>
+      <td rowspan="2" valign="top">Gestión de recursos de la granja</td>
+      <td valign="top">TS22</td>
+      <td valign="top">Implementación de registro de recurso</td>
+      <td valign="top">Se implementa el componente para registrar un recurso para el criador.</td>
+      <td valign="top" rowspan="2">5</td><td valign="top">Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS23</td>
+      <td valign="top">Implementación de vista de recursos</td>
+      <td valign="top">Se implementa el componente para la vista de los recursos del criador</td>
+      <td valign="top">Nadia Lucas</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="top">US16</td>
+      <td rowspan="2" valign="top">Gestión de gastos realizados</td>
+      <td valign="top">TS24</td>
+      <td valign="top">Implementación de registro de gasto</td>
+      <td valign="top">Se implementa el componente para registrar un gasto para el criador.</td>
+      <td valign="top" rowspan="2">5</td>
+      <td valign="top">Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">TS25</td>
+      <td valign="top">Implementación de vista de gastos</td>
+      <td valign="top">Se implementa el componente para la vista de los recursos del criador.</td>
+      <td valign="top">Nadia Lucas</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US24</td>
+      <td valign="top">Visualización de la sección "Acerca De"</td>
+      <td valign="top">TS26</td><td valign="top">Mejorar diseño y contenido de la sección "Acerca De"</td>
+      <td valign="top">Se mejora el contenido de la página sobre la problemática, sobre nosotros, características y contacto.</td>
+      <td valign="top">2</td><td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US25</td>
+      <td valign="top">Visualización de la sección "Sobre Nosotros"</td>
+      <td valign="top">TS27</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Sobre Nosotros"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Sobre Nosotros" para proporcionar información clara y concisa sobre el equipo y la misión.</td>
+      <td valign="top">2</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
+      <td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US26</td>
+      <td valign="top">Visualización de la sección "Características"</td>
+      <td valign="top">TS28</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Características"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Características" para resaltar las funcionalidades clave de la plataforma.</td>
+      <td valign="top">2</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+    <tr>
+      <td valign="top">US27</td>
+      <td valign="top">Visualización de la sección "Contacto"</td>
+      <td valign="top">TS29</td>
+      <td valign="top">Mejorar diseño y contenido de la sección "Contacto"</td>
+      <td valign="top">Se mejora el diseño y contenido de la sección "Contacto" para facilitar la comunicación entre usuarios y el equipo de soporte.</td>
+      <td valign="top">1</td>
+      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
+    </tr>
+</table>
+
 
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
