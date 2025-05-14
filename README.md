@@ -2651,18 +2651,18 @@ La planificación del primer sprint se llevó a cabo mediante una reunión virtu
 | **Elemento** | **Detalle** |
 |--------------|-------------|
 | **Sprint #** | Sprint 1 |
-| **Sprint Planning Background** |  |
+| **Sprint Planning Background** | Planificación inicial del proyecto AgroCuy, priorizando la entrega de interfaces clave tanto en la landing page como en la primera versión funcional del frontend web. |
 | Fecha | 2025-05-01 |
 | Hora | 10:00 PM |
 | Lugar | Virtual (Google Meet) |
 | Preparado por | Lucas Coronel, Nadia Alessandra |
-| Participantes de la reunión de planificación | - Cuadros Rodriguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Mendez, Sebastian Andre |
+| Participantes de la reunión de planificación | - Cuadros Rodríguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Méndez, Sebastián André |
 | Resumen del Sprint n–1 (Review) | No aplica — este es el primer sprint del proyecto. |
 | Resumen del Sprint n–1 (Retrospectiva) | No aplica — este es el primer sprint del proyecto. |
-| **Sprint Goal & User Stories** |  |
-| Objetivo del Sprint 1 | Nuestro enfoque está en entregar una primera versión de la página de inicio de AgroCuy que comunique claramente nuestra propuesta de valor. Creemos que esto generará visibilidad inicial e interés por parte de potenciales usuarios y partes interesadas. Esto se confirmará cuando el equipo reciba retroalimentación del cliente y se valide la consistencia visual en distintos dispositivos. |
-| Velocidad del Sprint (Story Points esperados) | 20 |
-| Suma total de Story Points asignados | 20 |
+| **Sprint Goal & User Stories** | Nuestro objetivo para este Sprint 1 es entregar una **primera versión de la Landing Page** y el **Frontend Web Application de AgroCuy**, que permitan comunicar de manera clara la propuesta de valor de la plataforma, facilitar la interacción entre criadores y asesores, e implementar las funcionalidades base del sistema. Esto incluirá componentes clave como Navbar, Footer, secciones informativas (Inicio, Acerca de, Características, Contacto), así como los primeros módulos de gestión de asesores, publicaciones, animales, jaulas y recursos. El éxito del sprint se evaluará mediante la validación visual, funcional y la ejecución de pruebas de aceptación automatizadas. |
+| Velocidad del Sprint (Story Points esperados) | 72 |
+| Suma total de Story Points asignados | 72 |
+
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
 
