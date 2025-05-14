@@ -3009,6 +3009,18 @@ _Imagen 43. Mockup Pagina de Características_
 
 _Imagen 44. Mockup Pagina de Contacto_
 
+## 5.4. Applications UX/UI Design
+
+### 5.4.1. Applications WireFrames
+
+### 5.4.2. Applications WireFlow Diagrams
+
+### 5.4.3. Applications Mock-ups.
+
+### 5.4.4. Applications User Flow Diagrams
+
+## 5.5. Applications Prototyping
+
 # Conclusiones
 
 ## Avance de Conclusiones y recomendaciones
