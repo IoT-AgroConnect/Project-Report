@@ -3013,6 +3013,35 @@ _Imagen 44. Mockup Pagina de Contacto_
 
 ### 5.4.1. Applications WireFrames
 
+### Web Application:
+
+<img src="img/wireframe-webapp-signup.png" alt="Wireframe Registro Usuario" width="600">
+<img src="img/wireframe-webapp-review.png" alt="Wireframe Reseñas" width="600">
+<img src="img/wireframe-webapp-myanimals.png" alt="Wireframe Mis Animales" width="600">
+<img src="img/wireframe-webapp-advisor.png" alt="Wireframe Página Principal Asesor" width="600">
+<img src="img/wireframe-webapp-review-animal.png" alt="Wireframe Reseña Animal" width="600">
+<img src="img/wireframe-webapp-register.png" alt="Wireframe Registro General" width="600">
+<img src="img/wireframe-webapp-register-resource.png" alt="Wireframe Registro Recurso" width="600">
+<img src="img/wireframe-webapp-no-review.png" alt="Wireframe Sin Reseña" width="600">
+<img src="img/wireframe-webapp-register-cuy.png" alt="Wireframe Registro Cuy" width="600">
+<img src="img/wireframe-webapp-advisor-notifications.png" alt="Wireframe Notificaciones Asesor" width="600">
+<img src="img/wireframe-webapp-advisor-clients.png" alt="Wireframe Clientes Asesor" width="600">
+<img src="img/wireframe-webapp-advisor-notifications-new.png" alt="Wireframe Notificaciones Nuevas" width="600">
+<img src="img/wireframe-webapp-advisor-publication.png" alt="Wireframe Publicación Asesor" width="600">
+
+### Mobile Application
+
+<img src="img/wireframe-mobile-loginandregister.png" alt="Wireframe Login y Registro Móvil" width="600">
+<img src="img/wireframe-mobile-publication.png" alt="Wireframe Publicación Móvil" width="600">
+<img src="img/wireframe-mobile-calendar.png" alt="Wireframe Calendario Móvil" width="600">
+<img src="img/wireframe-mobile-advisor.png" alt="Wireframe Página Principal Asesor" width="600">
+<img src="img/wireframe-mobile-notifications.png" alt="Wireframe Notificaciones Móvil" width="600">
+<img src="img/wireframe-mobile-dates.png" alt="Wireframe Fechas Móvil" width="600">
+<img src="img/wireframe-mobile-publication-advisor.png" alt="Wireframe Publicación Asesor" width="600">
+<img src="img/wireframes-mobile-schedule-advisor.png" alt="Wireframe Horario Asesor" width="600">
+<img src="img/wireframe-mobile-notifications-advisor.png" alt="Wireframe Notificaciones Asesor" width="600">
+<img src="img/wireframe-mobile-calendar-advisor.png" alt="Wireframe Calendario Asesor" width="600">
+
 ### 5.4.2. Applications WireFlow Diagrams
 
 ### 5.4.3. Applications Mock-ups.
