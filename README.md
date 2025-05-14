@@ -2624,11 +2624,192 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 
 ### 6.1.1. Software Development Environment Configuration.
 
+**Project Management:**
+
+Para la gestión del proyecto, utilizamos como principal medio de comunicación WhatsApp, a través de un grupo en el cual compartimos nuestras ideas y opiniones sobre cada parte del trabajo. A esto se le suma el uso de la herramienta Google Meet, para realizar reuniones en videoconferencia y conversar de forma síncrona. Por otro lado, el proyecto también tiene que ser documentado con todos los puntos requeridos, por lo que utilizamos Google Drive para la creación de documentos compartidos y trabajar de forma colaborativa, permitiendo un mejor flujo de trabajo y tener un historial sobre lo que realizó cada uno. Asimismo, utilizamos GitHub para el manejo de repositorios a través de una comunidad conformada por todos los integrantes del equipo. En esta, también documentamos los reportes y la aplicación en sí.
+
+**Requirements Management:**
+
+Para el registro de los requisitos, o también llamadas historias de usuario, utilizamos la herramienta Pivotal Tracker, en la cual registramos cada una de ellas y ordenadas por prioridad según el Product Backlog. La realización de este fue grupal, todos los integrantes aportamos en las historias de usuario y discutimos sobre las principales funcionalidades que consideramos que debe tener la aplicación web.
+
+**Product UX/UI Design:**
+
+Se realizaron los productos de UX con la herramienta UXPressia, así como el User Persona, Empathy Mapping, Impact Mapping, entre otras. Gracias a esto pudimos modelar bien los diseños de la experiencia de usuario, lo cual nos sirve para poder ponernos en una mejor perspectiva para nuestros segmentos objetivo. Por otro lado, hicimos los prototipos de la aplicación web utilizando la herramienta Figma, la cual nos permitió crear los Wireframes y Mock-ups para tener un diseño previo al desarrollo de la aplicación.
+
+**Software Development:**
+
+Como principal IDE, utilizamos Visual Studio Code, el cual es el entorno de desarrollo con el que estamos más familiarizados, además que ofrece flexibilidad, facilidad de uso y una gran variedad de soporte de lenguajes de programación. Además, permite la conexión con repositorios en línea creados en GitHub, lo cual nos permite tener una mejor gestión del proyecto, así como el historial de todos los cambios realizados. En la otra mano, para el desarrollo usamos los lenguajes aprendidos previamente, como HTML, CSS y JavaScript, y nuevos conocimientos adquiridos este ciclo como el framework de AngularJS.
+
+**Software Testing:**
+
+Las pruebas de aceptación son importantes a realizar para comprobar que los criterios de aceptación planteados están favoreciendo a las necesidades del negocio y cumplir con los requerimientos, para lo cual utilizamos el lenguaje Gherkin. Este consiste en trabajar el escenario con Given When Then, y lograr identificar las variables de input y output, lo cual es sencillo de entender para todos ya que utiliza lenguaje natural. Gracias a este, es que se logra garantizar la calidad del software, por ello cumple un papel esencial en los proyectos de desarrollo.
+
 ### 6.1.2. Source Code Management.
+
+**Usuarios de GitHub**
+
+<h3>5.1.2. Source Code Management.</h3>
+<p><strong>Usuarios de GitHub</strong></p>
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Integrante</th>
+      <th>Usuario de GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jarama Peñaloza, Fiorella</td>
+      <td>Fio0407</td>
+    </tr>
+    <tr>
+      <td>Moreno Vergara, Johan</td>
+      <td>JohanMV</td>
+    </tr>
+    <tr>
+      <td>Lucas Coronel, Nadia Alessandra</td>
+      <td>nad21lc</td>
+    </tr>
+    <tr>
+      <td>Paredes Puente, Sebastián Roberto</td>
+      <td>yorusaurio</td>
+    </tr>
+    <tr>
+      <td>Cuadros Rodríguez, Juan Alejandro</td>
+      <td>JuanAlejandroCuadrosRodriguez</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<p><em><strong>URL de repositorio de Landing Page:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Landing-Page-Main" target="_blank">https://github.com/IoT-AgroConnect/Landing-Page-Main</a>
+</p>
+
+<p><em><strong>URL de repositorio de Frontend Web Application:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Frontend-Web-Application" target="_blank">https://github.com/IoT-AgroConnect/Frontend-Web-Application</a>
+</p>
+
+<p><em><strong>URL de repositorio de Project Report:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Project-Report" target="_blank">https://github.com/IoT-AgroConnect/Project-Report</a>
+</p>
+
+<p><em><strong>URL de repositorio de Acceptance Tests:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Acceptance-Tests" target="_blank">https://github.com/IoT-AgroConnect/Acceptance-Tests</a>
+</p>
+
+<p><em><strong>URL de repositorio de Web Services:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Web-Services-main" target="_blank">https://github.com/IoT-AgroConnect/Web-Services-main</a>
+</p>
+
+<p><em><strong>URL de repositorio de Mobile App:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/AgroCuy-mobileApp" target="_blank">https://github.com/IoT-AgroConnect/AgroCuy-mobileApp</a>
+</p>
+
 
 ### 6.1.3. Source Code Style Guide & Conventions.
 
+HTML
+
+Es el lenguaje utilizado para estructurar el contenido de una página web, brindando una variedad de elementos posibles como texto, imágenes, formularios, etc.
+🔗 Guía de HTML5
+
+    Declarar el tipo de documento en la primera línea con <!DOCTYPE html>.
+
+    Respetar la estructura básica del HTML: <html>, <head>, <body>.
+
+    Declarar el título de la página para dar a conocer al usuario en qué página se encuentra. (Usar el elemento <title> en <head>).
+
+    Usar indentación coherente para lograr una lectura sencilla del código.
+
+    Siempre cerrar los elementos que lo requieran. (Ejemplo: <div> debe cerrarse con </div>).
+
+    Declarar el atributo alt para las imágenes.
+
+CSS
+
+Es el lenguaje utilizado para definir el diseño de la página web, así como los estilos, fuentes, colores, contenedores, etc.
+🔗 Guía de CSS de Google
+
+    Usar indentación de forma correcta.
+
+    Los nombres para elementos deben ser cortos y en minúsculas.
+
+    Declarar los colores en código hexadecimal. (Ejemplo: #024A86).
+
+    Dejar comentarios que indiquen el propósito del estilo y su uso.
+
+    El diseño debe ser responsive para que los usuarios puedan visualizar el sitio cómodamente desde cualquier dispositivo.
+
+JavaScript
+
+Es el lenguaje de programación más utilizado para la programación web, ya que permite desarrollar páginas interactivas con animaciones agradables para los usuarios.
+🔗 Guía de convenciones en JavaScript
+
+    Declarar nombres coherentes y cortos para variables y funciones.
+
+    Comentar cada parte importante del código.
+
+    Siempre colocar un punto y coma ; al final de cada línea.
+
+    Usar const para valores que no cambian.
+
+    Usar comparación estricta (=== en lugar de ==).
+
+TypeScript
+
+Es el superconjunto de JavaScript que añade características como el tipado estático.
+🔗 Documentación oficial de TypeScript
+
+    Nombres significativos y consistentes para variables y funciones.
+
+    Declarar interfaces y tipos en PascalCase.
+
+    Declarar variables y funciones en camelCase.
+
+    Comentar claramente el propósito de cada bloque de código.
+
+    Usar interfaces para reutilización de código.
+
+Java
+
+Lenguaje usado para programación web y móvil, multiplataforma.
+🔗 Guía de estilo para Java
+
+    Usar CamelCase para clases, variables y funciones.
+
+    Usar HTTPS para conexiones seguras.
+
+    Indentación clara y ordenada.
+
+    Usar comillas dobles (") para cadenas de texto.
+
+    Comentar bloques de código.
+
+    Declarar constantes si el valor no cambia.
+
+Gherkin
+
+Lenguaje para diseñar casos de prueba en base a requisitos de negocio.
+🔗 Convenciones de Gherkin
+
+    Separar bloques: Given, When, Then para claridad.
+
+    Usar tablas para inputs y outputs cuando sea necesario.
+
+    Separar escenarios múltiples con líneas en blanco.
+
+    Insertar líneas en blanco dentro de cada Step para mejor lectura.
+
 ### 6.1.4. Software Deployment Configuration.
+
+Para la configuración del despliegue de la aplicación, utilizaremos Git, un sistema de control de versiones distribuido que es bastante utilizado en proyectos de desarrollo de software. Es una herramienta esencial para trabajar colaborativamente y poder hacer el seguimiento de los cambios realizados por los miembros del grupo. Una de sus mejores ventajas es su capacidad para rastrear los cambios en los archivos de un proyecto a lo largo del tiempo. Con Git, es posible crear ramas, realizar cambios en ellas y fusionarlos eficientemente, permitiendo que varios desarrolladores trabajen en diferentes aspectos del proyecto simultáneamente sin interferencias.
+
+Por otro lado, tenemos a GitHub, el cual es la plataforma para poder alojar repositorios de Git. Es uno de los servicios más utilizados por desarrolladores de forma mundial, ya que permite manejar repositorios públicos y privados para almacenar el código en la nube. A parte de ello, maneja el historial de los repositorios, permitiendo a los usuarios acceder a todas las versiones trabajadas, permitiendo que puedan retornar a una versión anterior en caso lo deseen. Ofrece otras herramientas que son muy útiles como los pull requests, los cuales son solicitudes de revisiones de una rama y luego poder fusionarla con otra rama.
+
+Así es como con este, que cada miembro podrá trabajar de forma remota desde su IDE, teniendo una copia del repositorio Git a través del repositorio en línea almacenado en GitHub, así poder hacer commits para empujar los cambios que hayan realizado.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
@@ -3056,6 +3237,16 @@ Además de la landing page, se implementaron funcionalidades adicionales corresp
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
 
+En este primer sprint, no hemos trabajado con servicios web, ya que nos hemos concentrado exclusivamente en la creación del Landing Page estático. Es por ello que en esta ocasión, no se trabajó la documentación relacionada con el uso de servicios web.
+
+Una vez acabamos de trabajar con todas las historias de usuario, realizamos el deployment del Landing Page utilizando GitHub Pages.
+
+URL de deployment de Landing Page: https://iot-agroconnect.github.io/home.html
+
+<img src="./img/landing_page_0.png" alt="Vista de Landing Page" width="100%"> <br>
+
+<img src="./img/landing_page_1.png" alt="Vista de Landing Page" width="100%">
+
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
 Una vez acabamos de trabajar con todas las historias de usuario, realizamos el deployment del Landing Page y el Front-end web application.
 
@@ -3100,6 +3291,10 @@ Se instaló firebase-tools dentro del proyecto, y luego se inició sesión.
 <p style="text-align:center"><em>Imagen 141. DeployFront - pages - 4</em></p>
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
+
+En la elaboración de la landing page, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
+
+<img src="./img/landing_Insight.png" alt="Vista de Landing Page" width="100%">
 
 # Conclusiones
 
