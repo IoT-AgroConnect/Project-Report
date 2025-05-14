@@ -2963,25 +2963,18 @@ Estas pruebas se diseñaron para validar el cumplimiento de criterios de aceptac
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
 Como parte de la evaluación del Sprint 1, se presenta la evidencia visual del entregable final correspondiente a la **Landing Page estática** del sistema AgroCuy. Esta interfaz representa el primer acercamiento público del sistema, enfocada en comunicar su propuesta de valor a potenciales usuarios y partes interesadas.
+ 
+[Enlace de Landing Page](https://iot-agroconnect.github.io/Landing-Page-Main/home.html)
 
-🎥 **Video demostrativo – Landing Page**:  
-[Execution Evidence – AgroCuy Landing Page](https://youtu.be/Yi3p53UjKF0)
-
----
-
-<img src="img/evidence_landing_page_1.png" width="100%">
-<p style="text-align:center"><em>Imagen 119. Vista general de la landing page</em></p>
-
----
 
 ### 🔹 Navbar
 
 Se desarrolló un componente de navegación *responsive* que adapta dinámicamente sus elementos para asegurar una navegación fluida en cualquier dispositivo. En pantallas móviles, las secciones se agrupan en un menú lateral tipo hamburguesa.
 
-<img src="img/evidence_landing_page_2.png" width="100%">
+<img src="img/landing-navbar1.PNG" width="100%">
 <p style="text-align:center"><em>Imagen 120. Navbar expandido en pantalla amplia</em></p>
 
-<img src="img/evidence_landing_page_3.png" width="100%">
+<img src="img/landing-navbar2.PNG" width="100%">
 <p style="text-align:center"><em>Imagen 121. Navbar colapsado en vista móvil</em></p>
 
 ---
@@ -3002,11 +2995,8 @@ El pie de página mantiene la identidad visual del sistema, asegurando consisten
 
 La sección de bienvenida presenta una introducción clara al propósito de la plataforma AgroCuy, resaltando sus beneficios y enfoques principales.
 
-<img src="img/evidence_landing_page_6.png" width="100%">
+<img src="img/landing-home.PNG" width="100%">
 <p style="text-align:center"><em>Imagen 124. Sección de bienvenida</em></p>
-
-<img src="img/evidence_landing_page_7.png" width="100%">
-<p style="text-align:center"><em>Imagen 125. Continuación de la sección de inicio</em></p>
 
 ---
 
@@ -3014,8 +3004,8 @@ La sección de bienvenida presenta una introducción clara al propósito de la p
 
 Esta sección incluye tarjetas interactivas (*flip cards*) con información clave sobre los desafíos que enfrentan los criadores de cuyes. También se describen los dos segmentos objetivos del sistema: criadores y asesores técnicos.
 
-<img src="img/landing-page-1.jpg" width="100%">
-<img src="img/landing-page-2.jpg" width="100%">
+<img src="img/landing-problematica.PNG" width="100%">
+<img src="img/landing-problematica2.PNG" width="100%">
 
 ---
 
@@ -3023,7 +3013,7 @@ Esta sección incluye tarjetas interactivas (*flip cards*) con información clav
 
 Se muestran las funcionalidades clave del sistema AgroCuy mediante íconos explicativos y texto conciso, con un diseño moderno y estructurado.
 
-<img src="img/landing-page-3.jpg" width="100%">
+<img src="img/landing-caracteristicas.PNG" width="100%">
 
 ---
 
@@ -3031,8 +3021,8 @@ Se muestran las funcionalidades clave del sistema AgroCuy mediante íconos expli
 
 Aquí se describe la identidad de la startup, su misión, visión y los integrantes del equipo. Se incluyen fotos de los miembros, fortaleciendo la conexión con el usuario.
 
-<img src="img/landing-page-4.jpg" width="100%">
-<img src="img/landing-page-5.jpg" width="100%">
+<img src="img/landing-sobre-nosotros.PNG" width="100%">
+<img src="img/landing-sobre-nosotros2.PNG" width="100%">
 
 ---
 
@@ -3040,7 +3030,7 @@ Aquí se describe la identidad de la startup, su misión, visión y los integran
 
 La sección de contacto presenta los canales de comunicación con el equipo, mediante un formulario responsivo que facilita el envío de consultas o sugerencias.
 
-<img src="img/landing-page-6.jpg" width="100%">
+<img src="img/landing-contacto.PNG" width="100%">
 
 ---
 
@@ -3054,10 +3044,10 @@ Todos los componentes definidos para este Sprint fueron implementados satisfacto
 
 Además de la landing page, se implementaron funcionalidades adicionales correspondientes a las historias de usuario del **Sprint Backlog 1**. Esta primera versión funcional del Frontend refleja la estructura básica de interacción y navegación dentro de la plataforma AgroCuy.
 
-🎥 **Video demostrativo – Frontend Web Application**:  
-[Execution Evidence – AgroCuy Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EYY0ErnjEsFBiUZXlO60wHQBnqjOJRxM13gjVWm8Gpbbzg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Hd2T2Y)
 
-<img src="img/front-web-evidence.png" width="100%">
+[Enlace del Front-End Desplegado](https://frontend-web-application-delta.vercel.app/login)
+
+<img src="img/deployment14.png" width="100%">
 <p style="text-align:center"><em>Imagen 134. Vista general del sistema web funcional</em></p>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
@@ -3067,7 +3057,7 @@ Una vez acabamos de trabajar con todas las historias de usuario, realizamos el d
 
 **Landing Page:**
 
-URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/home.html
+URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/contact.html
 
 Para lograr hacer el deployment, entramos a la configuración del repositorio y a la sección de Pages. Luego, debemos seleccionar la rama sobre la cual se hará el deployment.
 
