@@ -3022,12 +3022,34 @@ _Imagen 44. Mockup Pagina de Contacto_
   <img src="img/mockup-webapp-resource-register.png" alt="Pagina de Recurso Registro" width="600">
   <img src="img/mockup-webapp-no-clients.png" alt="Pagina de No Clientes" width="600">
   <img src="img/mockup-webapp-publication.png" alt="Pagina de Publicacion" width="600">
-
-
-
-
+  <img src="img/mockup-webapp-no-resources-register.png" alt="Pagina de Recursos no registrados" width="600">
+  
 ### IoT Application:
+  <img src="img/mockup-iot.png" alt="Pagina de IoT" width="600">
+<br>
+
 ### Mobile Application:
+<br>
+
+### Breeder:
+
+<br>
+ <img src="img/mockup-mobile-loginandregister.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-publication.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-calendar.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-advisor.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-notifications.png" alt="Pagina de Criador" width="600">
+ 
+<br>
+
+### Advisor:
+
+<img src="img/mockup-mobile-dates.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-publication-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-schedule-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-notifications-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-calendar-advisor.png" alt="Pagina de Asesor" width="600">
+
 
 ### 5.4.2. Applications WireFlow Diagrams
 
