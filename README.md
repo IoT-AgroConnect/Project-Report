@@ -202,16 +202,16 @@ Abril 2025
   - [6.1.3. Style Guide & Conventions](#613-style-guide--conventions)
   - [6.1.4. Deployment Configuration](#614-deployment-configuration)
 - [6.2. Implementation](#62-implementation)
-  - [6.2.X. Sprint n](#62x-sprint-n)
-    - [6.2.X.1. Sprint Planning](#62x1-sprint-planning)
-    - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-    - [6.2.X.3. Sprint Backlog](#62x3-sprint-backlog)
-    - [6.2.X.4. Development Evidence](#62x4-development-evidence)
-    - [6.2.X.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
-    - [6.2.X.6. Execution Evidence](#62x6-execution-evidence)
-    - [6.2.X.7. Services Documentation](#62x7-services-documentation)
-    - [6.2.X.8. Software Deployment Evidence](#62x8-software-deployment-evidence)
-    - [6.2.X.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
+  - [6.2.1. Sprint 1](#62x-sprint-n)
+    - [6.2.1.1. Sprint Planning](#62x1-sprint-planning)
+    - [6.2.1.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
+    - [6.2.1.3. Sprint Backlog](#62x3-sprint-backlog)
+    - [6.2.1.4. Development Evidence](#62x4-development-evidence)
+    - [6.2.1.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
+    - [6.2.1.6. Execution Evidence](#62x6-execution-evidence)
+    - [6.2.1.7. Services Documentation](#62x7-services-documentation)
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence)
+    - [6.2.1.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -2856,6 +2856,47 @@ Todos los componentes definidos para este Sprint fueron implementados exitosamen
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
+Una vez acabamos de trabajar con todas las historias de usuario, realizamos el deployment del Landing Page y el Front-end web application.
+
+**Landing Page:**
+
+URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/home.html
+
+Para lograr hacer el deployment, entramos a la configuración del repositorio y a la sección de Pages. Luego, debemos seleccionar la rama sobre la cual se hará el deployment.
+
+<img src="img/despliegue-landing-githubpages.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 134. github - pages - 1</em></p>
+
+Escogimos la rama main, ya que es la rama principal sobre la cual se guarda la versión final para hacer el deployment. Una vez se escoge, se guardan los cambios.
+
+<img src="img/despliegue-landing-githubpages2.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 135. github - pages - 2</em></p>
+
+Finalmente, solo se espera a que GitHub cree la página y nos brinde el enlace.
+<img src="img/despliegue-landing-githubpages3.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 136. github - pages - 3</em></p>
+
+<img src="img/despliegue-landing-githubpages4.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 137. github - pages - 4</em></p>
+
+**Front-end web:**
+Primero, se utilizó el comando ng build para crear la carpeta dist, la cual sirve para realizar el deployment en Firebase.
+
+<img src="img/deploymentfront1.png" width="100%">
+<p style="text-align:center"><em>Imagen 138. DeployFront - pages - 1</em></p>
+
+<img src="img/deploymentfront2.png" width="100%">
+<p style="text-align:center"><em>Imagen 139. DeployFront - pages - 2</em></p>
+
+Luego, se utilizó el comando de lite-server para comprobar el funcionamiento de la aplicación.
+
+Se instaló firebase-tools dentro del proyecto, y luego se inició sesión.
+
+<img src="img/deployment4.png" width="100%">
+<p style="text-align:center"><em>Imagen 140. DeployFront - pages - 3</em></p>
+
+<img src="img/deployment5.png" width="100%">
+<p style="text-align:center"><em>Imagen 141. DeployFront - pages - 4</em></p>
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
