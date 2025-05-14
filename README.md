@@ -3294,7 +3294,7 @@ Se instaló firebase-tools dentro del proyecto, y luego se inició sesión.
 
 En la elaboración de la landing page, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
 
-<img src="./img/landing_Insight.png" alt="Vista de Landing Page" width="100%">
+<img src="./img/Landing_Insight.png" alt="Vista de Landing Page" width="100%">
 
 # Conclusiones
 
