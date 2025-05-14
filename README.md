@@ -1259,6 +1259,16 @@ Para trabajar el Product Backlog, se utilizó la herramienta Trello, la cual se 
 
 <p>Realizamos nuestro proceso de event storming a través de la herramienta Figma, donde trazamos todo el recorrido del sistema. Iniciamos con la fase inicial de Unstructured Exploration, en la cual discutimos y contrastamos nuestras ideas respecto a los eventos clave del dominio, guiándonos por las sugerencias recomendadas y centrandonos en el objetivo numero uno de nuestro proyecto. Asimismo, tomamos en cuenta diversos aspectos al elegir los eventos, tales como su importancia, recurrencia y momento de ocurrencia.<p>
 
+
+Leyenda: 
+  - Naraja: Eventos Clave
+  - Verde: Main Timeline
+  - Amarillo Oscuro: Pain points
+  - Azul: Commands
+  - Morado: Policies
+  - Rosado: Read Models
+  - Amarillo Claro: Sistemas Externos
+
 🔗 [Ver Figma](https://www.figma.com/design/bBQCiFvraA0jM3SFmloKWi/Event-Storming---IoT?node-id=0-1&t=uHqde6eWHW5RX70z-1)
 
 <img src="img/event-storming-figma.PNG" alt="Unstructured_exploration" width="800">
