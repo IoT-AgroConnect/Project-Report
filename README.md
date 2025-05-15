@@ -822,10 +822,15 @@ Claudia, de 23 años, es criadora principiante con 6 meses de experiencia y 25 c
 
 ![Imagen 8. Entrevista a Carla Pereyra](img/entrevista5.png)  
 *Imagen 8. Entrevista a Carla Pereyra*
+<<<<<<< HEAD
 
 **Resumen:**  
 Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
+=======
+>>>>>>> 6f7fe102518f594e204001aca1829483459ed86b
 
+**Resumen:**  
+Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -2658,6 +2663,6 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMy
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/Ec0vHNEl-PFKtUFc6u9QPw8B6os5ydM3cMbI07MyLXU2ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2c0F93
 
-## Anexo N°4: Repositorio del Informe
+## Anexo N°4: Repositorio del Informe.
 
 https://github.com/IoT-AgroConnect/Project-Report
