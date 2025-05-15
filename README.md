@@ -735,107 +735,102 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 ### 2.2.2. Registro de entrevistas
 
-**Link de las entrevistas:** [Ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMyG21NhDYkWcIYIW4BL7pKsp-FbNONAAcnh6-dlg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E2ug3L)
+Puedes visualizar las entrevistas completas realizadas a asesores y criadores en el siguiente enlace:
 
+🔗 **[Ver entrevistas grabadas – AgroCuy](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/Ef3BzOMHxeBKpY029QWebTkBya2vl3KgeQLqDOw0BOHDDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eem7Mx)**  
+*Repositorio audiovisual en SharePoint con los registros de las entrevistas de campo realizadas.*
 
-**Entrevista N 1 - Asesor:**
+#### **Entrevista N.º 1 – Asesor**
 
-**Entrevistador:** Juan Cuadros
+- **Entrevistador:** Sebastián Ramírez  
+- **Entrevistado:** Arianna Joya  
+- **Duración:** [00:00:00 – 00:05:41] (**5 minutos 41 segundos**)  
 
-**Entrevistado:** Daniela Flores
+![Imagen 3. Entrevista a Arianna Joya](img/interview1.png)  
+*Imagen 3. Entrevista a Arianna Joya*
 
-**Duración**: [00:00:08 – 00:06:00] (**5 minutos 52 segundos**)
+**Resumen:**  
+Arianna es una asesora rural con aproximadamente 10 años de experiencia en la crianza de cuyes. Si bien no ha trabajado con sensores ni sistemas automatizados en granjas, expresó un alto interés por conocer e implementar este tipo de tecnologías. Señaló como barrera la falta de conectividad en zonas rurales, destacando la importancia de soluciones que funcionen incluso sin internet. Recalcó la necesidad de capacitaciones presenciales, visitas técnicas y pruebas piloto para demostrar la efectividad del sistema a los criadores, así como contar con soporte técnico continuo para resolver dudas recurrentes.
 
+---
 
+#### **Entrevista N.º 2 – Asesor**
 
-<img src="img/Entrevista_1.png" width="100%">
+- **Entrevistador:** Juan Cuadros  
+- **Entrevistado:** Daniela Flores  
+- **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
 
-_Imagen 3. Entrevista a Daniela Flores_
+![Imagen 4. Entrevista a Daniela Flores](img/Entrevista_1.png)  
+*Imagen 4. Entrevista a Daniela Flores*
 
-**Resumen:** 
+**Resumen:**  
+Daniela es médica veterinaria con más de ocho años de experiencia brindando asesoría técnica en granjas de cuyes. Su familia ha comenzado a usar termohigrómetros digitales para monitoreo ambiental, lo cual ha mejorado la gestión de sus animales. Considera que AgroConnect puede fortalecer la conexión entre criadores y asesores, y sugiere que el sistema genere reportes automáticos a partir de los datos recolectados para facilitar el análisis y la toma de decisiones.
 
-Daniela proviene de una familia con una sólida tradición en la crianza de cuyes, acumulando más de ocho años de experiencia brindando asesoría técnica a diversas granjas. Es médica veterinaria de profesión, lo que respalda su conocimiento especializado en el bienestar animal. En la granja familiar, han comenzado a incorporar tecnología de monitoreo, como termohigrómetros digitales que permiten registrar datos y emitir alertas básicas, lo cual ha representado un avance importante en la gestión de las condiciones ambientales. Respecto a AgroConnect, Daniela considera que es una herramienta valiosa para fortalecer la interacción entre criadores y asesores técnicos. Además, sugiere que la plataforma podría potenciar aún más su utilidad si, luego de recolectar los datos de los sensores, se generara automáticamente un reporte que facilite el análisis y la toma de decisiones, optimizando así la asesoría y el manejo de las granjas.
+---
 
+#### **Entrevista N.º 3 – Asesor**
 
-**Entrevista N 2 - Asesor:** 
+- **Entrevistador:** Nadia Lucas  
+- **Entrevistado:** Nayeli Chávez  
+- **Duración:** [00:11:33 – 00:18:35] (**7 minutos 2 segundos**)  
 
-**Entrevistador:** Nadia Lucas
+![Imagen 5. Entrevista a Nayeli Chávez](img/entrevista2.png)  
+*Imagen 5. Entrevista a Nayeli Chávez*
 
-**Entrevistado:** Nayeli Chavez
+**Resumen:**  
+Nayeli, zootecnista egresada de la UNALM, tiene 2 años de experiencia como asesora de productores altoandinos. Ha investigado sistemas implementados en otros países como China, y destaca la necesidad urgente de monitoreo en tiempo real de temperatura, humedad y CO₂. Recomienda funciones como reportes automáticos, notificaciones ante incidentes y asistencia visual. También enfatiza que muchos criadores temen usar tecnología, por lo que la plataforma debe ser intuitiva, contar con capacitaciones prácticas y soporte continuo.
 
-**Duración**: [00:06:00 – 00:13:02] (**7 minutos 2 segundos**)
+---
 
+### Entrevistas a Criadores
 
-<img src="img/entrevista2.png" width="100%">
+---
 
-_Imagen 4. Entrevista a Nayeli Chavez_ 
+#### **Entrevista N.º 4 – Criador**
 
-**Resumen:**
+- **Entrevistador:** Johan Moreno  
+- **Entrevistado:** Willy Valentín  
+- **Duración:** [00:18:35 – 00:22:55] (**4 minutos 20 segundos**)  
 
-Nayeli cuenta con dos años de experiencia como asesora técnica especializada en la crianza de cuyes, respaldada por su formación en Zootecnia en la Universidad Agraria La Molina. Desde su egreso, ha apoyado a pequeños y medianos productores altoandinos, brindando asesoría en cuatro pilares fundamentales: alimentación, sanidad, manejo reproductivo y cuidado ambiental.
+![Imagen 6. Entrevista a Willy Valentín](img/entrevista6.png)  
+*Imagen 6. Entrevista a Willy Valentín*
 
-Si bien no ha implementado sistemas de monitoreo en granjas, ha investigado soluciones tecnológicas empleadas en otros países como China, incluyendo sensores ambientales y plataformas automáticas. Considera que los cuyes son altamente sensibles a variaciones bruscas de temperatura, lo que puede derivar en pérdidas significativas.
+**Resumen:**  
+Willy, de 21 años, vive en Lima y su familia cría cuyes desde hace 4 años. Manejan 90 animales y registran datos manualmente en un cuaderno. Destacó la necesidad de conocer en tiempo real la temperatura y recibir alertas. Le interesa una herramienta que integre recomendaciones prácticas, tutoriales y conexión con otros criadores para compartir experiencias.
 
-Nayeli identifica como una gran necesidad la incorporación de herramientas que proporcionen datos en tiempo real sobre temperatura, humedad y ventilación, además de alertas ante condiciones extremas o escasez de alimento. Propone la generación de reportes automáticos con gráficos sencillos, notificaciones móviles ante incidentes, y funcionalidades como historial de datos, comparación entre granjas y asistencia para la gestión diaria.
+---
 
-En su experiencia, muchos criadores tienen temor de usar plataformas digitales, por lo que resalta la importancia de que estas sean intuitivas y demuestren mejoras tangibles en productividad. Recomienda acompañar la tecnología con capacitaciones prácticas realizadas en las propias granjas, con soporte técnico y materiales impresos, facilitando así la adopción tecnológica y la optimización del manejo de los cuyes.
+#### **Entrevista N.º 5 – Criador**
 
+- **Entrevistador:** Fiorella Jarama  
+- **Entrevistado:** Claudia Ramos  
+- **Duración:** [00:22:55 – 00:27:40] (**4 minutos 45 segundos**)  
 
-**Criadores**
+![Imagen 7. Entrevista a Claudia Ramos](img/Entrevista_4.png)  
+*Imagen 7. Entrevista a Claudia Ramos*
 
-**Entrevista N 3 - Criador:**
+**Resumen:**  
+Claudia, de 23 años, es criadora principiante con 6 meses de experiencia y 25 cuyes. No lleva registros constantes y busca una herramienta sencilla con recordatorios, alertas, consejos personalizados y tutoriales. Aunque no ha usado aplicaciones, está abierta a probar una si es segura, intuitiva y cuenta con guía de uso.
 
-**Entrevistador:** Johan Moreno
+---
 
-**Entrevistado:** Willy Valentin
+#### **Entrevista N.º 6 – Criador**
 
-**Duración**: [00:13:02 – 00:17:27] (**4 minutos 25 segundos**)
+- **Entrevistador:** Sebastián Ramírez  
+- **Entrevistado:** Carla Pereyra  
+- **Duración:** [00:27:40 – 00:31:08] (**3 minutos 28 segundos**)  
 
-<img src="img/entrevista6.png" width="100%">
+![Imagen 8. Entrevista a Carla Pereyra](img/entrevista5.png)  
+*Imagen 8. Entrevista a Carla Pereyra*
+<<<<<<< HEAD
 
-_Imagen 8. Entrevista a Willy Valentin_ 
+**Resumen:**  
+Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
+=======
+>>>>>>> 6f7fe102518f594e204001aca1829483459ed86b
 
-**Resumen:**
-Willy, un joven de 21 años de Lima, comparte la experiencia de su familia, que lleva aproximadamente 4 años criando cuyes, con una población actual de alrededor de 90 ejemplares, además de otros animales. Uno de los principales retos que enfrentan es la variabilidad climática, ya que tanto el calor excesivo como el frío afectan negativamente la crianza.
-
-Su familiar gestiona la información de manera manual, utilizando cuadernos para el conteo de cuyes y el registro de compras de alimento. La limpieza de las jaulas se realiza de forma periódica cada dos días, momento en el cual también observan el estado general de los animales. Para tomar decisiones, se apoyan en datos climáticos consultados desde sus teléfonos móviles.
-
-Willy considera que para su familia sería muy útil contar con una herramienta que muestre la temperatura ambiental y envíe notificaciones al respecto. Aunque no han utilizado aplicaciones para la gestión de la granja, están interesados en implementar una que facilite el monitoreo y la recepción de alertas en tiempo real.
-
-Además, ve con buenos ojos que la plataforma incluya consejos, tutoriales y recomendaciones prácticas sobre la crianza, así como la posibilidad de conectar con otros criadores de distintas regiones para compartir experiencias, superando las limitaciones del contacto presencial actual.
-
-
-**Entrevista N 4 - Criador:**
-
-**Entrevistador:**  Fiorella Jarama 
-
-**Entrevistado:** Claudia Ramos
-
-**Duración**: [00:17:27 – 00:22:12] (**4 minutos 45 segundos**)
-
-<img src="img/Entrevista_4.png" width="100%">
-
-_Imagen 6. Entrevista a Claudia Ramos_
-
-**Resumen:** 
-Claudia Ramos, una criadora principiante de cuyes de 23 años con 6 meses de experiencia y 25 cuyes a su cuidado, compartió en la entrevista que enfrenta principalmente dificultades para organizar su tiempo y adaptarse a las condiciones climáticas que afectan a los animales. Actualmente no lleva un registro constante de salud o crecimiento, aunque ha intentado usar un cuaderno. Le gustaría contar con una herramienta tecnológica sencilla que le brinde recordatorios, alertas sobre temperatura y consejos personalizados, preferiblemente en forma de notificaciones en su celular. También valoraría mucho el acceso a videos explicativos y el apoyo de criadores con más experiencia, especialmente si los consejos se basan en datos reales de su granja. Claudia no ha utilizado aplicaciones específicas para la crianza, pero está abierta a probar alguna siempre que sea fácil de usar, segura y venga con una guía inicial.
-
-
-**Entrevista N 5 - Criador:**
-
-**Entrevistador:** Sebastian Ramirez
-
-**Entrevistado:** Carla Pereyra
-
-**Duración**: [00:22:12 – 00:25:40] (**3 minutos 28 segundos**)
-
-<img src="img/entrevista5.png" width="100%">
-
-_Imagen 7. Entrevista a Carla Pereyra_ 
-
-**Resumen:**
-Carla Pereyra, una criadora de cuyes con experiencia, actualmente está a cargo de 20 ejemplares. Nos compartió las necesidades que enfrenta en su labor y las mejoras que desearía implementar. En la actualidad, realiza el registro de sus cuyes de forma manual, utilizando un cuaderno, ya que aún no ha adoptado herramientas digitales. Le gustaría contar con alertas sobre la temperatura ambiental de sus animales, notificaciones relacionadas con su alimentación, y recibir asesoría de criadores especializados. Aunque nunca ha utilizado aplicaciones para esta actividad, está interesada en probar una que le ofrezca beneficios concretos para el cuidado de sus cuyes, y que le brinde confianza y respaldo en su uso.
-
+**Resumen:**  
+Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -3183,11 +3178,192 @@ A partir de los User Flows definidos en el punto anterior, se trabajó el protot
 
 ### 6.1.1. Software Development Environment Configuration.
 
+**Project Management:**
+
+Para la gestión del proyecto, utilizamos como principal medio de comunicación WhatsApp, a través de un grupo en el cual compartimos nuestras ideas y opiniones sobre cada parte del trabajo. A esto se le suma el uso de la herramienta Google Meet, para realizar reuniones en videoconferencia y conversar de forma síncrona. Por otro lado, el proyecto también tiene que ser documentado con todos los puntos requeridos, por lo que utilizamos Google Drive para la creación de documentos compartidos y trabajar de forma colaborativa, permitiendo un mejor flujo de trabajo y tener un historial sobre lo que realizó cada uno. Asimismo, utilizamos GitHub para el manejo de repositorios a través de una comunidad conformada por todos los integrantes del equipo. En esta, también documentamos los reportes y la aplicación en sí.
+
+**Requirements Management:**
+
+Para el registro de los requisitos, o también llamadas historias de usuario, utilizamos la herramienta Pivotal Tracker, en la cual registramos cada una de ellas y ordenadas por prioridad según el Product Backlog. La realización de este fue grupal, todos los integrantes aportamos en las historias de usuario y discutimos sobre las principales funcionalidades que consideramos que debe tener la aplicación web.
+
+**Product UX/UI Design:**
+
+Se realizaron los productos de UX con la herramienta UXPressia, así como el User Persona, Empathy Mapping, Impact Mapping, entre otras. Gracias a esto pudimos modelar bien los diseños de la experiencia de usuario, lo cual nos sirve para poder ponernos en una mejor perspectiva para nuestros segmentos objetivo. Por otro lado, hicimos los prototipos de la aplicación web utilizando la herramienta Figma, la cual nos permitió crear los Wireframes y Mock-ups para tener un diseño previo al desarrollo de la aplicación.
+
+**Software Development:**
+
+Como principal IDE, utilizamos Visual Studio Code, el cual es el entorno de desarrollo con el que estamos más familiarizados, además que ofrece flexibilidad, facilidad de uso y una gran variedad de soporte de lenguajes de programación. Además, permite la conexión con repositorios en línea creados en GitHub, lo cual nos permite tener una mejor gestión del proyecto, así como el historial de todos los cambios realizados. En la otra mano, para el desarrollo usamos los lenguajes aprendidos previamente, como HTML, CSS y JavaScript, y nuevos conocimientos adquiridos este ciclo como el framework de AngularJS.
+
+**Software Testing:**
+
+Las pruebas de aceptación son importantes a realizar para comprobar que los criterios de aceptación planteados están favoreciendo a las necesidades del negocio y cumplir con los requerimientos, para lo cual utilizamos el lenguaje Gherkin. Este consiste en trabajar el escenario con Given When Then, y lograr identificar las variables de input y output, lo cual es sencillo de entender para todos ya que utiliza lenguaje natural. Gracias a este, es que se logra garantizar la calidad del software, por ello cumple un papel esencial en los proyectos de desarrollo.
+
 ### 6.1.2. Source Code Management.
+
+**Usuarios de GitHub**
+
+<h3>5.1.2. Source Code Management.</h3>
+<p><strong>Usuarios de GitHub</strong></p>
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Integrante</th>
+      <th>Usuario de GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jarama Peñaloza, Fiorella</td>
+      <td>Fio0407</td>
+    </tr>
+    <tr>
+      <td>Moreno Vergara, Johan</td>
+      <td>JohanMV</td>
+    </tr>
+    <tr>
+      <td>Lucas Coronel, Nadia Alessandra</td>
+      <td>nad21lc</td>
+    </tr>
+    <tr>
+      <td>Paredes Puente, Sebastián Roberto</td>
+      <td>yorusaurio</td>
+    </tr>
+    <tr>
+      <td>Cuadros Rodríguez, Juan Alejandro</td>
+      <td>JuanAlejandroCuadrosRodriguez</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<p><em><strong>URL de repositorio de Landing Page:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Landing-Page-Main" target="_blank">https://github.com/IoT-AgroConnect/Landing-Page-Main</a>
+</p>
+
+<p><em><strong>URL de repositorio de Frontend Web Application:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Frontend-Web-Application" target="_blank">https://github.com/IoT-AgroConnect/Frontend-Web-Application</a>
+</p>
+
+<p><em><strong>URL de repositorio de Project Report:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Project-Report" target="_blank">https://github.com/IoT-AgroConnect/Project-Report</a>
+</p>
+
+<p><em><strong>URL de repositorio de Acceptance Tests:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Acceptance-Tests" target="_blank">https://github.com/IoT-AgroConnect/Acceptance-Tests</a>
+</p>
+
+<p><em><strong>URL de repositorio de Web Services:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/Web-Services-main" target="_blank">https://github.com/IoT-AgroConnect/Web-Services-main</a>
+</p>
+
+<p><em><strong>URL de repositorio de Mobile App:</strong></em> 
+  <a href="https://github.com/IoT-AgroConnect/AgroCuy-mobileApp" target="_blank">https://github.com/IoT-AgroConnect/AgroCuy-mobileApp</a>
+</p>
+
 
 ### 6.1.3. Source Code Style Guide & Conventions.
 
+HTML
+
+Es el lenguaje utilizado para estructurar el contenido de una página web, brindando una variedad de elementos posibles como texto, imágenes, formularios, etc.
+🔗 Guía de HTML5
+
+    Declarar el tipo de documento en la primera línea con <!DOCTYPE html>.
+
+    Respetar la estructura básica del HTML: <html>, <head>, <body>.
+
+    Declarar el título de la página para dar a conocer al usuario en qué página se encuentra. (Usar el elemento <title> en <head>).
+
+    Usar indentación coherente para lograr una lectura sencilla del código.
+
+    Siempre cerrar los elementos que lo requieran. (Ejemplo: <div> debe cerrarse con </div>).
+
+    Declarar el atributo alt para las imágenes.
+
+CSS
+
+Es el lenguaje utilizado para definir el diseño de la página web, así como los estilos, fuentes, colores, contenedores, etc.
+🔗 Guía de CSS de Google
+
+    Usar indentación de forma correcta.
+
+    Los nombres para elementos deben ser cortos y en minúsculas.
+
+    Declarar los colores en código hexadecimal. (Ejemplo: #024A86).
+
+    Dejar comentarios que indiquen el propósito del estilo y su uso.
+
+    El diseño debe ser responsive para que los usuarios puedan visualizar el sitio cómodamente desde cualquier dispositivo.
+
+JavaScript
+
+Es el lenguaje de programación más utilizado para la programación web, ya que permite desarrollar páginas interactivas con animaciones agradables para los usuarios.
+🔗 Guía de convenciones en JavaScript
+
+    Declarar nombres coherentes y cortos para variables y funciones.
+
+    Comentar cada parte importante del código.
+
+    Siempre colocar un punto y coma ; al final de cada línea.
+
+    Usar const para valores que no cambian.
+
+    Usar comparación estricta (=== en lugar de ==).
+
+TypeScript
+
+Es el superconjunto de JavaScript que añade características como el tipado estático.
+🔗 Documentación oficial de TypeScript
+
+    Nombres significativos y consistentes para variables y funciones.
+
+    Declarar interfaces y tipos en PascalCase.
+
+    Declarar variables y funciones en camelCase.
+
+    Comentar claramente el propósito de cada bloque de código.
+
+    Usar interfaces para reutilización de código.
+
+Java
+
+Lenguaje usado para programación web y móvil, multiplataforma.
+🔗 Guía de estilo para Java
+
+    Usar CamelCase para clases, variables y funciones.
+
+    Usar HTTPS para conexiones seguras.
+
+    Indentación clara y ordenada.
+
+    Usar comillas dobles (") para cadenas de texto.
+
+    Comentar bloques de código.
+
+    Declarar constantes si el valor no cambia.
+
+Gherkin
+
+Lenguaje para diseñar casos de prueba en base a requisitos de negocio.
+🔗 Convenciones de Gherkin
+
+    Separar bloques: Given, When, Then para claridad.
+
+    Usar tablas para inputs y outputs cuando sea necesario.
+
+    Separar escenarios múltiples con líneas en blanco.
+
+    Insertar líneas en blanco dentro de cada Step para mejor lectura.
+
 ### 6.1.4. Software Deployment Configuration.
+
+Para la configuración del despliegue de la aplicación, utilizaremos Git, un sistema de control de versiones distribuido que es bastante utilizado en proyectos de desarrollo de software. Es una herramienta esencial para trabajar colaborativamente y poder hacer el seguimiento de los cambios realizados por los miembros del grupo. Una de sus mejores ventajas es su capacidad para rastrear los cambios en los archivos de un proyecto a lo largo del tiempo. Con Git, es posible crear ramas, realizar cambios en ellas y fusionarlos eficientemente, permitiendo que varios desarrolladores trabajen en diferentes aspectos del proyecto simultáneamente sin interferencias.
+
+Por otro lado, tenemos a GitHub, el cual es la plataforma para poder alojar repositorios de Git. Es uno de los servicios más utilizados por desarrolladores de forma mundial, ya que permite manejar repositorios públicos y privados para almacenar el código en la nube. A parte de ello, maneja el historial de los repositorios, permitiendo a los usuarios acceder a todas las versiones trabajadas, permitiendo que puedan retornar a una versión anterior en caso lo deseen. Ofrece otras herramientas que son muy útiles como los pull requests, los cuales son solicitudes de revisiones de una rama y luego poder fusionarla con otra rama.
+
+Así es como con este, que cada miembro podrá trabajar de forma remota desde su IDE, teniendo una copia del repositorio Git a través del repositorio en línea almacenado en GitHub, así poder hacer commits para empujar los cambios que hayan realizado.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
@@ -3811,6 +3987,6 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMy
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/Ec0vHNEl-PFKtUFc6u9QPw8B6os5ydM3cMbI07MyLXU2ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2c0F93
 
-## Anexo N°4: Repositorio del Informe
+## Anexo N°4: Repositorio del Informe.
 
 https://github.com/IoT-AgroConnect/Project-Report
