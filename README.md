@@ -735,107 +735,96 @@ Los criadores de cuyes estarán cada vez más dispuestos a integrar tecnologías
 
 ### 2.2.2. Registro de entrevistas
 
-**Link de las entrevistas:** [Ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMyG21NhDYkWcIYIW4BL7pKsp-FbNONAAcnh6-dlg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E2ug3L)
+Puedes visualizar las entrevistas completas realizadas a asesores y criadores en el siguiente enlace:
 
+🔗 **[Ver entrevistas grabadas – AgroCuy](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/Ef3BzOMHxeBKpY029QWebTkBya2vl3KgeQLqDOw0BOHDDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eem7Mx)**  
+*Repositorio audiovisual en SharePoint con los registros de las entrevistas de campo realizadas.*
 
-**Entrevista N 1 - Asesor:**
+#### **Entrevista N.º 1 – Asesor**
 
-**Entrevistador:** Juan Cuadros
+- **Entrevistador:** Sebastián Ramírez  
+- **Entrevistado:** Arianna Joya  
+- **Duración:** [00:00:00 – 00:05:41] (**5 minutos 41 segundos**)  
 
-**Entrevistado:** Daniela Flores
+![Imagen 3. Entrevista a Arianna Joya](img/interview1.png)  
+*Imagen 3. Entrevista a Arianna Joya*
 
-**Duración**: [00:00:08 – 00:06:00] (**5 minutos 52 segundos**)
+**Resumen:**  
+Arianna es una asesora rural con aproximadamente 10 años de experiencia en la crianza de cuyes. Si bien no ha trabajado con sensores ni sistemas automatizados en granjas, expresó un alto interés por conocer e implementar este tipo de tecnologías. Señaló como barrera la falta de conectividad en zonas rurales, destacando la importancia de soluciones que funcionen incluso sin internet. Recalcó la necesidad de capacitaciones presenciales, visitas técnicas y pruebas piloto para demostrar la efectividad del sistema a los criadores, así como contar con soporte técnico continuo para resolver dudas recurrentes.
 
+---
 
+#### **Entrevista N.º 2 – Asesor**
 
-<img src="img/Entrevista_1.png" width="100%">
+- **Entrevistador:** Juan Cuadros  
+- **Entrevistado:** Daniela Flores  
+- **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
 
-_Imagen 3. Entrevista a Daniela Flores_
+![Imagen 4. Entrevista a Daniela Flores](img/Entrevista_1.png)  
+*Imagen 4. Entrevista a Daniela Flores*
 
-**Resumen:** 
+**Resumen:**  
+Daniela es médica veterinaria con más de ocho años de experiencia brindando asesoría técnica en granjas de cuyes. Su familia ha comenzado a usar termohigrómetros digitales para monitoreo ambiental, lo cual ha mejorado la gestión de sus animales. Considera que AgroConnect puede fortalecer la conexión entre criadores y asesores, y sugiere que el sistema genere reportes automáticos a partir de los datos recolectados para facilitar el análisis y la toma de decisiones.
 
-Daniela proviene de una familia con una sólida tradición en la crianza de cuyes, acumulando más de ocho años de experiencia brindando asesoría técnica a diversas granjas. Es médica veterinaria de profesión, lo que respalda su conocimiento especializado en el bienestar animal. En la granja familiar, han comenzado a incorporar tecnología de monitoreo, como termohigrómetros digitales que permiten registrar datos y emitir alertas básicas, lo cual ha representado un avance importante en la gestión de las condiciones ambientales. Respecto a AgroConnect, Daniela considera que es una herramienta valiosa para fortalecer la interacción entre criadores y asesores técnicos. Además, sugiere que la plataforma podría potenciar aún más su utilidad si, luego de recolectar los datos de los sensores, se generara automáticamente un reporte que facilite el análisis y la toma de decisiones, optimizando así la asesoría y el manejo de las granjas.
+---
 
+#### **Entrevista N.º 3 – Asesor**
 
-**Entrevista N 2 - Asesor:** 
+- **Entrevistador:** Nadia Lucas  
+- **Entrevistado:** Nayeli Chávez  
+- **Duración:** [00:11:33 – 00:18:35] (**7 minutos 2 segundos**)  
 
-**Entrevistador:** Nadia Lucas
+![Imagen 5. Entrevista a Nayeli Chávez](img/entrevista2.png)  
+*Imagen 5. Entrevista a Nayeli Chávez*
 
-**Entrevistado:** Nayeli Chavez
+**Resumen:**  
+Nayeli, zootecnista egresada de la UNALM, tiene 2 años de experiencia como asesora de productores altoandinos. Ha investigado sistemas implementados en otros países como China, y destaca la necesidad urgente de monitoreo en tiempo real de temperatura, humedad y CO₂. Recomienda funciones como reportes automáticos, notificaciones ante incidentes y asistencia visual. También enfatiza que muchos criadores temen usar tecnología, por lo que la plataforma debe ser intuitiva, contar con capacitaciones prácticas y soporte continuo.
 
-**Duración**: [00:06:00 – 00:13:02] (**7 minutos 2 segundos**)
+---
 
+### Entrevistas a Criadores
 
-<img src="img/entrevista2.png" width="100%">
+---
 
-_Imagen 4. Entrevista a Nayeli Chavez_ 
+#### **Entrevista N.º 4 – Criador**
 
-**Resumen:**
+- **Entrevistador:** Johan Moreno  
+- **Entrevistado:** Willy Valentín  
+- **Duración:** [00:18:35 – 00:22:55] (**4 minutos 20 segundos**)  
 
-Nayeli cuenta con dos años de experiencia como asesora técnica especializada en la crianza de cuyes, respaldada por su formación en Zootecnia en la Universidad Agraria La Molina. Desde su egreso, ha apoyado a pequeños y medianos productores altoandinos, brindando asesoría en cuatro pilares fundamentales: alimentación, sanidad, manejo reproductivo y cuidado ambiental.
+![Imagen 6. Entrevista a Willy Valentín](img/entrevista6.png)  
+*Imagen 6. Entrevista a Willy Valentín*
 
-Si bien no ha implementado sistemas de monitoreo en granjas, ha investigado soluciones tecnológicas empleadas en otros países como China, incluyendo sensores ambientales y plataformas automáticas. Considera que los cuyes son altamente sensibles a variaciones bruscas de temperatura, lo que puede derivar en pérdidas significativas.
+**Resumen:**  
+Willy, de 21 años, vive en Lima y su familia cría cuyes desde hace 4 años. Manejan 90 animales y registran datos manualmente en un cuaderno. Destacó la necesidad de conocer en tiempo real la temperatura y recibir alertas. Le interesa una herramienta que integre recomendaciones prácticas, tutoriales y conexión con otros criadores para compartir experiencias.
 
-Nayeli identifica como una gran necesidad la incorporación de herramientas que proporcionen datos en tiempo real sobre temperatura, humedad y ventilación, además de alertas ante condiciones extremas o escasez de alimento. Propone la generación de reportes automáticos con gráficos sencillos, notificaciones móviles ante incidentes, y funcionalidades como historial de datos, comparación entre granjas y asistencia para la gestión diaria.
+---
 
-En su experiencia, muchos criadores tienen temor de usar plataformas digitales, por lo que resalta la importancia de que estas sean intuitivas y demuestren mejoras tangibles en productividad. Recomienda acompañar la tecnología con capacitaciones prácticas realizadas en las propias granjas, con soporte técnico y materiales impresos, facilitando así la adopción tecnológica y la optimización del manejo de los cuyes.
+#### **Entrevista N.º 5 – Criador**
 
+- **Entrevistador:** Fiorella Jarama  
+- **Entrevistado:** Claudia Ramos  
+- **Duración:** [00:22:55 – 00:27:40] (**4 minutos 45 segundos**)  
 
-**Criadores**
+![Imagen 7. Entrevista a Claudia Ramos](img/Entrevista_4.png)  
+*Imagen 7. Entrevista a Claudia Ramos*
 
-**Entrevista N 3 - Criador:**
+**Resumen:**  
+Claudia, de 23 años, es criadora principiante con 6 meses de experiencia y 25 cuyes. No lleva registros constantes y busca una herramienta sencilla con recordatorios, alertas, consejos personalizados y tutoriales. Aunque no ha usado aplicaciones, está abierta a probar una si es segura, intuitiva y cuenta con guía de uso.
 
-**Entrevistador:** Johan Moreno
+---
 
-**Entrevistado:** Willy Valentin
+#### **Entrevista N.º 6 – Criador**
 
-**Duración**: [00:13:02 – 00:17:27] (**4 minutos 25 segundos**)
+- **Entrevistador:** Sebastián Ramírez  
+- **Entrevistado:** Carla Pereyra  
+- **Duración:** [00:27:40 – 00:31:08] (**3 minutos 28 segundos**)  
 
-<img src="img/entrevista6.png" width="100%">
+![Imagen 8. Entrevista a Carla Pereyra](img/entrevista5.png)  
+*Imagen 8. Entrevista a Carla Pereyra*
 
-_Imagen 8. Entrevista a Willy Valentin_ 
-
-**Resumen:**
-Willy, un joven de 21 años de Lima, comparte la experiencia de su familia, que lleva aproximadamente 4 años criando cuyes, con una población actual de alrededor de 90 ejemplares, además de otros animales. Uno de los principales retos que enfrentan es la variabilidad climática, ya que tanto el calor excesivo como el frío afectan negativamente la crianza.
-
-Su familiar gestiona la información de manera manual, utilizando cuadernos para el conteo de cuyes y el registro de compras de alimento. La limpieza de las jaulas se realiza de forma periódica cada dos días, momento en el cual también observan el estado general de los animales. Para tomar decisiones, se apoyan en datos climáticos consultados desde sus teléfonos móviles.
-
-Willy considera que para su familia sería muy útil contar con una herramienta que muestre la temperatura ambiental y envíe notificaciones al respecto. Aunque no han utilizado aplicaciones para la gestión de la granja, están interesados en implementar una que facilite el monitoreo y la recepción de alertas en tiempo real.
-
-Además, ve con buenos ojos que la plataforma incluya consejos, tutoriales y recomendaciones prácticas sobre la crianza, así como la posibilidad de conectar con otros criadores de distintas regiones para compartir experiencias, superando las limitaciones del contacto presencial actual.
-
-
-**Entrevista N 4 - Criador:**
-
-**Entrevistador:**  Fiorella Jarama 
-
-**Entrevistado:** Claudia Ramos
-
-**Duración**: [00:17:27 – 00:22:12] (**4 minutos 45 segundos**)
-
-<img src="img/Entrevista_4.png" width="100%">
-
-_Imagen 6. Entrevista a Claudia Ramos_
-
-**Resumen:** 
-Claudia Ramos, una criadora principiante de cuyes de 23 años con 6 meses de experiencia y 25 cuyes a su cuidado, compartió en la entrevista que enfrenta principalmente dificultades para organizar su tiempo y adaptarse a las condiciones climáticas que afectan a los animales. Actualmente no lleva un registro constante de salud o crecimiento, aunque ha intentado usar un cuaderno. Le gustaría contar con una herramienta tecnológica sencilla que le brinde recordatorios, alertas sobre temperatura y consejos personalizados, preferiblemente en forma de notificaciones en su celular. También valoraría mucho el acceso a videos explicativos y el apoyo de criadores con más experiencia, especialmente si los consejos se basan en datos reales de su granja. Claudia no ha utilizado aplicaciones específicas para la crianza, pero está abierta a probar alguna siempre que sea fácil de usar, segura y venga con una guía inicial.
-
-
-**Entrevista N 5 - Criador:**
-
-**Entrevistador:** Sebastian Ramirez
-
-**Entrevistado:** Carla Pereyra
-
-**Duración**: [00:22:12 – 00:25:40] (**3 minutos 28 segundos**)
-
-<img src="img/entrevista5.png" width="100%">
-
-_Imagen 7. Entrevista a Carla Pereyra_ 
-
-**Resumen:**
-Carla Pereyra, una criadora de cuyes con experiencia, actualmente está a cargo de 20 ejemplares. Nos compartió las necesidades que enfrenta en su labor y las mejoras que desearía implementar. En la actualidad, realiza el registro de sus cuyes de forma manual, utilizando un cuaderno, ya que aún no ha adoptado herramientas digitales. Le gustaría contar con alertas sobre la temperatura ambiental de sus animales, notificaciones relacionadas con su alimentación, y recibir asesoría de criadores especializados. Aunque nunca ha utilizado aplicaciones para esta actividad, está interesada en probar una que le ofrezca beneficios concretos para el cuidado de sus cuyes, y que le brinde confianza y respaldo en su uso.
-
+**Resumen:**  
+Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
 
 ### 2.2.3. Análisis de entrevistas
 
