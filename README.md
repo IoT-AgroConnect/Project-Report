@@ -3093,6 +3093,83 @@ _Imagen 44. Mockup Pagina de Contacto_
 
 
 ### 5.4.4. Applications User Flow Diagrams
+Cabe mencionar que los happy paths son representados por cuadros amarillos, mientras que los unhappy paths se identifican por los cuadros con tonalidad rojiza.
+
+Cabe mencionar que los happy paths son representados por cuadros amarillos, mientras que los unhappy paths se identifican por los cuadros con tonalidad rojiza.
+
+**Para usuario:**
+
+<img src="img/userflow1.png" alt = "userflow 1">
+
+_Imagen 88. usuario - inicio sesion_
+
+<img src="img/userflow3.png" alt = "userflow 3">
+
+_Imagen 89. usuario - recuperar contraseña_
+
+**Para asesor:**
+
+<img src="img/userflow2.png" alt = "userflow 2">
+
+_Imagen 90. asesor - registro_
+
+<img src="img/userflow4.png" alt = "userflow 4">
+
+_Imagen 91. asesor - visualizar clientes_
+
+<img src="img/userflow5.png" alt = "userflow 5">
+
+_Imagen 92. asesor - crear publicaciones_
+
+<img src="img/userflow6.png" alt = "userflow 6">
+
+_Imagen 93. asesor - recibir notificaciones_
+
+**Para criador:**
+
+<img src="img/userflow7.png" alt = "userflow 7">
+
+_Imagen 94. criador - registrar jaulas_
+
+<img src="img/userflow8.png" alt = "userflow 8">
+
+_Imagen 95. criador - registrar cuyes_
+
+<img src="img/userflow9.png" alt = "userflow 9">
+
+_Imagen 96. criador - registrar gastos_
+
+<img src="img/userflow10.png" alt = "userflow 10">
+
+_Imagen 97. criador - registrar recursos_
+
+<img src="img/userflow11.png" alt = "userflow 11">
+
+_Imagen 98. criador - modificar informacion jaulas_
+
+<img src="img/userflow12.png" alt = "userflow 12">
+
+_Imagen 99. criador - eliminar jaulas_
+
+<img src="img/userflow13.png" alt = "userflow 13">
+
+_Imagen 100. criador - ver en que jaulas pertencen cuyes_
+
+<img src="img/userflow14.png" alt = "userflow 14">
+
+_Imagen 101. criador - eliminar registro cuy_
+
+<img src="img/userflow15.png" alt = "userflow 15">
+
+_Imagen 102. criador - editar registro cuy_
+
+<img src="img/userflow16.png" alt = "userflow 16">
+
+_Imagen 103. criador - buscar asesores_
+
+<img src="img/userflow17.png" alt = "userflow 17">
+
+_Imagen 104. criador - calificar asesoria_
 
 ## 5.5. Applications Prototyping
 
