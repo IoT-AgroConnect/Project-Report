@@ -3890,7 +3890,7 @@ Una vez acabamos de trabajar con todas las historias de usuario, realizamos el d
 
 **Landing Page:**
 
-URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/home.html
+URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/about-us.html
 
 Para lograr hacer el deployment, entramos a la configuración del repositorio y a la sección de Pages. Luego, debemos seleccionar la rama sobre la cual se hará el deployment.
 
@@ -3951,6 +3951,8 @@ Se usa el comando ng deploy para deployear la aplicación
 Finalmente, logramos acceder a nuestra aplicación deployada.
 <img src="img/deployment14.png" width="100%">
 <p style="text-align:center"><em>Imagen 146. DeployFront - pages - 10 </em></p>
+
+https://frontend-web-application-delta.vercel.app/login
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
