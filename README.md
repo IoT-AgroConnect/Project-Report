@@ -202,16 +202,16 @@ Abril 2025
   - [6.1.3. Style Guide & Conventions](#613-style-guide--conventions)
   - [6.1.4. Deployment Configuration](#614-deployment-configuration)
 - [6.2. Implementation](#62-implementation)
-  - [6.2.X. Sprint n](#62x-sprint-n)
-    - [6.2.X.1. Sprint Planning](#62x1-sprint-planning)
-    - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-    - [6.2.X.3. Sprint Backlog](#62x3-sprint-backlog)
-    - [6.2.X.4. Development Evidence](#62x4-development-evidence)
-    - [6.2.X.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
-    - [6.2.X.6. Execution Evidence](#62x6-execution-evidence)
-    - [6.2.X.7. Services Documentation](#62x7-services-documentation)
-    - [6.2.X.8. Software Deployment Evidence](#62x8-software-deployment-evidence)
-    - [6.2.X.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
+  - [6.2.1. Sprint 1](#62x-sprint-n)
+    - [6.2.1.1. Sprint Planning](#62x1-sprint-planning)
+    - [6.2.1.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
+    - [6.2.1.3. Sprint Backlog](#62x3-sprint-backlog)
+    - [6.2.1.4. Development Evidence](#62x4-development-evidence)
+    - [6.2.1.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
+    - [6.2.1.6. Execution Evidence](#62x6-execution-evidence)
+    - [6.2.1.7. Services Documentation](#62x7-services-documentation)
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence)
+    - [6.2.1.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -3119,18 +3119,18 @@ La planificación del primer sprint se llevó a cabo mediante una reunión virtu
 | **Elemento** | **Detalle** |
 |--------------|-------------|
 | **Sprint #** | Sprint 1 |
-| **Sprint Planning Background** |  |
+| **Sprint Planning Background** | Planificación inicial del proyecto AgroCuy, priorizando la entrega de interfaces clave tanto en la landing page como en la primera versión funcional del frontend web. |
 | Fecha | 2025-05-01 |
 | Hora | 10:00 PM |
 | Lugar | Virtual (Google Meet) |
 | Preparado por | Lucas Coronel, Nadia Alessandra |
-| Participantes de la reunión de planificación | - Cuadros Rodriguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Mendez, Sebastian Andre |
+| Participantes de la reunión de planificación | - Cuadros Rodríguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Méndez, Sebastián André |
 | Resumen del Sprint n–1 (Review) | No aplica — este es el primer sprint del proyecto. |
 | Resumen del Sprint n–1 (Retrospectiva) | No aplica — este es el primer sprint del proyecto. |
-| **Sprint Goal & User Stories** |  |
-| Objetivo del Sprint 1 | Nuestro enfoque está en entregar una primera versión de la página de inicio de AgroCuy que comunique claramente nuestra propuesta de valor. Creemos que esto generará visibilidad inicial e interés por parte de potenciales usuarios y partes interesadas. Esto se confirmará cuando el equipo reciba retroalimentación del cliente y se valide la consistencia visual en distintos dispositivos. |
-| Velocidad del Sprint (Story Points esperados) | 20 |
-| Suma total de Story Points asignados | 20 |
+| **Sprint Goal & User Stories** | Nuestro objetivo para este Sprint 1 es entregar una **primera versión de la Landing Page** y el **Frontend Web Application de AgroCuy**, que permitan comunicar de manera clara la propuesta de valor de la plataforma, facilitar la interacción entre criadores y asesores, e implementar las funcionalidades base del sistema. Esto incluirá componentes clave como Navbar, Footer, secciones informativas (Inicio, Acerca de, Características, Contacto), así como los primeros módulos de gestión de asesores, publicaciones, animales, jaulas y recursos. El éxito del sprint se evaluará mediante la validación visual, funcional y la ejecución de pruebas de aceptación automatizadas. |
+| Velocidad del Sprint (Story Points esperados) | 72 |
+| Suma total de Story Points asignados | 72 |
+
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
 
@@ -3370,30 +3370,121 @@ A continuación, se presenta la tabla estructurada del Sprint Backlog 1, que det
 
 
 
-#### 6.2.1.4. Development Evidence for Sprint Review.
+### 6.2.1.4. Development Evidence for Sprint Review
 
-Durante el desarrollo del Sprint 1, se realizaron múltiples avances en el repositorio oficial de la Landing Page del sistema AgroCuy. Estos avances se documentaron a través de commits distribuidos en distintas ramas funcionales. A continuación, se detalla la evidencia de trabajo en el repositorio:
+Durante el Sprint 1, el equipo avanzó en dos frentes de desarrollo: la **Landing Page del sistema AgroCuy**, orientada a presentar la propuesta de valor del proyecto, y la **primera versión del Frontend Web Application**, que implementa la lógica funcional de las historias de usuario correspondientes.
 
-🔗 Repositorio: [Landing Page AgroCuy](https://github.com/IoT-AgroConnect/Landing-Page-Main)
+A continuación, se presentan los commits más representativos del trabajo realizado, organizados por repositorio:
 
-| **Repository** | **Branch**               | **Commit ID** | **Commit Message**                                  | **Commited on (Date)** |
-|------------------|-------------------------|----------------|----------------------------------------------------------|-----------------------|
-| AgroTech-UPC/Landing-Page | feature/header-footer   | ff5467f       | feat: Preparing the workspace                            | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/header-footer   | 965448b       | feat: Complete header and footer                         | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | f450025       | Merge pull request #1 from AgroTech-UPC/header-footer    | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | bab8888       | refactor: login button deleted & padding to main         | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/contact         | 1fdfcb2       | feat: contact page completed                             | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/contact         | 2a79c52       | fix: fixed position of footer                            | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | 1c1cab7       | Merge pull request #4 from AgroTech-UPC/feature/contact  | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/home            | 12c2b0b       | feat: home page completed                                | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | b348cf3       | Merge pull request #5 from AgroTech-UPC/feature/home     | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/about-us        | bcee2f1       | feat: about us section added                             | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | f0b57ab       | Merge pull request #7 from AgroTech-UPC/feature/about-us | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/about-app       | a0f235c       | feat: Section about-app created                          | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/characteristics | 2c15c6d       | feat: features section added                             | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | 961b6fe       | Merge pull request #8 from AgroTech-UPC/feature/about-app| 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | bc8aa23       | Merge pull request #10 from AgroTech-UPC/feature/characteristics | 01/05/2025      |
-| AgroTech-UPC/Landing-Page | main                   | 341ad78       | Merge pull request #11 from AgroTech-UPC/develop         | 01/05/2025            |
+---
+
+#### 🔹 Repositorio: [Landing Page AgroCuy](https://github.com/IoT-AgroConnect/Landing-Page-Main)
+
+| **Repository**                      | **Branch**               | **Commit ID** | **Commit Message**                                     | **Committed on (Date)** |
+|------------------------------------|---------------------------|----------------|----------------------------------------------------------|--------------------------|
+| IoT-AgroConnect/Landing-Page-Main  | feature/us23              | d66396a        | Merge pull request #8 from IoT-AgroConnect/feature/us23 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us23              | 87299dd        | Merge branch 'developer' into feature/us23              | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/about-app         | 7ab288d        | feat: added about-app section                           | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us25              | 72c9bf9        | feat: added about-us section and contact                | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us26-us23         | 019861c        | feat: added features section and home section           | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/iot-api-setup     | c16aaee        | feat: initial setup for IoT API integration             | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us11              | 44fbb57        | feat: added jaula registration view                     | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us01              | 3f404b3        | feat: added catalog view of advisors                    | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | developer                 | 6e19647        | Merge pull request #7 from IoT-AgroConnect/developer    | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us27              | b736b92        | Merge pull request #6 from IoT-AgroConnect/feature/us27 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us22              | 9880e9b        | Merge pull request #5 from IoT-AgroConnect/feature/us22 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/contact           | dbf8041        | feat: added contact section styles                      | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/contact           | ef55992        | feat: added contact section logic                       | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/home              | d656cea        | feat: added home section styles                         | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/home              | d889fe8        | feat: added home section logic                          | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/footer            | 1521326        | feat: added footer styles                               | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/navbar            | 2c9d256        | feat: added navbar styles                               | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/navbar            | 78926e7        | feat: added navbar logic                                | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/footer            | e1a5724        | feat: added footer                                      | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us26              | 4076edf        | Merge pull request #4 from IoT-AgroConnect/feature/us26 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us26              | 9e8b818        | feat: added features section                            | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us24              | 96e0aaa        | Merge pull request #3 from IoT-AgroConnect/feature/us24 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us24              | 946ece5        | fix: our team description                               | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us23              | 447fed2        | Merge pull request #2 from IoT-AgroConnect/feature/us23 | 2025-05-13               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us23              | c062114        | feat: added home section                                | 2025-05-13               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us25              | 2fdf6b4        | Merge pull request #1 from IoT-AgroConnect/feature/us25 | 2025-05-13               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us25              | a6bc2c7        | feat: added about-us section                            | 2025-05-13               |
+
+
+---
+
+#### 🔹 Repositorio: [Frontend Web Application AgroCuy](https://github.com/IoT-AgroConnect/Frontend-Web-Application)
+
+| **Repository** | **Branch**                    | **Commit ID** | **Commit Message**                                                             | **Committed on (Date)** |
+|----------------|-------------------------------|---------------|---------------------------------------------------------------------------------|--------------------------|
+| Frontend-Web-Application | feature/us11                | 7a2b8fa      | feat: implement edit functionality for cage information                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us11                | f6f1a9d      | feat: improve formatting and readability of cage list component template        | 14/05/2025               |
+| Frontend-Web-Application | feature/us15                | 1122cdc      | feat(resource): implement components to manage and register farm resources      | 14/05/2025               |
+| Frontend-Web-Application | feature/us15                | eb97f36      | feat(expense): implement components to manage and register farm expenses        | 14/05/2025               |
+| Frontend-Web-Application | feature/us13                | 89e633e      | feat: implement animal detail and edit form with dynamic binding and actions    | 14/05/2025               |
+| Frontend-Web-Application | feature/us13                | 3492155      | Merge branch 'feature/us13' into develop                                        | 14/05/2025               |
+| Frontend-Web-Application | feature/us12                | e8a61fc      | feat: validate cage existence before updating animal information                | 14/05/2025               |
+| Frontend-Web-Application | feature/us12                | ae481b3      | feat: agregar documentación del componente MyFarmResourceManagement             | 14/05/2025               |
+| Frontend-Web-Application | feature/us13                | 832109e      | Merge: resolve conflict and merge feature/us13 into develop                     | 14/05/2025               |
+| Frontend-Web-Application | feature/us13                | 5e9b13a      | feat: map gender and health status to string values for form compatibility      | 14/05/2025               |
+| Frontend-Web-Application | feature/us15                | 8ea1e34      | Merge branch 'feature/us15' into develop                                        | 14/05/2025               |
+| Frontend-Web-Application | feature/us16                | d9c465d      | Merge branch 'feature/us16' into develop                                        | 14/05/2025               |
+| Frontend-Web-Application | feature/us12                | 6c1b13d      | Merge pull request #6 from IoT-AgroConnect/feature/us12                         | 14/05/2025               |
+| Frontend-Web-Application | develop                     | 5241bb8      | Merge branch 'develop' into develop                                             | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | 95d3ed6      | feat: implement advisor profile view with detailed information and review       | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | 59416b7      | feat: implement dynamic star rating display for advisor profile                 | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | 8fb0666      | feat: Add advisor about us                                                      | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | 629f1e7      | feat: display detailed advisor information in card view                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | ade4eef      | Merge pull request #7 from IoT-AgroConnect/feature/us08                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us02                | 005cd40      | feat: Add Component                                                             | 14/05/2025               |
+| Frontend-Web-Application | feature/us02                | db73423      | feat: Add getAdvisor()                                                          | 14/05/2025               |
+| Frontend-Web-Application | feature/us02                | 5cdabe1      | Merge pull request #8 from IoT-AgroConnect/feature/us02                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us02                | 9afcd8d      | feat: Add schedule                                                              | 14/05/2025               |
+| Frontend-Web-Application | feature/us03                | 5c52ee2      | feat: Add valid Date Validator                                                  | 14/05/2025               |
+| Frontend-Web-Application | feature/us03                | ceb420f      | feat: Add method abailable date                                                 | 14/05/2025               |
+| Frontend-Web-Application | feature/us03                | 0196f58      | Merge pull request #9 from IoT-AgroConnect/feature/us03                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us03                | ac9c3ef      | fix: Document add availability schedule                                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us04                | 2588040      | feat: Date service                                                              | 14/05/2025               |
+| Frontend-Web-Application | feature/us04                | 0080c1a      | Service in the root injector                                                    | 14/05/2025               |
+| Frontend-Web-Application | feature/us04                | b82652d      | feat: Service extends the base service                                          | 14/05/2025               |
+| Frontend-Web-Application | feature/us04                | 9870b64      | Merge pull request #10 from IoT-AgroConnect/feature/us04                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us05              | e3791e4       | feat: Add getFarmById() method                                                  | 14/05/2025               |
+| Frontend-Web-Application  | feature/us05              | b6c90da       | feat: create view for breeder farm info                                         | 14/05/2025               |
+| Frontend-Web-Application  | feature/us05              | cccaa3b       | Merge pull request #11 from IoT-AgroConnect/feature/us05                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us06              | 2b39ed7       | feat: Notification model created                                                | 14/05/2025               |
+| Frontend-Web-Application  | feature/us06              | 0d6c60e       | feat: created notification view                                                 | 14/05/2025               |
+| Frontend-Web-Application  | feature/us06              | d801b5c       | Merge pull request #12 from IoT-AgroConnect/feature/us06                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us07              | 473860f       | feat: Notification for breeder                                                  | 14/05/2025               |
+| Frontend-Web-Application  | feature/us07              | b0a8764       | feat: Notification delete breeder                                               | 14/05/2025               |
+| Frontend-Web-Application  | feature/us07              | b4fa369       | Merge pull request #13 from IoT-AgroConnect/feature/us07                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us09              | 18063b1       | feat: Publication component created                                             | 14/05/2025               |
+| Frontend-Web-Application  | feature/us09              | 7f5e7ad       | feat: add remove publication logic                                              | 14/05/2025               |
+| Frontend-Web-Application  | feature/us09              | 423ebc3       | Merge pull request #14 from IoT-AgroConnect/feature/us09                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us10              | e7c8e93       | feat: visualizer for publications                                               | 14/05/2025               |
+| Frontend-Web-Application  | feature/us10              | 6e521f2       | Merge pull request #15 from IoT-AgroConnect/feature/us10                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us01              | 2ea70e4       | feat: catalog component created                                                 | 14/05/2025               |
+| Frontend-Web-Application  | feature/us01              | 8bdc9e3       | feat: fetch advisors for criador                                                | 14/05/2025               |
+| Frontend-Web-Application  | feature/us01              | b0d23cb       | Merge pull request #16 from IoT-AgroConnect/feature/us01                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us13              | 9c7b2ae       | feat: view/edit animal info with dynamic form binding                           | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | 9c4570f       | feat: animal management UI implemented for cage detail view                     | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | cbe93ae       | feat: add form validation for cage registration                                 | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | 410f437       | feat: delete cage functionality added                                           | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | 8fcaf64       | feat: update cage view with new features                                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | c446b34       | feat: list and filter cages for breeder                                         | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | f1c3c6a       | feat: component for cage registration implemented                               | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | 1f9959c       | Merge pull request #17 from IoT-AgroConnect/feature/us11                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us13              | 78b13c6       | fix: responsive form updates for animal detail                                  | 14/05/2025               |
+| Frontend-Web-Application  | feature/us13              | 3142f51       | Merge pull request #18 from IoT-AgroConnect/feature/us13                        | 14/05/2025               |
+| Frontend-Web-Application  | develop                   | 7c56a03       | Merge pull request #19 from IoT-AgroConnect/develop                             | 14/05/2025               |
+| Frontend-Web-Application  | main                      | 49b8d77       | Merge pull request #20 from IoT-AgroConnect/main                                | 14/05/2025               |
+| Frontend-Web-Application  | main                      | 6f1d5f4       | chore: updated readme and project structure for delivery                        | 14/05/2025               |
+| Frontend-Web-Application  | main                      | b70df1c       | refactor: applied code formatting and naming consistency                        | 14/05/2025               |
+
+
+> Todos los commits registrados permiten evidenciar el cumplimiento de los objetivos del Sprint 1, así como la correcta trazabilidad de cada historia de usuario implementada en la **Landing Page del sistema AgroCuy** y en la **primera versión del Frontend Web Application**.
+
+
+---
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
@@ -3403,21 +3494,36 @@ Estas pruebas se diseñaron para validar el cumplimiento de criterios de aceptac
 
 🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
 
-| **Repository**               | **Branch** | **Commit ID** | **Commit Message**                            | **Commited on (Date)** |
-|-----------------------------|------------|----------------|------------------------------------------------|-------------------------|
-| AgroTech-UPC/Acceptance-Tests | main       | 57f2c58       | feat: added feature file for US29              | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 1b94680       | feat: added feature file for US28              | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 9027b2b       | fix: fix typing error                          | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 329c774       | feat: added acceptance test for US31           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 24c738a       | feat: added acceptance test for US30           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 802f736       | feat: added acceptance test for US26           | 01/05/2025              |
-| AgroTech-UPC/Acceptance-Tests | main       | 29d85ed       | feat: added acceptance test for US27           | 01/05/2025              |
+| **Repository**                     | **Branch** | **Commit ID** | **Commit Message**                                      | **Commited on (Date)** |
+|-----------------------------------|------------|----------------|----------------------------------------------------------|-------------------------|
+| AgroTech-UPC/Acceptance-Tests     | main       | 818417c        | feat: added feature file for US22                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 530ab54        | feat: add feature file for US23                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 31b09e5        | feat: add feature file for US24                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | d7c8cb7        | feat: add feature file for US25                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 56c2cfe        | feat: add feature file for US26                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 3754e25        | feat: add feature file for US27                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 65a02ca        | feat: add feature file for US01                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 53394b8        | feat: add feature file for US02                        | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | fde5473        | feat: add feature file for US03 | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 346c658        | feat: add feature file for US04                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 1d86777        | feat: add feature file for US05                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 6a236cc        | feat: add feature file for US06                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | f2b2386        | feat: add feature file for US08                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | bdb3f98        | feat: add feature file for US08                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 7028433        | feat: add feature file for US09                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 01f5cae        | feat: add feature file for US10                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | c63680b        | feat: add feature file for US11                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | d13e372        | feat: add feature file for US12                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | c9aaece        | feat: add feature file for US13                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 01d9ce8        | feat: add feature file for US15                          | 14/05/2025              |
+| AgroTech-UPC/Acceptance-Tests     | main       | 5968886        | feat: add feature file for US16                          | 14/05/2025              |
+
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
-Como parte de la evaluación del Sprint 1, se presenta la evidencia visual de los entregables desarrollados, centrados en la implementación completa de la **Landing Page estática** del sistema AgroCuy. El equipo documentó los avances a través de capturas de pantalla y un video demostrativo.
+Como parte de la evaluación del Sprint 1, se presenta la evidencia visual del entregable final correspondiente a la **Landing Page estática** del sistema AgroCuy. Esta interfaz representa el primer acercamiento público del sistema, enfocada en comunicar su propuesta de valor a potenciales usuarios y partes interesadas.
 
-🎥 **Video demostrativo**:  
+🎥 **Video demostrativo – Landing Page**:  
 [Execution Evidence – AgroCuy Landing Page](https://youtu.be/Yi3p53UjKF0)
 
 ---
@@ -3429,7 +3535,7 @@ Como parte de la evaluación del Sprint 1, se presenta la evidencia visual de lo
 
 ### 🔹 Navbar
 
-Se desarrolló un componente de navegación adaptable (responsive), que reorganiza las secciones en un menú lateral al reducir el ancho de pantalla, mejorando la experiencia en dispositivos móviles.
+Se desarrolló un componente de navegación *responsive* que adapta dinámicamente sus elementos para asegurar una navegación fluida en cualquier dispositivo. En pantallas móviles, las secciones se agrupan en un menú lateral tipo hamburguesa.
 
 <img src="img/evidence_landing_page_2.png" width="100%">
 <p style="text-align:center"><em>Imagen 120. Navbar expandido en pantalla amplia</em></p>
@@ -3441,7 +3547,7 @@ Se desarrolló un componente de navegación adaptable (responsive), que reorgani
 
 ### 🔹 Footer
 
-El pie de página fue diseñado para adaptarse dinámicamente a distintos tamaños de pantalla, manteniendo alineación y legibilidad en todos los dispositivos.
+El pie de página mantiene la identidad visual del sistema, asegurando consistencia y accesibilidad en diferentes tamaños de pantalla.
 
 <img src="img/evidence_landing_page_4.png" width="100%">
 <p style="text-align:center"><em>Imagen 122. Footer en pantalla completa</em></p>
@@ -3453,7 +3559,7 @@ El pie de página fue diseñado para adaptarse dinámicamente a distintos tamañ
 
 ### 🔹 Página de Inicio
 
-Contiene una introducción clara a la plataforma AgroCuy, destacando sus beneficios principales. Se cuidó la coherencia visual y la adaptabilidad.
+La sección de bienvenida presenta una introducción clara al propósito de la plataforma AgroCuy, resaltando sus beneficios y enfoques principales.
 
 <img src="img/evidence_landing_page_6.png" width="100%">
 <p style="text-align:center"><em>Imagen 124. Sección de bienvenida</em></p>
@@ -3463,61 +3569,124 @@ Contiene una introducción clara a la plataforma AgroCuy, destacando sus benefic
 
 ---
 
-### 🔹 Sección “Acerca De”
+### 🔹 Sección “Problemática” y Segmentos Objetivo
 
-Brinda una breve descripción sobre el propósito del sistema y su enfoque tecnológico (IoT).
+Esta sección incluye tarjetas interactivas (*flip cards*) con información clave sobre los desafíos que enfrentan los criadores de cuyes. También se describen los dos segmentos objetivos del sistema: criadores y asesores técnicos.
 
-<img src="img/evidence_landing_page_8.png" width="100%">
-<p style="text-align:center"><em>Imagen 126. Sección "Acerca de" – parte superior</em></p>
-
-<img src="img/evidence_landing_page_9.png" width="100%">
-<p style="text-align:center"><em>Imagen 127. Sección "Acerca de" – parte inferior</em></p>
-
----
-
-### 🔹 Sección “Sobre Nosotros”
-
-Presenta información del equipo de desarrollo y su compromiso con el proyecto.
-
-<img src="img/evidence_landing_page_10.png" width="100%">
-<p style="text-align:center"><em>Imagen 128. Introducción del equipo</em></p>
-
-<img src="img/evidence_landing_page_11.png" width="100%">
-<p style="text-align:center"><em>Imagen 129. Presentación detallada de integrantes</em></p>
+<img src="img/landing-page-1.jpg" width="100%">
+<img src="img/landing-page-2.jpg" width="100%">
 
 ---
 
 ### 🔹 Sección “Características”
 
-Describe las funcionalidades destacadas del sistema, como monitoreo con sensores, automatización y soporte remoto.
+Se muestran las funcionalidades clave del sistema AgroCuy mediante íconos explicativos y texto conciso, con un diseño moderno y estructurado.
 
-<img src="img/evidence_landing_page_12.png" width="100%">
-<p style="text-align:center"><em>Imagen 130. Lista de características principales</em></p>
+<img src="img/landing-page-3.jpg" width="100%">
 
-<img src="img/evidence_landing_page_13.png" width="100%">
-<p style="text-align:center"><em>Imagen 131. Continuación de la sección de características</em></p>
+---
+
+### 🔹 Sección “Sobre Nosotros”
+
+Aquí se describe la identidad de la startup, su misión, visión y los integrantes del equipo. Se incluyen fotos de los miembros, fortaleciendo la conexión con el usuario.
+
+<img src="img/landing-page-4.jpg" width="100%">
+<img src="img/landing-page-5.jpg" width="100%">
 
 ---
 
 ### 🔹 Sección “Contacto”
 
-Incluye un formulario de contacto accesible y adaptado para pantallas móviles, permitiendo la comunicación con el equipo desarrollador.
+La sección de contacto presenta los canales de comunicación con el equipo, mediante un formulario responsivo que facilita el envío de consultas o sugerencias.
 
-<img src="img/evidence_landing_page_14.png" width="100%">
-<p style="text-align:center"><em>Imagen 132. Formulario de contacto – vista principal</em></p>
-
-<img src="img/evidence_landing_page_15.png" width="100%">
-<p style="text-align:center"><em>Imagen 133. Contacto – adaptabilidad móvil</em></p>
+<img src="img/landing-page-6.jpg" width="100%">
 
 ---
 
+### ✅ Conclusión del Sprint
 
+Todos los componentes definidos para este Sprint fueron implementados satisfactoriamente y validados visualmente, cumpliendo con el objetivo de entregar una landing page funcional, accesible y coherente con los estándares de diseño web moderno.
 
-Todos los componentes definidos para este Sprint fueron implementados exitosamente y validados visualmente, cumpliendo con el objetivo de entregar una landing page funcional, accesible y coherente con los estándares de diseño web moderno.
+---
+
+### 🌐 Evidencia del Frontend Web Application
+
+Además de la landing page, se implementaron funcionalidades adicionales correspondientes a las historias de usuario del **Sprint Backlog 1**. Esta primera versión funcional del Frontend refleja la estructura básica de interacción y navegación dentro de la plataforma AgroCuy.
+
+🎥 **Video demostrativo – Frontend Web Application**:  
+[Execution Evidence – AgroCuy Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EYY0ErnjEsFBiUZXlO60wHQBnqjOJRxM13gjVWm8Gpbbzg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Hd2T2Y)
+
+<img src="img/front-web-evidence.png" width="100%">
+<p style="text-align:center"><em>Imagen 134. Vista general del sistema web funcional</em></p>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
+Una vez acabamos de trabajar con todas las historias de usuario, realizamos el deployment del Landing Page y el Front-end web application.
+
+**Landing Page:**
+
+URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/home.html
+
+Para lograr hacer el deployment, entramos a la configuración del repositorio y a la sección de Pages. Luego, debemos seleccionar la rama sobre la cual se hará el deployment.
+
+<img src="img/despliegue-landing-githubpages.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 134. github - pages - 1</em></p>
+
+Escogimos la rama main, ya que es la rama principal sobre la cual se guarda la versión final para hacer el deployment. Una vez se escoge, se guardan los cambios.
+
+<img src="img/despliegue-landing-githubpages2.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 135. github - pages - 2</em></p>
+
+Finalmente, solo se espera a que GitHub cree la página y nos brinde el enlace.
+<img src="img/despliegue-landing-githubpages3.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 136. github - pages - 3</em></p>
+
+<img src="img/despliegue-landing-githubpages4.jpg" width="100%">
+<p style="text-align:center"><em>Imagen 137. github - pages - 4</em></p>
+
+**Front-end web:**
+Primero, se utilizó el comando ng build para crear la carpeta dist, la cual sirve para realizar el deployment en Firebase.
+
+<img src="img/deploymentfront1.png" width="100%">
+<p style="text-align:center"><em>Imagen 138. DeployFront - pages - 1</em></p>
+
+<img src="img/deploymentfront2.png" width="100%">
+<p style="text-align:center"><em>Imagen 139. DeployFront - pages - 2</em></p>
+
+Luego, se utilizó el comando de lite-server para comprobar el funcionamiento de la aplicación.
+
+Se instaló firebase-tools dentro del proyecto, y luego se inició sesión.
+
+<img src="img/deployment4.png" width="100%">
+<p style="text-align:center"><em>Imagen 140. DeployFront - pages - 3</em></p>
+
+<img src="img/deployment5.png" width="100%">
+<p style="text-align:center"><em>Imagen 141. DeployFront - pages - 4</em></p>
+
+Se crea el proyecto Firebase en el cual se guardará todos los archivos, el cual le pusimos como nombre agroconnect-demo, y Se ejecuta el comando para instalar @angular/fire.
+
+<img src="img/deployment7.png" width="100%">
+<p style="text-align:center"><em>Imagen 142. DeployFront - pages - 5</em></p>
+
+Se selecciona la opción ng deploy -- hosting.
+<img src="img/deployment8.png" width="100%">
+<p style="text-align:center"><em>Imagen 143. DeployFront - pages - 6</em></p>
+
+Se selecciona el proyecto y se crea el enlace donde se aloja el proyecto
+<img src="img/deployment9.png" width="100%">
+<p style="text-align:center"><em>Imagen 143. DeployFront - pages - 7</em></p>
+
+Se usa el comando ng deploy para deployear la aplicación
+<img src="img/deployment11.png" width="100%">
+<p style="text-align:center"><em>Imagen 144. DeployFront - pages - 8</em></p>
+
+<img src="img/deployment12.png" width="100%">
+<p style="text-align:center"><em>Imagen 145. DeployFront - pages - 9</em></p>
+
+Finalmente, logramos acceder a nuestra aplicación deployada.
+<img src="img/deployment14.png" width="100%">
+<p style="text-align:center"><em>Imagen 146. DeployFront - pages - 10 </em></p>
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
