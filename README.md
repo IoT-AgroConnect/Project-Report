@@ -3096,6 +3096,10 @@ _Imagen 44. Mockup Pagina de Contacto_
 
 ## 5.5. Applications Prototyping
 
+A partir de los User Flows definidos en el punto anterior, se trabajó el prototipo funcional en Figma.
+<img src="img/prototipo.png" alt="Prototipo" width="600">
+
+
 # Capítulo VI Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management.
