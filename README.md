@@ -3594,42 +3594,6 @@ A continuación, se presenta la tabla estructurada del Sprint Backlog 1, que det
       <td valign="top">Nadia Lucas</td>
       <td valign="top">Done</td>
     </tr>
-    <tr>
-      <td valign="top">US24</td>
-      <td valign="top">Visualización de la sección "Acerca De"</td>
-      <td valign="top">TS26</td><td valign="top">Mejorar diseño y contenido de la sección "Acerca De"</td>
-      <td valign="top">Se mejora el contenido de la página sobre la problemática, sobre nosotros, características y contacto.</td>
-      <td valign="top">2</td><td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
-      <td valign="top">Done</td>
-    </tr>
-    <tr>
-      <td valign="top">US25</td>
-      <td valign="top">Visualización de la sección "Sobre Nosotros"</td>
-      <td valign="top">TS27</td>
-      <td valign="top">Mejorar diseño y contenido de la sección "Sobre Nosotros"</td>
-      <td valign="top">Se mejora el diseño y contenido de la sección "Sobre Nosotros" para proporcionar información clara y concisa sobre el equipo y la misión.</td>
-      <td valign="top">2</td>
-      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
-      <td valign="top">Done</td>
-    </tr>
-    <tr>
-      <td valign="top">US26</td>
-      <td valign="top">Visualización de la sección "Características"</td>
-      <td valign="top">TS28</td>
-      <td valign="top">Mejorar diseño y contenido de la sección "Características"</td>
-      <td valign="top">Se mejora el diseño y contenido de la sección "Características" para resaltar las funcionalidades clave de la plataforma.</td>
-      <td valign="top">2</td>
-      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
-    </tr>
-    <tr>
-      <td valign="top">US27</td>
-      <td valign="top">Visualización de la sección "Contacto"</td>
-      <td valign="top">TS29</td>
-      <td valign="top">Mejorar diseño y contenido de la sección "Contacto"</td>
-      <td valign="top">Se mejora el diseño y contenido de la sección "Contacto" para facilitar la comunicación entre usuarios y el equipo de soporte.</td>
-      <td valign="top">1</td>
-      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
-    </tr>
 </table>
 
 
