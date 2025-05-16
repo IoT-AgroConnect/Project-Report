@@ -3910,6 +3910,8 @@ Finalmente, solo se espera a que GitHub cree la página y nos brinde el enlace.
 <p style="text-align:center"><em>Imagen 137. github - pages - 4</em></p>
 
 **Front-end web:**
+
+Url: Despliegue del Front-end: https://agrocuy-webapp.web.app/login
 Primero, se utilizó el comando ng build para crear la carpeta dist, la cual sirve para realizar el deployment en Firebase.
 
 <img src="img/deploymentfront1.png" width="100%">
