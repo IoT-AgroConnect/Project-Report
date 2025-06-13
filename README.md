@@ -829,12 +829,6 @@ Claudia, de 23 años, es criadora principiante con 6 meses de experiencia y 25 c
 
 ![Imagen 8. Entrevista a Carla Pereyra](img/entrevista5.png)  
 *Imagen 8. Entrevista a Carla Pereyra*
-<<<<<<< HEAD
-
-**Resumen:**  
-Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
-=======
->>>>>>> 6f7fe102518f594e204001aca1829483459ed86b
 
 **Resumen:**  
 Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
@@ -3056,6 +3050,24 @@ _Imagen 44. Mockup Pagina de Contacto_
 
 ### 5.4.2. Applications WireFlow Diagrams
 
+<img src="img/wireflow-app-usergoal1.png" alt="Wireframe User Goal 1" width="600">
+<img src="img/wireflow-app-usergoal2.png" alt="Wireframe User Goal 2" width="600">
+<img src="img/wireflow-app-usergoal3.png" alt="Wireframe User Goal 3" width="600">
+<img src="img/wireflow-app-usergoal4.png" alt="Wireframe User Goal 4" width="600">
+<img src="img/wireflow-app-usergoal5.png" alt="Wireframe User Goal 5" width="600">
+<img src="img/wireflow-app-usergoal6.png" alt="Wireframe User Goal 6" width="600">
+<img src="img/wireflow-app-usergoal7.png" alt="Wireframe User Goal 7" width="600">
+<img src="img/wireflow-app-usergoal8.png" alt="Wireframe User Goal 8" width="600">
+<img src="img/wireflow-app-usergoal9.png" alt="Wireframe User Goal 9" width="600">
+<img src="img/wireflow-app-usergoal10.png" alt="Wireframe User Goal 10" width="600">
+<img src="img/wireflow-app-usergoal11.png" alt="Wireframe User Goal 11" width="600">
+<img src="img/wireflow-app-usergoal12.png" alt="Wireframe User Goal 12" width="600">
+<img src="img/wireflow-app-usergoal13.png" alt="Wireframe User Goal 13" width="600">
+<img src="img/wireflow-app-usergoal14.png" alt="Wireframe User Goal 14" width="600">
+<img src="img/wireflow-app-usergoal15.png" alt="Wireframe User Goal 15" width="600">
+<img src="img/wireflow-app-usergoal16.png" alt="Wireframe User Goal 16" width="600">
+<img src="img/wireflow-app-usergoal17.png" alt="Wireframe User Goal 17" width="600">
+
 ### 5.4.3. Applications Mock-ups.
 
 ### Web Application:
@@ -3208,9 +3220,6 @@ Las pruebas de aceptación son importantes a realizar para comprobar que los cri
 ### 6.1.2. Source Code Management.
 
 **Usuarios de GitHub**
-
-<h3>5.1.2. Source Code Management.</h3>
-<p><strong>Usuarios de GitHub</strong></p>
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
