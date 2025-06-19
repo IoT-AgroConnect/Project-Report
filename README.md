@@ -212,6 +212,16 @@ Abril 2025
     - [6.2.1.7. Services Documentation](#62x7-services-documentation)
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence)
     - [6.2.1.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
+  - [6.2.2. Sprint 2](#62x-sprint-n)
+    - [6.2.2.1. Sprint Planning](#62x1-sprint-planning)
+    - [6.2.2.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
+    - [6.2.2.3. Sprint Backlog](#62x3-sprint-backlog)
+    - [6.2.2.4. Development Evidence](#62x4-development-evidence)
+    - [6.2.2.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
+    - [6.2.2.6. Execution Evidence](#62x6-execution-evidence)
+    - [6.2.2.7. Services Documentation](#62x7-services-documentation)
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence)
+    - [6.2.2.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -3930,6 +3940,29 @@ Finalmente, logramos acceder a nuestra aplicación deployada.
 https://frontend-web-application-delta.vercel.app/login
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+#### 6.2.2.3. Sprint Backlog 2
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint 
+
+
+
 
 # Conclusiones
 
