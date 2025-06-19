@@ -3993,6 +3993,15 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
 
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+### 6.3.2. Registro de Entrevistas.
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+## 6.4. Video About-the-Product.
 
 # Conclusiones
 
@@ -4005,6 +4014,8 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 * Los requisitos iniciales del proyecto se identificaron mediante herramientas como empathy mappings, user personas y user stories, que ayudaron a diseñar una experiencia de usuario satisfactoria y optimizar el desarrollo de la aplicación a través de un product backlog priorizado.
 
 * La identificación de los Bounded Contexts y la realización del Context Mapping en AgroCuy nos permitió comprender de manera precisa las relaciones de dependencia, colaboración y comunicación entre los distintos módulos del sistema. Al aplicar patrones de interacción como Shared Kernel, Conformist, Customer–Supplier y Published Language, pudimos establecer límites claros de responsabilidad, asegurar la consistencia en los datos compartidos y reducir el acoplamiento entre contextos. Este análisis resulta fundamental para diseñar una arquitectura robusta, escalable y alineada a los principios de Domain-Driven Design, garantizando que cada área funcional de AgroCuy pueda evolucionar de forma independiente pero coordinada dentro del ecosistema general.
+
+## Video About-the-Team.
 
 # Bibliografía
 
