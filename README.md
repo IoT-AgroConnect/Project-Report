@@ -4100,11 +4100,20 @@ Como parte de la evaluación del Sprint 2, se presenta la evidencia visual del e
 
 Se implementó una vista detallada por jaula, permitiendo a los criadores visualizar el estado en tiempo real de los sensores conectados (como humedad). Además, se incluye un componente visual intuitivo con cards individuales por jaula.
 
-<img src="img/evidence_jaula_1.png" width="100%">
-<p style="text-align:center"><em>Imagen 201. Estado de sensores IoT en jaula</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_jaula_1.png" width="50%">
+  <p><em>Imagen 201. Estado de sensores IoT en jaula</em></p>
+</div>
 
-<img src="img/evidence_jaula_2.png" width="100%">
-<p style="text-align:center"><em>Imagen 202. Vista de detalle con nivel de humedad</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_jaula_2.png" width="50%">
+  <p><em>Imagen 202. Vista de detalle con nivel de humedad</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_jaula_3.png" width="50%">
+  <p><em>Imagen 203. Vista de detalle de los cuyes en la jaula</em></p>
+</div>
 
 ---
 
@@ -4112,11 +4121,21 @@ Se implementó una vista detallada por jaula, permitiendo a los criadores visual
 
 Se integró una pantalla de calendario con eventos dinámicos. Se pueden ver y agendar citas entre criadores y asesores, incluyendo vista personalizada para asesores técnicos.
 
-<img src="img/evidence_calendar_1.png" width="100%">
-<p style="text-align:center"><em>Imagen 203. Calendario con eventos y agendamiento</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_calendar_1.png" width="50%">
+  <p><em>Imagen 204. Calendario con eventos y agendamiento</em></p>
+</div>
 
-<img src="img/evidence_calendar_2.png" width="100%">
-<p style="text-align:center"><em>Imagen 204. Vista de calendario de asesor técnico</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_calendar_2.png" width="50%">
+  <p><em>Imagen 205. Vista de calendario de asesor técnico</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_calendar_3.png" width="50%">
+  <p><em>Imagen 206. Vista de cita asesor técnico</em></p>
+</div>
+
 
 ---
 
@@ -4124,11 +4143,21 @@ Se integró una pantalla de calendario con eventos dinámicos. Se pueden ver y a
 
 El módulo de recursos permite registrar y listar materiales, mientras que el módulo de gastos asocia recursos a transacciones simples. La persistencia local se implementó con SharedPreferences.
 
-<img src="img/evidence_recursos_1.png" width="100%">
-<p style="text-align:center"><em>Imagen 205. Registro de recursos de la granja</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_recursos_1.png" width="50%">
+  <p><em>Imagen 207. Pantalla de mi granja de criador</em></p>
+</div>
 
-<img src="img/evidence_gastos_1.png" width="100%">
-<p style="text-align:center"><em>Imagen 206. Registro de gastos relacionados</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_recursos_2.png" width="50%">
+  <p><em>Imagen 208. Registro de recursos de la granja</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_gastos_1.png" width="50%">
+  <p><em>Imagen 209. Registro de gastos relacionados</em></p>
+</div>
+
 
 ---
 
@@ -4136,21 +4165,26 @@ El módulo de recursos permite registrar y listar materiales, mientras que el m�
 
 Se implementó una pantalla de configuración para el usuario logueado, así como un menú lateral contextualizado según el tipo de rol (criador o asesor), permitiendo acceso a funciones específicas según el perfil.
 
-<img src="img/evidence_user_drawer.png" width="100%">
-<p style="text-align:center"><em>Imagen 207. Drawer dinámico según rol del usuario</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_user_drawer.png" width="50%">
+  <p><em>Imagen 210. Drawer dinámico según rol del usuario</em></p>
+</div>
 
-<img src="img/evidence_config_screen.png" width="100%">
-<p style="text-align:center"><em>Imagen 208. Pantalla de configuración personal</em></p>
-
+<div style="text-align:center">
+  <img src="img/evidence_config_screen.png" width="50%">
+  <p><em>Imagen 211. Pantalla de configuración personal</em></p>
+</div>
 
 ---
 
-### 🔹 Vista Principal del Criador (GranjaHomeView)
+### 🔹 Vista Principal del Criador
 
 Se diseñó una pantalla principal para el criador que centraliza el acceso a los módulos de la aplicación. Esta vista incluye tarjetas con resumen de recursos y gastos, accesos directos a funciones frecuentes y visuales adaptados al perfil de usuario.
 
-<img src="img/evidence_granja_home.png" width="100%">
-<p style="text-align:center"><em>Imagen 209. Vista principal de criador con acceso a módulos clave</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_granja_home.png" width="50%">
+  <p><em>Imagen 212. Vista principal de criador con acceso a módulos clave</em></p>
+</div>
 
 ---
 
@@ -4158,29 +4192,31 @@ Se diseñó una pantalla principal para el criador que centraliza el acceso a lo
 
 Se implementó el flujo de inicio de sesión mediante email y contraseña. Se corrigieron errores en la validación del token y se configuró el guardado de sesión para asegurar que el usuario no tenga que volver a iniciar sesión tras cerrar la app.
 
-<img src="img/evidence_login.png" width="100%">
-<p style="text-align:center"><em>Imagen 210. Pantalla de login funcional con persistencia de sesión</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_login.png" width="50%">
+  <p><em>Imagen 213. Pantalla de login funcional con persistencia de sesión</em></p>
+</div>
 
----
+--- 
 
 ### 🔹 Lista y Detalle de Asesores
 
 Se desarrolló una vista con catálogo de asesores disponibles, con posibilidad de ver detalles individuales antes de agendar una cita. Esta funcionalidad permite a los criadores seleccionar asesores por especialidad o disponibilidad.
 
 <img src="img/evidence_asesores_list.png" width="100%">
-<p style="text-align:center"><em>Imagen 211. Lista de asesores disponibles</em></p>
+<p style="text-align:center"><em>Imagen 214. Lista de asesores disponibles</em></p>
 
 <img src="img/evidence_asesores_detail.png" width="100%">
-<p style="text-align:center"><em>Imagen 212. Detalle del asesor seleccionado</em></p>
+<p style="text-align:center"><em>Imagen 215. Detalle del asesor seleccionado</em></p>
 
 ---
 
-### 🔹 Pantalla de Fechas Disponibles para Citas
+### 🔹 Pantalla de Notificaciones
 
-Se desarrolló una funcionalidad que permite a los asesores registrar sus fechas disponibles y a los criadores consultar dicha información antes de agendar una cita. Se implementaron tarjetas visuales e intuitivas para mejorar la experiencia de selección.
-
-<img src="img/evidence_available_dates.png" width="100%">
-<p style="text-align:center"><em>Imagen 213. Tarjetas con fechas disponibles por parte de los asesores</em></p>
+<div style="text-align:center">
+  <img src="img/evidence_notifications.png" width="50%">
+  <p><em>Imagen 216. Tarjetas con notifcaciones por parte de los asesores</em></p>
+</div>
 
 ---
 
