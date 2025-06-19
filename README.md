@@ -203,7 +203,7 @@ Abril 2025
   - [6.1.4. Deployment Configuration](#614-deployment-configuration)
 - [6.2. Implementation](#62-implementation)
   - [6.2.1. Sprint 1](#621-sprint-1)
-    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    - [6.2.1.1. Sprint Planning](#6211-sprint-planning)
     - [6.2.1.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
     - [6.2.1.3. Sprint Backlog](#6213-sprint-backlog)
     - [6.2.1.4. Development Evidence](#6214-development-evidence)
@@ -212,16 +212,16 @@ Abril 2025
     - [6.2.1.7. Services Documentation](#6217-services-documentation)
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence)
     - [6.2.1.9. Team Collaboration Insights](#6219-team-collaboration-insights)
-  - [6.2.2. Sprint 2](#62x-sprint-n)
-    - [6.2.2.1. Sprint Planning](#62x1-sprint-planning)
-    - [6.2.2.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-    - [6.2.2.3. Sprint Backlog](#62x3-sprint-backlog)
-    - [6.2.2.4. Development Evidence](#62x4-development-evidence)
-    - [6.2.2.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
-    - [6.2.2.6. Execution Evidence](#62x6-execution-evidence)
-    - [6.2.2.7. Services Documentation](#62x7-services-documentation)
-    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence)
-    - [6.2.2.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
+  - [6.2.2. Sprint 2](#622-sprint-2)
+    - [6.2.2.1. Sprint Planning](#6221-sprint-planning)
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+    - [6.2.2.3. Sprint Backlog](#6223-sprint-backlog)
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -3395,7 +3395,7 @@ Así es como con este, que cada miembro podrá trabajar de forma remota desde su
 
 ### 6.2.1. Sprint 1
 
-#### 6.2.1.1. Sprint Planning 1
+#### 6.2.1.1. Sprint Planning
 
 La planificación del primer sprint se llevó a cabo mediante una reunión virtual a través de Google Meet. Durante esta sesión, el equipo acordó los objetivos del sprint, estimó las historias de usuario y definió la capacidad de trabajo (*velocity*) para el periodo. La siguiente tabla resume la información discutida y registrada durante dicha sesión.
 
@@ -3943,7 +3943,7 @@ https://frontend-web-application-delta.vercel.app/login
 
 ### 6.2.2. Sprint 2
 
-#### 6.2.2.1. Sprint Planning 2
+#### 6.2.2.1. Sprint Planning
 
 La planificación del segundo sprint se realizó de manera virtual mediante Google Meet. En esta sesión, el equipo acordó entregar la versión final del Landing Page y del Frontend Web Application de AgroCuy, así como implementar la **primera versión del aplicativo móvil** para criadores y asesores y entregar el **primer prototipo funcional del sistema IoT** para gestión de jaulas inteligentes.
 
@@ -3979,7 +3979,7 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 > Esta distribución asegura cobertura de todos los aspectos clave en el Sprint 2, optimizando la colaboración entre miembros y alineando responsabilidades con los objetivos establecidos. La incorporación del prototipo IoT y la app móvil exigió una asignación técnica más específica, reforzada con validaciones funcionales y de usuario.
 
 
-#### 6.2.2.3. Sprint Backlog 2
+#### 6.2.2.3. Sprint Backlog
 
 El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y sistema Embebido. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
 <https://trello.com/b/T5DNqXUL/agrotech-sprint-backlog-3>
@@ -4028,6 +4028,56 @@ El objetivo de este segundo sprint es la implementación de la parte faltante de
 </table>
 
 #### 6.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo centró sus esfuerzos en consolidar las funcionalidades principales de la aplicación móvil **AgroCuy**, con el objetivo de ofrecer una experiencia fluida e intuitiva para criadores de cuyes. Este sprint tuvo como foco el desarrollo del módulo de agendamiento de citas con asesores, así como mejoras significativas en la estructura de navegación, el diseño visual y la persistencia de sesión de usuario.
+
+Las tareas priorizadas se alinearon con el objetivo del sprint: **validar y optimizar la interacción básica entre criadores y asesores dentro de la app móvil**, sentando las bases de una experiencia de usuario clara, funcional y escalable. Se avanzó también en la integración de componentes visuales y en la conexión con servicios Firebase para el control de autenticación, lo que permite una gestión segura de accesos desde el inicio.
+
+A continuación, se presentan las evidencias del desarrollo correspondiente a este sprint, incluyendo capturas de pantalla, fragmentos de código y validaciones funcionales sobre el cumplimiento de las historias de usuario planteadas.
+
+#### 🔹 Repositorio: [Mobile App AgroCuy](https://github.com/IoT-AgroConnect/AgroCuy-mobileApp)
+
+| **Repository**                      | **Branch**     | **Commit ID** | **Commit Message**                                                                 | **Committed on (Date)** |
+|------------------------------------|----------------|----------------|--------------------------------------------------------------------------------------|--------------------------|
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us16   | deedfa8        | merge: integrar feature/us16 con gestión local de recursos y gastos usando SharedPreferences | 2025-06-19               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us16   | f74deae        | feat: SharedPreferences - Recursos & Gastos                                         | 2025-06-19               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | e6b3a9b        | style: format code for improved readability in JaulaDetailScreen                    | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 628354a        | feat: enhance JaulaDetailScreen with IoT device status and humidity monitoring features | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 54e2c7c        | feat: refactor schedule data source and presentation logic; add JaulaDetailScreen for managing cuyes with IoT monitoring features | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 0fe4740        | feat: Implement schedule management feature with remote data source feedback for schedule operations. | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 8512d15        | feat: calendar screen advisor implemented.                                          | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | a3c5b2e        | feat: add CalendarScreenAdvisor for advisor-specific calendar functionality         | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | a2c8b13        | feat: add ConfigurationScreen for user settings management and preferences          | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 9f8d7cb        | feat: enhance CalendarScreen with detailed event management and improved UI         | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | c19ec7b        | feat: add JaulaDetailScreen and JaulaFormScreen for managing cages and cuyes        | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | abb9c89        | feat: pass user details to GranjaHomeView and NotificationScreen for enhanced role-based functionality | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 64892d5        | feat: add popup menu to app bar and enhance user drawer with role-based navigation  | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | f29b047        | fix: updated appointment name and navigation in breeder drawer                      | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 1c65367        | feat: calendar                                                                      | 2025-06-16               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 915d21c        | fix: register of breeder and advisor                                                | 2025-06-06               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | b34d549        | fix: fixed error with login token                                                   | 2025-06-06               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 1ebec07        | fix: upload image for register (advisor)                                            | 2025-06-05               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us31   | 695fd2         | Merge pull request #6 from IoT-AgroConnect/feature/us31                             | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us31   | b58cfe3        | Merge branch 'develop' into feature/us31                                            | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 0e9cb8a        | feat: update main app to use LoginScreen instead of CalendarScreen                  | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 766b54c        | feat(us16): integración de vista granja con rutas de assets corregidas              | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 4dc2e2b        | Corrige rutas de imágenes y overflow en GranjaHomeView (US16)                       | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 9ad33b6        | feat(us16): added granja home view and expenses module                              | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 68151bd        | feat(us15): gestión de recursos de la granja (formulario y lista)                   | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us35   | 6db88bc        | Merge pull request #5 from IoT-AgroConnect/feature/us35                             | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us35   | 58faf69        | Merge branch 'develop' into feature/us35                                            | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | 4b32b9e        | Merge pull request #3 from IoT-AgroConnect/feature/us06                             | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | e9cc1fc        | feat: available date picking                                                        | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | aabe945        | feat: available date cards                                                          | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | afb6253        | feat: available date model & data source                                            | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | 74e980d6       | feat: added search bar & available dates btn                                        | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | db55fef        | feat: advisor list & detail                                                         | 2025-06-03               |
+
+
+Todos los commits registrados permiten evidenciar el cumplimiento de los objetivos establecidos para el Sprint 2, demostrando avances clave en la funcionalidad y experiencia de usuario de la **aplicación móvil AgroCuy**. Se logró implementar la gestión de calendarios y agendamiento de citas, integración con sensores IoT para monitoreo de jaulas, así como la persistencia de datos locales mediante SharedPreferences. Además, se fortaleció la navegación basada en roles y se mejoró la configuración visual de múltiples pantallas. Cada historia de usuario abordada presenta trazabilidad directa con su respectivo commit, asegurando coherencia y control del progreso del desarrollo.
+
+----
+
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
