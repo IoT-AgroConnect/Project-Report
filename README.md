@@ -4081,6 +4081,12 @@ Todos los commits registrados permiten evidenciar el cumplimiento de los objetiv
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
+Durante el Sprint 2, se continuó con la implementación de pruebas de aceptación automatizadas para validar el comportamiento esperado de las funcionalidades críticas en la aplicación móvil **AgroCuy**. Estas pruebas se formularon utilizando el lenguaje **Gherkin** y fueron registradas en archivos `.feature`, permitiendo validar los criterios de aceptación definidos para las historias de usuario priorizadas en este sprint.
+
+Las pruebas se enfocaron principalmente en escenarios de interacción entre criadores y asesores, gestión de horarios, visualización de jaulas con sensores IoT, y configuración de preferencias del usuario. Esta estrategia de testing busca asegurar la correcta funcionalidad de los flujos clave desde la perspectiva del usuario, promoviendo calidad continua en el desarrollo.
+
+🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
