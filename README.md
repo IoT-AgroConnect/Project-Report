@@ -3945,7 +3945,39 @@ https://frontend-web-application-delta.vercel.app/login
 
 #### 6.2.2.1. Sprint Planning 2
 
+La planificación del segundo sprint se realizó de manera virtual mediante Google Meet. En esta sesión, el equipo acordó entregar la versión final del Landing Page y del Frontend Web Application de AgroCuy, así como implementar la **primera versión del aplicativo móvil** para criadores y asesores y entregar el **primer prototipo funcional del sistema IoT** para gestión de jaulas inteligentes.
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 2 |
+| **Sprint Planning Background** | Segunda iteración del proyecto AgroCuy, con foco en cerrar la experiencia digital en web, integrar la arquitectura IoT, y entregar la primera versión usable de la aplicación móvil. |
+| **Fecha** | 2025-05-21 |
+| **Hora** | 9:00 PM |
+| **Lugar** | Virtual (Google Meet) |
+| **Preparado por** | Lucas Coronel, Nadia Alessandra |
+| **Participantes de la reunión de planificación** | - Cuadros Rodríguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Méndez, Sebastián André |
+| **Resumen del Sprint n–1 (Review)** | Se entregó exitosamente una versión funcional y responsiva del Landing Page y Frontend Web App, incluyendo navegación, catálogo de asesores, citas y visualización de recursos. Se validó funcional y visualmente con pruebas automatizadas. |
+| **Resumen del Sprint n–1 (Retrospectiva)** | El equipo identificó como mejora la necesidad de **integrar pruebas de UI en la app móvil**, mejorar documentación técnica desde el inicio del sprint y avanzar con mayor paralelismo entre frontend y backend. |
+| **Sprint Goal & User Stories** | El objetivo de este Sprint 2 es entregar la **versión final del Landing Page** y el **Frontend Web Application**, **la primera versión operativa del Mobile App**, y un **prototipo funcional IoT** (Edge + Dispositivo físico). El éxito del sprint será evaluado mediante pruebas funcionales en dispositivos físicos, validaciones de usuario en entorno móvil y pruebas de lectura y alerta desde sensores reales conectados a jaulas. |
+| **Velocidad del Sprint (Story Points esperados)** | 78 |
+| **Suma total de Story Points asignados** | 78 |
+
 #### 6.2.2.2. Aspect Leaders and Collaborators
+
+Durante el segundo sprint, el equipo se reorganizó para abarcar aspectos más amplios y complejos del sistema AgroCuy, incluyendo el refinamiento del Landing Page, la consolidación del Frontend Web Application, el desarrollo inicial del Mobile App y la integración del prototipo IoT (sistema de sensores y notificaciones desde jaulas conectadas).
+
+La distribución de liderazgo y colaboración por aspecto se presenta en la siguiente tabla:
+
+| **Team Member (Last Name, First Name)**       | **GitHub Username**        | **Landing Page Final** | **Frontend Web Final** | **Mobile App v1** | **IoT Prototype** | **Pruebas Automatizadas** | **Validación Usuario** |
+|----------------------------------------------|-----------------------------|--------------------------|-------------------------|-------------------|-------------------|----------------------------|-------------------------|
+| Lucas Coronel, Nadia Alessandra              | nad21lc                    | C                        | L                       | C                 |                   |                            | L                       |
+| Ramírez Méndez, Sebastián André              | yorusaurio                 | L                        | C                       | L                 | C                 |                            | C                       |
+| Cuadros Rodríguez, Juan Alejandro            | JuanAlejandroCuadrosRodriguez |                        | C                       | C                 | L                 |                            | C                       |
+| Moreno Vergara, Johan Raúl                   | JohanMV                    |                          | C                       | C                 | L                 | C                          | L                       |
+| Jarama Peñaloza, Fiorella                    | Fio0407                    | C                        | C                       |                   |                   | L                          |                         |
+
+> Esta distribución asegura cobertura de todos los aspectos clave en el Sprint 2, optimizando la colaboración entre miembros y alineando responsabilidades con los objetivos establecidos. La incorporación del prototipo IoT y la app móvil exigió una asignación técnica más específica, reforzada con validaciones funcionales y de usuario.
+
 
 #### 6.2.2.3. Sprint Backlog 2
 
@@ -3960,8 +3992,6 @@ https://frontend-web-application-delta.vercel.app/login
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
-
-
 
 
 # Conclusiones
