@@ -4142,7 +4142,48 @@ Se implementó una pantalla de configuración para el usuario logueado, así com
 <img src="img/evidence_config_screen.png" width="100%">
 <p style="text-align:center"><em>Imagen 208. Pantalla de configuración personal</em></p>
 
+
 ---
+
+### 🔹 Vista Principal del Criador (GranjaHomeView)
+
+Se diseñó una pantalla principal para el criador que centraliza el acceso a los módulos de la aplicación. Esta vista incluye tarjetas con resumen de recursos y gastos, accesos directos a funciones frecuentes y visuales adaptados al perfil de usuario.
+
+<img src="img/evidence_granja_home.png" width="100%">
+<p style="text-align:center"><em>Imagen 209. Vista principal de criador con acceso a módulos clave</em></p>
+
+---
+
+### 🔹 Pantalla de Inicio de Sesión y Persistencia
+
+Se implementó el flujo de inicio de sesión mediante email y contraseña. Se corrigieron errores en la validación del token y se configuró el guardado de sesión para asegurar que el usuario no tenga que volver a iniciar sesión tras cerrar la app.
+
+<img src="img/evidence_login.png" width="100%">
+<p style="text-align:center"><em>Imagen 210. Pantalla de login funcional con persistencia de sesión</em></p>
+
+---
+
+### 🔹 Lista y Detalle de Asesores
+
+Se desarrolló una vista con catálogo de asesores disponibles, con posibilidad de ver detalles individuales antes de agendar una cita. Esta funcionalidad permite a los criadores seleccionar asesores por especialidad o disponibilidad.
+
+<img src="img/evidence_asesores_list.png" width="100%">
+<p style="text-align:center"><em>Imagen 211. Lista de asesores disponibles</em></p>
+
+<img src="img/evidence_asesores_detail.png" width="100%">
+<p style="text-align:center"><em>Imagen 212. Detalle del asesor seleccionado</em></p>
+
+---
+
+### 🔹 Pantalla de Fechas Disponibles para Citas
+
+Se desarrolló una funcionalidad que permite a los asesores registrar sus fechas disponibles y a los criadores consultar dicha información antes de agendar una cita. Se implementaron tarjetas visuales e intuitivas para mejorar la experiencia de selección.
+
+<img src="img/evidence_available_dates.png" width="100%">
+<p style="text-align:center"><em>Imagen 213. Tarjetas con fechas disponibles por parte de los asesores</em></p>
+
+---
+
 
 ### ✅ Conclusión del Sprint
 
