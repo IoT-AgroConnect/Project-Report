@@ -4245,64 +4245,82 @@ Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se di
 
 ---
 
-#### 🧑‍🌾 Perfil de usuarios entrevistados
+## 🧑‍🌾 Entrevistas a Criadores de Cuyes
 
-- Criadores de cuyes (jóvenes y adultos, con distintos niveles de experiencia tecnológica)
-- Asesores técnicos (con experiencia en soporte agropecuario o veterinario)
-
----
-
-#### 🔹 Parte 1: Introducción (para todos los usuarios)
-
+### 🔹 Parte 1: Introducción
 1. ¿Conoces alguna herramienta o aplicación digital para criadores de cuyes?
 2. ¿Cuál es tu nivel de experiencia usando tecnología para gestionar tu trabajo?
 3. ¿Estás familiarizado con conceptos como sensores o monitoreo remoto?
 
----
-
-#### 🔹 Parte 2: Landing Page
-
+### 🔹 Parte 2: Landing Page
 1. ¿Qué impresión te da esta página al verla por primera vez?
 2. ¿Te queda clara la propuesta del sistema AgroCuy?
 3. ¿Hay algo que no entiendas o que te confunda en esta página?
 4. ¿Qué cambiarías para que más personas como tú se interesen?
 
----
-
-#### 🔹 Parte 3: Aplicación Web
-
+### 🔹 Parte 3: Aplicación Web
 1. ¿Te resulta fácil entender el menú y las secciones del sistema?
 2. ¿Crees que podrías encontrar fácilmente a un asesor o gestionar tus jaulas?
 3. ¿Hay algo que te parezca complicado o innecesario?
 4. ¿Qué funcionalidades te parecen más útiles hasta ahora?
 
----
-
-#### 🔹 Parte 4: Aplicación Móvil
-
+### 🔹 Parte 4: Aplicación Móvil
 1. ¿Puedes identificar rápidamente para qué sirve cada pantalla?
 2. ¿La navegación en el celular te resulta cómoda?
 3. ¿Te gustaría recibir notificaciones o alertas desde esta app?
 4. ¿Preferirías usar esta app o hacerlo todo en papel como antes?
 
----
-
-#### 🔹 Parte 5: Prototipo IoT (si se muestra)
-
+### 🔹 Parte 5: Prototipo IoT
 1. ¿Entiendes para qué sirven los sensores conectados a las jaulas?
 2. ¿Te gustaría que se te avise automáticamente si algo anda mal con tus animales?
 3. ¿Confías en este tipo de tecnología para ayudarte a cuidar a tus cuyes?
 4. ¿Qué mejoras sugerirías para que esto funcione mejor en tu granja?
 
----
-
-#### 🔹 Parte 6: Cierre
-
+### 🔹 Parte 6: Cierre
 1. En una frase, ¿qué es lo que más te gustó del sistema AgroCuy?
 2. ¿Qué mejorarías antes de que esta herramienta esté disponible para todos?
 3. ¿Estarías dispuesto a usar esta herramienta en tu día a día? ¿Por qué?
 
 ---
+
+## 👨‍🔬 Entrevistas a Asesores Técnicos
+
+### 🔹 Parte 1: Introducción
+1. ¿Conoces herramientas digitales que hayas recomendado o utilizado en el ámbito agropecuario?
+2. ¿Qué tan frecuentemente brindas soporte técnico a criadores de cuyes?
+3. ¿Estás familiarizado con tecnologías como sensores IoT o monitoreo remoto?
+
+### 🔹 Parte 2: Landing Page
+1. ¿Consideras que la propuesta de AgroCuy está bien presentada?
+2. ¿Crees que transmite valor para los criadores a los que asesoras?
+3. ¿Hay aspectos que podrían reforzarse para mejorar la comunicación?
+4. ¿Qué agregarías desde tu experiencia como asesor?
+
+### 🔹 Parte 3: Aplicación Web
+1. ¿La interfaz te parece adecuada para usuarios con poca experiencia digital?
+2. ¿Te facilitaría el trabajo poder conectarte con los criadores a través del sistema?
+3. ¿Qué funcionalidades crees que faltan desde tu rol?
+4. ¿Visualizas algún riesgo en la adopción de esta herramienta?
+
+### 🔹 Parte 4: Aplicación Móvil
+1. ¿Ves útil que los criadores accedan desde su celular a datos de producción o contacto contigo?
+2. ¿Qué opinas sobre el uso de alertas o notificaciones para asesoría preventiva?
+3. ¿La app se adapta bien a las rutinas del trabajo en campo?
+4. ¿Cómo imaginas integrarla en tus actividades actuales?
+
+### 🔹 Parte 5: Prototipo IoT
+1. ¿Qué ventajas técnicas destacarías del uso de sensores en la crianza de cuyes?
+2. ¿Crees que los datos recolectados pueden complementar tu asesoría?
+3. ¿Qué indicadores te parecería clave monitorear?
+4. ¿Qué recomendaciones darías para hacer esta tecnología más útil y adoptable?
+
+### 🔹 Parte 6: Cierre
+1. ¿Qué es lo que más destacarías del sistema AgroCuy desde tu rol?
+2. ¿Qué mejoras crees necesarias antes de una implementación a mayor escala?
+3. ¿Recomendarías esta herramienta a otros asesores o usuarios? ¿Por qué?
+
+---
+
 
 ### 6.3.2. Registro de Entrevistas.
 
