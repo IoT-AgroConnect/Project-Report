@@ -3997,6 +3997,69 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 
 ### 6.3.1. Diseño de Entrevistas.
 
+Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se diseñaron entrevistas de validación dirigidas a usuarios reales de nuestros segmentos objetivo: criadores de cuyes y asesores técnicos. Estas entrevistas se realizaron de forma virtual, permitiendo observar el uso real del sistema (landing page, aplicación web, app móvil y prototipo IoT) mientras se recogía retroalimentación directa mediante preguntas semiestructuradas.
+
+---
+
+#### 🧑‍🌾 Perfil de usuarios entrevistados
+
+- Criadores de cuyes (jóvenes y adultos, con distintos niveles de experiencia tecnológica)
+- Asesores técnicos (con experiencia en soporte agropecuario o veterinario)
+
+---
+
+#### 🔹 Parte 1: Introducción (para todos los usuarios)
+
+1. ¿Conoces alguna herramienta o aplicación digital para criadores de cuyes?
+2. ¿Cuál es tu nivel de experiencia usando tecnología para gestionar tu trabajo?
+3. ¿Estás familiarizado con conceptos como sensores o monitoreo remoto?
+
+---
+
+#### 🔹 Parte 2: Landing Page
+
+1. ¿Qué impresión te da esta página al verla por primera vez?
+2. ¿Te queda clara la propuesta del sistema AgroCuy?
+3. ¿Hay algo que no entiendas o que te confunda en esta página?
+4. ¿Qué cambiarías para que más personas como tú se interesen?
+
+---
+
+#### 🔹 Parte 3: Aplicación Web
+
+1. ¿Te resulta fácil entender el menú y las secciones del sistema?
+2. ¿Crees que podrías encontrar fácilmente a un asesor o gestionar tus jaulas?
+3. ¿Hay algo que te parezca complicado o innecesario?
+4. ¿Qué funcionalidades te parecen más útiles hasta ahora?
+
+---
+
+#### 🔹 Parte 4: Aplicación Móvil
+
+1. ¿Puedes identificar rápidamente para qué sirve cada pantalla?
+2. ¿La navegación en el celular te resulta cómoda?
+3. ¿Te gustaría recibir notificaciones o alertas desde esta app?
+4. ¿Preferirías usar esta app o hacerlo todo en papel como antes?
+
+---
+
+#### 🔹 Parte 5: Prototipo IoT (si se muestra)
+
+1. ¿Entiendes para qué sirven los sensores conectados a las jaulas?
+2. ¿Te gustaría que se te avise automáticamente si algo anda mal con tus animales?
+3. ¿Confías en este tipo de tecnología para ayudarte a cuidar a tus cuyes?
+4. ¿Qué mejoras sugerirías para que esto funcione mejor en tu granja?
+
+---
+
+#### 🔹 Parte 6: Cierre
+
+1. En una frase, ¿qué es lo que más te gustó del sistema AgroCuy?
+2. ¿Qué mejorarías antes de que esta herramienta esté disponible para todos?
+3. ¿Estarías dispuesto a usar esta herramienta en tu día a día? ¿Por qué?
+
+---
+
 ### 6.3.2. Registro de Entrevistas.
 
 ### 6.3.3. Evaluaciones según heurísticas.
