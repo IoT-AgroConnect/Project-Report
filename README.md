@@ -4089,9 +4089,74 @@ Las pruebas se enfocaron principalmente en escenarios de interacción entre cria
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+Como parte de la evaluación del Sprint 2, se presenta la evidencia visual del entregable correspondiente al **prototipo funcional de la aplicación móvil AgroCuy**. Esta versión incluye múltiples funcionalidades dirigidas a criadores y asesores, integrando componentes IoT, gestión de recursos, y experiencias personalizadas según el rol del usuario.
+
+🎥 **Video demostrativo – AgroCuy Mobile App**:  
+[Execution Evidence – AgroCuy Mobile Sprint 2](https://youtu.be/xxxxxxxxxxx)
+
+---
+
+### 🔹 Gestión de Jaulas y Sensores IoT
+
+Se implementó una vista detallada por jaula, permitiendo a los criadores visualizar el estado en tiempo real de los sensores conectados (como humedad). Además, se incluye un componente visual intuitivo con cards individuales por jaula.
+
+<img src="img/evidence_jaula_1.png" width="100%">
+<p style="text-align:center"><em>Imagen 201. Estado de sensores IoT en jaula</em></p>
+
+<img src="img/evidence_jaula_2.png" width="100%">
+<p style="text-align:center"><em>Imagen 202. Vista de detalle con nivel de humedad</em></p>
+
+---
+
+### 🔹 Gestión de Calendario y Citas
+
+Se integró una pantalla de calendario con eventos dinámicos. Se pueden ver y agendar citas entre criadores y asesores, incluyendo vista personalizada para asesores técnicos.
+
+<img src="img/evidence_calendar_1.png" width="100%">
+<p style="text-align:center"><em>Imagen 203. Calendario con eventos y agendamiento</em></p>
+
+<img src="img/evidence_calendar_2.png" width="100%">
+<p style="text-align:center"><em>Imagen 204. Vista de calendario de asesor técnico</em></p>
+
+---
+
+### 🔹 Recursos y Gastos
+
+El módulo de recursos permite registrar y listar materiales, mientras que el módulo de gastos asocia recursos a transacciones simples. La persistencia local se implementó con SharedPreferences.
+
+<img src="img/evidence_recursos_1.png" width="100%">
+<p style="text-align:center"><em>Imagen 205. Registro de recursos de la granja</em></p>
+
+<img src="img/evidence_gastos_1.png" width="100%">
+<p style="text-align:center"><em>Imagen 206. Registro de gastos relacionados</em></p>
+
+---
+
+### 🔹 Configuración del Usuario y Drawer Personalizado
+
+Se implementó una pantalla de configuración para el usuario logueado, así como un menú lateral contextualizado según el tipo de rol (criador o asesor), permitiendo acceso a funciones específicas según el perfil.
+
+<img src="img/evidence_user_drawer.png" width="100%">
+<p style="text-align:center"><em>Imagen 207. Drawer dinámico según rol del usuario</em></p>
+
+<img src="img/evidence_config_screen.png" width="100%">
+<p style="text-align:center"><em>Imagen 208. Pantalla de configuración personal</em></p>
+
+---
+
+### ✅ Conclusión del Sprint
+
+Todas las funcionalidades planificadas en el Sprint 2 fueron implementadas satisfactoriamente. Se logró avanzar en los módulos clave que fortalecen la propuesta de valor de la app AgroCuy, habilitando interacciones reales entre usuarios, monitoreo con sensores y gestión operativa de granjas, todo desde una interfaz móvil accesible y fluida.
+
+---
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
 
+------
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
+
+
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
 
