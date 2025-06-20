@@ -3982,8 +3982,8 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 #### 6.2.2.3. Sprint Backlog
 
 El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y sistema Embebido. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
-<https://trello.com/b/T5DNqXUL/agrotech-sprint-backlog-3>
-<img src="img/sprint-backlog-3.png" width="100%">
+<https://trello.com/b/VboaXtwW/sprint-backlog-2>
+<img src="img/sprint-backlog-2.png" width="100%">
 
 <table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
@@ -4024,7 +4024,6 @@ El objetivo de este segundo sprint es la implementación de la parte faltante de
 <tr><td colspan="1" rowspan="1" valign="top">US40</td><td colspan="1" rowspan="1" valign="top">Configuración personalizada por el criador de los rangos aceptables</td><td colspan="1" valign="top">TS33</td><td colspan="1" valign="top">Implementación de configuración personalizada de rangos ambientales</td><td colspan="1" valign="top">Se implementa la funcionalidad que permite al criador establecer los valores límite personalizados de temperatura, humedad, CO₂ y agua.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Johan Moreno</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" rowspan="1" valign="top">US41</td><td colspan="1" rowspan="1" valign="top">Detección automática de agua en mal estado o escasez</td><td colspan="1" valign="top">TS34</td><td colspan="1" valign="top">Implementación de alerta por agua en mal estado o escasa</td><td colspan="1" valign="top">Se integra la lógica para detectar automáticamente escasez o mala calidad del agua y generar una alerta al criador.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" rowspan="1" valign="top">US42</td><td colspan="1" rowspan="1" valign="top">Activación y programación de dispensación automática de alimento</td><td colspan="1" valign="top">TS35</td><td colspan="1" valign="top">Implementación de programación de dispensación automática de alimento</td><td colspan="1" valign="top">Se permite al criador establecer horarios de alimentación automatizada, y el sistema activa el dispensador en dichos horarios.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Sebastián Ramírez</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" rowspan="1" valign="top">US43</td><td colspan="1" rowspan="1" valign="top">Alerta de necesidad de limpieza por condiciones desfavorables</td><td colspan="1" valign="top">TS36</td><td colspan="1" valign="top">Implementación de alerta por condiciones desfavorables</td><td colspan="1" valign="top">Se implementa el monitoreo del nivel de CO₂ y otras condiciones para generar alertas de necesidad de limpieza.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Nadia Lucas</td><td colspan="1" valign="top">Done</td></tr>
 </table>
 
 #### 6.2.2.4. Development Evidence for Sprint Review
