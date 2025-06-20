@@ -3964,8 +3964,8 @@ La planificación del segundo sprint se realizó de manera virtual mediante Goog
 | **Resumen del Sprint n–1 (Review)** | Se entregó exitosamente una versión funcional y responsiva del Landing Page y Frontend Web App, incluyendo navegación, catálogo de asesores, citas y visualización de recursos. Se validó funcional y visualmente con pruebas automatizadas. |
 | **Resumen del Sprint n–1 (Retrospectiva)** | El equipo identificó como mejora la necesidad de **integrar pruebas de UI en la app móvil**, mejorar documentación técnica desde el inicio del sprint y avanzar con mayor paralelismo entre frontend y backend. |
 | **Sprint Goal & User Stories** | El objetivo de este Sprint 2 es entregar la **versión final del Landing Page** y el **Frontend Web Application**, **la primera versión operativa del Mobile App**, y un **prototipo funcional IoT** (Edge + Dispositivo físico). El éxito del sprint será evaluado mediante pruebas funcionales en dispositivos físicos, validaciones de usuario en entorno móvil y pruebas de lectura y alerta desde sensores reales conectados a jaulas. |
-| **Velocidad del Sprint (Story Points esperados)** | 78 |
-| **Suma total de Story Points asignados** | 78 |
+| **Velocidad del Sprint (Story Points esperados)** | 168 |
+| **Suma total de Story Points asignados** | 168 |
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
 
