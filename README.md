@@ -253,9 +253,11 @@ Abril 2025
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Me aseguré de que todos estuviéramos avanzando de forma constante, hice revisiones (reus) del trabajo del equipo y ofrecí apoyo cuando alguien se quedaba atrás.<br>
+      <em>TB2</em><br>
+      Lideré la integración entre el backend y el frontend para la visualización de datos del ESP32 usando MQTT. Me encargué de configurar la recepción de los datos de sensores en tiempo real desde el ESP32, desarrollar la lógica para mostrar los límites críticos en la interfaz, y de implementar las notificaciones automáticas al detectar valores fuera de rango. También realicé pruebas completas de la comunicación IoT y aseguré la conexión estable del sistema.
       <strong>Lucas Coronel, Nadia Alessandra</strong><br>
-<em>TB1</em><br>
-Me encargué de dividir el trabajo de manera equitativa y de establecer plazos de entrega claros para cada miembro del equipo. Además, coordiné las tareas, asegurándome de que cada persona comprendiera sus responsabilidades y los objetivos a alcanzar. Realicé un seguimiento constante del progreso y brindé apoyo para resolver dudas o dificultades que surgieran durante el desarrollo del proyecto.<br>
+      <em>TB1</em><br>
+       Me encargué de dividir el trabajo de manera equitativa y de establecer plazos de entrega claros para cada miembro del equipo. Además, coordiné las tareas, asegurándome de que cada persona comprendiera sus responsabilidades y los objetivos a alcanzar. Realicé un seguimiento constante del progreso y brindé apoyo para resolver dudas o dificultades que surgieran durante el desarrollo del proyecto.<br>
       <strong>Ramirez Mendez, Sebastián André</strong><br>
       <em>TB1</em><br>
       Me encargué de coordinar la estructura del documento y asegurar que cada sección tuviera coherencia, además de participar en la redacción de los antecedentes del proyecto y revisión técnica del contenido.<br>
@@ -279,6 +281,8 @@ Me encargué de dividir el trabajo de manera equitativa y de establecer plazos d
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Fomenté un ambiente donde todos pudieran participar, ayudé a organizar las tareas del equipo y propuse metas claras para cumplir con los entregables a tiempo.<br>
+      <em>TB2</em><br>
+      Fomenté un ambiente colaborativo e inclusivo durante el desarrollo del proyecto. Establecí metas claras junto con el equipo, organicé la planificación de tareas en función de nuestras fortalezas y aseguré que todos participaran activamente. Además, supervisé el cumplimiento de los objetivos semanales y coordiné entregas clave como la integración IoT con MQTT, el backend para recibir datos del ESP32, y el frontend para mostrar los límites en tiempo real.
       <strong>Lucas Coronel, Nadia Alessandra</strong><br>
 <em>TB1</em><br>
 Fomenté un entorno colaborativo e inclusivo, asegurándome de que todos los integrantes se sintieran escuchados y valorados. Establecí metas claras para el equipo, planifiqué la distribución de tareas según las fortalezas de cada miembro y definí plazos de entrega realistas. Gracias a esta organización y al acompañamiento constante, cumplimos con los objetivos planteados de manera eficiente.<br>
