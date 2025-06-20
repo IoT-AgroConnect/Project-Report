@@ -4322,6 +4322,8 @@ Enlace al repositorio de Web Services: https://github.com/IoT-AgroConnect/Web-Se
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
 
+### Deploy Backend
+
 Para desplegar el Web Service se volvió a utilizar Render.com. Por lo que, se generó la carpeta target con los archivos actualizados del proyecto.
 
 ![Backend Deployment](img/backend-deployment1.png)
@@ -4337,6 +4339,12 @@ Con ello, se empezó con el despliegue del Web Service.
 Finalmente, se comprobó el funcionamiento del Web Service al entrar al swagger desde el enlace del producto desplegado https://web-services-18bk.onrender.com/swagger-ui/index.html
 
 ![Backend Deployment](img/backend-deployment4.png)
+
+### Sistema Embebido 
+
+![Sistema Embebido](img/Sistema-Embebido.png)
+
+En el proyecto AgroCuy, se implementa un sistema de monitoreo inteligente basado en el microcontrolador ESP32 para supervisar en tiempo real las condiciones del criadero de cuyes. El circuito integra sensores ultrasónicos para detectar movimiento en zonas clave del corral, un sensor DHT22 para medir temperatura y humedad del ambiente, una pantalla LCD que muestra constantemente los valores capturados, y un servomotor que puede activarse automáticamente para abrir compuertas de ventilación o alimentación según las condiciones registradas. Esta solución permite a los criadores tomar decisiones oportunas, optimizando el bienestar de los animales y mejorando la eficiencia del manejo diario.
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
 
@@ -4426,6 +4434,20 @@ Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se di
 
 
 ### 6.3.2. Registro de Entrevistas.
+
+#### **Entrevista N.º 1 – Asesor**
+
+- **Entrevistador:** Juan Cuadros  
+- **Entrevistado:** Diego Bazan  
+- **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
+
+![Imagen 4. Entrevista a Diego Bazan](img/Entrevista_Asesor_DiegoBazanpng)  
+*Imagen 4. Entrevista a Diego Bazan*
+
+**Resumen:**  
+Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto porque le permiten dar una asesoría más precisa y rápida. Destaca que la plataforma AgroCuy es clara y útil, aunque sugiere agregar testimonios para hacerla más cercana. Le gusta la app web por mejorar la comunicación con los criadores y la móvil por sus alertas que ayudan a prevenir problemas. Para él, lo más valioso es cómo todo el sistema se integra para tomar mejores decisiones y cuidar mejor a los animales.
+
+---
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
