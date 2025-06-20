@@ -4232,7 +4232,7 @@ Todas las funcionalidades planificadas en el Sprint 2 fueron implementadas satis
 ---
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
-Para este sprint, hemos implementado una primera versión de la API para nuestro proyecto con el 90% de endpoints necesarios para su funcionamiento incluyendo los endpoints que interactúan con el lado IoT del proyecto.
+Para este sprint, hemos implementado una primera versión del backend con el 90% de endpoints necesarios para su funcionamiento incluyendo aquellos que interactúan con el lado IoT del proyecto.
 
 Enlace al repositorio de Web Services: https://github.com/IoT-AgroConnect/Web-Services-main
 
