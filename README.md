@@ -4441,7 +4441,7 @@ Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se di
 - **Entrevistado:** Diego Bazan  
 - **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
 
-![Imagen 4. Entrevista a Diego Bazan](img/Entrevista_Asesor_DiegoBazanpng)  
+![Imagen 4. Entrevista a Diego Bazan](img/Entrevista_Asesor_DiegoBazan.png)  
 *Imagen 4. Entrevista a Diego Bazan*
 
 **Resumen:**  
