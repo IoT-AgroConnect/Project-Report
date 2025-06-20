@@ -4202,10 +4202,10 @@ Se implementó el flujo de inicio de sesión mediante email y contraseña. Se co
 
 Se desarrolló una vista con catálogo de asesores disponibles, con posibilidad de ver detalles individuales antes de agendar una cita. Esta funcionalidad permite a los criadores seleccionar asesores por especialidad o disponibilidad.
 
-<img src="img/evidence_asesores_list.png" width="100%">
+<img src="img/evidence_asesores_list.png" width="50%">
 <p style="text-align:center"><em>Imagen 214. Lista de asesores disponibles</em></p>
 
-<img src="img/evidence_asesores_detail.png" width="100%">
+<img src="img/evidence_asesores_detail.png" width="50%">
 <p style="text-align:center"><em>Imagen 215. Detalle del asesor seleccionado</em></p>
 
 ---
