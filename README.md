@@ -3871,6 +3871,7 @@ Además de la landing page, se implementaron funcionalidades adicionales corresp
 <p style="text-align:center"><em>Imagen 134. Vista general del sistema web funcional</em></p>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
+El alcance de este primer sprint ha priorizado el desarrollo de la parte de Front-end de la aplicación web y de la landing page estática, por lo que en este caso no se evidencia el empleo de web services.
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
 Una vez acabamos de trabajar con todas las historias de usuario, realizamos el deployment del Landing Page y el Front-end web application.
