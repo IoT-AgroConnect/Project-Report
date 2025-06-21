@@ -3959,6 +3959,14 @@ https://frontend-web-application-delta.vercel.app/login
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
+En la elaboración de la landing page y el front-end, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
+
+Landing Page
+<img src="img/sprint2-insightlading.PNG" width="100%">
+
+Front-End
+<img src="img/sprint1-insightfront.PNG" width="100%">
+
 ### 6.2.2. Sprint 2
 
 #### 6.2.2.1. Sprint Planning
@@ -4361,6 +4369,21 @@ Finalmente, se comprobó el funcionamiento del Web Service al entrar al swagger 
 En el proyecto AgroCuy, se implementa un sistema de monitoreo inteligente basado en el microcontrolador ESP32 para supervisar en tiempo real las condiciones del criadero de cuyes. El circuito integra sensores ultrasónicos para detectar movimiento en zonas clave del corral, un sensor DHT22 para medir temperatura y humedad del ambiente, una pantalla LCD que muestra constantemente los valores capturados, y un servomotor que puede activarse automáticamente para abrir compuertas de ventilación o alimentación según las condiciones registradas. Esta solución permite a los criadores tomar decisiones oportunas, optimizando el bienestar de los animales y mejorando la eficiencia del manejo diario.
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
+
+En la elaboración de la Front-End y el Back-End y la Pruebas, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
+
+Mobile-App
+<img src="img/sprint2-insightmobile.PNG" width="100%">
+
+Front-End
+<img src="img/sprint2-insightfront.PNG" width="100%">
+
+Back-End
+<img src="img/sprint2-insightback.PNG" width="100%">
+
+Pruebas de Aceptación
+<img src="img/sprint2-insightaceptance.PNG" width="100%">
+
 
 ## 6.3. Validation Interviews.
 
