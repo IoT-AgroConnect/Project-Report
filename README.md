@@ -4476,6 +4476,18 @@ Finalmente, Nayeli destacó que el sistema AgroCuy representa un avance hacia la
 **Resumen:**  
 Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto porque le permiten dar una asesoría más precisa y rápida. Destaca que la plataforma AgroCuy es clara y útil, aunque sugiere agregar testimonios para hacerla más cercana. Le gusta la app web por mejorar la comunicación con los criadores y la móvil por sus alertas que ayudan a prevenir problemas. Para él, lo más valioso es cómo todo el sistema se integra para tomar mejores decisiones y cuidar mejor a los animales.
 
+#### **Entrevista N.º 3 – Criador**
+
+- **Entrevistador:** Johan  
+- **Entrevistado:** Abel (Sobrino del criador)  
+- **Duración:** [00:00:20 – 00:07:45] (**7 minutos 45 segundos**)  
+
+![Imagen 5. Entrevista a Criador Abel](img/Entrevista_Criador_Abel.png)  
+*Imagen 5. Entrevista a Criador Abel*
+
+**Resumen:**  
+Abel, quien apoya a su familiar en la crianza de cuyes en provincia, considera muy útil la propuesta de AgroCuy. Aunque no conocía otras herramientas similares, le parece que la plataforma es clara, moderna y fácil de usar. Destaca que el menú es intuitivo, la app móvil cómoda para registrar gastos y recibir alertas, y que el monitoreo con sensores es lo más valioso, ya que podría evitar problemas con los animales. Sugiere que más personas como su tío se beneficiarían si la app envía avisos automáticos sobre cambios en temperatura o humedad. En general, confía en la tecnología y estaría dispuesto a usarla en el día a día para mejorar el cuidado de los animales.
+
 #### **Entrevista N.º 4 – Criador**
 
 - **Entrevistador:** Fiorella  
