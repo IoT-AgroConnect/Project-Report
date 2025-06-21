@@ -4100,6 +4100,13 @@ Las pruebas se enfocaron principalmente en escenarios de interacción entre cria
 
 🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
 
+Pruebas Unitarias. 
+<img src="img/pruebas_unitarias.png" width="50%">
+<img src="img/pruebas_unitarias2.png" width="50%">
+
+Pruebas de Integracion: 
+<img src="img/pruebas_integracion.png" width="50%">
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
 Como parte de la evaluación del Sprint 2, se presenta la evidencia visual del entregable correspondiente al **prototipo funcional de la aplicación móvil AgroCuy**. Esta versión incluye múltiples funcionalidades dirigidas a criadores y asesores, integrando componentes IoT, gestión de recursos, y experiencias personalizadas según el rol del usuario.
