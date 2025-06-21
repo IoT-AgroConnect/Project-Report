@@ -4683,3 +4683,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/Ec0vHNEl
 ## Anexo N°4: Repositorio del Informe.
 
 https://github.com/IoT-AgroConnect/Project-Report
+
+### Anexo N°5: Video Exposicion - TB2
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EVJk3nP6HIRImXtOiJemK5ABTbZ1VPeUKjn4806Ra68lDg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cuhGhd
