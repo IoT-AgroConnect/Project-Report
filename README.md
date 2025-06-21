@@ -4446,6 +4446,22 @@ Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se di
 
 #### **Entrevista N.º 1 – Asesor**
 
+- **Entrevistador:** Nadia Lucas  
+- **Entrevistado:** Nayeli Chavez 
+- **Duración:** [00:00:41 – 00:14:00] (**5 minutos 52 segundos**)  
+
+![Imagen 4. Entrevista a Diego Bazan](img/entrevista_naueli.PNG)  
+*Imagen 4. Entrevista a Diego Bazan*
+
+**Resumen:**  
+La segunda entrevista realizada a Nayeli Chávez, zootecnista con experiencia en asesoría técnica a criadores de cuyes, permitió validar diversos aspectos funcionales y comunicacionales de la solución tecnológica AgroCuy. Nayeli expresó estar familiarizada con herramientas digitales básicas como Excel y WhatsApp, pero destacó la escasa presencia de plataformas especializadas en la crianza de cuyes. Asimismo, mostró apertura al uso de tecnologías emergentes como sensores IoT, señalando que ya se emplean en otras especies animales.
+Respecto a la landing page, consideró que está bien presentada y transmite valor, aunque sugirió reforzarla con testimonios reales y un instructivo simplificado sobre cómo comenzar a usar la herramienta. En cuanto a la aplicación web, reconoció que la interfaz es adecuada para usuarios con poca experiencia digital, pero recomendó incorporar un tutorial en video y funciones como chat directo y alertas por eventos críticos. También señaló que la conectividad limitada en zonas rurales podría representar una barrera para la adopción.
+Sobre la aplicación móvil, Nayeli valoró la posibilidad de que los criadores accedan a sus datos desde el celular, y consideró especialmente útil la incorporación de notificaciones preventivas. Recomendó que la app permita funcionar sin conexión y se sincronice posteriormente, para adaptarse mejor a contextos rurales. Además, destacó que integrarla en su labor diaria facilitaría la personalización de recomendaciones técnicas.
+En cuanto al prototipo IoT, Nayeli identificó como ventajas clave la detección temprana de problemas ambientales y la posibilidad de complementar su asesoría con datos objetivos. Propuso monitorear indicadores como temperatura, humedad, niveles de amoníaco y actividad de los animales. Subrayó que para lograr una adopción efectiva, la tecnología debe ser resistente, sencilla de instalar y accesible económicamente.
+Finalmente, Nayeli destacó que el sistema AgroCuy representa un avance hacia la profesionalización de la crianza de cuyes, y que recomendaría su uso por su capacidad para optimizar la toma de decisiones, prevenir enfermedades y mejorar la eficiencia técnica. No obstante, enfatizó la importancia de brindar soporte técnico y capacitaciones simples para garantizar su implementación a gran escala.
+
+#### **Entrevista N.º 2 – Asesor**
+
 - **Entrevistador:** Juan Cuadros  
 - **Entrevistado:** Diego Bazan  
 - **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
@@ -4456,8 +4472,7 @@ Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se di
 **Resumen:**  
 Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto porque le permiten dar una asesoría más precisa y rápida. Destaca que la plataforma AgroCuy es clara y útil, aunque sugiere agregar testimonios para hacerla más cercana. Le gusta la app web por mejorar la comunicación con los criadores y la móvil por sus alertas que ayudan a prevenir problemas. Para él, lo más valioso es cómo todo el sistema se integra para tomar mejores decisiones y cuidar mejor a los animales.
 
----
-#### **Entrevista N.º 2 – Criador**
+#### **Entrevista N.º 3 – Criador**
 
 - **Entrevistador:** Johan  
 - **Entrevistado:** Abel (Sobrino del criador)  
