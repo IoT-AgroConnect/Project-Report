@@ -3959,6 +3959,14 @@ https://frontend-web-application-delta.vercel.app/login
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
+En la elaboración de la landing page y el front-end, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
+
+Landing Page
+<img src="img/sprint2-insightlading.PNG" width="100%">
+
+Front-End
+<img src="img/sprint1-insightfront.PNG" width="100%">
+
 ### 6.2.2. Sprint 2
 
 #### 6.2.2.1. Sprint Planning
@@ -4115,8 +4123,7 @@ Pruebas de Integracion:
 
 Como parte de la evaluación del Sprint 2, se presenta la evidencia visual del entregable correspondiente al **prototipo funcional de la aplicación móvil AgroCuy**. Esta versión incluye múltiples funcionalidades dirigidas a criadores y asesores, integrando componentes IoT, gestión de recursos, y experiencias personalizadas según el rol del usuario.
 
-🎥 **Video demostrativo – AgroCuy Mobile App**:  
-[Execution Evidence – AgroCuy Mobile Sprint 2](https://youtu.be/xxxxxxxxxxx)
+Enlace del front-end desplegado: https://agroconnect-demo-55dae.web.app/login
 
 ---
 
@@ -4265,6 +4272,8 @@ Para este sprint, hemos implementado una primera versión del backend con el 90%
 
 Enlace al repositorio de Web Services: https://github.com/IoT-AgroConnect/Web-Services-main
 
+Enlace del backend desplegado: https://backend-web-services-jo4d.onrender.com/swagger-ui/index.html#/
+
 |Método|Endpoint|Descripción|
 |--|--|--|
 |GET|/api/v1/users|Se obtiene la lista de usuarios|
@@ -4368,6 +4377,21 @@ En el proyecto AgroCuy, se implementa un sistema de monitoreo inteligente basado
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
 
+En la elaboración de la Front-End y el Back-End y la Pruebas, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
+
+Mobile-App
+<img src="img/sprint2-insightmobile.PNG" width="100%">
+
+Front-End
+<img src="img/sprint2-insightfront.PNG" width="100%">
+
+Back-End
+<img src="img/sprint2-insightback.PNG" width="100%">
+
+Pruebas de Aceptación
+<img src="img/sprint2-insightaceptance.PNG" width="100%">
+
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
@@ -4461,8 +4485,8 @@ Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se di
 - **Entrevistado:** Nayeli Chavez 
 - **Duración:** [00:00:41 – 00:14:00] (**5 minutos 52 segundos**)  
 
-![Imagen 4. Entrevista a Diego Bazan](img/entrevista_naueli.PNG)  
-*Imagen 4. Entrevista a Diego Bazan*
+![Imagen 1. Entrevista a Nayeli Chavez](img/entrevista_naueli.PNG)  
+*Imagen 1. Entrevista a Nayeli Chavez*
 
 **Resumen:**  
 La segunda entrevista realizada a Nayeli Chávez, zootecnista con experiencia en asesoría técnica a criadores de cuyes, permitió validar diversos aspectos funcionales y comunicacionales de la solución tecnológica AgroCuy. Nayeli expresó estar familiarizada con herramientas digitales básicas como Excel y WhatsApp, pero destacó la escasa presencia de plataformas especializadas en la crianza de cuyes. Asimismo, mostró apertura al uso de tecnologías emergentes como sensores IoT, señalando que ya se emplean en otras especies animales.
@@ -4472,6 +4496,19 @@ En cuanto al prototipo IoT, Nayeli identificó como ventajas clave la detección
 Finalmente, Nayeli destacó que el sistema AgroCuy representa un avance hacia la profesionalización de la crianza de cuyes, y que recomendaría su uso por su capacidad para optimizar la toma de decisiones, prevenir enfermedades y mejorar la eficiencia técnica. No obstante, enfatizó la importancia de brindar soporte técnico y capacitaciones simples para garantizar su implementación a gran escala.
 
 #### **Entrevista N.º 2 – Asesor**
+
+- **Entrevistador:** Sebastián Ramírez   
+- **Entrevistado:** Sofia Joya 
+- **Duración:** [00:14:33 – 00:18:40] (**5 minutos 52 segundos**)  
+
+![Imagen 5. Entrevista a Sofia Joya](img/Entrevista_Asesor_SofiaJoya.png)  
+*Imagen 2. Entrevista a Sofia Joya*
+
+**Resumen:**  
+Sofía Joya, asesora técnica en la crianza de cuyes, ya había participado en entrevistas anteriores y, durante esta etapa de validación, se mostró muy convencida con el diseño de la aplicación, destacando su facilidad de uso y el sistema de monitoreo que permite controlar sin necesidad de presencia física. Valoró especialmente los indicadores clave como la temperatura, la humedad y el consumo de alimento. Entre sus recomendaciones, sugirió incluir video tutoriales, dar mayor protagonismo a testimonios reales o casos de éxito, y añadir funcionalidades como el registro de visitas técnicas y un chat directo con asesores. También señaló como desafío la baja conectividad en zonas rurales, lo que podría limitar el uso de la aplicación, por lo que consideró fundamental ofrecer capacitación simple, una interfaz clara y soporte técnico continuo.
+
+
+#### **Entrevista N.º 3 – Asesor**
 
 - **Entrevistador:** Juan Cuadros  
 - **Entrevistado:** Diego Bazan  
@@ -4483,19 +4520,21 @@ Finalmente, Nayeli destacó que el sistema AgroCuy representa un avance hacia la
 **Resumen:**  
 Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto porque le permiten dar una asesoría más precisa y rápida. Destaca que la plataforma AgroCuy es clara y útil, aunque sugiere agregar testimonios para hacerla más cercana. Le gusta la app web por mejorar la comunicación con los criadores y la móvil por sus alertas que ayudan a prevenir problemas. Para él, lo más valioso es cómo todo el sistema se integra para tomar mejores decisiones y cuidar mejor a los animales.
 
-#### **Entrevista N.º 3 – Criador**
+
+
+#### **Entrevista N.º 4 – Criador**
 
 - **Entrevistador:** Johan  
 - **Entrevistado:** Abel (Sobrino del criador)  
 - **Duración:** [00:00:20 – 00:07:45] (**7 minutos 45 segundos**)  
 
-![Imagen 5. Entrevista a Criador Abel](img/Entrevista_Criador_Abel.png)  
-*Imagen 5. Entrevista a Criador Abel*
+<img src="img/entrevista_criador_2.jpg" alt="Entrevista a Criador Abel" width="600">
+ 
 
 **Resumen:**  
 Abel, quien apoya a su familiar en la crianza de cuyes en provincia, considera muy útil la propuesta de AgroCuy. Aunque no conocía otras herramientas similares, le parece que la plataforma es clara, moderna y fácil de usar. Destaca que el menú es intuitivo, la app móvil cómoda para registrar gastos y recibir alertas, y que el monitoreo con sensores es lo más valioso, ya que podría evitar problemas con los animales. Sugiere que más personas como su tío se beneficiarían si la app envía avisos automáticos sobre cambios en temperatura o humedad. En general, confía en la tecnología y estaría dispuesto a usarla en el día a día para mejorar el cuidado de los animales.
 
-#### **Entrevista N.º 4 – Criador**
+#### **Entrevista N.º 5 – Criador**
 
 - **Entrevistador:** Fiorella  
 - **Entrevistado:** Claudia Ramos (Sobrino del criador)  
@@ -4509,6 +4548,75 @@ Claudia, criadora principiante de cuyes con 6 meses de experiencia, busca una he
 
 
 ### 6.3.3. Evaluaciones según heurísticas.
+
+Para complementar las entrevistas de validación, se aplicó una **evaluación heurística** al sistema AgroCuy con base en los principios de usabilidad propuestos por Jakob Nielsen. Esta evaluación permitió identificar fortalezas y oportunidades de mejora en la experiencia de usuario a través del análisis crítico de las interfaces del sistema (landing page, aplicación web, app móvil y prototipo IoT). A continuación, se detallan los hallazgos según cada heurística evaluada:
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Heurística de Usabilidad</th>
+      <th>Hallazgos en AgroCuy</th>
+      <th>Recomendaciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1. Visibilidad del estado del sistema</strong></td>
+      <td>El sistema muestra información básica sobre temperatura y humedad en tiempo real.</td>
+      <td>Incluir indicadores de conexión de sensores y estado del sistema (activo/inactivo).</td>
+    </tr>
+    <tr>
+      <td><strong>2. Concordancia entre el sistema y el mundo real</strong></td>
+      <td>Se usan términos conocidos por los usuarios (jaula, criador, alerta), lo cual facilita la comprensión.</td>
+      <td>Evitar tecnicismos como “IoT” sin explicación para usuarios sin formación técnica.</td>
+    </tr>
+    <tr>
+      <td><strong>3. Control y libertad del usuario</strong></td>
+      <td>Los usuarios pueden navegar entre secciones, pero no hay una opción clara para deshacer acciones.</td>
+      <td>Agregar confirmaciones y posibilidad de retroceso en acciones sensibles (ej. eliminar datos o editar).</td>
+    </tr>
+    <tr>
+      <td><strong>4. Consistencia y estándares</strong></td>
+      <td>La interfaz sigue un diseño uniforme, aunque hay ligeras variaciones en estilo entre la app web y móvil.</td>
+      <td>Unificar paleta de colores, íconos y tipografías entre plataformas.</td>
+    </tr>
+    <tr>
+      <td><strong>5. Prevención de errores</strong></td>
+      <td>No se detectaron mensajes claros ante errores (por ejemplo, fallos de conexión o sensores desconectados).</td>
+      <td>Incorporar mensajes de error descriptivos y sugerencias para resolver el problema.</td>
+    </tr>
+    <tr>
+      <td><strong>6. Reconocimiento mejor que recuerdo</strong></td>
+      <td>Los menús son visibles y las opciones principales están bien organizadas.</td>
+      <td>Añadir íconos representativos junto a los textos para reforzar el reconocimiento visual.</td>
+    </tr>
+    <tr>
+      <td><strong>7. Flexibilidad y eficiencia de uso</strong></td>
+      <td>El sistema es fácil de usar para principiantes, pero no contempla accesos rápidos para usuarios expertos.</td>
+      <td>Incluir atajos, personalización de vistas o favoritos.</td>
+    </tr>
+    <tr>
+      <td><strong>8. Diseño estético y minimalista</strong></td>
+      <td>La landing page y app móvil tienen un diseño limpio, pero algunas pantallas web presentan exceso de información.</td>
+      <td>Simplificar interfaces, especialmente en el dashboard del asesor.</td>
+    </tr>
+    <tr>
+      <td><strong>9. Ayuda al usuario a reconocer, diagnosticar y recuperar errores</strong></td>
+      <td>La app móvil no notifica claramente cuando falla el envío de datos.</td>
+      <td>Mostrar alertas y sugerencias ante errores (ej. "Revisa tu conexión a internet").</td>
+    </tr>
+    <tr>
+      <td><strong>10. Ayuda y documentación</strong></td>
+      <td>El sistema no cuenta aún con una sección de ayuda ni tutoriales accesibles.</td>
+      <td>Incluir manuales, video tutoriales y sección de preguntas frecuentes dentro de la aplicación.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Conclusión:**  
+La evaluación heurística reveló que AgroCuy tiene una base sólida en términos de usabilidad, especialmente en cuanto a lenguaje comprensible y navegación intuitiva. Sin embargo, se identificaron aspectos críticos como la falta de documentación, manejo de errores y consistencia visual entre plataformas. Implementar las recomendaciones derivadas de esta evaluación permitirá mejorar la experiencia de usuario y facilitar una adopción más fluida del sistema, especialmente en contextos rurales y con usuarios de bajo nivel tecnológico.
+
 
 ## 6.4. Video About-the-Product.
 
