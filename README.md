@@ -202,16 +202,26 @@ Abril 2025
   - [6.1.3. Style Guide & Conventions](#613-style-guide--conventions)
   - [6.1.4. Deployment Configuration](#614-deployment-configuration)
 - [6.2. Implementation](#62-implementation)
-  - [6.2.1. Sprint 1](#62x-sprint-n)
-    - [6.2.1.1. Sprint Planning](#62x1-sprint-planning)
+  - [6.2.1. Sprint 1](#621-sprint-1)
+    - [6.2.1.1. Sprint Planning](#6211-sprint-planning)
     - [6.2.1.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-    - [6.2.1.3. Sprint Backlog](#62x3-sprint-backlog)
-    - [6.2.1.4. Development Evidence](#62x4-development-evidence)
-    - [6.2.1.5. Testing Suite Evidence](#62x5-testing-suite-evidence)
-    - [6.2.1.6. Execution Evidence](#62x6-execution-evidence)
-    - [6.2.1.7. Services Documentation](#62x7-services-documentation)
-    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence)
-    - [6.2.1.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
+    - [6.2.1.3. Sprint Backlog](#6213-sprint-backlog)
+    - [6.2.1.4. Development Evidence](#6214-development-evidence)
+    - [6.2.1.5. Testing Suite Evidence](#6215-testing-suite-evidence)
+    - [6.2.1.6. Execution Evidence](#6216-execution-evidence)
+    - [6.2.1.7. Services Documentation](#6217-services-documentation)
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence)
+    - [6.2.1.9. Team Collaboration Insights](#6219-team-collaboration-insights)
+  - [6.2.2. Sprint 2](#622-sprint-2)
+    - [6.2.2.1. Sprint Planning](#6221-sprint-planning)
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+    - [6.2.2.3. Sprint Backlog](#6223-sprint-backlog)
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -243,9 +253,13 @@ Abril 2025
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Me aseguré de que todos estuviéramos avanzando de forma constante, hice revisiones (reus) del trabajo del equipo y ofrecí apoyo cuando alguien se quedaba atrás.<br>
+      <em>TB2</em><br>
+      Lideré la integración entre el backend y el frontend para la visualización de datos del ESP32 usando MQTT. Me encargué de configurar la recepción de los datos de sensores en tiempo real desde el ESP32, desarrollar la lógica para mostrar los límites críticos en la interfaz, y de implementar las notificaciones automáticas al detectar valores fuera de rango. También realicé pruebas completas de la comunicación IoT y aseguré la conexión estable del sistema.
       <strong>Lucas Coronel, Nadia Alessandra</strong><br>
-<em>TB1</em><br>
-Me encargué de dividir el trabajo de manera equitativa y de establecer plazos de entrega claros para cada miembro del equipo. Además, coordiné las tareas, asegurándome de que cada persona comprendiera sus responsabilidades y los objetivos a alcanzar. Realicé un seguimiento constante del progreso y brindé apoyo para resolver dudas o dificultades que surgieran durante el desarrollo del proyecto.<br>
+      <em>TB1</em><br>
+       Me encargué de dividir el trabajo de manera equitativa y de establecer plazos de entrega claros para cada miembro del equipo. Además, coordiné las tareas, asegurándome de que cada persona comprendiera sus responsabilidades y los objetivos a alcanzar. Realicé un seguimiento constante del progreso y brindé apoyo para resolver dudas o dificultades que surgieran durante el desarrollo del proyecto.<br>
+      <em>TB2</em><br>
+      Dividí y desarrollé el backend, incluyendo los endpoints core y el desarrollo de los embebidos y la integración con el MQTT al 90%. Además, me encargué del despliegue del front y el backend en la nube.<br>
       <strong>Ramirez Mendez, Sebastián André</strong><br>
       <em>TB1</em><br>
       Me encargué de coordinar la estructura del documento y asegurar que cada sección tuviera coherencia, además de participar en la redacción de los antecedentes del proyecto y revisión técnica del contenido.<br>
@@ -269,9 +283,13 @@ Me encargué de dividir el trabajo de manera equitativa y de establecer plazos d
       <strong>Jarama Peñaloza, Fiorella</strong><br>
       <em>TB1</em><br>
       Fomenté un ambiente donde todos pudieran participar, ayudé a organizar las tareas del equipo y propuse metas claras para cumplir con los entregables a tiempo.<br>
+      <em>TB2</em><br>
+      Fomenté un ambiente colaborativo e inclusivo durante el desarrollo del proyecto. Establecí metas claras junto con el equipo, organicé la planificación de tareas en función de nuestras fortalezas y aseguré que todos participaran activamente. Además, supervisé el cumplimiento de los objetivos semanales y coordiné entregas clave como la integración IoT con MQTT, el backend para recibir datos del ESP32, y el frontend para mostrar los límites en tiempo real.
       <strong>Lucas Coronel, Nadia Alessandra</strong><br>
-<em>TB1</em><br>
-Fomenté un entorno colaborativo e inclusivo, asegurándome de que todos los integrantes se sintieran escuchados y valorados. Establecí metas claras para el equipo, planifiqué la distribución de tareas según las fortalezas de cada miembro y definí plazos de entrega realistas. Gracias a esta organización y al acompañamiento constante, cumplimos con los objetivos planteados de manera eficiente.<br>
+      <em>TB1</em><br>
+      Fomenté un entorno colaborativo e inclusivo, asegurándome de que todos los integrantes se sintieran escuchados y valorados. Establecí metas claras para el equipo, planifiqué la distribución de tareas según las fortalezas de cada miembro y definí plazos de entrega realistas. Gracias a esta organización y al acompañamiento constante, cumplimos con los objetivos planteados de manera eficiente.<br>
+      <em>TB2</em><br>
+      Dividí y desarrollé el backend, incluyendo los endpoints core y el desarrollo de los embebidos y la integración con el MQTT al 90%. Además, me encargué del despliegue del front y el backend en la nube.<br>
       <strong>Ramirez Mendez, Sebastian Andre</strong><br>
       <em>TB1</em><br>
       Propicié un entorno colaborativo asegurando la participación de todos los miembros, ayudé a definir metas claras, y coordiné la planificación de tareas para que se cumplieran los objetivos del equipo dentro de los plazos establecidos.<br>
@@ -287,6 +305,22 @@ Fomenté un entorno colaborativo e inclusivo, asegurándome de que todos los int
     </td>
   </tr>
 </table>
+
+### Tabla de Trabajo Colaborativo – TP1
+
+| **Criterio específico** | **Acciones realizadas (TP1)** | **Conclusiones (TP1)** |
+|-------------------------|-------------------------------|-------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cuadros Rodríguez, Juan Alejandro**  <br> *TP1*  <br> Participé en la estructuración de los entregables del proyecto, brindando soporte técnico en la interfaz y validación de los componentes implementados por mis compañeros. Coordiné puntos clave para la integración de código y participé activamente en las sesiones de retroalimentación. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TP1*  <br> Me encargué de testear las funcionalidades desarrolladas en el frontend, y propuse ajustes de usabilidad en base a pruebas exploratorias. También apoyé la documentación visual de las interfaces y organicé sesiones para revisión por pares. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TP1*  <br> Organicé reuniones semanales para dar seguimiento al avance del frontend. También consolidé los entregables técnicos y coordiné la división de tareas para cubrir correctamente todas las US. Fui responsable del deployment de la landing y su validación. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TP1*  <br> Me encargué de los componentes más técnicos relacionados con la lógica y validaciones del sistema. Además, me aseguré de que la documentación técnica del frontend sea clara y consistente, apoyando a otros miembros en pruebas de integración. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TP1*  <br> Desarrollé y conecté componentes clave del frontend. Durante las reuniones asumí un rol de apoyo y validación cruzada del trabajo de otros compañeros, contribuyendo a mejorar la calidad final del entregable. | *TP1*  <br> En este tramo del proyecto, el equipo demostró nuevamente un liderazgo colaborativo al asumir tareas críticas del desarrollo del frontend y la integración de las secciones funcionales. Todos participaron activamente, compartiendo conocimientos técnicos, validando el trabajo entre pares y aportando mejoras que permitieron entregar una versión funcional y profesional de la aplicación. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Cuadros Rodríguez, Juan Alejandro**  <br> *TP1*  <br> Contribuí al seguimiento de los avances grupales y aseguré que se cumplieran los acuerdos de codificación. Participé activamente en reuniones de planificación para definir las metas y la organización de commits por sprint. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TP1*  <br> Apoyé la planificación visual del proyecto, asegurándome de que todos contáramos con acceso a los archivos de diseño y entendimiento compartido. También propuse soluciones simples para problemas detectados en validaciones. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TP1*  <br> Definí un cronograma de avances con fechas intermedias y tareas asignadas para cada miembro. Estuve pendiente de los bloqueos de mis compañeros y coordiné la integración de los entregables parciales en un repositorio limpio y funcional. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TP1*  <br> Organicé el orden de los componentes en el repositorio principal y me aseguré de que la estructura de carpetas y archivos fuera coherente. Participé en la verificación del cumplimiento de las metas trazadas para cada User Story. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TP1*  <br> Apoyé la integración de todos los módulos desarrollados y me aseguré de que la configuración del entorno fuera clara para todos. Contribuí a que el entorno colaborativo se mantuviera alineado y productivo. | *TP1*  <br> El equipo fortaleció su dinámica colaborativa estableciendo procesos más definidos, herramientas compartidas (repositorio, Trello, entornos de pruebas) y objetivos semanales claros. Esto permitió que las tareas se cumplieran dentro del cronograma y que el producto entregado mantuviera altos estándares técnicos, tanto en funcionalidad como en presentación visual. |
+
+-----
+### Tabla de Trabajo Colaborativo – TB2
+
+
+| **Criterio específico** | **Acciones realizadas (TB2)** | **Conclusiones (TB2)** |
+|-------------------------|-------------------------------|-------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cuadros Rodríguez, Juan Alejandro**  <br> *TB2*  <br> Participé activamente en la implementación del módulo de estadísticas con filtros por fecha y rol. Coordiné puntos clave de integración entre componentes del frontend y colaboré en la depuración general de la interfaz. Además, brindé soporte técnico en la integración de la primera versión del mobile app. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TB2*  <br> Colaboré en la validación de usabilidad de la interfaz principal, incluyendo el Landing Page. Documenté observaciones durante las pruebas funcionales y apoyé la revisión visual del frontend. También ayudé en la revisión cruzada del diseño del prototipo móvil. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TB2*  <br> Consolidé y desplegué la versión final del Landing Page, coordinando con el equipo la conexión de endpoints y el uso de datos reales. Supervisé la integración del frontend completo, y participé en las pruebas iniciales del prototipo IoT con lógica de edge computing. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TB2*  <br> Refactoricé la lógica de reportes y estadísticas, asegurando que los datos personales y globales se visualicen según reglas temporales y de rol. Supervisé la calidad del código del frontend e integré la lógica del sistema con el backend. Colaboré en la validación funcional del módulo de sensores IoT. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TB2*  <br> Desarrollé la vista de tendencias (Top 15) y me encargué de asegurar su correcto funcionamiento en tiempo real. También implementé y validé la interfaz del prototipo IoT y participé en la construcción de la primera versión del mobile app. | *TB2*  <br> En este tramo del proyecto, el equipo consolidó su liderazgo colaborativo al entregar una versión funcional y sólida del sistema. Se completaron con éxito el Landing Page, el frontend completo, la primera versión del mobile app y el prototipo IoT. La coordinación entre miembros permitió una integración fluida de tecnologías diversas, con un enfoque técnico compartido y validación cruzada que elevó la calidad del entregable final. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Cuadros Rodríguez, Juan Alejandro**  <br> *TB2*  <br> Establecí prioridades para el desarrollo del módulo de estadísticas, promoviendo una distribución equitativa de tareas. Colaboré en mantener la documentación técnica actualizada en GitHub. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TB2*  <br> Apoyé la organización del entorno colaborativo mediante Trello y control de versiones. Registré mejoras sugeridas y propuse acciones puntuales para mejorar la experiencia de usuario. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TB2*  <br> Lideré el cronograma de entregables de frontend y landing, y aseguré que todas las tareas de integración se completaran a tiempo. También di soporte en las validaciones del entorno móvil y pruebas de IoT. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TB2*  <br> Documenté la lógica de separación de datos por rol/fecha y coordiné con el backend para mantener consistencia. Aporté en la revisión técnica del código general y propuse refactorizaciones clave. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TB2*  <br> Organicé la estructura de archivos para la vista de tendencias y para los componentes de mobile. Verifiqué que la integración IoT se adapte al entorno de pruebas en edge computing. | *TPB*  <br> El equipo fortaleció su entorno colaborativo a través de una planificación precisa, cronogramas definidos, sesiones de revisión cruzada y comunicación continua. El cumplimiento de objetivos se mantuvo constante, incluso ante desafíos técnicos como el despliegue móvil o la integración de hardware. Esto permitió entregar una versión integrada, validada y funcional de todos los módulos clave del sistema. |
 
 
 ## Capítulo I: Introducción 
@@ -825,7 +859,6 @@ Claudia, de 23 años, es criadora principiante con 6 meses de experiencia y 25 c
 
 **Resumen:**  
 Carla es una criadora con experiencia a cargo de 20 cuyes. Actualmente gestiona su información de forma manual, pero le gustaría contar con alertas de temperatura y alimentación. Le interesa una aplicación que le ofrezca asesoría confiable, notificaciones y beneficios claros para mejorar el manejo de sus animales.
-
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -2618,6 +2651,573 @@ En esta sección se describe la Capa de Infraestructura de la funcionalidad de p
 <br><br>
 <br><br>
 
+
+
+## Capítulo V: Solution UI/UX Design 
+
+## 5.1. Style Guidelines
+
+La importancia del estilo de un producto radica en la creación de una experiencia visual armoniosa y atractiva para los usuarios. A continuación, se presentará una descripción detallada de las pautas de estilo de nuestro proyecto.
+
+### 5.1.1. General Sytle Guidelines 
+
+**Consistencia Visual**
+
+Garantizar una apariencia uniforme en todos los aspectos del producto, desde la disposición de la interfaz de usuario hasta los elementos visuales. Esto implica seleccionar colores coherentes, tipografía adecuada, estilos consistentes y una navegación web intuitiva.
+
+<p align="center">
+  <img src="img/consistencia-visual.webp" alt="Ejemplo de consistencia visual" width="600">
+</p>
+
+_Imagen 23. Ejemplo de consistencia visual_
+
+**Simplicidad**
+
+Enfatizar la simplicidad en el diseño para una experiencia de usuario intuitiva y evitar el uso excesivo de elementos que puedan hacer perder el foco de atención al usuario.
+
+<p align="center">
+  <img src="img/simplicidad.jpg" alt="Ejemplo de simplicidad" width="600">
+</p>
+
+_Imagen 24. Ejemplo de simplicidad_
+
+**Branding**
+
+El logotipo de AgroCuy se presenta en forma de un círculo, que simboliza la unidad y la conexión dentro de las comunidades agrícolas peruanas. En el centro del círculo se encuentra un cuy, animal característico de las granjas peruanas y un símbolo de la agricultura local. El cuy está representado de manera amigable y sonriente, transmitiendo la naturaleza acogedora y cercana de la plataforma. El cuy lleva un pequeño gorro de granjero como un guiño a la laboriosa comunidad agrícola.
+
+<p align="center">
+  <img src="img/logo.png" alt="logo de AgroCuy" width="200">
+</p>
+
+_Imagen 25. Logo de AgroCuy_
+
+**Typography**
+
+La tipografía elegida para AgroCuy es "Inter", una fuente sans-serif moderna y altamente legible. Este tipo de letra se destaca por su estilo limpio y contemporáneo, lo que comunica profesionalismo y actualización. La elección de Inter asegura que el texto en las interfaces de usuario sea fácilmente legible y tenga una apariencia moderna y uniforme. Además, Inter es una fuente versátil que ofrece una amplia variedad de pesos y estilos, lo que permite una adaptación flexible a diferentes contextos y tamaños de texto en la aplicación.
+
+<p align="center">
+  <img src="img/font1.png" alt="Fuentes" width="600">
+</p>
+
+_Imagen 26. Fuentes_
+
+**Colors**
+
+AgroCuy ha seleccionado una paleta de colores que comunica confiabilidad y eficiencia en la contratación de asesores especializados y en el uso de herramientas avanzadas. Los tonos predominantes, como los marrones, amarillos y anaranjados, transmiten una sensación cálida que evoca la calidez y la energía de la naturaleza presente en las granjas peruanas. Esta elección de colores no solo refleja la conexión con la tierra y las raíces agrícolas, sino que también sugiere un ambiente acogedor y estimulante para los usuarios de la plataforma.
+
+**Spacing**
+
+El spacing garantiza una distribución uniforme y un equilibrio visual en la interfaz. Se han establecido las siguientes medidas.
+
+````
+ - Botones: padding de 16px vertical y 32px horizontal 
+ - Margin entre texto 16px 
+ - Margin entre elementos 24px 
+ - Margin entre secciones 72px
+````
+
+**Diseño Visual con Patrón Z**
+
+ Vamos a incorporar el conocido Patrón Z en nuestro diseño visual, el cual dirige de manera intuitiva la atención del usuario a través de la interfaz. Este enfoque implica estratégicamente ubicar los elementos clave en las esquinas superior e inferior izquierdas, mientras que los elementos secundarios se colocan en las esquinas superior e inferior derechas. Este diseño genera un flujo visual eficaz y atractivo que mejora la experiencia del usuario.
+
+<p align="center">
+  <img src="img/patronZ.png" alt="Patron Z ejemplo" width="600">
+</p>
+
+_Imagen 27. Ejemplo de Patron Z_
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+**Colors**
+
+AgroCuy ha seleccionado cuidadosamente una paleta de colores que refleja los valores y la identidad de la plataforma. Los tonos elegidos comunican confiabilidad y eficiencia en la contratación de asesores especializados y en el uso de herramientas avanzadas.
+
+<p align="center">
+  <img src="img/colors.png" alt="Colores de AgroCuy" width="600">
+</p>
+
+_Imagen 28. Colores de AgroCuy_
+
+**Typography**
+
+La tipografía desempeña un papel fundamental en la apariencia y la legibilidad de AgroCuy. Hemos seleccionado cuidadosamente la fuente "Inter", una fuente sans-serif moderna y altamente legible.
+
+<p align="center">
+  <img src="img/font2.png" alt="Tipografia de AgroCuy" width="600">
+</p>
+
+_Imagen 29. Tipografia de AgroCuy_
+
+**Icons**
+
+Los íconos desempeñan un papel importante en la experiencia del usuario al proporcionar una representación visual rápida y reconocible de diversas funciones y características dentro de AgroCuy. Hemos seleccionado una colección de íconos que son consistentes con la identidad visual de la plataforma y que refuerzan su propósito y temática agrícola.
+
+<p align="center">
+  <img src="img/icons.png" alt="Iconos de AgroCuy" width="600">
+</p>
+
+_Imagen 30. Iconos de AgroCuy_
+
+**Spacing**
+
+El espaciado adecuado entre elementos es esencial para lograr una apariencia equilibrada y una experiencia de usuario cómoda en AgroCuy. Hemos establecido pautas claras de espaciado que garantizan coherencia y claridad en toda la plataforma.
+
+<p align="center">
+  <img src="img/spacing.png" alt="Spacing de AgroCuy" width="600">
+</p>
+
+_Imagen 31. Spacing de AgroCuy_
+
+**Grid System**
+
+El grid system es una herramienta esencial en el diseño y la organización de la interfaz de usuario de AgroCuy. Proporciona una estructura visual que ayuda a distribuir y alinear los elementos de la página de manera consistente y armoniosa en diferentes tamaños de pantalla.
+
+<p align="center">
+  <img src="img/grid.png" alt="Grid System de AgroCuy" width="600">
+</p>
+
+_Imagen 32. Grid System de AgroCuy_
+
+**Button**
+
+Los botones son elementos importantes en la interfaz de usuario de AgroCuy, ya que proporcionan una forma clara y visualmente destacada para que los usuarios realicen acciones importantes. Hemos definido un estilo de botón consistente que refleja la identidad visual de la plataforma y promueve una experiencia de usuario intuitiva y coherente.
+
+<p align="center">
+  <img src="img/button.png" alt="Button de AgroCuy" width="600">
+</p>
+
+_Imagen 33. Button de AgroCuy_
+
+**Input System**
+
+El input system es fundamental en la experiencia del usuario en AgroCuy, ya que proporciona formas para que los usuarios ingresen datos y realicen acciones dentro de la plataforma. Hemos definido un sistema de entrada consistente que garantiza una experiencia de usuario intuitiva y coherente en toda la interfaz.
+
+<p align="center">
+  <img src="img/input-system.png" alt="Input Sys AgroCuy" width="600">
+</p>
+
+_Imagen 34. Input System de AgroCuy_
+
+
+## 5.2. Information Architecture
+
+La arquitectura de información desempeña un papel fundamental en la organización y estructuración del contenido para garantizar su accesibilidad y comprensión por parte de los usuarios. En este apartado, se detallarán los sistemas de organización, etiquetado, etiquetas SEO y metaetiquetas, sistema de búsqueda y sistemas de navegación que componen la arquitectura de la información de nuestro producto.
+
+### 5.2.1. Organization Systems
+
+En AgroCuy, aplicamos un sistema de jerarquía visual para resaltar la información esencial y relevante, garantizando que los usuarios encuentren fácilmente lo que necesitan. Utilizamos una organización secuencial para guiar intuitivamente a los usuarios a través del proceso de registro y búsqueda de asesores o asesoría. En lo que respecta a la categorización de contenido, está organizado según audiencia (Criadores y Asesores)
+
+### 5.2.2. Labeling Systems
+
+En el proyecto AgroCuy se eligió implementar un sistema de etiquetado breve y fácil de comprender para los usuarios. Las etiquetas que se utilizarán son las siguientes:
+
+
+**Vista de Criador:**
+
+<table>
+  <tbody>
+  <tr>
+      <th>My Farm - Mi Granja</th>
+      <td>Se implementará un botón que permitirá a los usuarios gestionar su inventario, que incluirá medicamentos, producción de carne, fertilizante y otros elementos relacionados.</td>
+  </tr>
+  <tr>
+      <th>Advisors - Mis asesores</th>
+      <td>Se implementará un botón que permitirá a los usuarios contactar con asesores.</td>
+  </tr>
+  <tr>
+      <th>My animals - Mis animales</th>
+      <td>Se implementará un botón que permitirá al usuario llevar un registro y seguimiento de los animales en la granja.</td>
+  </tr>
+  <tr>
+      <th>Calendar - Calendario</th>
+      <td>Se implementará un botón que permitirá visualizar un calendario con las citas registradas.</td>
+  </tr>
+  <tr>
+      <th>Registry - Registro</th>
+      <td>Se implementará un botón que permitirá al usuario registrar información de nuevos animales, datos de la gastos y recursos.</td>
+  </tr>
+  <tr>
+      <th>Notifications - Notificaciones</th>
+      <td>Se implementará un botón que permitirá visualizar notificaciones respecto a las solicitudes de las ofertas de empleo.</td>
+  </tr>
+  <tr>
+      <th>Logout</th>
+      <td>Se implementará un botón que permitirá al usuario desvincularse de su cuenta.</td>
+  </tr>
+  </tbody>
+</table>
+
+<br></br>
+**Vista de Asesor:**
+
+<table>
+  <tbody>
+  <tr>
+      <th>Home - Inicio</th>
+      <td>Se implementará un botón que permitirá al usuario ver publicaciones de clientes y poder ofertar.</td>
+  </tr>
+  <tr>
+      <th>My clients - Mis clientes</th>
+      <td>Se implementará un botón que permitirá a los usuarios ver su clientes.</td>
+  </tr>
+  <tr>
+      <th>My publications - Mis publicaciones</th>
+      <td>Se implementará un botón que permitirá al usuario ver el historial de sus publicaciones de ofertas de trabajo.</td>
+  </tr>
+  <tr>
+      <th>Notifications - Notificaciones</th>
+      <td>Se implementará un botón que permitirá visualizar notificaciones respecto a las solicitudes de las ofertas de empleo y recordatorios de citas pendientes.</td>
+  </tr>
+    <tr>
+      <th>Calendar - Calendario</th>
+      <td>Se implementará un botón que permitirá visualizar un calendario con las citas registradas.</td>
+  </tr>
+  <tr>
+      <th>Logout</th>
+      <td>Se implementará un botón que permitirá al usuario desvincularse de su cuenta.</td>
+  </tr>
+</table>
+
+### 5.2.3. SEO Tags and Meta Tags
+
+Las Search Engine Optimization (Etiquetas SEO) y las Meta Tags (Meta Etiquetas) juegan un papel vital en la visibilidad y el posicionamiento del contenido en los motores de búsqueda. Existen varios tipos de etiquetas SEO y metaetiquetas, y a continuación se destacan algunas de las más relevantes para la empresa:
+
+- **Metaetiqueta de Descripción (Meta Description Tag):** Esta etiqueta ofrece una breve   descripción del contenido de la página. Aunque no influye directamente en el ranking de búsqueda, una meta descripción bien redactada puede aumentar la tasa de clics (CTR) al proporcionar a los usuarios una visión clara del contenido de la página.
+
+````
+<meta name="description" content="AgroTech ofrece soluciones tecnológicas innovadoras para mejorar la gestión de granjas de cuyes. Nuestra misión es empoderar a los granjeros con herramientas inteligentes y eficientes.">
+````
+
+**Metaetiqueta de Autor (Meta Autor Tag):** Esta etiqueta especifica el autor del contenido de la página. Esto puede ser útil para atribuir la propiedad intelectual o identificar la fuente del contenido.
+
+````
+<meta name="author" content="AgroTech">
+````
+
+**Etiqueta de Título (Title Tag):** Esta etiqueta es esencial para el SEO, ya que define el título de una página web y aparece como el título principal en los resultados de búsqueda. 
+
+````
+<title>AgroCuy</title>
+````
+
+**Etiqueta de Idioma (Language Tag):** Esta etiqueta especifica el idioma principal del contenido de la página. Es útil para la clasificación en búsquedas locales y ayuda a los motores de búsqueda a comprender el idioma del contenido.
+
+````
+<html lang="en">
+````
+
+**Metaetiqueta de Robots (Meta Robots Tag):** Esta etiqueta indica a los motores de búsqueda cómo indexar y rastrear la página. Puede especificar si la página debe ser indexada, si deben seguirse los enlaces o si se deben seguir ciertas instrucciones específicas.
+
+````
+<meta name="robots" content="index, follow"> 
+````
+
+<p align="center">
+  <img src="img/seotags.jpeg" alt="SEO tags" width="600">
+</p>
+
+_Imagen 35. SEO tags de AgroCuy_
+
+### 5.2.4. Searching Systems
+
+La aplicación AgroCuy desarrollará un sistema de búsqueda intuitivo, diseñado para que los usuarios encuentren rápidamente la información que necesitan. Este sistema se basará en filtros inteligentes que simplificarán la búsqueda de asesores, evitando así que los usuarios se vean abrumados por la cantidad de información disponible. Con esta mejora, nuestra aplicación garantizará una experiencia de usuario más fluida y satisfactoria al buscar información relevante.
+
+<table>
+  <tbody>
+  <tr>
+      <th>Ubicación</th>
+      <td>Permite al usuario buscar asesores o recibir solicitudes de asesoramiento basadas en su ubicación actual o en una ubicación específica.</td>
+  </tr>
+  <tr>
+      <th>Tipo de Asesoría</th>
+      <td>Permite al usuario buscar según el tipo de asesoría ofrecida.</td>
+  </tr>
+  <tr>
+      <th>Presupuesto</th>
+      <td>Permite al usuario buscar asesores que se ajusten a su presupuesto.</td>
+  </tr>
+  <tr>
+      <th>Experiencia</th>
+      <td>Permite al usuario buscar asesores con un nivel de experiencia específico.</td>
+  </tr>
+  <tr>
+      <th>Reputación</th>
+      <td>Permite al usuario buscar asesores según las calificaciones obtenidas.</td>
+  </tr>
+  <tr>
+      <th>Idioma</th>
+      <td>Permite al usuario buscar según el idioma.</td>
+  </tr>
+  <tr>
+      <th>Palabras Clave</th>
+      <td>Proporciona un cuadro de búsqueda donde los usuarios pueden ingresar palabras clave específicas relacionadas con el tipo de asesoría que necesitan.</td>
+  </tr>
+  </tbody>
+</table>
+
+### 5.2.5. Navigation Systems
+
+La página de inicio de AgroCuy ha sido diseñada para una experiencia fácil y completa, ofreciendo las siguientes características:
+
+ - ***Menús de Navegación:*** Los menús de navegación son una estructura estándar que se utiliza para organizar y presentar las diversas secciones y páginas de un producto. Estos menús pueden adoptar diferentes formas, como menús desplegables, ubicados en la parte superior o lateral de una página, e incluso enlaces de navegación en el pie de página.
+
+ - ***Navegación por Pestañas:*** Es un sistema que emplea pestañas para organizar el contenido en secciones o categorías. Esto permite a los usuarios cambiar entre las distintas secciones de contenido simplemente haciendo clic en las pestañas correspondientes, sin necesidad de cargar nuevas páginas.
+
+## 5.3. Landing Page UI Design
+
+En este apartado, nos enfocaremos en el diseño de la interfaz de usuario (UI) de nuestra landing page. Es crucial que los usuarios que visiten nuestra página comprendan rápidamente de qué se trata nuestro producto y qué beneficios principales ofrecemos.
+
+### 5.3.1. Landing Page Wireframe
+
+**Wireframe - sección de ‘Inicio’ de AgroCuy:** la sección tendrá una imagen de fondo llamativa con un mensaje que refleja el objetivo de la startup para llamar la atención de posibles usuarios.
+
+<p align="center">
+  <img src="img/wireframe-landing-about-app.png" alt="Pagina Acerca de" width="600">
+</p>
+
+_Imagen 36. Pagina Acerca de_
+
+**Wireframe - sección de ‘Sobre Nosotros’:** la sección tendrá una imagen de fondo y tendrá información sobre la startup Agrotech junto con nuestra misión y visión.
+
+<p align="center">
+  <img src="img/wireframe-landing-about-us.png" alt="Pagina Sobre Nosotros" width="600">
+</p>
+
+_Imagen 37. Pagina Sobre Nosotros_
+
+**Wireframe - sección de ‘Características’:** la sección tendrá una imagen de fondo y tendrá información sobre los servicios que ofrecemos con nuestra aplicación AgroCuy.
+
+<p align="center">
+  <img src="img/wireframe-landing-features.png" alt="Pagina Características" width="600">
+</p>
+
+_Imagen 38. Pagina Características_
+
+**Wireframe - sección de ‘Contacto’:** la sección tendrá una imagen de fondo y tendrá un formulario donde los usuarios potenciales puedan escribir consultas para que sean respondidas en un correo por un miembro de AgroTech.
+
+<p align="center">
+  <img src="img/wireframe-landing-contact.png" alt="Pagina Contacto" width="600">
+</p>
+
+_Imagen 39. Pagina Contacto_
+
+### 5.3.2. Landing Page Mock-up
+**Mockup - sección de ‘Inicio’ de AgroCuy:** la sección tiene una imagen de fondo llamativa con un mensaje que refleja el objetivo de la startup para llamar la atención de posibles usuarios.
+
+<p align="center">
+  <img src="img/mockup-landing-home.png" alt="Pagina de Inicio" width="600">
+</p>
+
+_Imagen 40. Mockup Pagina Inicio_
+
+**Mockup - sección de ‘Acerca de’:** la sección tiene una imagen de fondo y tiene información sobre la problemática que queremos resolver.
+
+<p align="center">
+  <img src="img/mockup-landing-about-app.png" alt="Página Acerca de la problemática" width="600">
+</p>
+
+_Imagen 41. Mockup Pagina Acerca de_
+
+**Mockup - sección de ‘Sobre Nosotros’:** la sección tiene una imagen de fondo y tiene información sobre la startup Agrotech junto con nuestra misión y visión.
+
+<p align="center">
+  <img src="img/mockup-landing-about-us.png" alt="Pagina Sobre Nosotros" width="600">
+</p>
+
+_Imagen 42. Mockup Pagina Sobre Nosotros_
+
+**Mockup - sección de ‘Características’:** la sección tiene una imagen de fondo y tiene información sobre los servicios que ofrecemos con nuestra aplicación AgroCuy.
+
+<p align="center">
+  <img src="img/mockup-landing-features.png" alt="Pagina de Características" width="600">
+</p>
+
+_Imagen 43. Mockup Pagina de Características_
+
+**Mockup - sección de ‘Contacto’:** la sección tiene una imagen de fondo y tiene un formulario donde los usuarios potenciales pueden escribir consultas para que sean respondidas en un correo por un miembro de AgroTech.
+
+<p align="center">
+  <img src="img/mockup-landing-contact.png" alt="Pagina de Contacto" width="600">
+</p>
+
+_Imagen 44. Mockup Pagina de Contacto_
+
+## 5.4. Applications UX/UI Design
+
+### 5.4.1. Applications WireFrames
+
+### Web Application:
+
+<img src="img/wireframe-webapp-signup.png" alt="Wireframe Registro Usuario" width="600">
+<img src="img/wireframe-webapp-review.png" alt="Wireframe Reseñas" width="600">
+<img src="img/wireframe-webapp-myanimals.png" alt="Wireframe Mis Animales" width="600">
+<img src="img/wireframe-webapp-advisor.png" alt="Wireframe Página Principal Asesor" width="600">
+<img src="img/wireframe-webapp-review-animal.png" alt="Wireframe Reseña Animal" width="600">
+<img src="img/wireframe-webapp-register.png" alt="Wireframe Registro General" width="600">
+<img src="img/wireframe-webapp-register-resource.png" alt="Wireframe Registro Recurso" width="600">
+<img src="img/wireframe-webapp-no-review.png" alt="Wireframe Sin Reseña" width="600">
+<img src="img/wireframe-webapp-register-cuy.png" alt="Wireframe Registro Cuy" width="600">
+<img src="img/wireframe-webapp-advisor-notifications.png" alt="Wireframe Notificaciones Asesor" width="600">
+<img src="img/wireframe-webapp-advisor-clients.png" alt="Wireframe Clientes Asesor" width="600">
+<img src="img/wireframe-webapp-advisor-notifications-new.png" alt="Wireframe Notificaciones Nuevas" width="600">
+<img src="img/wireframe-webapp-advisor-publication.png" alt="Wireframe Publicación Asesor" width="600">
+
+### Mobile Application
+
+<img src="img/wireframe-mobile-loginandregister.png" alt="Wireframe Login y Registro Móvil" width="600">
+<img src="img/wireframe-mobile-publication.png" alt="Wireframe Publicación Móvil" width="600">
+<img src="img/wireframe-mobile-calendar.png" alt="Wireframe Calendario Móvil" width="600">
+<img src="img/wireframe-mobile-advisor.png" alt="Wireframe Página Principal Asesor" width="600">
+<img src="img/wireframe-mobile-notifications.png" alt="Wireframe Notificaciones Móvil" width="600">
+<img src="img/wireframe-mobile-dates.png" alt="Wireframe Fechas Móvil" width="600">
+<img src="img/wireframe-mobile-publication-advisor.png" alt="Wireframe Publicación Asesor" width="600">
+<img src="img/wireframes-mobile-schedule-advisor.png" alt="Wireframe Horario Asesor" width="600">
+<img src="img/wireframe-mobile-notifications-advisor.png" alt="Wireframe Notificaciones Asesor" width="600">
+<img src="img/wireframe-mobile-calendar-advisor.png" alt="Wireframe Calendario Asesor" width="600">
+
+### 5.4.2. Applications WireFlow Diagrams
+
+<img src="img/wireflow-app-usergoal1.png" alt="Wireframe User Goal 1" width="600">
+<img src="img/wireflow-app-usergoal2.png" alt="Wireframe User Goal 2" width="600">
+<img src="img/wireflow-app-usergoal3.png" alt="Wireframe User Goal 3" width="600">
+<img src="img/wireflow-app-usergoal4.png" alt="Wireframe User Goal 4" width="600">
+<img src="img/wireflow-app-usergoal5.png" alt="Wireframe User Goal 5" width="600">
+<img src="img/wireflow-app-usergoal6.png" alt="Wireframe User Goal 6" width="600">
+<img src="img/wireflow-app-usergoal7.png" alt="Wireframe User Goal 7" width="600">
+<img src="img/wireflow-app-usergoal8.png" alt="Wireframe User Goal 8" width="600">
+<img src="img/wireflow-app-usergoal9.png" alt="Wireframe User Goal 9" width="600">
+<img src="img/wireflow-app-usergoal10.png" alt="Wireframe User Goal 10" width="600">
+<img src="img/wireflow-app-usergoal11.png" alt="Wireframe User Goal 11" width="600">
+<img src="img/wireflow-app-usergoal12.png" alt="Wireframe User Goal 12" width="600">
+<img src="img/wireflow-app-usergoal13.png" alt="Wireframe User Goal 13" width="600">
+<img src="img/wireflow-app-usergoal14.png" alt="Wireframe User Goal 14" width="600">
+<img src="img/wireflow-app-usergoal15.png" alt="Wireframe User Goal 15" width="600">
+<img src="img/wireflow-app-usergoal16.png" alt="Wireframe User Goal 16" width="600">
+<img src="img/wireflow-app-usergoal17.png" alt="Wireframe User Goal 17" width="600">
+
+### 5.4.3. Applications Mock-ups.
+
+### Web Application:
+  <img src="img/mockup-webapp-signup.png" alt="Pagina de Registro" width="600">
+  <img src="img/mockup-webapp-myanimals.png" alt="Pagina de Cuy" width="600">
+  <img src="img/mockup-webapp-review.png" alt="Pagina de Reseña" width="600">
+  <img src="img/mockup-webapp-advisor.png" alt="Pagina de Asesor" width="600">
+  <img src="img/mockup-webapp-register.png" alt="Pagina de Registro" width="600">
+  <img src="img/mockup-webapp-review-advisor.png" alt="Pagina de Registro Asesor" width="600">
+  <img src="img/mockup-webapp-resource-register.png" alt="Pagina de Recurso Registro" width="600">
+  <img src="img/mockup-webapp-no-clients.png" alt="Pagina de No Clientes" width="600">
+  <img src="img/mockup-webapp-publication.png" alt="Pagina de Publicacion" width="600">
+  <img src="img/mockup-webapp-no-resources-register.png" alt="Pagina de Recursos no registrados" width="600">
+  
+### IoT Application:
+  <img src="img/mockup-iot.png" alt="Pagina de IoT" width="600">
+
+### Mobile Application:
+
+### Breeder:
+
+ <img src="img/mockup-mobile-loginandregister.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-publication.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-calendar.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-advisor.png" alt="Pagina de Criador" width="600">
+ <img src="img/mockup-mobile-notifications.png" alt="Pagina de Criador" width="600">
+ 
+<br>
+
+### Advisor:
+
+<img src="img/mockup-mobile-dates.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-publication-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-schedule-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-notifications-advisor.png" alt="Pagina de Asesor" width="600">
+<img src="img/mockup-mobile-calendar-advisor.png" alt="Pagina de Asesor" width="600">
+
+
+### 5.4.4. Applications User Flow Diagrams
+Cabe mencionar que los happy paths son representados por cuadros amarillos, mientras que los unhappy paths se identifican por los cuadros con tonalidad rojiza.
+
+Cabe mencionar que los happy paths son representados por cuadros amarillos, mientras que los unhappy paths se identifican por los cuadros con tonalidad rojiza.
+
+**Para usuario:**
+
+<img src="img/userflow1.png" alt = "userflow 1">
+
+_Imagen 88. usuario - inicio sesion_
+
+<img src="img/userflow3.png" alt = "userflow 3">
+
+_Imagen 89. usuario - recuperar contraseña_
+
+**Para asesor:**
+
+<img src="img/userflow2.png" alt = "userflow 2">
+
+_Imagen 90. asesor - registro_
+
+<img src="img/userflow4.png" alt = "userflow 4">
+
+_Imagen 91. asesor - visualizar clientes_
+
+<img src="img/userflow5.png" alt = "userflow 5">
+
+_Imagen 92. asesor - crear publicaciones_
+
+<img src="img/userflow6.png" alt = "userflow 6">
+
+_Imagen 93. asesor - recibir notificaciones_
+
+**Para criador:**
+
+<img src="img/userflow7.png" alt = "userflow 7">
+
+_Imagen 94. criador - registrar jaulas_
+
+<img src="img/userflow8.png" alt = "userflow 8">
+
+_Imagen 95. criador - registrar cuyes_
+
+<img src="img/userflow9.png" alt = "userflow 9">
+
+_Imagen 96. criador - registrar gastos_
+
+<img src="img/userflow10.png" alt = "userflow 10">
+
+_Imagen 97. criador - registrar recursos_
+
+<img src="img/userflow11.png" alt = "userflow 11">
+
+_Imagen 98. criador - modificar informacion jaulas_
+
+<img src="img/userflow12.png" alt = "userflow 12">
+
+_Imagen 99. criador - eliminar jaulas_
+
+<img src="img/userflow13.png" alt = "userflow 13">
+
+_Imagen 100. criador - ver en que jaulas pertencen cuyes_
+
+<img src="img/userflow14.png" alt = "userflow 14">
+
+_Imagen 101. criador - eliminar registro cuy_
+
+<img src="img/userflow15.png" alt = "userflow 15">
+
+_Imagen 102. criador - editar registro cuy_
+
+<img src="img/userflow16.png" alt = "userflow 16">
+
+_Imagen 103. criador - buscar asesores_
+
+<img src="img/userflow17.png" alt = "userflow 17">
+
+_Imagen 104. criador - calificar asesoria_
+
+## 5.5. Applications Prototyping
+
+A partir de los User Flows definidos en el punto anterior, se trabajó el prototipo funcional en Figma.
+<img src="img/prototipo.png" alt="Prototipo" width="600">
+
+
 # Capítulo VI Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management.
@@ -2647,9 +3247,6 @@ Las pruebas de aceptación son importantes a realizar para comprobar que los cri
 ### 6.1.2. Source Code Management.
 
 **Usuarios de GitHub**
-
-<h3>5.1.2. Source Code Management.</h3>
-<p><strong>Usuarios de GitHub</strong></p>
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -2815,54 +3412,50 @@ Así es como con este, que cada miembro podrá trabajar de forma remota desde su
 
 ### 6.2.1. Sprint 1
 
-#### 6.2.1.1. Sprint Planning 1
+#### 6.2.1.1. Sprint Planning
 
-La planificación del primer sprint se llevó a cabo mediante una reunión virtual a través de Google Meet. Durante esta sesión, el equipo discutió los objetivos clave del proyecto, priorizó las historias de usuario según su valor para el negocio y complejidad técnica, y definió la capacidad de trabajo esperada (*velocity*) para el Sprint 1.
+La planificación del primer sprint se llevó a cabo mediante una reunión virtual a través de Google Meet. Durante esta sesión, el equipo acordó los objetivos del sprint, estimó las historias de usuario y definió la capacidad de trabajo (*velocity*) para el periodo. La siguiente tabla resume la información discutida y registrada durante dicha sesión.
 
 | **Elemento** | **Detalle** |
 |--------------|-------------|
 | **Sprint #** | Sprint 1 |
-| **Sprint Planning Background** | Primera iteración del proyecto AgroCuy, centrada en desarrollar la Landing Page institucional y una versión funcional inicial del Frontend Web Application. Se priorizaron componentes visibles al usuario, flujos de asesoría, gestión animal y publicaciones. |
-| **Fecha** | 2025-05-01 |
-| **Hora** | 10:00 PM |
-| **Lugar** | Virtual (Google Meet) |
-| **Preparado por** | Lucas Coronel, Nadia Alessandra |
-| **Participantes de la reunión de planificación** | - Cuadros Rodriguez, Juan Alejandro  <br> - Jarama Peñaloza, Fiorella <br> - Lucas Coronel, Nadia Alessandra <br> - Moreno Vergara, Johan Raúl <br> - Ramírez Mendez, Sebastián Andre |
-| **Resumen del Sprint n–1 (Review)** | No aplica — este es el primer sprint del proyecto. |
-| **Resumen del Sprint n–1 (Retrospectiva)** | No aplica — este es el primer sprint del proyecto. |
-| **Sprint Goal & User Stories** | Entregar una primera versión pública del sistema AgroCuy que incluya: (1) una Landing Page estática responsiva y alineada a la identidad visual del producto, y (2) la versión inicial del Web Frontend Application con funcionalidades esenciales como visualización del catálogo de asesores, programación de citas, gestión de publicaciones, visualización y edición de animales, y gestión de recursos y gastos. Estas funcionalidades permitirán validar la propuesta de valor con usuarios reales y establecer una base sólida para los siguientes sprints. Se desarrollaron las historias de usuario desde la US01 a la US10, US11 a la US13, US15 a la US16 y US22 a la US27. |
-| **Velocidad del Sprint (Story Points esperados)** | 20 (estimación inicial), ampliado a 90 SP dada la productividad del equipo y el compromiso asumido. |
-| **Suma total de Story Points asignados** | 90 |
-
+| **Sprint Planning Background** | Planificación inicial del proyecto AgroCuy, priorizando la entrega de interfaces clave tanto en la landing page como en la primera versión funcional del frontend web. |
+| Fecha | 2025-05-01 |
+| Hora | 10:00 PM |
+| Lugar | Virtual (Google Meet) |
+| Preparado por | Lucas Coronel, Nadia Alessandra |
+| Participantes de la reunión de planificación | - Cuadros Rodríguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Méndez, Sebastián André |
+| Resumen del Sprint n–1 (Review) | No aplica — este es el primer sprint del proyecto. |
+| Resumen del Sprint n–1 (Retrospectiva) | No aplica — este es el primer sprint del proyecto. |
+| **Sprint Goal & User Stories** | Nuestro objetivo para este Sprint 1 es entregar una **primera versión de la Landing Page** y el **Frontend Web Application de AgroCuy**, que permitan comunicar de manera clara la propuesta de valor de la plataforma, facilitar la interacción entre criadores y asesores, e implementar las funcionalidades base del sistema. Esto incluirá componentes clave como Navbar, Footer, secciones informativas (Inicio, Acerca de, Características, Contacto), así como los primeros módulos de gestión de asesores, publicaciones, animales, jaulas y recursos. El éxito del sprint se evaluará mediante la validación visual, funcional y la ejecución de pruebas de aceptación automatizadas. |
+| Velocidad del Sprint (Story Points esperados) | 72 |
+| Suma total de Story Points asignados | 72 |
 
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
 
-Durante el Sprint 1, el equipo se organizó en torno a los principales aspectos funcionales definidos en el **Product Backlog** y priorizados en el **Sprint Backlog**. Para cada aspecto, se designó un miembro como **Líder (L)** responsable de la implementación y otros como **Colaboradores (C)** encargados del soporte, pruebas y mejoras.
+Durante este primer sprint, el equipo se organizó según los aspectos clave identificados en el desarrollo de la **Landing Page estática** del sistema AgroCuy. Cada aspecto (o feature) fue asignado con un miembro responsable como **líder (L)** y uno o más **colaboradores (C)** para facilitar el trabajo colaborativo, promover la responsabilidad compartida y optimizar la comunicación.
 
-Esta distribución permitió una ejecución eficiente, promoviendo la responsabilidad compartida, el aprendizaje mutuo y la trazabilidad del avance.
-
-Los aspectos cubiertos en este sprint fueron:
+Los aspectos considerados en este sprint fueron:
 
 - **Navbar & Footer**
-- **Landing Page / Sección de Inicio**
-- **Secciones informativas: Acerca De, Sobre Nosotros, Características, Contacto**
-- **Módulo de Citas (US01 - US08)**
-- **Módulo de Publicaciones (US09 - US10)**
-- **Módulo de Jaulas y Cuyes (US11 - US13)**
-- **Módulo de Recursos y Gastos (US15 - US16)**
+- **Sección de Inicio**
+- **Acerca De**
+- **Sobre Nosotros**
+- **Características**
+- **Contacto**
 
-A continuación, se presenta la matriz **Leadership-and-Collaboration (LACX)**:
+A continuación, se presenta la matriz Leadership-and-Collaboration (LACX):
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | Navbar & Footer | Landing Page & Info Sections | Módulo Citas | Módulo Publicaciones | Módulo Jaulas y Cuyes | Módulo Recursos & Gastos |
-|----------------------------------------|----------------------|------------------|------------------------------|--------------|-----------------------|------------------------|--------------------------|
-| Lucas Coronel, Nadia Alessandra        | nad21lc              | C                | L                            | C            |                       |                        | L                        |
-| Ramírez Mendez, Sebastián Andre        | yorusaurio           |                  | C                            | C            |                       | L                      | L                        |
-| Cuadros Rodriguez, Juan Alejandro      | JuanAlejandroCuadrosRodriguez |              | C                            | L            |                       |                        |                          |
-| Moreno Vergara, Johan Raúl             | JohanMV              |                  | C                            |              |                       | C                      | C                        |
-| Jarama Peñaloza, Fiorella              | Fio0407              | L                | C                            | L            | L                     |                        |                          |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Navbar & Footer** | **Inicio** | **Acerca De** | **Sobre Nosotros** | **Características** | **Contacto** |
+|----------------------------------------|----------------------|----------------------|------------|----------------|----------------------|----------------------|--------------|
+| Lucas Coronel, Nadia Alessandra        | nad21lc           | L                    | L          | C              | C                    |                      |              |
+| Ramírez Mendez, Sebastián Andre        | yorusaurio          | C                    |            | L              | C                    |                      |              |
+| Cuadros Rodriguez, Juan Alejandro      | JuanAlejandroCuadrosRodriguez          |                      |            | C              | L                    | C                    |              |
+| Moreno Vergara, Johan Raúl             | JohanMV          |                      |            |                |                      | L                    | C            |
+| Jarama Peñaloza, Fiorella              | Fio0407       |                      |            |                |                      | C                    | L            |
 
-> La matriz refleja tanto la distribución inicial como el trabajo real ejecutado. Cada miembro del equipo asumió roles clave en la entrega de componentes completos, evidenciando colaboración transversal y compromiso con los objetivos del sprint.
+> La asignación de líderes y colaboradores se alinea directamente con la distribución de tareas en el Sprint Backlog, garantizando coherencia entre la planificación y la ejecución técnica.
 
 
 #### 6.2.1.3. Sprint Backlog 1
@@ -3037,70 +3630,125 @@ A continuación, se presenta la tabla estructurada del Sprint Backlog 1, que det
       <td valign="top">Nadia Lucas</td>
       <td valign="top">Done</td>
     </tr>
-    <tr>
-      <td valign="top">US24</td>
-      <td valign="top">Visualización de la sección "Acerca De"</td>
-      <td valign="top">TS26</td><td valign="top">Mejorar diseño y contenido de la sección "Acerca De"</td>
-      <td valign="top">Se mejora el contenido de la página sobre la problemática, sobre nosotros, características y contacto.</td>
-      <td valign="top">2</td><td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
-      <td valign="top">Done</td>
-    </tr>
-    <tr>
-      <td valign="top">US25</td>
-      <td valign="top">Visualización de la sección "Sobre Nosotros"</td>
-      <td valign="top">TS27</td>
-      <td valign="top">Mejorar diseño y contenido de la sección "Sobre Nosotros"</td>
-      <td valign="top">Se mejora el diseño y contenido de la sección "Sobre Nosotros" para proporcionar información clara y concisa sobre el equipo y la misión.</td>
-      <td valign="top">2</td>
-      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td>
-      <td valign="top">Done</td>
-    </tr>
-    <tr>
-      <td valign="top">US26</td>
-      <td valign="top">Visualización de la sección "Características"</td>
-      <td valign="top">TS28</td>
-      <td valign="top">Mejorar diseño y contenido de la sección "Características"</td>
-      <td valign="top">Se mejora el diseño y contenido de la sección "Características" para resaltar las funcionalidades clave de la plataforma.</td>
-      <td valign="top">2</td>
-      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
-    </tr>
-    <tr>
-      <td valign="top">US27</td>
-      <td valign="top">Visualización de la sección "Contacto"</td>
-      <td valign="top">TS29</td>
-      <td valign="top">Mejorar diseño y contenido de la sección "Contacto"</td>
-      <td valign="top">Se mejora el diseño y contenido de la sección "Contacto" para facilitar la comunicación entre usuarios y el equipo de soporte.</td>
-      <td valign="top">1</td>
-      <td valign="top">Nadia Lucas, Johan Moreno, Fiorella Jarama, Sebastian Ramirez</td><td valign="top">Done</td>
-    </tr>
 </table>
 
 
 
-#### 6.2.1.4. Development Evidence for Sprint Review.
+### 6.2.1.4. Development Evidence for Sprint Review
 
-Durante el desarrollo del Sprint 1, se realizaron múltiples avances en el repositorio oficial de la Landing Page del sistema AgroCuy. Estos avances se documentaron a través de commits distribuidos en distintas ramas funcionales. A continuación, se detalla la evidencia de trabajo en el repositorio:
+Durante el Sprint 1, el equipo avanzó en dos frentes de desarrollo: la **Landing Page del sistema AgroCuy**, orientada a presentar la propuesta de valor del proyecto, y la **primera versión del Frontend Web Application**, que implementa la lógica funcional de las historias de usuario correspondientes.
 
-🔗 Repositorio: [Landing Page AgroCuy](https://github.com/IoT-AgroConnect/Landing-Page-Main)
+A continuación, se presentan los commits más representativos del trabajo realizado, organizados por repositorio:
 
-| **Repository** | **Branch**               | **Commit ID** | **Commit Message**                                  | **Commited on (Date)** |
-|------------------|-------------------------|----------------|----------------------------------------------------------|-----------------------|
-| AgroTech-UPC/Landing-Page | feature/header-footer   | ff5467f       | feat: Preparing the workspace                            | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/header-footer   | 965448b       | feat: Complete header and footer                         | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | f450025       | Merge pull request #1 from AgroTech-UPC/header-footer    | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | bab8888       | refactor: login button deleted & padding to main         | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/contact         | 1fdfcb2       | feat: contact page completed                             | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/contact         | 2a79c52       | fix: fixed position of footer                            | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | 1c1cab7       | Merge pull request #4 from AgroTech-UPC/feature/contact  | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/home            | 12c2b0b       | feat: home page completed                                | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | b348cf3       | Merge pull request #5 from AgroTech-UPC/feature/home     | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/about-us        | bcee2f1       | feat: about us section added                             | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | f0b57ab       | Merge pull request #7 from AgroTech-UPC/feature/about-us | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/about-app       | a0f235c       | feat: Section about-app created                          | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | feature/characteristics | 2c15c6d       | feat: features section added                             | 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | 961b6fe       | Merge pull request #8 from AgroTech-UPC/feature/about-app| 01/05/2025            |
-| AgroTech-UPC/Landing-Page | develop                | bc8aa23       | Merge pull request #10 from AgroTech-UPC/feature/characteristics | 01/05/2025      |
-| AgroTech-UPC/Landing-Page | main                   | 341ad78       | Merge pull request #11 from AgroTech-UPC/develop         | 01/05/2025            |
+---
+
+#### 🔹 Repositorio: [Landing Page AgroCuy](https://github.com/IoT-AgroConnect/Landing-Page-Main)
+
+| **Repository**                      | **Branch**               | **Commit ID** | **Commit Message**                                     | **Committed on (Date)** |
+|------------------------------------|---------------------------|----------------|----------------------------------------------------------|--------------------------|
+| IoT-AgroConnect/Landing-Page-Main  | feature/us23              | d66396a        | Merge pull request #8 from IoT-AgroConnect/feature/us23 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us23              | 87299dd        | Merge branch 'developer' into feature/us23              | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/about-app         | 7ab288d        | feat: added about-app section                           | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us25              | 72c9bf9        | feat: added about-us section and contact                | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us26-us23         | 019861c        | feat: added features section and home section           | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/iot-api-setup     | c16aaee        | feat: initial setup for IoT API integration             | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us11              | 44fbb57        | feat: added jaula registration view                     | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us01              | 3f404b3        | feat: added catalog view of advisors                    | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | developer                 | 6e19647        | Merge pull request #7 from IoT-AgroConnect/developer    | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us27              | b736b92        | Merge pull request #6 from IoT-AgroConnect/feature/us27 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us22              | 9880e9b        | Merge pull request #5 from IoT-AgroConnect/feature/us22 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/contact           | dbf8041        | feat: added contact section styles                      | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/contact           | ef55992        | feat: added contact section logic                       | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/home              | d656cea        | feat: added home section styles                         | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/home              | d889fe8        | feat: added home section logic                          | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/footer            | 1521326        | feat: added footer styles                               | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/navbar            | 2c9d256        | feat: added navbar styles                               | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/navbar            | 78926e7        | feat: added navbar logic                                | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/footer            | e1a5724        | feat: added footer                                      | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us26              | 4076edf        | Merge pull request #4 from IoT-AgroConnect/feature/us26 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us26              | 9e8b818        | feat: added features section                            | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us24              | 96e0aaa        | Merge pull request #3 from IoT-AgroConnect/feature/us24 | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us24              | 946ece5        | fix: our team description                               | 2025-05-14               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us23              | 447fed2        | Merge pull request #2 from IoT-AgroConnect/feature/us23 | 2025-05-13               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us23              | c062114        | feat: added home section                                | 2025-05-13               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us25              | 2fdf6b4        | Merge pull request #1 from IoT-AgroConnect/feature/us25 | 2025-05-13               |
+| IoT-AgroConnect/Landing-Page-Main  | feature/us25              | a6bc2c7        | feat: added about-us section                            | 2025-05-13               |
+
+
+---
+
+#### 🔹 Repositorio: [Frontend Web Application AgroCuy](https://github.com/IoT-AgroConnect/Frontend-Web-Application)
+
+| **Repository** | **Branch**                    | **Commit ID** | **Commit Message**                                                             | **Committed on (Date)** |
+|----------------|-------------------------------|---------------|---------------------------------------------------------------------------------|--------------------------|
+| Frontend-Web-Application | feature/us11                | 7a2b8fa      | feat: implement edit functionality for cage information                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us11                | f6f1a9d      | feat: improve formatting and readability of cage list component template        | 14/05/2025               |
+| Frontend-Web-Application | feature/us15                | 1122cdc      | feat(resource): implement components to manage and register farm resources      | 14/05/2025               |
+| Frontend-Web-Application | feature/us15                | eb97f36      | feat(expense): implement components to manage and register farm expenses        | 14/05/2025               |
+| Frontend-Web-Application | feature/us13                | 89e633e      | feat: implement animal detail and edit form with dynamic binding and actions    | 14/05/2025               |
+| Frontend-Web-Application | feature/us13                | 3492155      | Merge branch 'feature/us13' into develop                                        | 14/05/2025               |
+| Frontend-Web-Application | feature/us12                | e8a61fc      | feat: validate cage existence before updating animal information                | 14/05/2025               |
+| Frontend-Web-Application | feature/us12                | ae481b3      | feat: agregar documentación del componente MyFarmResourceManagement             | 14/05/2025               |
+| Frontend-Web-Application | feature/us13                | 832109e      | Merge: resolve conflict and merge feature/us13 into develop                     | 14/05/2025               |
+| Frontend-Web-Application | feature/us13                | 5e9b13a      | feat: map gender and health status to string values for form compatibility      | 14/05/2025               |
+| Frontend-Web-Application | feature/us15                | 8ea1e34      | Merge branch 'feature/us15' into develop                                        | 14/05/2025               |
+| Frontend-Web-Application | feature/us16                | d9c465d      | Merge branch 'feature/us16' into develop                                        | 14/05/2025               |
+| Frontend-Web-Application | feature/us12                | 6c1b13d      | Merge pull request #6 from IoT-AgroConnect/feature/us12                         | 14/05/2025               |
+| Frontend-Web-Application | develop                     | 5241bb8      | Merge branch 'develop' into develop                                             | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | 95d3ed6      | feat: implement advisor profile view with detailed information and review       | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | 59416b7      | feat: implement dynamic star rating display for advisor profile                 | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | 8fb0666      | feat: Add advisor about us                                                      | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | 629f1e7      | feat: display detailed advisor information in card view                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us08                | ade4eef      | Merge pull request #7 from IoT-AgroConnect/feature/us08                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us02                | 005cd40      | feat: Add Component                                                             | 14/05/2025               |
+| Frontend-Web-Application | feature/us02                | db73423      | feat: Add getAdvisor()                                                          | 14/05/2025               |
+| Frontend-Web-Application | feature/us02                | 5cdabe1      | Merge pull request #8 from IoT-AgroConnect/feature/us02                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us02                | 9afcd8d      | feat: Add schedule                                                              | 14/05/2025               |
+| Frontend-Web-Application | feature/us03                | 5c52ee2      | feat: Add valid Date Validator                                                  | 14/05/2025               |
+| Frontend-Web-Application | feature/us03                | ceb420f      | feat: Add method abailable date                                                 | 14/05/2025               |
+| Frontend-Web-Application | feature/us03                | 0196f58      | Merge pull request #9 from IoT-AgroConnect/feature/us03                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us03                | ac9c3ef      | fix: Document add availability schedule                                         | 14/05/2025               |
+| Frontend-Web-Application | feature/us04                | 2588040      | feat: Date service                                                              | 14/05/2025               |
+| Frontend-Web-Application | feature/us04                | 0080c1a      | Service in the root injector                                                    | 14/05/2025               |
+| Frontend-Web-Application | feature/us04                | b82652d      | feat: Service extends the base service                                          | 14/05/2025               |
+| Frontend-Web-Application | feature/us04                | 9870b64      | Merge pull request #10 from IoT-AgroConnect/feature/us04                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us05              | e3791e4       | feat: Add getFarmById() method                                                  | 14/05/2025               |
+| Frontend-Web-Application  | feature/us05              | b6c90da       | feat: create view for breeder farm info                                         | 14/05/2025               |
+| Frontend-Web-Application  | feature/us05              | cccaa3b       | Merge pull request #11 from IoT-AgroConnect/feature/us05                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us06              | 2b39ed7       | feat: Notification model created                                                | 14/05/2025               |
+| Frontend-Web-Application  | feature/us06              | 0d6c60e       | feat: created notification view                                                 | 14/05/2025               |
+| Frontend-Web-Application  | feature/us06              | d801b5c       | Merge pull request #12 from IoT-AgroConnect/feature/us06                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us07              | 473860f       | feat: Notification for breeder                                                  | 14/05/2025               |
+| Frontend-Web-Application  | feature/us07              | b0a8764       | feat: Notification delete breeder                                               | 14/05/2025               |
+| Frontend-Web-Application  | feature/us07              | b4fa369       | Merge pull request #13 from IoT-AgroConnect/feature/us07                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us09              | 18063b1       | feat: Publication component created                                             | 14/05/2025               |
+| Frontend-Web-Application  | feature/us09              | 7f5e7ad       | feat: add remove publication logic                                              | 14/05/2025               |
+| Frontend-Web-Application  | feature/us09              | 423ebc3       | Merge pull request #14 from IoT-AgroConnect/feature/us09                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us10              | e7c8e93       | feat: visualizer for publications                                               | 14/05/2025               |
+| Frontend-Web-Application  | feature/us10              | 6e521f2       | Merge pull request #15 from IoT-AgroConnect/feature/us10                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us01              | 2ea70e4       | feat: catalog component created                                                 | 14/05/2025               |
+| Frontend-Web-Application  | feature/us01              | 8bdc9e3       | feat: fetch advisors for criador                                                | 14/05/2025               |
+| Frontend-Web-Application  | feature/us01              | b0d23cb       | Merge pull request #16 from IoT-AgroConnect/feature/us01                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us13              | 9c7b2ae       | feat: view/edit animal info with dynamic form binding                           | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | 9c4570f       | feat: animal management UI implemented for cage detail view                     | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | cbe93ae       | feat: add form validation for cage registration                                 | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | 410f437       | feat: delete cage functionality added                                           | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | 8fcaf64       | feat: update cage view with new features                                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | c446b34       | feat: list and filter cages for breeder                                         | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | f1c3c6a       | feat: component for cage registration implemented                               | 14/05/2025               |
+| Frontend-Web-Application  | feature/us11              | 1f9959c       | Merge pull request #17 from IoT-AgroConnect/feature/us11                        | 14/05/2025               |
+| Frontend-Web-Application  | feature/us13              | 78b13c6       | fix: responsive form updates for animal detail                                  | 14/05/2025               |
+| Frontend-Web-Application  | feature/us13              | 3142f51       | Merge pull request #18 from IoT-AgroConnect/feature/us13                        | 14/05/2025               |
+| Frontend-Web-Application  | develop                   | 7c56a03       | Merge pull request #19 from IoT-AgroConnect/develop                             | 14/05/2025               |
+| Frontend-Web-Application  | main                      | 49b8d77       | Merge pull request #20 from IoT-AgroConnect/main                                | 14/05/2025               |
+| Frontend-Web-Application  | main                      | 6f1d5f4       | chore: updated readme and project structure for delivery                        | 14/05/2025               |
+| Frontend-Web-Application  | main                      | b70df1c       | refactor: applied code formatting and naming consistency                        | 14/05/2025               |
+
+
+> Todos los commits registrados permiten evidenciar el cumplimiento de los objetivos del Sprint 1, así como la correcta trazabilidad de cada historia de usuario implementada en la **Landing Page del sistema AgroCuy** y en la **primera versión del Frontend Web Application**.
+
+
+---
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
@@ -3236,23 +3884,14 @@ Además de la landing page, se implementaron funcionalidades adicionales corresp
 <p style="text-align:center"><em>Imagen 134. Vista general del sistema web funcional</em></p>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review. 
-
-En este primer sprint, no hemos trabajado con servicios web, ya que nos hemos concentrado exclusivamente en la creación del Landing Page estático. Es por ello que en esta ocasión, no se trabajó la documentación relacionada con el uso de servicios web.
-
-Una vez acabamos de trabajar con todas las historias de usuario, realizamos el deployment del Landing Page utilizando GitHub Pages.
-
-URL de deployment de Landing Page: https://iot-agroconnect.github.io/home.html
-
-<img src="./img/landing_page_0.png" alt="Vista de Landing Page" width="100%"> <br>
-
-<img src="./img/landing_page_1.png" alt="Vista de Landing Page" width="100%">
+El alcance de este primer sprint ha priorizado el desarrollo de la parte de Front-end de la aplicación web y de la landing page estática, por lo que en este caso no se evidencia el empleo de web services.
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review. 
 Una vez acabamos de trabajar con todas las historias de usuario, realizamos el deployment del Landing Page y el Front-end web application.
 
 **Landing Page:**
 
-URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/home.html
+URL de deployment de Landing Page: https://iot-agroconnect.github.io/Landing-Page-Main/about-us.html
 
 Para lograr hacer el deployment, entramos a la configuración del repositorio y a la sección de Pages. Luego, debemos seleccionar la rama sobre la cual se hará el deployment.
 
@@ -3272,6 +3911,8 @@ Finalmente, solo se espera a que GitHub cree la página y nos brinde el enlace.
 <p style="text-align:center"><em>Imagen 137. github - pages - 4</em></p>
 
 **Front-end web:**
+
+Url: Despliegue del Front-end: https://agrocuy-webapp.web.app/login
 Primero, se utilizó el comando ng build para crear la carpeta dist, la cual sirve para realizar el deployment en Firebase.
 
 <img src="img/deploymentfront1.png" width="100%">
@@ -3290,11 +3931,708 @@ Se instaló firebase-tools dentro del proyecto, y luego se inició sesión.
 <img src="img/deployment5.png" width="100%">
 <p style="text-align:center"><em>Imagen 141. DeployFront - pages - 4</em></p>
 
+Se crea el proyecto Firebase en el cual se guardará todos los archivos, el cual le pusimos como nombre agroconnect-demo, y Se ejecuta el comando para instalar @angular/fire.
+
+<img src="img/deployment7.png" width="100%">
+<p style="text-align:center"><em>Imagen 142. DeployFront - pages - 5</em></p>
+
+Se selecciona la opción ng deploy -- hosting.
+<img src="img/deployment8.png" width="100%">
+<p style="text-align:center"><em>Imagen 143. DeployFront - pages - 6</em></p>
+
+Se selecciona el proyecto y se crea el enlace donde se aloja el proyecto
+<img src="img/deployment9.png" width="100%">
+<p style="text-align:center"><em>Imagen 143. DeployFront - pages - 7</em></p>
+
+Se usa el comando ng deploy para deployear la aplicación
+<img src="img/deployment11.png" width="100%">
+<p style="text-align:center"><em>Imagen 144. DeployFront - pages - 8</em></p>
+
+<img src="img/deployment12.png" width="100%">
+<p style="text-align:center"><em>Imagen 145. DeployFront - pages - 9</em></p>
+
+Finalmente, logramos acceder a nuestra aplicación deployada.
+<img src="img/deployment14.png" width="100%">
+<p style="text-align:center"><em>Imagen 146. DeployFront - pages - 10 </em></p>
+
+https://frontend-web-application-delta.vercel.app/login
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
-En la elaboración de la landing page, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
+En la elaboración de la landing page y el front-end, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
 
-<img src="./img/landing_Insight.png" alt="Vista de Landing Page" width="100%">
+Landing Page
+<img src="img/sprint2-insightlading.PNG" width="100%">
+
+Front-End
+<img src="img/sprint1-insightfront.PNG" width="100%">
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning
+
+La planificación del segundo sprint se realizó de manera virtual mediante Google Meet. En esta sesión, el equipo acordó entregar la versión final del Landing Page y del Frontend Web Application de AgroCuy, así como implementar la **primera versión del aplicativo móvil** para criadores y asesores y entregar el **primer prototipo funcional del sistema IoT** para gestión de jaulas inteligentes.
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 2 |
+| **Sprint Planning Background** | Segunda iteración del proyecto AgroCuy, con foco en cerrar la experiencia digital en web, integrar la arquitectura IoT, y entregar la primera versión usable de la aplicación móvil. |
+| **Fecha** | 2025-05-21 |
+| **Hora** | 9:00 PM |
+| **Lugar** | Virtual (Google Meet) |
+| **Preparado por** | Lucas Coronel, Nadia Alessandra |
+| **Participantes de la reunión de planificación** | - Cuadros Rodríguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Méndez, Sebastián André |
+| **Resumen del Sprint n–1 (Review)** | Se entregó exitosamente una versión funcional y responsiva del Landing Page y Frontend Web App, incluyendo navegación, catálogo de asesores, citas y visualización de recursos. Se validó funcional y visualmente con pruebas automatizadas. |
+| **Resumen del Sprint n–1 (Retrospectiva)** | El equipo identificó como mejora la necesidad de **integrar pruebas de UI en la app móvil**, mejorar documentación técnica desde el inicio del sprint y avanzar con mayor paralelismo entre frontend y backend. |
+| **Sprint Goal & User Stories** | El objetivo de este Sprint 2 es entregar la **versión final del Landing Page** y el **Frontend Web Application**, **la primera versión operativa del Mobile App**, y un **prototipo funcional IoT** (Edge + Dispositivo físico). El éxito del sprint será evaluado mediante pruebas funcionales en dispositivos físicos, validaciones de usuario en entorno móvil y pruebas de lectura y alerta desde sensores reales conectados a jaulas. |
+| **Velocidad del Sprint (Story Points esperados)** | 168 |
+| **Suma total de Story Points asignados** | 168 |
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+Durante el segundo sprint, el equipo se reorganizó para abarcar aspectos más amplios y complejos del sistema AgroCuy, incluyendo el refinamiento del Landing Page, la consolidación del Frontend Web Application, el desarrollo inicial del Mobile App y la integración del prototipo IoT (sistema de sensores y notificaciones desde jaulas conectadas).
+
+La distribución de liderazgo y colaboración por aspecto se presenta en la siguiente tabla:
+
+| **Team Member (Last Name, First Name)**       | **GitHub Username**        | **Landing Page Final** | **Frontend Web Final** | **Mobile App v1** | **IoT Prototype** | **Pruebas Automatizadas** | **Validación Usuario** |
+|----------------------------------------------|-----------------------------|--------------------------|-------------------------|-------------------|-------------------|----------------------------|-------------------------|
+| Lucas Coronel, Nadia Alessandra              | nad21lc                    | C                        | L                       | C                 |                   |                            | L                       |
+| Ramírez Méndez, Sebastián André              | yorusaurio                 | L                        | C                       | L                 | C                 |                            | C                       |
+| Cuadros Rodríguez, Juan Alejandro            | JuanAlejandroCuadrosRodriguez |                        | C                       | C                 | L                 |                            | C                       |
+| Moreno Vergara, Johan Raúl                   | JohanMV                    |                          | C                       | C                 | L                 | C                          | L                       |
+| Jarama Peñaloza, Fiorella                    | Fio0407                    | C                        | C                       |                   |                   | L                          |                         |
+
+> Esta distribución asegura cobertura de todos los aspectos clave en el Sprint 2, optimizando la colaboración entre miembros y alineando responsabilidades con los objetivos establecidos. La incorporación del prototipo IoT y la app móvil exigió una asignación técnica más específica, reforzada con validaciones funcionales y de usuario.
+
+
+#### 6.2.2.3. Sprint Backlog
+
+El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y sistema Embebido. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
+<https://trello.com/b/VboaXtwW/sprint-backlog-2>
+<img src="img/sprint-backlog-2.png" width="100%">
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" valign="top">US02</td><td colspan="1" valign="top">Visualización de información de un asesor</td><td colspan="1" valign="top">TS01</td><td colspan="1" valign="top">Mejorar estilos en la página de información del asesor</td><td colspan="1" valign="top">Mejorar los estilos CSS en la página de información del asesor.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Nadia Lucas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US04</td><td colspan="1" valign="top">Programación de citas con asesores</td><td colspan="1" valign="top">TS02</td><td colspan="1" valign="top">Mejorar estilos en mensaje de confirmación de cita</td><td colspan="1" valign="top">Mejorar los estilos CSS en el mensaje de confirmación de cita reservada para el criador.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Johan Romero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US05</td><td colspan="1" valign="top">Visualización de información del criador de cuyes</td><td colspan="1" valign="top">TS03</td><td colspan="1" valign="top">Mejorar estilo para la visualización de los clientes del asesor</td><td colspan="1" valign="top">Mejorar los estilos CSS para la vista de clientes (criadores) para la vista del asesor.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US10</td><td colspan="1" rowspan="2" valign="top">Visualización de publicaciones de asesores</td><td colspan="1" valign="top">TS04</td><td colspan="1" valign="top">Implementación de página para visualizar publicaciones</td><td colspan="1" valign="top">Implementar la página para que los criadores puedan visualizar las publicaciones de asesores.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Juan Cuadros</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS05</td><td colspan="1" valign="top">Agregar botón para ir al perfil del asesor</td><td colspan="1" valign="top">Agregar un botón debajo de la publicación que redireccione al perfil del asesor.</td><td colspan="1" valign="top">Juan Cuadros</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US11</td><td colspan="1" valign="top">Gestión de jaula de cuyes</td><td colspan="1" valign="top">TS06</td><td colspan="1" valign="top">Reubicación de opción de registro de jaulas</td><td colspan="1" valign="top">Se mueve la opción de registro de jaulas dentro del componente de la vista Mi Granja</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastián Ramirez</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US13</td><td colspan="1" valign="top">Visualización y edición de información de animales</td><td colspan="1" valign="top">TS07</td><td colspan="1" valign="top">Mejorar estilos en la página de la vista de edición de animales</td><td colspan="1" valign="top">Mejorar los estilos CSS en la página de visualización y edición de animales.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US14</td><td colspan="1" valign="top">Separar fechas disponibles para asesoría</td><td colspan="1" valign="top">TS08</td><td colspan="1" valign="top">Implementación de componente para colocar fechas disponibles de asesoría</td><td colspan="1" valign="top">Implementar la componente para que el asesor pueda agregar sus horarios disponibles para ofrecer asesorías.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastián Ramirez</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">US15</td><td colspan="1" rowspan="3" valign="top">Gestión de recursos</td><td colspan="1" valign="top">TS09</td><td colspan="1" valign="top">Agregar Botón de Edición e Implementar Apartado Aislado de Edición</td><td colspan="1" valign="top">Agregar un botón de edición a cada recurso e implementar una interfaz aislada que se active al hacer clic en el botón de edición, donde los usuarios puedan realizar cambios y guardarlos.</td><td colspan="1" rowspan="3" valign="top">5</td><td colspan="1" valign="top">Nadia Lucas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS10</td><td colspan="1" valign="top">Agregar botón de eliminación de recurso</td><td colspan="1" valign="top">Agregar un botón de eliminación a cada recurso, permitiendo a los usuarios eliminar recursos individualmente.</td><td colspan="1" valign="top">Johan Romero</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS11</td><td colspan="1" valign="top">Mejorar el diseño de la ruta “Mi Granja” en la vista del criador</td><td colspan="1" valign="top">Realizar mejoras en el maquetado del HTML y los estilos de la vista principal para mejorar la experiencia del usuario.</td><td colspan="1" valign="top">Sebastian Ramirez</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">US16</td><td colspan="1" rowspan="4" valign="top">Gestión de gastos</td><td colspan="1" rowspan="2" valign="top">TS12</td><td colspan="1" rowspan="2" valign="top">Mejorar el diseño de la ruta “Mi Granja” en la vista del criador</td><td colspan="1" rowspan="2" valign="top">Realizar mejoras en el maquetado del HTML y los estilos de la vista principal para mejorar la experiencia del usuario.</td><td colspan="1" rowspan="4" valign="top">5</td><td colspan="1" rowspan="2" valign="top">Sebastian Ramirez</td><td colspan="1" rowspan="2" valign="top">Done</td></tr>
+<tr></tr>
+<tr><td colspan="1" valign="top">TS13</td><td colspan="1" valign="top">Agregar Botón de Edición e Implementar Apartado Aislado de Edición</td><td colspan="1" valign="top">Agregar un botón de edición a cada gasto e implementar una interfaz aislada que se active al hacer clic en el botón de edición, donde los usuarios puedan realizar cambios y guardarlos.</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS14</td><td colspan="1" valign="top">Agregar botón de eliminación de gasto</td><td colspan="1" valign="top">Agregar un botón de eliminación a cada gasto, permitiendo a los usuarios eliminar gastos individualmente.</td><td colspan="1" valign="top">Nadia Lucas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US19</td><td colspan="1" rowspan="2" valign="top">Registro de un usuario nuevo</td><td colspan="1" valign="top">TS15</td><td colspan="1" valign="top">Implementación de componente para registrar un criador</td><td colspan="1" valign="top">Implementar el componente para registrar a un criador nuevo dentro de la aplicación.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Juan Cuadros</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS16</td><td colspan="1" valign="top">Implementación de componente para registrar un asesor</td><td colspan="1" valign="top">Implementar el componente para registrar un asesor nuevo dentro de la aplicación.</td><td colspan="1" valign="top">Juan Cuadros</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US20</td><td colspan="1" valign="top">Inicio de sesión</td><td colspan="1" valign="top">TS17</td><td colspan="1" valign="top">Implementación de página para iniciar sesión</td><td colspan="1" valign="top">Implementar la página para iniciar sesión dentro de la aplicación, validando los datos ingresados.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US21</td><td colspan="1" valign="top">Recuperación de contraseña</td><td colspan="1" valign="top">TS18</td><td colspan="1" valign="top">Implementación de página para recuperar contraseña</td><td colspan="1" valign="top">Implementar la página para recuperar la contraseña en caso el usuario la olvide.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Juan Cuadros</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">US29</td><td colspan="1" rowspan="1" valign="top">Uso de API para subir imágenes (Firebase)</td><td colspan="1" valign="top">TS19</td><td colspan="1" valign="top">Implementación de protocolos HTTP para subir imágenes</td><td colspan="1" valign="top">Se integra la API de Firebase para permitir a los usuarios subir y visualizar imágenes de perfil o publicaciones.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Juan Cuadros</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US31</td><td colspan="1" valign="top">Visualización de calendario</td><td colspan="1" valign="top">TS20</td><td colspan="1" valign="top">Implementación de página para visualizar el calendario</td><td colspan="1" valign="top">Implementar la página que muestra el calendario con las citas programadas para el usuario.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Johan Moreno</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US32</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para gestionar usuarios</td><td colspan="1" valign="top">TS21</td><td colspan="1" valign="top">Implementación de protocolos HTTP para usuarios</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los usuarios (criadores y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS22</td><td colspan="1" valign="top">Implementación de protocolos HTTP para notificaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las notificaciones dentro de nuestra API.</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US33</td><td colspan="1" valign="top">Uso de nuestra API para gestionar publicaciones</td><td colspan="1" valign="top">TS23</td><td colspan="1" valign="top">Implementación de protocolos HTTP para publicaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las publicaciones dentro de nuestra API.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Juan Cuadros</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US34</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para manejar recursos y gastos</td><td colspan="1" valign="top">TS24</td><td colspan="1" valign="top">Implementación de protocolos HTTP para recursos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los recursos dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Nadia Lucas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS25</td><td colspan="1" valign="top">Implementación de protocolos HTTP para gastos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los gastos dentro de nuestra API.</td><td colspan="1" valign="top">Juan Cuadros</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">US35</td><td colspan="1" rowspan="3" valign="top">Uso de nuestra API para manejar la reserva de citas entre asesores y criadores</td><td colspan="1" valign="top">TS26</td><td colspan="1" valign="top">Implementación de protocolos HTTP para citas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las citas de asesorías dentro de nuestra API.</td><td colspan="1" rowspan="3" valign="top">5</td><td colspan="1" valign="top">Sebastián Ramirez, Johan Moreno</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS27</td><td colspan="1" valign="top">Implementación de protocolos HTTP para horarios disponibles</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los horarios disponibles de los asesores dentro de nuestra API.</td><td colspan="1" valign="top">Sebastián Ramirez</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS28</td><td colspan="1" valign="top">Implementación de protocolos HTTP para reseñas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las reseñas sobre los asesores dentro de nuestra API.</td><td colspan="1" valign="top">Johan Moreno</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US36</td><td colspan="1" rowspan="2" valign="top">Uso de la API para manejar el registro de jaulas y animales </td><td colspan="1" valign="top">TS29</td><td colspan="1" valign="top">Implementación de protocolos HTTP para jaulas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las jaulas dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS30</td><td colspan="1" valign="top">Implementación de protocolos HTTP para animales</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los animales dentro de nuestra API.</td><td colspan="1" valign="top">Nadia Lucas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">US37</td><td colspan="1" rowspan="1" valign="top">Integración con API para monitorear sensores de granja (IoT)</td><td colspan="1" valign="top">TS31</td><td colspan="1" valign="top">Implementación de integración con sensores IoT</td><td colspan="1" valign="top">Se implementa la conexión con la API de sensores para recibir datos ambientales en tiempo real.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">US38</td><td colspan="1" rowspan="1" valign="top">Recepción de alertas cuando los parámetros ambientales exceden los rangos aceptables</td><td colspan="1" valign="top">TS32</td><td colspan="1" valign="top">Implementación de alertas automáticas por parámetros ambientales</td><td colspan="1" valign="top">El sistema detecta cuando un valor excede el límite configurado y genera una notificación inmediata.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Johan Moreno</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">US40</td><td colspan="1" rowspan="1" valign="top">Configuración personalizada por el criador de los rangos aceptables</td><td colspan="1" valign="top">TS33</td><td colspan="1" valign="top">Implementación de configuración personalizada de rangos ambientales</td><td colspan="1" valign="top">Se implementa la funcionalidad que permite al criador establecer los valores límite personalizados de temperatura, humedad, CO₂ y agua.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Johan Moreno</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">US41</td><td colspan="1" rowspan="1" valign="top">Detección automática de agua en mal estado o escasez</td><td colspan="1" valign="top">TS34</td><td colspan="1" valign="top">Implementación de alerta por agua en mal estado o escasa</td><td colspan="1" valign="top">Se integra la lógica para detectar automáticamente escasez o mala calidad del agua y generar una alerta al criador.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Fiorella Jarama</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">US42</td><td colspan="1" rowspan="1" valign="top">Activación y programación de dispensación automática de alimento</td><td colspan="1" valign="top">TS35</td><td colspan="1" valign="top">Implementación de programación de dispensación automática de alimento</td><td colspan="1" valign="top">Se permite al criador establecer horarios de alimentación automatizada, y el sistema activa el dispensador en dichos horarios.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Sebastián Ramírez</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo centró sus esfuerzos en consolidar las funcionalidades principales de la aplicación móvil **AgroCuy**, con el objetivo de ofrecer una experiencia fluida e intuitiva para criadores de cuyes. Este sprint tuvo como foco el desarrollo del módulo de agendamiento de citas con asesores, así como mejoras significativas en la estructura de navegación, el diseño visual y la persistencia de sesión de usuario.
+
+Las tareas priorizadas se alinearon con el objetivo del sprint: **validar y optimizar la interacción básica entre criadores y asesores dentro de la app móvil**, sentando las bases de una experiencia de usuario clara, funcional y escalable. Se avanzó también en la integración de componentes visuales y en la conexión con servicios Firebase para el control de autenticación, lo que permite una gestión segura de accesos desde el inicio.
+
+A continuación, se presentan las evidencias del desarrollo correspondiente a este sprint, incluyendo capturas de pantalla, fragmentos de código y validaciones funcionales sobre el cumplimiento de las historias de usuario planteadas.
+
+#### 🔹 Repositorio: [Mobile App AgroCuy](https://github.com/IoT-AgroConnect/AgroCuy-mobileApp)
+
+| **Repository**                      | **Branch**     | **Commit ID** | **Commit Message**                                                                 | **Committed on (Date)** |
+|------------------------------------|----------------|----------------|--------------------------------------------------------------------------------------|--------------------------|
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us16   | deedfa8        | merge: integrar feature/us16 con gestión local de recursos y gastos usando SharedPreferences | 2025-06-19               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us16   | f74deae        | feat: SharedPreferences - Recursos & Gastos                                         | 2025-06-19               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | e6b3a9b        | style: format code for improved readability in JaulaDetailScreen                    | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 628354a        | feat: enhance JaulaDetailScreen with IoT device status and humidity monitoring features | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 54e2c7c        | feat: refactor schedule data source and presentation logic; add JaulaDetailScreen for managing cuyes with IoT monitoring features | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 0fe4740        | feat: Implement schedule management feature with remote data source feedback for schedule operations. | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 8512d15        | feat: calendar screen advisor implemented.                                          | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | a3c5b2e        | feat: add CalendarScreenAdvisor for advisor-specific calendar functionality         | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | a2c8b13        | feat: add ConfigurationScreen for user settings management and preferences          | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 9f8d7cb        | feat: enhance CalendarScreen with detailed event management and improved UI         | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | c19ec7b        | feat: add JaulaDetailScreen and JaulaFormScreen for managing cages and cuyes        | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | abb9c89        | feat: pass user details to GranjaHomeView and NotificationScreen for enhanced role-based functionality | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 64892d5        | feat: add popup menu to app bar and enhance user drawer with role-based navigation  | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | f29b047        | fix: updated appointment name and navigation in breeder drawer                      | 2025-06-17               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 1c65367        | feat: calendar                                                                      | 2025-06-16               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 915d21c        | fix: register of breeder and advisor                                                | 2025-06-06               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | b34d549        | fix: fixed error with login token                                                   | 2025-06-06               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 1ebec07        | fix: upload image for register (advisor)                                            | 2025-06-05               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us31   | 695fd2         | Merge pull request #6 from IoT-AgroConnect/feature/us31                             | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us31   | b58cfe3        | Merge branch 'develop' into feature/us31                                            | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 0e9cb8a        | feat: update main app to use LoginScreen instead of CalendarScreen                  | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 766b54c        | feat(us16): integración de vista granja con rutas de assets corregidas              | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 4dc2e2b        | Corrige rutas de imágenes y overflow en GranjaHomeView (US16)                       | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 9ad33b6        | feat(us16): added granja home view and expenses module                              | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | 68151bd        | feat(us15): gestión de recursos de la granja (formulario y lista)                   | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us35   | 6db88bc        | Merge pull request #5 from IoT-AgroConnect/feature/us35                             | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us35   | 58faf69        | Merge branch 'develop' into feature/us35                                            | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | 4b32b9e        | Merge pull request #3 from IoT-AgroConnect/feature/us06                             | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | e9cc1fc        | feat: available date picking                                                        | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | aabe945        | feat: available date cards                                                          | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | afb6253        | feat: available date model & data source                                            | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | feature/us06   | 74e980d6       | feat: added search bar & available dates btn                                        | 2025-06-04               |
+| IoT-AgroConnect/AgroCuy-mobileApp  | develop        | db55fef        | feat: advisor list & detail                                                         | 2025-06-03               |
+
+
+Todos los commits registrados permiten evidenciar el cumplimiento de los objetivos establecidos para el Sprint 2, demostrando avances clave en la funcionalidad y experiencia de usuario de la **aplicación móvil AgroCuy**. Se logró implementar la gestión de calendarios y agendamiento de citas, integración con sensores IoT para monitoreo de jaulas, así como la persistencia de datos locales mediante SharedPreferences. Además, se fortaleció la navegación basada en roles y se mejoró la configuración visual de múltiples pantallas. Cada historia de usuario abordada presenta trazabilidad directa con su respectivo commit, asegurando coherencia y control del progreso del desarrollo.
+
+----
+
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 2, se continuó con la implementación de pruebas de aceptación automatizadas para validar el comportamiento esperado de las funcionalidades críticas en la aplicación móvil **AgroCuy**. Estas pruebas se formularon utilizando el lenguaje **Gherkin** y fueron registradas en archivos `.feature`, permitiendo validar los criterios de aceptación definidos para las historias de usuario priorizadas en este sprint.
+
+Las pruebas se enfocaron principalmente en escenarios de interacción entre criadores y asesores, gestión de horarios, visualización de jaulas con sensores IoT, y configuración de preferencias del usuario. Esta estrategia de testing busca asegurar la correcta funcionalidad de los flujos clave desde la perspectiva del usuario, promoviendo calidad continua en el desarrollo.
+
+🔗 Repositorio: [Acceptance Tests - AgroCuy](https://github.com/IoT-AgroConnect/Acceptance-Tests)
+
+Pruebas Unitarias. 
+<img src="img/pruebas_unitarias.png" width="50%">
+<img src="img/pruebas_unitarias2.png" width="50%">
+
+Pruebas de Integracion: 
+<img src="img/pruebas_integracion.png" width="50%">
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+Como parte de la evaluación del Sprint 2, se presenta la evidencia visual del entregable correspondiente al **prototipo funcional de la aplicación móvil AgroCuy**. Esta versión incluye múltiples funcionalidades dirigidas a criadores y asesores, integrando componentes IoT, gestión de recursos, y experiencias personalizadas según el rol del usuario.
+
+Enlace del front-end desplegado: https://agroconnect-demo-55dae.web.app/login
+
+---
+
+### 🔹 Gestión de Jaulas y Sensores IoT
+
+Se implementó una vista detallada por jaula, permitiendo a los criadores visualizar el estado en tiempo real de los sensores conectados (como humedad). Además, se incluye un componente visual intuitivo con cards individuales por jaula.
+
+<div style="text-align:center">
+  <img src="img/evidence_jaula_1.png" width="50%">
+  <p><em>Imagen 201. Estado de sensores IoT en jaula</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_jaula_2.png" width="50%">
+  <p><em>Imagen 202. Vista de detalle con nivel de humedad</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_jaula_3.png" width="50%">
+  <p><em>Imagen 203. Vista de detalle de los cuyes en la jaula</em></p>
+</div>
+
+---
+
+### 🔹 Gestión de Calendario y Citas
+
+Se integró una pantalla de calendario con eventos dinámicos. Se pueden ver y agendar citas entre criadores y asesores, incluyendo vista personalizada para asesores técnicos.
+
+<div style="text-align:center">
+  <img src="img/evidence_calendar_1.png" width="50%">
+  <p><em>Imagen 204. Calendario con eventos y agendamiento</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_calendar_2.png" width="50%">
+  <p><em>Imagen 205. Vista de calendario de asesor técnico</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_calendar_3.png" width="50%">
+  <p><em>Imagen 206. Vista de cita asesor técnico</em></p>
+</div>
+
+
+---
+
+### 🔹 Recursos y Gastos
+
+El módulo de recursos permite registrar y listar materiales, mientras que el módulo de gastos asocia recursos a transacciones simples. La persistencia local se implementó con SharedPreferences.
+
+<div style="text-align:center">
+  <img src="img/evidence_recursos_1.png" width="50%">
+  <p><em>Imagen 207. Pantalla de mi granja de criador</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_recursos_2.png" width="50%">
+  <p><em>Imagen 208. Registro de recursos de la granja</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_gastos_1.png" width="50%">
+  <p><em>Imagen 209. Registro de gastos relacionados</em></p>
+</div>
+
+
+---
+
+### 🔹 Configuración del Usuario y Drawer Personalizado
+
+Se implementó una pantalla de configuración para el usuario logueado, así como un menú lateral contextualizado según el tipo de rol (criador o asesor), permitiendo acceso a funciones específicas según el perfil.
+
+<div style="text-align:center">
+  <img src="img/evidence_user_drawer.png" width="50%">
+  <p><em>Imagen 210. Drawer dinámico según rol del usuario</em></p>
+</div>
+
+<div style="text-align:center">
+  <img src="img/evidence_config_screen.png" width="50%">
+  <p><em>Imagen 211. Pantalla de configuración personal</em></p>
+</div>
+
+---
+
+### 🔹 Vista Principal del Criador
+
+Se diseñó una pantalla principal para el criador que centraliza el acceso a los módulos de la aplicación. Esta vista incluye tarjetas con resumen de recursos y gastos, accesos directos a funciones frecuentes y visuales adaptados al perfil de usuario.
+
+<div style="text-align:center">
+  <img src="img/evidence_granja_home.png" width="50%">
+  <p><em>Imagen 212. Vista principal de criador con acceso a módulos clave</em></p>
+</div>
+
+---
+
+### 🔹 Pantalla de Inicio de Sesión y Persistencia
+
+Se implementó el flujo de inicio de sesión mediante email y contraseña. Se corrigieron errores en la validación del token y se configuró el guardado de sesión para asegurar que el usuario no tenga que volver a iniciar sesión tras cerrar la app.
+
+<div style="text-align:center">
+  <img src="img/evidence_login.png" width="50%">
+  <p><em>Imagen 213. Pantalla de login funcional con persistencia de sesión</em></p>
+</div>
+
+--- 
+
+### 🔹 Lista y Detalle de Asesores
+
+Se desarrolló una vista con catálogo de asesores disponibles, con posibilidad de ver detalles individuales antes de agendar una cita. Esta funcionalidad permite a los criadores seleccionar asesores por especialidad o disponibilidad.
+
+<img src="img/evidence_asesores_list.png" width="50%">
+<p style="text-align:center"><em>Imagen 214. Lista de asesores disponibles</em></p>
+
+<img src="img/evidence_asesores_detail.png" width="50%">
+<p style="text-align:center"><em>Imagen 215. Detalle del asesor seleccionado</em></p>
+
+---
+
+### 🔹 Pantalla de Notificaciones
+
+<div style="text-align:center">
+  <img src="img/evidence_notifications.png" width="50%">
+  <p><em>Imagen 216. Tarjetas con notifcaciones por parte de los asesores</em></p>
+</div>
+
+---
+
+### 🔹 Gestión de Jaulas y Sensores IoT - Web
+
+Se implementó una vista detallada por jaula, permitiendo a los criadores visualizar el estado en tiempo real de los sensores conectados (como humedad). Además, se incluye un componente visual intuitivo con cards individuales por jaula.
+
+<img src="img/iot_monitoring.png" alt="IoT Monitoring" width="600" /> <br>
+
+<img src="img/iot_monitoring_2.png" alt="IoT Monitoring 2" width="600" />
+
+---
+
+### ✅ Conclusión del Sprint
+
+Todas las funcionalidades planificadas en el Sprint 2 fueron implementadas satisfactoriamente. Se logró avanzar en los módulos clave que fortalecen la propuesta de valor de la app AgroCuy, habilitando interacciones reales entre usuarios, monitoreo con sensores y gestión operativa de granjas, todo desde una interfaz móvil accesible y fluida.
+
+---
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
+Para este sprint, hemos implementado una primera versión del backend con el 90% de endpoints necesarios para su funcionamiento incluyendo aquellos que interactúan con el lado IoT del proyecto.
+
+Enlace al repositorio de Web Services: https://github.com/IoT-AgroConnect/Web-Services-main
+
+Enlace del backend desplegado: https://backend-web-services-jo4d.onrender.com/swagger-ui/index.html#/
+
+|Método|Endpoint|Descripción|
+|--|--|--|
+|GET|/api/v1/users|Se obtiene la lista de usuarios|
+|POST|/api/v1/users|Se publica un nuevo usuario|
+|GET|/api/v1/users/{id}|Se obtiene un usuario por ID|
+|GET|/api/v1/users/{id}/notifications|Se obtiene la lista de notificaciones de un usuario por su ID|
+|GET|/api/v1/breeders|Se obtiene la lista de los criadores|
+|POST|/api/v1/breeders|Se publica un nuevo criador|
+|GET|/api/v1/breeders/{id}|Se obtiene un criador por ID|
+|GET|/api/v1/breeders/{id}/cages|Se obtiene la lista de jaulas de un criador por su ID|
+|GET|/api/v1/breeders/{id}/appointments|Se obtiene la lista de citas para la asesoria de un criador por su ID|
+|GET|/api/v1/breeders/{id}/resources|Se obtiene la lista de recursos de un criador por su ID|
+|GET|/api/v1/breeders/{id}/expenses|Se obtiene la lista de gastos de un criador por su ID|
+|GET|/api/v1/advisors|Se obtiene la lista de los asesores|
+|POST|/api/v1/advisors|Se publica un nuevo asesor|
+|GET|/api/v1/advisors/{id}|Se obtiene un asesor por ID|
+|GET|/api/v1/advisors/{id}/available-dates|Se obtiene la lista de fechas disponibles de un asesor por su ID|
+|GET|/api/v1/advisors/{id}/publications|Se obtiene la lista de publicaciones de un asesor por su ID|
+|GET|/api/v1/advisors/{id}/appointments|Se obtiene la lista de citas de un asesor por su ID|
+|GET|/api/v1/notifications|Se obtiene la lista de las notificaciones|
+|POST|/api/v1/notifications|Se publica una nueva notificacion|
+|GET|/api/v1/notifications/{id}|Se obtiene una notificacion por ID|
+|DELETE|/api/v1/notifications/{id}|Se elimina una notificacion por ID|
+|GET|/api/v1/available-dates|Se obtiene la lista de los horarios disponibles de los asesores|
+|POST|/api/v1/available-dates|Se publica un nuevo horario|
+|GET|/api/v1/available-dates/{id}|Se obtiene un horario por ID|
+|DELETE|/api/v1/available-dates/{id}|Se elimina un horario por ID|
+|GET|/api/v1/publications|Se obtiene la lista de las publicaciones de los asesores|
+|POST|/api/v1/publications|Se publica una nueva publicacion|
+|GET|/api/v1/publications/{id}|Se obtiene una publicacion por ID|
+|DELETE|/api/v1/publications/{id}|Se elimina una publicacion por ID|
+|GET|/api/v1/appointments|Se obtiene la lista de las citas entre asesores y criadores|
+|POST|/api/v1/appointments|Se publica una nueva cita|
+|GET|/api/v1/appointments/{id}|Se obtiene una cita por ID|
+|PUT|/api/v1/appointments/{id}|Se modifica una cita por ID|
+|GET|/api/v1/appointments/{id}/reviews|Se obtienen la reseña de una cita por ID|
+|GET|/api/v1/reviews|Se obtiene la lista de las reseñas|
+|POST|/api/v1/reviews|Se publica una nueva reseña|
+|GET|/api/v1/reviews/{id}|Se obtiene una reseña por ID|
+|GET|/api/v1/resources|Se obtiene la lista de recursos|
+|POST|/api/v1/resources|Se publica un nuevo recurso|
+|GET|/api/v1/resources/{id}|Se obtiene un recurso por ID|
+|PUT|/api/v1/resources/{id}|Se modifica un recurso por ID|
+|DELETE|/api/v1/resources/{id}|Se elimina un recurso por ID|
+|GET|/api/v1/expenses|Se obtiene la lista de gastos|
+|POST|/api/v1/expenses|Se publica un nuevo gasto|
+|GET|/api/v1/expenses/{id}|Se obtiene un gasto por ID|
+|PUT|/api/v1/expenses/{id}|Se modifica un gasto por ID|
+|DELETE|/api/v1/expenses/{id}|Se elimina un gasto por ID|
+|GET|/api/v1/cages|Se obtiene la lista de jaulas|
+|POST|/api/v1/cages|Se publica una nueva jaula|
+|GET|/api/v1/cages/{id}|Se obtiene una jaula por ID|
+|PUT|/api/v1/cages/{id}|Se modifica una jaula por ID|
+|DELETE|/api/v1/cages/{id}|Se elimina una jaula por ID|
+|GET|/api/v1/animals|Se obtiene la lista de animales|
+|POST|/api/v1/animals|Se publica un nuevo animal|
+|GET|/api/v1/animals/{id}|Se obtiene un animal por ID|
+|PUT|/api/v1/animals/{id}|Se modifica un animal por ID|
+|DELETE|/api/v1/animals/{id}|Se elimina un animal por ID|
+|GET|/api/v1/iot/sensor-data/{id}|Se obtiene datos del sensor por ID|
+|PUT|/api/v1/iot/sensor-data/{id}|Se actualiza datos del sensor por ID|
+|DELETE|/api/iot/sensor-data/{id}|Se elimina datos del sensor por ID|
+|GET|/api/v1/iot/sensor-data|Se obtiene la lista de sensores|
+|POST|/api/v1/iot/sensor-data|Se publica un nuevo sensor|
+|GET|/api/v1/iot/sensor-data/by-cage/{id}|Se obtiene datos del sensor por CageID|
+|PUT|/api/v1/acceptable-ranges/{id}|Se actualiza datos rango de datos aceptable|
+|GET|/api/v1/acceptable-ranges|Se obtiene la lista de rangos aceptables para cada jaula|
+|POST|/api/v1/acceptable-ranges|Se publica un nuevo rango aceptable|
+|POST|/api/v1/acceptable-ranges/by-cage/{cageId}|Se obtiene rango aceptable por cageId|
+|PUT|/api/v1/feeding-schedules/{id}|Se actualiza un horario de alimentación por ID|
+|PUT|/api/v1/feeding-schedules/global|Se actualiza un horario de alimentación por ID|
+|POST|/api/v1/feeding-schedules|Se publica uno o todos los horarios de alimentación para una o para todas las jaulas|
+|GET|/api/v1/feeding-schedules/global-summary|Se visualiza todos los horarios de alimentación|
+------
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
+
+### Deploy Backend
+
+Para desplegar el Web Service se volvió a utilizar Render.com. Por lo que, se generó la carpeta target con los archivos actualizados del proyecto.
+
+![Backend Deployment](img/backend-deployment1.png)
+
+Luego, se ingreso al dashboard de Render y se seleccionó 'Manual Deploy' y 'deploy latest commit' para que se actualize el Web Service deployado.
+
+![Backend Deployment](img/backend-deployment2.png)
+
+Con ello, se empezó con el despliegue del Web Service.
+
+![Backend Deployment](img/backend-deployment3.png)
+
+Finalmente, se comprobó el funcionamiento del Web Service al entrar al swagger desde el enlace del producto desplegado https://web-services-18bk.onrender.com/swagger-ui/index.html
+
+![Backend Deployment](img/backend-deployment4.png)
+
+### Sistema Embebido 
+
+![Sistema Embebido](img/Sistema-Embebido.png)
+
+En el proyecto AgroCuy, se implementa un sistema de monitoreo inteligente basado en el microcontrolador ESP32 para supervisar en tiempo real las condiciones del criadero de cuyes. El circuito integra sensores ultrasónicos para detectar movimiento en zonas clave del corral, un sensor DHT22 para medir temperatura y humedad del ambiente, una pantalla LCD que muestra constantemente los valores capturados, y un servomotor que puede activarse automáticamente para abrir compuertas de ventilación o alimentación según las condiciones registradas. Esta solución permite a los criadores tomar decisiones oportunas, optimizando el bienestar de los animales y mejorando la eficiencia del manejo diario.
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint 
+
+En la elaboración de la Front-End y el Back-End y la Pruebas, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
+
+Mobile-App
+<img src="img/sprint2-insightmobile.PNG" width="100%">
+
+Front-End
+<img src="img/sprint2-insightfront.PNG" width="100%">
+
+Back-End
+<img src="img/sprint2-insightback.PNG" width="100%">
+
+Pruebas de Aceptación
+<img src="img/sprint2-insightaceptance.PNG" width="100%">
+
+
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se diseñaron entrevistas de validación dirigidas a usuarios reales de nuestros segmentos objetivo: criadores de cuyes y asesores técnicos. Estas entrevistas se realizaron de forma virtual, permitiendo observar el uso real del sistema (landing page, aplicación web, app móvil y prototipo IoT) mientras se recogía retroalimentación directa mediante preguntas semiestructuradas.
+
+---
+
+## 🧑‍🌾 Entrevistas a Criadores de Cuyes
+
+### 🔹 Parte 1: Introducción
+1. ¿Conoces alguna herramienta o aplicación digital para criadores de cuyes?
+2. ¿Cuál es tu nivel de experiencia usando tecnología para gestionar tu trabajo?
+3. ¿Estás familiarizado con conceptos como sensores o monitoreo remoto?
+
+### 🔹 Parte 2: Landing Page
+1. ¿Qué impresión te da esta página al verla por primera vez?
+2. ¿Te queda clara la propuesta del sistema AgroCuy?
+3. ¿Hay algo que no entiendas o que te confunda en esta página?
+4. ¿Qué cambiarías para que más personas como tú se interesen?
+
+### 🔹 Parte 3: Aplicación Web
+1. ¿Te resulta fácil entender el menú y las secciones del sistema?
+2. ¿Crees que podrías encontrar fácilmente a un asesor o gestionar tus jaulas?
+3. ¿Hay algo que te parezca complicado o innecesario?
+4. ¿Qué funcionalidades te parecen más útiles hasta ahora?
+
+### 🔹 Parte 4: Aplicación Móvil
+1. ¿Puedes identificar rápidamente para qué sirve cada pantalla?
+2. ¿La navegación en el celular te resulta cómoda?
+3. ¿Te gustaría recibir notificaciones o alertas desde esta app?
+4. ¿Preferirías usar esta app o hacerlo todo en papel como antes?
+
+### 🔹 Parte 5: Prototipo IoT
+1. ¿Entiendes para qué sirven los sensores conectados a las jaulas?
+2. ¿Te gustaría que se te avise automáticamente si algo anda mal con tus animales?
+3. ¿Confías en este tipo de tecnología para ayudarte a cuidar a tus cuyes?
+4. ¿Qué mejoras sugerirías para que esto funcione mejor en tu granja?
+
+### 🔹 Parte 6: Cierre
+1. En una frase, ¿qué es lo que más te gustó del sistema AgroCuy?
+2. ¿Qué mejorarías antes de que esta herramienta esté disponible para todos?
+3. ¿Estarías dispuesto a usar esta herramienta en tu día a día? ¿Por qué?
+
+---
+
+## 👨‍🔬 Entrevistas a Asesores Técnicos
+
+### 🔹 Parte 1: Introducción
+1. ¿Conoces herramientas digitales que hayas recomendado o utilizado en el ámbito agropecuario?
+2. ¿Qué tan frecuentemente brindas soporte técnico a criadores de cuyes?
+3. ¿Estás familiarizado con tecnologías como sensores IoT o monitoreo remoto?
+
+### 🔹 Parte 2: Landing Page
+1. ¿Consideras que la propuesta de AgroCuy está bien presentada?
+2. ¿Crees que transmite valor para los criadores a los que asesoras?
+3. ¿Hay aspectos que podrían reforzarse para mejorar la comunicación?
+4. ¿Qué agregarías desde tu experiencia como asesor?
+
+### 🔹 Parte 3: Aplicación Web
+1. ¿La interfaz te parece adecuada para usuarios con poca experiencia digital?
+2. ¿Te facilitaría el trabajo poder conectarte con los criadores a través del sistema?
+3. ¿Qué funcionalidades crees que faltan desde tu rol?
+4. ¿Visualizas algún riesgo en la adopción de esta herramienta?
+
+### 🔹 Parte 4: Aplicación Móvil
+1. ¿Ves útil que los criadores accedan desde su celular a datos de producción o contacto contigo?
+2. ¿Qué opinas sobre el uso de alertas o notificaciones para asesoría preventiva?
+3. ¿La app se adapta bien a las rutinas del trabajo en campo?
+4. ¿Cómo imaginas integrarla en tus actividades actuales?
+
+### 🔹 Parte 5: Prototipo IoT
+1. ¿Qué ventajas técnicas destacarías del uso de sensores en la crianza de cuyes?
+2. ¿Crees que los datos recolectados pueden complementar tu asesoría?
+3. ¿Qué indicadores te parecería clave monitorear?
+4. ¿Qué recomendaciones darías para hacer esta tecnología más útil y adoptable?
+
+### 🔹 Parte 6: Cierre
+1. ¿Qué es lo que más destacarías del sistema AgroCuy desde tu rol?
+2. ¿Qué mejoras crees necesarias antes de una implementación a mayor escala?
+3. ¿Recomendarías esta herramienta a otros asesores o usuarios? ¿Por qué?
+
+---
+
+
+### 6.3.2. Registro de Entrevistas.
+
+Link de las Entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EeIi8_5NAzhDrL2b4VKaKGoB__RfnkrRSx7suHm4M8KjHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=flm0nD
+
+#### **Entrevista N.º 1 – Asesor**
+
+- **Entrevistador:** Nadia Lucas  
+- **Entrevistado:** Nayeli Chavez 
+- **Duración:** [00:00:09 – 00:14:50] (**5 minutos 52 segundos**)  
+
+![Imagen 1. Entrevista a Nayeli Chavez](img/entrevista_naueli.PNG)  
+*Imagen 1. Entrevista a Nayeli Chavez*
+
+**Resumen:**  
+La segunda entrevista realizada a Nayeli Chávez, zootecnista con experiencia en asesoría técnica a criadores de cuyes, permitió validar diversos aspectos funcionales y comunicacionales de la solución tecnológica AgroCuy. Nayeli expresó estar familiarizada con herramientas digitales básicas como Excel y WhatsApp, pero destacó la escasa presencia de plataformas especializadas en la crianza de cuyes. Asimismo, mostró apertura al uso de tecnologías emergentes como sensores IoT, señalando que ya se emplean en otras especies animales.
+Respecto a la landing page, consideró que está bien presentada y transmite valor, aunque sugirió reforzarla con testimonios reales y un instructivo simplificado sobre cómo comenzar a usar la herramienta. En cuanto a la aplicación web, reconoció que la interfaz es adecuada para usuarios con poca experiencia digital, pero recomendó incorporar un tutorial en video y funciones como chat directo y alertas por eventos críticos. También señaló que la conectividad limitada en zonas rurales podría representar una barrera para la adopción.
+Sobre la aplicación móvil, Nayeli valoró la posibilidad de que los criadores accedan a sus datos desde el celular, y consideró especialmente útil la incorporación de notificaciones preventivas. Recomendó que la app permita funcionar sin conexión y se sincronice posteriormente, para adaptarse mejor a contextos rurales. Además, destacó que integrarla en su labor diaria facilitaría la personalización de recomendaciones técnicas.
+En cuanto al prototipo IoT, Nayeli identificó como ventajas clave la detección temprana de problemas ambientales y la posibilidad de complementar su asesoría con datos objetivos. Propuso monitorear indicadores como temperatura, humedad, niveles de amoníaco y actividad de los animales. Subrayó que para lograr una adopción efectiva, la tecnología debe ser resistente, sencilla de instalar y accesible económicamente.
+Finalmente, Nayeli destacó que el sistema AgroCuy representa un avance hacia la profesionalización de la crianza de cuyes, y que recomendaría su uso por su capacidad para optimizar la toma de decisiones, prevenir enfermedades y mejorar la eficiencia técnica. No obstante, enfatizó la importancia de brindar soporte técnico y capacitaciones simples para garantizar su implementación a gran escala.
+
+#### **Entrevista N.º 2 – Asesor**
+
+- **Entrevistador:** Sebastián Ramírez   
+- **Entrevistado:** Sofia Joya 
+- **Duración:** [00:14:50 – 00:18:52] (**5 minutos 52 segundos**)  
+
+![Imagen 5. Entrevista a Sofia Joya](img/Entrevista_Asesor_SofiaJoya.png)  
+*Imagen 2. Entrevista a Sofia Joya*
+
+**Resumen:**  
+Sofía Joya, asesora técnica en la crianza de cuyes, ya había participado en entrevistas anteriores y, durante esta etapa de validación, se mostró muy convencida con el diseño de la aplicación, destacando su facilidad de uso y el sistema de monitoreo que permite controlar sin necesidad de presencia física. Valoró especialmente los indicadores clave como la temperatura, la humedad y el consumo de alimento. Entre sus recomendaciones, sugirió incluir video tutoriales, dar mayor protagonismo a testimonios reales o casos de éxito, y añadir funcionalidades como el registro de visitas técnicas y un chat directo con asesores. También señaló como desafío la baja conectividad en zonas rurales, lo que podría limitar el uso de la aplicación, por lo que consideró fundamental ofrecer capacitación simple, una interfaz clara y soporte técnico continuo.
+
+
+#### **Entrevista N.º 3 – Asesor**
+
+- **Entrevistador:** Juan Cuadros  
+- **Entrevistado:** Diego Bazan  
+- **Duración:** [00:18:52 – 00:22:30] (**5 minutos 52 segundos**)  
+
+![Imagen 4. Entrevista a Diego Bazan](img/Entrevista_Asesor_DiegoBazan.png)  
+*Imagen 4. Entrevista a Diego Bazan*
+
+**Resumen:**  
+Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto porque le permiten dar una asesoría más precisa y rápida. Destaca que la plataforma AgroCuy es clara y útil, aunque sugiere agregar testimonios para hacerla más cercana. Le gusta la app web por mejorar la comunicación con los criadores y la móvil por sus alertas que ayudan a prevenir problemas. Para él, lo más valioso es cómo todo el sistema se integra para tomar mejores decisiones y cuidar mejor a los animales.
+
+
+
+#### **Entrevista N.º 4 – Criador**
+
+- **Entrevistador:** Johan  
+- **Entrevistado:** Abel (Sobrino del criador)  
+- **Duración:** [00:22:30 – 00:26:55] (**7 minutos 45 segundos**)  
+
+<img src="img/entrevista_criador_2.jpg" alt="Entrevista a Criador Abel" width="600">
+ 
+
+**Resumen:**  
+Abel, quien apoya a su familiar en la crianza de cuyes en provincia, considera muy útil la propuesta de AgroCuy. Aunque no conocía otras herramientas similares, le parece que la plataforma es clara, moderna y fácil de usar. Destaca que el menú es intuitivo, la app móvil cómoda para registrar gastos y recibir alertas, y que el monitoreo con sensores es lo más valioso, ya que podría evitar problemas con los animales. Sugiere que más personas como su tío se beneficiarían si la app envía avisos automáticos sobre cambios en temperatura o humedad. En general, confía en la tecnología y estaría dispuesto a usarla en el día a día para mejorar el cuidado de los animales.
+
+#### **Entrevista N.º 5 – Criador**
+
+- **Entrevistador:** Fiorella  
+- **Entrevistado:** Claudia Ramos (Sobrino del criador)  
+- **Duración:** [00:26:55 – 00:35:53] (**8 minutos 45 segundos**)  
+
+![Imagen 5. Entrevista a Criador Claudia](img/Entrevista_Criador_Claudia.png)  
+*Imagen 5. Entrevista a Criador Claudia*
+
+**Resumen:**  
+Claudia, criadora principiante de cuyes con 6 meses de experiencia, busca una herramienta sencilla que le ayude a organizar su trabajo con recordatorios, alertas y consejos prácticos. Aunque no ha usado apps ni conoce bien los sensores, está dispuesta a probar AgroCuy si es clara, fácil de usar y cuenta con guía paso a paso. Valora especialmente las notificaciones y el apoyo para cuidar mejor a sus animales, y confía en la tecnología si funciona incluso sin internet.
+
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+Para complementar las entrevistas de validación, se aplicó una **evaluación heurística** al sistema AgroCuy con base en los principios de usabilidad propuestos por Jakob Nielsen. Esta evaluación permitió identificar fortalezas y oportunidades de mejora en la experiencia de usuario a través del análisis crítico de las interfaces del sistema (landing page, aplicación web, app móvil y prototipo IoT). A continuación, se detallan los hallazgos según cada heurística evaluada:
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Heurística de Usabilidad</th>
+      <th>Hallazgos en AgroCuy</th>
+      <th>Recomendaciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1. Visibilidad del estado del sistema</strong></td>
+      <td>El sistema muestra información básica sobre temperatura y humedad en tiempo real.</td>
+      <td>Incluir indicadores de conexión de sensores y estado del sistema (activo/inactivo).</td>
+    </tr>
+    <tr>
+      <td><strong>2. Concordancia entre el sistema y el mundo real</strong></td>
+      <td>Se usan términos conocidos por los usuarios (jaula, criador, alerta), lo cual facilita la comprensión.</td>
+      <td>Evitar tecnicismos como “IoT” sin explicación para usuarios sin formación técnica.</td>
+    </tr>
+    <tr>
+      <td><strong>3. Control y libertad del usuario</strong></td>
+      <td>Los usuarios pueden navegar entre secciones, pero no hay una opción clara para deshacer acciones.</td>
+      <td>Agregar confirmaciones y posibilidad de retroceso en acciones sensibles (ej. eliminar datos o editar).</td>
+    </tr>
+    <tr>
+      <td><strong>4. Consistencia y estándares</strong></td>
+      <td>La interfaz sigue un diseño uniforme, aunque hay ligeras variaciones en estilo entre la app web y móvil.</td>
+      <td>Unificar paleta de colores, íconos y tipografías entre plataformas.</td>
+    </tr>
+    <tr>
+      <td><strong>5. Prevención de errores</strong></td>
+      <td>No se detectaron mensajes claros ante errores (por ejemplo, fallos de conexión o sensores desconectados).</td>
+      <td>Incorporar mensajes de error descriptivos y sugerencias para resolver el problema.</td>
+    </tr>
+    <tr>
+      <td><strong>6. Reconocimiento mejor que recuerdo</strong></td>
+      <td>Los menús son visibles y las opciones principales están bien organizadas.</td>
+      <td>Añadir íconos representativos junto a los textos para reforzar el reconocimiento visual.</td>
+    </tr>
+    <tr>
+      <td><strong>7. Flexibilidad y eficiencia de uso</strong></td>
+      <td>El sistema es fácil de usar para principiantes, pero no contempla accesos rápidos para usuarios expertos.</td>
+      <td>Incluir atajos, personalización de vistas o favoritos.</td>
+    </tr>
+    <tr>
+      <td><strong>8. Diseño estético y minimalista</strong></td>
+      <td>La landing page y app móvil tienen un diseño limpio, pero algunas pantallas web presentan exceso de información.</td>
+      <td>Simplificar interfaces, especialmente en el dashboard del asesor.</td>
+    </tr>
+    <tr>
+      <td><strong>9. Ayuda al usuario a reconocer, diagnosticar y recuperar errores</strong></td>
+      <td>La app móvil no notifica claramente cuando falla el envío de datos.</td>
+      <td>Mostrar alertas y sugerencias ante errores (ej. "Revisa tu conexión a internet").</td>
+    </tr>
+    <tr>
+      <td><strong>10. Ayuda y documentación</strong></td>
+      <td>El sistema no cuenta aún con una sección de ayuda ni tutoriales accesibles.</td>
+      <td>Incluir manuales, video tutoriales y sección de preguntas frecuentes dentro de la aplicación.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Conclusión:**  
+La evaluación heurística reveló que AgroCuy tiene una base sólida en términos de usabilidad, especialmente en cuanto a lenguaje comprensible y navegación intuitiva. Sin embargo, se identificaron aspectos críticos como la falta de documentación, manejo de errores y consistencia visual entre plataformas. Implementar las recomendaciones derivadas de esta evaluación permitirá mejorar la experiencia de usuario y facilitar una adopción más fluida del sistema, especialmente en contextos rurales y con usuarios de bajo nivel tecnológico.
+
+
+## 6.4. Video About-the-Product.
+
+En el vídeo se proporciona información sobre el producto AgroConnect. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización del catálogo de asesores, la creación de publicaciones y la gestión de la granja. Asimismo, se incluye el testimonio positivo de una asesora especializada.
+
+Screenshot del video:
+
+<img src="img/about-the-product (1).PNG" width="100%">
+
+**Enlace al vídeo de YouTube:** [Video About-The-Product Open Source UPC YouTube](https://youtube.com/shorts/PJiVdbOyj1s?si=sjVnvqluE7vOP8bp)
+
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product Open Source UPC.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EWIpOVJ41GdBlHCwN581pnUBuGb_Y6LXdw49NgSSD5-H3w?e=2pBDnM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Duración del vídeo:** 0:38
 
 # Conclusiones
 
@@ -3307,6 +4645,12 @@ En la elaboración de la landing page, todos los integrantes realizaron commits 
 * Los requisitos iniciales del proyecto se identificaron mediante herramientas como empathy mappings, user personas y user stories, que ayudaron a diseñar una experiencia de usuario satisfactoria y optimizar el desarrollo de la aplicación a través de un product backlog priorizado.
 
 * La identificación de los Bounded Contexts y la realización del Context Mapping en AgroCuy nos permitió comprender de manera precisa las relaciones de dependencia, colaboración y comunicación entre los distintos módulos del sistema. Al aplicar patrones de interacción como Shared Kernel, Conformist, Customer–Supplier y Published Language, pudimos establecer límites claros de responsabilidad, asegurar la consistencia en los datos compartidos y reducir el acoplamiento entre contextos. Este análisis resulta fundamental para diseñar una arquitectura robusta, escalable y alineada a los principios de Domain-Driven Design, garantizando que cada área funcional de AgroCuy pueda evolucionar de forma independiente pero coordinada dentro del ecosistema general.
+
+* Al desarrollar el backend con Spring Boot y alinear los bounded contexts utilizando la arquitectura DDD, conseguimos establecer una estructura sólida y modularizada. La exhaustiva documentación en Swagger nos sirvió como una guía clara para comprender y trabajar con cada componente, lo que no solo optimiza la organización y mantenimiento del código, sino que también promueve la colaboración entre equipos y facilita la escalabilidad del proyecto a medida que avanza. Por otro lado, las entrevistas de validación del producto brindaron una visión completa de cómo perciben y qué necesitan los usuarios. Aunque se reconocieron aspectos positivos como la utilidad de la Landing Page y la facilidad de uso de la Web Application, también se identificaron áreas de mejora en términos de claridad de la información, diseño y navegación. Estos insights proporcionan una base sólida para implementar ajustes significativos y perfeccionar la experiencia del usuario en futuras iteraciones del producto, garantizando así una mayor satisfacción y usabilidad.
+
+* Finalmente, durante el desarrollo del trabajo aprendimos a planificar mejor la arquitectura del backend y optimizar las consultas a la base de datos desde el inicio para manejar eficientemente grandes volúmenes de datos. Asimismo, mejoramos la comunicación entre equipos para asegurar una integración fluida del frontend y backend, implementando estrategias de integración continua para facilitar actualizaciones rápidas y consistentes del sistema. Del mismo modo, nuestra startup AgroTech ha podido lograr una implementación exitosa de AgroConnect, demostrando competencia en la aplicación de metodologías como Lean UX y principios ágiles. Además, Hemos integrado eficientemente el frontend y backend mediante tecnologías open-source y prácticas colaborativas como GitFlow, garantizando estándares de seguridad y funcionalidad necesarios para cumplir con las expectativas del usuario final.
+
+## Video About-the-Team.
 
 # Bibliografía
 
@@ -3336,6 +4680,10 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EfzTMIMy
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/Ec0vHNEl-PFKtUFc6u9QPw8B6os5ydM3cMbI07MyLXU2ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2c0F93
 
-## Anexo N°4: Repositorio del Informe
+## Anexo N°4: Repositorio del Informe.
 
 https://github.com/IoT-AgroConnect/Project-Report
+
+### Anexo N°5: Video Exposicion - TB2
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EVJk3nP6HIRImXtOiJemK5ABTbZ1VPeUKjn4806Ra68lDg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cuhGhd
