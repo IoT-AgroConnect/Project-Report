@@ -4472,7 +4472,7 @@ Finalmente, Nayeli destacó que el sistema AgroCuy representa un avance hacia la
 - **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
 
 ![Imagen 5. Entrevista a Sofia Joya](img/Entrevista_Asesor_SofiaJoya.png)  
-*Imagen 4. Entrevista a Sofia Joya*
+*Imagen 2. Entrevista a Sofia Joya*
 
 **Resumen:**  
 Sofía Joya, asesora técnica en la crianza de cuyes, ya había participado en entrevistas anteriores y, durante esta etapa de validación, se mostró muy convencida con el diseño de la aplicación, destacando su facilidad de uso y el sistema de monitoreo que permite controlar sin necesidad de presencia física. Valoró especialmente los indicadores clave como la temperatura, la humedad y el consumo de alimento. Entre sus recomendaciones, sugirió incluir video tutoriales, dar mayor protagonismo a testimonios reales o casos de éxito, y añadir funcionalidades como el registro de visitas técnicas y un chat directo con asesores. También señaló como desafío la baja conectividad en zonas rurales, lo que podría limitar el uso de la aplicación, por lo que consideró fundamental ofrecer capacitación simple, una interfaz clara y soporte técnico continuo.
@@ -4492,7 +4492,7 @@ Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto 
 
 
 
-#### **Entrevista N.º 3 – Criador**
+#### **Entrevista N.º 4 – Criador**
 
 - **Entrevistador:** Johan  
 - **Entrevistado:** Abel (Sobrino del criador)  
@@ -4504,7 +4504,7 @@ Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto 
 **Resumen:**  
 Abel, quien apoya a su familiar en la crianza de cuyes en provincia, considera muy útil la propuesta de AgroCuy. Aunque no conocía otras herramientas similares, le parece que la plataforma es clara, moderna y fácil de usar. Destaca que el menú es intuitivo, la app móvil cómoda para registrar gastos y recibir alertas, y que el monitoreo con sensores es lo más valioso, ya que podría evitar problemas con los animales. Sugiere que más personas como su tío se beneficiarían si la app envía avisos automáticos sobre cambios en temperatura o humedad. En general, confía en la tecnología y estaría dispuesto a usarla en el día a día para mejorar el cuidado de los animales.
 
-#### **Entrevista N.º 4 – Criador**
+#### **Entrevista N.º 5 – Criador**
 
 - **Entrevistador:** Fiorella  
 - **Entrevistado:** Claudia Ramos (Sobrino del criador)  
