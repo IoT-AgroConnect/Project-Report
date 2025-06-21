@@ -4108,8 +4108,7 @@ Las pruebas se enfocaron principalmente en escenarios de interacción entre cria
 
 Como parte de la evaluación del Sprint 2, se presenta la evidencia visual del entregable correspondiente al **prototipo funcional de la aplicación móvil AgroCuy**. Esta versión incluye múltiples funcionalidades dirigidas a criadores y asesores, integrando componentes IoT, gestión de recursos, y experiencias personalizadas según el rol del usuario.
 
-🎥 **Video demostrativo – AgroCuy Mobile App**:  
-[Execution Evidence – AgroCuy Mobile Sprint 2](https://youtu.be/xxxxxxxxxxx)
+Enlace del front-end desplegado: https://agroconnect-demo-55dae.web.app/login
 
 ---
 
@@ -4257,6 +4256,8 @@ Todas las funcionalidades planificadas en el Sprint 2 fueron implementadas satis
 Para este sprint, hemos implementado una primera versión del backend con el 90% de endpoints necesarios para su funcionamiento incluyendo aquellos que interactúan con el lado IoT del proyecto.
 
 Enlace al repositorio de Web Services: https://github.com/IoT-AgroConnect/Web-Services-main
+
+Enlace del backend desplegado: https://backend-web-services-jo4d.onrender.com/swagger-ui/index.html#/
 
 |Método|Endpoint|Descripción|
 |--|--|--|
