@@ -4542,6 +4542,75 @@ Claudia, criadora principiante de cuyes con 6 meses de experiencia, busca una he
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
+Para complementar las entrevistas de validación, se aplicó una **evaluación heurística** al sistema AgroCuy con base en los principios de usabilidad propuestos por Jakob Nielsen. Esta evaluación permitió identificar fortalezas y oportunidades de mejora en la experiencia de usuario a través del análisis crítico de las interfaces del sistema (landing page, aplicación web, app móvil y prototipo IoT). A continuación, se detallan los hallazgos según cada heurística evaluada:
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Heurística de Usabilidad</th>
+      <th>Hallazgos en AgroCuy</th>
+      <th>Recomendaciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1. Visibilidad del estado del sistema</strong></td>
+      <td>El sistema muestra información básica sobre temperatura y humedad en tiempo real.</td>
+      <td>Incluir indicadores de conexión de sensores y estado del sistema (activo/inactivo).</td>
+    </tr>
+    <tr>
+      <td><strong>2. Concordancia entre el sistema y el mundo real</strong></td>
+      <td>Se usan términos conocidos por los usuarios (jaula, criador, alerta), lo cual facilita la comprensión.</td>
+      <td>Evitar tecnicismos como “IoT” sin explicación para usuarios sin formación técnica.</td>
+    </tr>
+    <tr>
+      <td><strong>3. Control y libertad del usuario</strong></td>
+      <td>Los usuarios pueden navegar entre secciones, pero no hay una opción clara para deshacer acciones.</td>
+      <td>Agregar confirmaciones y posibilidad de retroceso en acciones sensibles (ej. eliminar datos o editar).</td>
+    </tr>
+    <tr>
+      <td><strong>4. Consistencia y estándares</strong></td>
+      <td>La interfaz sigue un diseño uniforme, aunque hay ligeras variaciones en estilo entre la app web y móvil.</td>
+      <td>Unificar paleta de colores, íconos y tipografías entre plataformas.</td>
+    </tr>
+    <tr>
+      <td><strong>5. Prevención de errores</strong></td>
+      <td>No se detectaron mensajes claros ante errores (por ejemplo, fallos de conexión o sensores desconectados).</td>
+      <td>Incorporar mensajes de error descriptivos y sugerencias para resolver el problema.</td>
+    </tr>
+    <tr>
+      <td><strong>6. Reconocimiento mejor que recuerdo</strong></td>
+      <td>Los menús son visibles y las opciones principales están bien organizadas.</td>
+      <td>Añadir íconos representativos junto a los textos para reforzar el reconocimiento visual.</td>
+    </tr>
+    <tr>
+      <td><strong>7. Flexibilidad y eficiencia de uso</strong></td>
+      <td>El sistema es fácil de usar para principiantes, pero no contempla accesos rápidos para usuarios expertos.</td>
+      <td>Incluir atajos, personalización de vistas o favoritos.</td>
+    </tr>
+    <tr>
+      <td><strong>8. Diseño estético y minimalista</strong></td>
+      <td>La landing page y app móvil tienen un diseño limpio, pero algunas pantallas web presentan exceso de información.</td>
+      <td>Simplificar interfaces, especialmente en el dashboard del asesor.</td>
+    </tr>
+    <tr>
+      <td><strong>9. Ayuda al usuario a reconocer, diagnosticar y recuperar errores</strong></td>
+      <td>La app móvil no notifica claramente cuando falla el envío de datos.</td>
+      <td>Mostrar alertas y sugerencias ante errores (ej. "Revisa tu conexión a internet").</td>
+    </tr>
+    <tr>
+      <td><strong>10. Ayuda y documentación</strong></td>
+      <td>El sistema no cuenta aún con una sección de ayuda ni tutoriales accesibles.</td>
+      <td>Incluir manuales, video tutoriales y sección de preguntas frecuentes dentro de la aplicación.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Conclusión:**  
+La evaluación heurística reveló que AgroCuy tiene una base sólida en términos de usabilidad, especialmente en cuanto a lenguaje comprensible y navegación intuitiva. Sin embargo, se identificaron aspectos críticos como la falta de documentación, manejo de errores y consistencia visual entre plataformas. Implementar las recomendaciones derivadas de esta evaluación permitirá mejorar la experiencia de usuario y facilitar una adopción más fluida del sistema, especialmente en contextos rurales y con usuarios de bajo nivel tecnológico.
+
+
 ## 6.4. Video About-the-Product.
 
 En el vídeo se proporciona información sobre el producto AgroConnect. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización del catálogo de asesores, la creación de publicaciones y la gestión de la granja. Asimismo, se incluye el testimonio positivo de una asesora especializada.
