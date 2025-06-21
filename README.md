@@ -4498,8 +4498,8 @@ Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto 
 - **Entrevistado:** Abel (Sobrino del criador)  
 - **Duración:** [00:00:20 – 00:07:45] (**7 minutos 45 segundos**)  
 
-![Imagen 5. Entrevista a Criador Abel](img/Entrevista_Criador_Abel.png)  
-*Imagen 5. Entrevista a Criador Abel*
+<img src="img/entrevista_criador_2.jpg" alt="Entrevista a Criador Abel" width="600">
+ 
 
 **Resumen:**  
 Abel, quien apoya a su familiar en la crianza de cuyes en provincia, considera muy útil la propuesta de AgroCuy. Aunque no conocía otras herramientas similares, le parece que la plataforma es clara, moderna y fácil de usar. Destaca que el menú es intuitivo, la app móvil cómoda para registrar gastos y recibir alertas, y que el monitoreo con sensores es lo más valioso, ya que podría evitar problemas con los animales. Sugiere que más personas como su tío se beneficiarían si la app envía avisos automáticos sobre cambios en temperatura o humedad. En general, confía en la tecnología y estaría dispuesto a usarla en el día a día para mejorar el cuidado de los animales.
