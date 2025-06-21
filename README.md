@@ -4479,11 +4479,13 @@ Para validar la utilidad y experiencia de usuario del sistema **AgroCuy**, se di
 
 ### 6.3.2. Registro de Entrevistas.
 
+Link de las Entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120430_upc_edu_pe/EeIi8_5NAzhDrL2b4VKaKGoB__RfnkrRSx7suHm4M8KjHw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=flm0nD
+
 #### **Entrevista N.º 1 – Asesor**
 
 - **Entrevistador:** Nadia Lucas  
 - **Entrevistado:** Nayeli Chavez 
-- **Duración:** [00:00:41 – 00:14:00] (**5 minutos 52 segundos**)  
+- **Duración:** [00:00:09 – 00:14:50] (**5 minutos 52 segundos**)  
 
 ![Imagen 1. Entrevista a Nayeli Chavez](img/entrevista_naueli.PNG)  
 *Imagen 1. Entrevista a Nayeli Chavez*
@@ -4499,7 +4501,7 @@ Finalmente, Nayeli destacó que el sistema AgroCuy representa un avance hacia la
 
 - **Entrevistador:** Sebastián Ramírez   
 - **Entrevistado:** Sofia Joya 
-- **Duración:** [00:14:33 – 00:18:40] (**5 minutos 52 segundos**)  
+- **Duración:** [00:14:50 – 00:18:52] (**5 minutos 52 segundos**)  
 
 ![Imagen 5. Entrevista a Sofia Joya](img/Entrevista_Asesor_SofiaJoya.png)  
 *Imagen 2. Entrevista a Sofia Joya*
@@ -4512,7 +4514,7 @@ Sofía Joya, asesora técnica en la crianza de cuyes, ya había participado en e
 
 - **Entrevistador:** Juan Cuadros  
 - **Entrevistado:** Diego Bazan  
-- **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
+- **Duración:** [00:18:52 – 00:22:30] (**5 minutos 52 segundos**)  
 
 ![Imagen 4. Entrevista a Diego Bazan](img/Entrevista_Asesor_DiegoBazan.png)  
 *Imagen 4. Entrevista a Diego Bazan*
@@ -4526,7 +4528,7 @@ Diego Bazán, asesor de cuyes, valora el uso de sensores IoT y monitoreo remoto 
 
 - **Entrevistador:** Johan  
 - **Entrevistado:** Abel (Sobrino del criador)  
-- **Duración:** [00:00:20 – 00:07:45] (**7 minutos 45 segundos**)  
+- **Duración:** [00:22:30 – 00:26:55] (**7 minutos 45 segundos**)  
 
 <img src="img/entrevista_criador_2.jpg" alt="Entrevista a Criador Abel" width="600">
  
@@ -4538,7 +4540,7 @@ Abel, quien apoya a su familiar en la crianza de cuyes en provincia, considera m
 
 - **Entrevistador:** Fiorella  
 - **Entrevistado:** Claudia Ramos (Sobrino del criador)  
-- **Duración:** [00:00:20 – 00:08:59] (**8 minutos 45 segundos**)  
+- **Duración:** [00:26:55 – 00:35:53] (**8 minutos 45 segundos**)  
 
 ![Imagen 5. Entrevista a Criador Claudia](img/Entrevista_Criador_Claudia.png)  
 *Imagen 5. Entrevista a Criador Claudia*
