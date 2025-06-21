@@ -4469,7 +4469,7 @@ Finalmente, Nayeli destacó que el sistema AgroCuy representa un avance hacia la
 
 - **Entrevistador:** Sebastián Ramírez   
 - **Entrevistado:** Sofia Joya 
-- **Duración:** [00:05:41 – 00:11:33] (**5 minutos 52 segundos**)  
+- **Duración:** [00:14:33 – 00:18:40] (**5 minutos 52 segundos**)  
 
 ![Imagen 5. Entrevista a Sofia Joya](img/Entrevista_Asesor_SofiaJoya.png)  
 *Imagen 2. Entrevista a Sofia Joya*
