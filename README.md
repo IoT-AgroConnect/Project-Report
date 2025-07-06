@@ -40,42 +40,105 @@ Abril 2025
 ## Registro de Versiones Del Informe
 
 <table>
+  <thead>
+    <tr>
+        <th>Versión</th>
+        <th>Fecha</th>
+        <th>Autor</th>
+        <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
   <tr>
-    <th>Versión</th>
-    <th>Fecha</th>
-    <th>Autores</th>
-    <th>Descripción de modificación</th>
+      <td><strong>TB1</strong></td>
+      <td>Sábado 13 de Abril</td>
+      <td>
+        <ul>
+          <li>Jarama Peñaloza, Fiorella</li>
+          <li>Cuadros Rodriguez, Juan Alejandro</li>
+          <li>Lucas Coronel, Nadia Alessandra</li>
+          <li>Moreno Vergara, Johan Raúl</li>
+          <li>Ramirez Mendez, Sebastian Andre</li>
+        </ul>
+      </td>
+      <td>
+        Se han incluído los siguientes capítulos:
+        <ul>
+          <li>Capítulo I: Introducción</li>
+          <li>Capítulo II: Requirements Elicitation & Analysis</li>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo IV: Product Design</li>
+          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul>
+      </td>
   </tr>
   <tr>
-    <td rowspan="5">TB1</td>
-    <td rowspan="5">04/10/2025</td>
-    <td>Cuadros Rodriguez, Juan Alejandro</td>
-    <td rowspan="5">
-      <strong>Capítulo I</strong>: Introducción<br>
-      <strong>Capítulo II</strong>: Requirements Elicitation & Analysis<br>
-      <strong>Capítulo III</strong>: Requirements Specification<br>
-      <strong>Capítulo IV</strong>: Solution Software Design
-    </td>
+  <td><strong>TP1</strong></td>
+      <td>Viernes 3 de Mayo</td>
+      <td>
+        <ul>
+              <li>Jarama Peñaloza, Fiorella</li>
+              <li>Cuadros Rodriguez, Juan Alejandro</li>
+              <li>Lucas Coronel, Nadia Alessandra</li>
+              <li>Moreno Vergara, Johan Raúl</li>
+              <li>Ramirez Mendez, Sebastian Andre</li>
+        </ul>
+      </td>
+      <td>
+        <li>Correcciones levantadas.</li>
+        <li>Avance del punto 5.2.2. Sprint 2.</li>
+      </td>
   </tr>
   <tr>
-    <td>Fiorella Jarama Peñaloza</td>
+    <td><strong>TB2</strong></td>
+      <td>Domingo 9 de Junio</td>
+      <td>
+        <ul>
+              <li>Jarama Peñaloza, Fiorella</li>
+              <li>Cuadros Rodriguez, Juan Alejandro</li>
+              <li>Lucas Coronel, Nadia Alessandra</li>
+              <li>Moreno Vergara, Johan Raúl</li>
+              <li>Ramirez Mendez, Sebastian Andre</li>
+        </ul>
+      </td>
+      <td>
+        <li>Correcciones levantadas.</li>
+        <li>Desarrollo del Sprint 3</li>
+        <li>Creación del Video About-The-Product</li>
+        <li>Realización de entrevistas de validación</li>
+        <li>Desarrollo de evaluación por heurísticas</li>
+        <li>Avance de Conclusiones y Anexos</li>
+        <li>Creación del Video About-The-Team</li>
+      </td>
   </tr>
   <tr>
-    <td>Lucas Coronel, Nadia Alessandra</td>
+    <td><strong>TF</strong></td>
+      <td>Martes 25 de Junio</td>
+      <td>
+        <ul>
+              <li>Jarama Peñaloza, Fiorella</li>
+              <li>Cuadros Rodriguez, Juan Alejandro</li>
+              <li>Lucas Coronel, Nadia Alessandra</li>
+              <li>Moreno Vergara, Johan Raúl</li>
+              <li>Ramirez Mendez, Sebastian Andre</li>
+        </ul>
+      </td>
+      <td>
+        <li>Correcciones levantadas.</li>
+        <li>Desarrollo del Sprint 3</li>
+        <li>Mejora del Video About-The-Product</li>
+        <li>Finalización de Conclusiones y Anexos</li>
+      </td>
   </tr>
-  <tr>
-    <td>Moreno Vergara, Johan Raúl</td>
-  </tr>
-  <tr>
-    <td>Ramirez Mendez, Sebastian Andre</td>
-  </tr>
+  </tbody>
 </table>
-
-
 
 ## Project Report Collaboration Insights
 
-### **Reporte de colaboración de la entrega del TB1:**
+URL Project Report (Github): https://github.com/IoT-AgroConnect/Project-Report 
+
+
 
 ------
 
