@@ -4019,7 +4019,7 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 
 #### 6.2.2.3. Sprint Backlog
 
-El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y sistema Embebido. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
+El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y . Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
 <https://trello.com/b/VboaXtwW/sprint-backlog-2>
 <img src="img/sprint-backlog-2.png" width="100%">
 
@@ -4380,44 +4380,14 @@ Con ello, se empezó con el despliegue del Web Service.
 Finalmente, se comprobó el funcionamiento del Web Service al entrar al swagger desde el enlace del producto desplegado https://web-services-18bk.onrender.com/swagger-ui/index.html
 
 ![Backend Deployment](img/backend-deployment4.png)
+
 ### Sistema Embebido 
 
-#### Sistema Embebido (Wokwi)
+![Sistema Embebido](img/Sistema-Embebido.png)
 
-Para la fase de simulación, utilizamos la plataforma Wokwi con una placa virtual ESP32, integrando sensores virtuales para medir temperatura, humedad, nivel de agua y CO₂. Estos datos fueron procesados localmente y visualizados mediante una pantalla LCD I2C 20x4. Además, se implementó la lógica para el envío de datos vía HTTP hacia un backend expuesto por una API REST, permitiendo probar la conectividad y funcionamiento del flujo completo de adquisición y transmisión de datos.
-
-La arquitectura del sistema sigue la estructura del framework ModestIoT, lo que nos permitió mantener una separación clara entre sensores, actuadores y lógica de comunicación, documentando cada componente con buenas prácticas de ingeniería embebida.
-
-![Sistema Embebido Wokwi](img/EmbebidoWokwi.png)
-
-La validación del sistema se realizó utilizando Postman, donde se confirmó que los datos enviados por la ESP32 virtual coincidían con los datos recibidos por el backend, demostrando un funcionamiento correcto de la lógica de red y serialización de datos en formato JSON.
-<br>
-![Prueba Wokwi](img/PruebasWokwi.png)
+En el proyecto AgroCuy, se implementa un sistema de monitoreo inteligente basado en el microcontrolador ESP32 para supervisar en tiempo real las condiciones del criadero de cuyes. El circuito integra sensores ultrasónicos para detectar movimiento en zonas clave del corral, un sensor DHT22 para medir temperatura y humedad del ambiente, una pantalla LCD que muestra constantemente los valores capturados, y un servomotor que puede activarse automáticamente para abrir compuertas de ventilación o alimentación según las condiciones registradas. Esta solución permite a los criadores tomar decisiones oportunas, optimizando el bienestar de los animales y mejorando la eficiencia del manejo diario.
 
 https://wokwi.com/projects/432924428147171329
-
-#### Sistema Embebido Fisico
-
-En la implementación física del sistema embebido, se utilizó una placa ESP32 junto con tres potenciómetros, un sensor DHT11, un servo motor y una pantalla LCD I2C 20x4 para capturar, procesar y visualizar los datos en tiempo real. La lógica de programación cargada es la misma que en la simulación de Wokwi, lo que permitió mantener coherencia en el comportamiento del sistema. Una ventaja importante de esta versión física es su capacidad para conectarse tanto a la API en la nube como a una API local (servicio edge), lo que permite operar de forma flexible dependiendo del entorno: ya sea con conexión a Internet o en un entorno aislado. Esta doble conectividad garantiza mayor robustez, permitiendo seguir funcionando incluso si se pierde el acceso a la red externa.
-
-##### Se hace la verificacion del codigo
-![Verificacion del Codigo](img/VerificacionESP32.png)
-
-##### Luego se sube al ESP32
-
-![Subida de codigo al ESP32](img/CodigoESP32.png)
-
-##### El sistema funciona y envia datos correctamente
-
-![Sistema Funcionando ESP32](img/SistemaESP32.jpg)
-
-##### Respuesta de la API
-
-![Respuesta del API](img/APIResponse.png)
-
-##### Respuesta del Edge
-
-![Respuesta del Edge](img/EdgeResponse.png)
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
 
@@ -4713,15 +4683,40 @@ Se implementó una vista detallada por jaula, permitiendo a los criadores visual
 
 #### Sistema Embebido (Wokwi)
 
-En el sistema embebido de Wokwi hemos simulado una obtención de datos y envío hacia el backend utilizando sensores virtuales y una lógica de programación cargada en una placa ESP32. Esta simulación nos permitió probar el flujo de información desde los sensores hasta el sistema de visualización LCD, y también verificar el envío correcto hacia la API del servidor mediante HTTP.
+Para la fase de simulación, utilizamos la plataforma Wokwi con una placa virtual ESP32, integrando sensores virtuales para medir temperatura, humedad, nivel de agua y CO₂. Estos datos fueron procesados localmente y visualizados mediante una pantalla LCD I2C 20x4. Además, se implementó la lógica para el envío de datos vía HTTP hacia un backend expuesto por una API REST, permitiendo probar la conectividad y funcionamiento del flujo completo de adquisición y transmisión de datos.
+
+La arquitectura del sistema sigue la estructura del framework ModestIoT, lo que nos permitió mantener una separación clara entre sensores, actuadores y lógica de comunicación, documentando cada componente con buenas prácticas de ingeniería embebida.
 
 ![Sistema Embebido Wokwi](img/EmbebidoWokwi.png)
 
-Se verifico la Obtentencion de los datos por medio de Postman y coinciden correctamente por lo enviado por el wokwi, se logro verificar el envio de los datos correctamente.
+La validación del sistema se realizó utilizando Postman, donde se confirmó que los datos enviados por la ESP32 virtual coincidían con los datos recibidos por el backend, demostrando un funcionamiento correcto de la lógica de red y serialización de datos en formato JSON.
 <br>
 ![Prueba Wokwi](img/PruebasWokwi.png)
 
 https://wokwi.com/projects/432924428147171329
+
+#### Sistema Embebido Fisico
+
+En la implementación física del sistema embebido, se utilizó una placa ESP32 junto con tres potenciómetros, un sensor DHT11, un servo motor y una pantalla LCD I2C 20x4 para capturar, procesar y visualizar los datos en tiempo real. La lógica de programación cargada es la misma que en la simulación de Wokwi, lo que permitió mantener coherencia en el comportamiento del sistema. Una ventaja importante de esta versión física es su capacidad para conectarse tanto a la API en la nube como a una API local (servicio edge), lo que permite operar de forma flexible dependiendo del entorno: ya sea con conexión a Internet o en un entorno aislado. Esta doble conectividad garantiza mayor robustez, permitiendo seguir funcionando incluso si se pierde el acceso a la red externa.
+
+##### Se hace la verificacion del codigo
+![Verificacion del Codigo](img/VerificacionESP32.png)
+
+##### Luego se sube al ESP32
+
+![Subida de codigo al ESP32](img/CodigoESP32.png)
+
+##### El sistema funciona y envia datos correctamente
+
+![Sistema Funcionando ESP32](img/SistemaESP32.jpg)
+
+##### Respuesta de la API
+
+![Respuesta del API](img/APIResponse.png)
+
+##### Respuesta del Edge
+
+![Respuesta del Edge](img/EdgeResponse.png)
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
