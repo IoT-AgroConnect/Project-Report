@@ -4608,9 +4608,20 @@ Durante el Sprint 3, se completó la ejecución final del ecosistema AgroCuy, in
 
 A continuación, se detallan las evidencias más relevantes:
 
+### Aplicación Web AgroCuy
+
+### Gestión de Jaulas y Sensores IoT - Web
+
+Se implementó una vista detallada por jaula, permitiendo a los criadores visualizar el estado en tiempo real de los sensores conectados (como humedad). Además, se incluye un componente visual intuitivo con cards individuales por jaula.
+
+<img src="img/iot_monitoring.png" alt="IoT Monitoring" width="600" /> <br>
+
+<img src="img/iot_monitoring_2.png" alt="IoT Monitoring 2" width="600" />
+
+
 ---
 
-### 📱 Aplicación Móvil AgroCuy
+### Aplicación Móvil AgroCuy
 
 - Se compiló y desplegó la **versión final** de la app para dispositivos Android.
 - La APK incluye persistencia de sesión, gestión de usuarios, monitoreo de jaulas, recursos, gastos y citas.
