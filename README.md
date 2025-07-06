@@ -4479,7 +4479,6 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 > Esta distribución asegura cobertura de todos los aspectos clave en el Sprint 2, optimizando la colaboración entre miembros y alineando responsabilidades con los objetivos establecidos. La incorporación del prototipo IoT y la app móvil exigió una asignación técnica más específica, reforzada con validaciones funcionales y de usuario.
 
 
-
 #### 6.2.3.3. Sprint Backlog
 
 El objetivo de este tercer sprint es la implementación final e integrada del ecosistema AgroCuy, consolidando la app web, la app móvil y el sistema IoT. Se desarrollaron funcionalidades clave como el monitoreo ambiental en tiempo real, el envío de alertas por correo y la configuración personalizada de rangos por parte del criador, asegurando una solución funcional y lista para su validación en entorno real. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
@@ -4566,6 +4565,49 @@ El objetivo de este tercer sprint es la implementación final e integrada del ec
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+<h3>6.2.3.7. Services Documentation Evidence for Sprint Review</h3>
+
+<h4>✔ Servicios Agregados:</h4>
+<ul>
+  <li><code>SendGridEmailService</code>: Servicio responsable de enviar correos electrónicos utilizando la API de SendGrid.</li>
+  <li><code>SensorThresholdAlertListener</code>: Escucha eventos cuando se crea un nuevo SensorData y compara sus valores con los límites establecidos para emitir alertas.</li>
+</ul>
+
+<h4>✔ Contexto:</h4>
+<p>Estos servicios fueron desarrollados como parte de la funcionalidad de alertas por sensores en jaulas de cuyes. Cuando un dato de sensor (temperatura, humedad, CO₂, agua) sobrepasa los valores definidos por el usuario como aceptables, se envía una alerta por correo electrónico al criador.</p>
+
+<h4>✔ Archivos involucrados:</h4>
+<ul>
+  <li><strong>SendGridEmailService.java</strong>: Implementa el envío de emails mediante la API de SendGrid. Se configura con variables de entorno <code>SENDGRID_API_KEY</code> y <code>EMAIL_FROM</code>.</li>
+  <li><strong>SensorThresholdAlertListener.java</strong>: Listener que responde al evento <code>SensorDataCreatedEvent</code>, compara los valores con los rangos de <code>AcceptableRange</code> del usuario y, si detecta una anomalía, dispara el envío del correo.</li>
+</ul>
+
+<h4>✔ Flujo funcional:</h4>
+<ol>
+  <li>Un <code>SensorData</code> es creado desde el backend.</li>
+  <li>Se dispara el <code>SensorDataCreatedEvent</code>.</li>
+  <li><code>SensorThresholdAlertListener</code> escucha el evento y busca el <code>AcceptableRange</code> correspondiente al <code>cageId</code>.</li>
+  <li>Si uno o más valores superan los límites definidos, se construye un mensaje de alerta.</li>
+  <li><code>SendGridEmailService</code> es invocado para enviar el correo al usuario dueño de la jaula.</li>
+</ol>
+
+<h4>✔ Aplicación externa: SendGrid</h4>
+<p>
+  <strong>SendGrid</strong> es un servicio de envío de correos electrónicos transaccionales y de marketing basado en la nube.
+  En este proyecto se utiliza SendGrid para <strong>enviar alertas por correo electrónico</strong> cuando los sensores registran datos que superan los rangos aceptables definidos por el usuario.
+</p>
+<p>
+  La integración se realiza mediante la <strong>API REST de SendGrid</strong>, utilizando una clave de autenticación (<code>SENDGRID_API_KEY</code>) configurada como variable de entorno en la plataforma Railway.
+</p>
+<p>
+  El correo electrónico se construye en el servicio <code>SendGridEmailService</code>, y se envía automáticamente con los detalles del sensor fuera de rango, la jaula y el criador correspondiente.
+</p>
+
+<img src="img/sendGridDashboard.png" width="80%">
+
+<img src="img/alertasAgroCuy.png" width="80%">
+
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
