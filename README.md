@@ -4391,7 +4391,7 @@ Back-End
 Pruebas de Aceptación
 <img src="img/sprint2-insightaceptance.PNG" width="100%">
 
-### 6.2.3. Sprint 2
+### 6.2.3. Sprint 3
 
 #### 6.2.3.1. Sprint Planning
 
@@ -4413,6 +4413,72 @@ La planificación del segundo sprint se realizó de manera virtual mediante Goog
 | **Suma total de Story Points asignados** | 184 |
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
+
+Durante el segundo sprint, el equipo se reorganizó para abarcar aspectos más amplios y complejos del sistema AgroCuy, incluyendo el refinamiento del Frontend Web Application, del Mobile App y del prototipo IoT (sistema de sensores y notificaciones desde jaulas conectadas), tanto simulado como fisico.
+
+La distribución de liderazgo y colaboración por aspecto se presenta en la siguiente tabla:
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Frontend Web Final Version</th>
+    <th>Mobile App Final Version</th>
+    <th>IoT Final Version</th>
+    <th>Pruebas Automatizadas</th>
+    <th>Validación Usuario</th>
+  </tr>
+  <tr>
+    <td>Lucas Coronel, Nadia Alessandra</td>
+    <td>nad21lc</td>
+    <td></td>
+    <td></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Ramírez Méndez, Sebastián André</td>
+    <td>yorusaurio</td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Cuadros Rodríguez, Juan Alejandro</td>
+    <td>JuanAlejandroCuadrosRodriguez</td>
+    <td></td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Moreno Vergara, Johan Raúl</td>
+    <td>JohanMV</td>
+    <td>L</td>
+    <td></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Jarama Peñaloza, Fiorella</td>
+    <td>Fio0407</td>
+    <td></td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+
+> Esta distribución asegura cobertura de todos los aspectos clave en el Sprint 2, optimizando la colaboración entre miembros y alineando responsabilidades con los objetivos establecidos. La incorporación del prototipo IoT y la app móvil exigió una asignación técnica más específica, reforzada con validaciones funcionales y de usuario.
+
+
 
 #### 6.2.3.3. Sprint Backlog
 
@@ -4770,7 +4836,7 @@ Screenshot del video:
 
 # Conclusiones
 
-## Avance de Conclusiones y recomendaciones
+## Conclusiones y recomendaciones
 
 * La implementación del proceso Lean UX permitió a AgroTech identificar objetivos clave, competidores y necesidades del mercado. Desde la definición de problemas hasta la creación del Lean UX canvas, cada paso mejoró la eficiencia y agilidad en el desarrollo de AgroConnect.
 
