@@ -4011,7 +4011,7 @@ El objetivo de este segundo sprint es la implementación de la parte faltante de
 <https://trello.com/b/VboaXtwW/sprint-backlog-2>
 <img src="img/sprint-backlog-2.png" width="100%">
 
-<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
 <tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
 <tr><td colspan="1" valign="top">US02</td><td colspan="1" valign="top">Visualización de información de un asesor</td><td colspan="1" valign="top">TS01</td><td colspan="1" valign="top">Mejorar estilos en la página de información del asesor</td><td colspan="1" valign="top">Mejorar los estilos CSS en la página de información del asesor.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Nadia Lucas</td><td colspan="1" valign="top">Done</td></tr>
@@ -4409,12 +4409,89 @@ La planificación del segundo sprint se realizó de manera virtual mediante Goog
 | **Resumen del Sprint n–1 (Review)** | Se entregó la versión final de la aplicación móvil, se integraron las notificaciones al correo electrónico y se aplicó la arquitectura Modest IoT exitosamente. |
 | **Resumen del Sprint n–1 (Retrospectiva)** | El equipo acordó documentar con mayor detalle los cambios realizados en el repositorio.
 | **Sprint Goal & User Stories** | El objetivo de este Sprint 3 es culminar la integración completa del ecosistema AgroCuy, afinando la interoperabilidad entre la app móvil, el sistema IoT y la plataforma web. Se priorizan historias de usuario relacionadas con la gestión de sensores, visualización de datos en tiempo real y despliegue de la versión final en producción. |
-| **Velocidad del Sprint (Story Points esperados)** | 168 |
-| **Suma total de Story Points asignados** | 168 |
+| **Velocidad del Sprint (Story Points esperados)** | 140 |
+| **Suma total de Story Points asignados** | 184 |
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
 
 #### 6.2.3.3. Sprint Backlog
+
+El objetivo de este tercer sprint es la implementación final e integrada del ecosistema AgroCuy, consolidando la app web, la app móvil y el sistema IoT. Se desarrollaron funcionalidades clave como el monitoreo ambiental en tiempo real, el envío de alertas por correo y la configuración personalizada de rangos por parte del criador, asegurando una solución funcional y lista para su validación en entorno real. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
+
+[<https://trello.com/b/VboaXtwW/sprint-backlog-2>](https://trello.com/b/9bBZQadB/sprint-backlog-3)
+
+<img src="img/sprint-backlog-3.PNG" width="100%">
+
+<table>
+  <tr>
+    <th colspan="1" valign="top">Sprint #</th>
+    <th colspan="7" valign="top">Sprint 3</th>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">User Story</td>
+    <td colspan="6" valign="top">Work-Item / Task</td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Id</td>
+    <td colspan="1" valign="top">Title</td>
+    <td colspan="1" valign="top">Id</td>
+    <td colspan="1" valign="top">Title</td>
+    <td colspan="1" valign="top">Description</td>
+    <td colspan="1" valign="top">Estimation</td>
+    <td colspan="1" valign="top">Assigned To</td>
+    <td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1" valign="top">US37</td>
+    <td valign="top">Integración con API para monitorear sensores de granja (IoT)</td>
+    <td valign="top">TS36</td>
+    <td valign="top">Implementación de arquitectura Modest IoT</td>
+    <td valign="top">Se implementó la arquitectura Modest IoT</td>
+    <td valign="top">5</td>
+    <td valign="top">Juan</td>
+    <td valign="top">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1" valign="top">US38</td>
+    <td valign="top">Recepción de alertas cuando los parámetros ambientales exceden los rangos aceptables</td>
+    <td valign="top">TS37</td>
+    <td valign="top">Implementación de API SendGrid para la recepción de alertas</td>
+    <td valign="top">El sistema detecta cuando un valor excede el límite configurado y genera una notificación inmediata al correo del usuario.</td>
+    <td valign="top">3</td>
+    <td valign="top">Fiorella Jarama</td>
+    <td valign="top">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3" valign="top">US39</td>
+    <td rowspan="3" valign="top">Configuración personalizada por el criador de los rangos aceptables</td>
+    <td valign="top">TS38</td>
+    <td valign="top">Implementación de configuración personalizada de rangos ambientales en el backend</td>
+    <td valign="top">Se implementa la funcionalidad que permite al criador establecer los valores límite personalizados de temperatura, humedad, CO₂ y agua.</td>
+    <td valign="top">2</td>
+    <td valign="top">Nadia Lucas</td>
+    <td valign="top">Done</td>
+  </tr>
+  <tr>
+    <td valign="top">TS40</td>
+    <td valign="top">Implementación de configuración personalizada en el front-end web</td>
+    <td valign="top">Se habilita una sección en la interfaz web para que el criador registre y edite los rangos personalizados por cada parámetro ambiental.</td>
+    <td valign="top">3</td>
+    <td valign="top">Johan Moreno</td>
+    <td valign="top">Done</td>
+  </tr>
+  <tr>
+    <td valign="top">TS41</td>
+    <td valign="top">Implementación de configuración personalizada en la aplicación móvil</td>
+    <td valign="top">Se integra en la app móvil la opción para visualizar y modificar los valores límite establecidos por el criador.</td>
+    <td valign="top">3</td>
+    <td valign="top">Sebastián Ramirez</td>
+    <td valign="top">Done</td>
+  </tr>
+</table>
+
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
