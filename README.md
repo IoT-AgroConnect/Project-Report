@@ -4560,7 +4560,46 @@ El objetivo de este tercer sprint es la implementación final e integrada del ec
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
+Durante el Sprint 3, el equipo del proyecto AgroCuy finalizó el desarrollo e integración del ecosistema completo: aplicación web, aplicación móvil y sistema IoT. Se enfocó en cerrar la interoperabilidad entre componentes y optimizar la experiencia de usuario.
+
+Se implementaron mejoras significativas en los siguientes aspectos clave:
+
+- **Configuración personalizada de rangos ambientales** tanto en web como en móvil.
+- **Recepción de alertas** vía correo electrónico ante condiciones ambientales fuera de rango.
+- **Monitoreo en tiempo real** desde sensores IoT mediante arquitectura Modest IoT.
+- **Despliegue final del backend, app móvil y plataforma web.**
+
+A continuación, se listan algunos *commits* representativos que evidencian el cumplimiento de los objetivos del Sprint:
+
+
+| Repositorio             | Rama     | Commit ID | Mensaje del Commit                                                                    | Fecha         |
+|-------------------------|----------|-----------|----------------------------------------------------------------------------------------|---------------|
+| AgroCuy-mobileApp       | develop  | 9569c78   | Enhance login error handling and loading state management                             | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | b189111   | fix: remove unused publication service file                                           | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | 4baf477   | fix: update base URL for API endpoint and add new service files                       | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | a8f2725   | Add services for feeding schedules, notifications, publications, and sensor data      | 2025-07-06    |
+| Web-Services-main       | develop  | 7fe31bf   | fix: Ensure the Connection                                                             | 2025-07-05    |
+| Web-Services-main       | develop  | a49875d   | fix: WaterQuality with WaterQuantity site on CreateAcceptableRangeCommand             | 2025-07-05    |
+| Web-Services-main       | develop  | 6bdc17c   | feat: added email notifications via SendGrid                                          | 2025-07-04    |
+| Web-Services-main       | develop  | 464d30e   | fix: fix water quantity range & co₂ range                                             | 2025-07-04    |
+
+
+📌 **Repositorio Web Services**:  
+🔗 [https://github.com/IoT-AgroConnect/Web-Services-main](https://github.com/IoT-AgroConnect/Web-Services-main)
+
+📌 **Repositorio Mobile App**:  
+🔗 [https://github.com/IoT-AgroConnect/AgroCuy-mobileApp](https://github.com/IoT-AgroConnect/AgroCuy-mobileApp)
+
+Estos commits demuestran la entrega de funcionalidades completas y listas para validación en entorno real, garantizando una experiencia robusta para los usuarios del ecosistema AgroCuy.
+
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+
+Durante el Sprint 3, el equipo centró sus esfuerzos en la integración final de los componentes del ecosistema AgroCuy, priorizando la interoperabilidad entre la aplicación web, móvil y el sistema IoT, así como su despliegue en entornos productivos.
+
+>**Nota:** En este sprint, **no se incluyeron nuevas pruebas automatizadas** dentro del plan de trabajo. La validación de funcionalidades se realizó principalmente mediante pruebas manuales sobre los módulos integrados, enfocándose en asegurar el comportamiento esperado en condiciones reales de uso.
+
+Esta decisión se tomó con base en la necesidad de garantizar una entrega funcional completa y estable, dejando como recomendación para iteraciones futuras el fortalecimiento del testing automatizado continuo en nuevas funcionalidades o ajustes.
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
@@ -4616,7 +4655,7 @@ A continuación, se presentan las evidencias del despliegue exitoso de cada comp
 #### Despliegue de la Aplicación Móvil
 La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra una captura de la interfaz final y el enlace de descarga:
 
-ENLACE!!!
+https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI
 
 #### Despliegue de la Aplicación Web
 La aplicación web fue publicada en un entorno productivo, mostrando la interfaz final para asesores y criadores. Esta versión incluye las mejoras de UX y funcionalidades completas.
