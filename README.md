@@ -4375,6 +4375,8 @@ Finalmente, se comprobó el funcionamiento del Web Service al entrar al swagger 
 
 En el proyecto AgroCuy, se implementa un sistema de monitoreo inteligente basado en el microcontrolador ESP32 para supervisar en tiempo real las condiciones del criadero de cuyes. El circuito integra sensores ultrasónicos para detectar movimiento en zonas clave del corral, un sensor DHT22 para medir temperatura y humedad del ambiente, una pantalla LCD que muestra constantemente los valores capturados, y un servomotor que puede activarse automáticamente para abrir compuertas de ventilación o alimentación según las condiciones registradas. Esta solución permite a los criadores tomar decisiones oportunas, optimizando el bienestar de los animales y mejorando la eficiencia del manejo diario.
 
+https://wokwi.com/projects/432924428147171329
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
 
 En la elaboración de la Front-End y el Back-End y la Pruebas, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
@@ -4665,9 +4667,21 @@ Se implementó una vista detallada por jaula, permitiendo a los criadores visual
 
    ![Ficha del cuy Pepe](img/evidence_infocuy.png)
 
-#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+### Sistema Embebido 
 
-<h3>6.2.3.7. Services Documentation Evidence for Sprint Review</h3>
+#### Sistema Embebido (Wokwi)
+
+En el sistema embebido de Wokwi hemos simulado una obtención de datos y envío hacia el backend utilizando sensores virtuales y una lógica de programación cargada en una placa ESP32. Esta simulación nos permitió probar el flujo de información desde los sensores hasta el sistema de visualización LCD, y también verificar el envío correcto hacia la API del servidor mediante HTTP.
+
+![Sistema Embebido Wokwi](img/EmbebidoWokwi.png)
+
+Se verifico la Obtentencion de los datos por medio de Postman y coinciden correctamente por lo enviado por el wokwi, se logro verificar el envio de los datos correctamente.
+<br>
+![Prueba Wokwi](img/PruebasWokwi.png)
+
+https://wokwi.com/projects/432924428147171329
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
 <h4>✔ Servicios Agregados:</h4>
 <ul>
