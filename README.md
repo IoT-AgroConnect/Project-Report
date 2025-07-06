@@ -40,42 +40,105 @@ Abril 2025
 ## Registro de Versiones Del Informe
 
 <table>
+  <thead>
+    <tr>
+        <th>Versión</th>
+        <th>Fecha</th>
+        <th>Autor</th>
+        <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
   <tr>
-    <th>Versión</th>
-    <th>Fecha</th>
-    <th>Autores</th>
-    <th>Descripción de modificación</th>
+      <td><strong>TB1</strong></td>
+      <td>Sábado 13 de Abril</td>
+      <td>
+        <ul>
+          <li>Jarama Peñaloza, Fiorella</li>
+          <li>Cuadros Rodriguez, Juan Alejandro</li>
+          <li>Lucas Coronel, Nadia Alessandra</li>
+          <li>Moreno Vergara, Johan Raúl</li>
+          <li>Ramirez Mendez, Sebastian Andre</li>
+        </ul>
+      </td>
+      <td>
+        Se han incluído los siguientes capítulos:
+        <ul>
+          <li>Capítulo I: Introducción</li>
+          <li>Capítulo II: Requirements Elicitation & Analysis</li>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo IV: Product Design</li>
+          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul>
+      </td>
   </tr>
   <tr>
-    <td rowspan="5">TB1</td>
-    <td rowspan="5">04/10/2025</td>
-    <td>Cuadros Rodriguez, Juan Alejandro</td>
-    <td rowspan="5">
-      <strong>Capítulo I</strong>: Introducción<br>
-      <strong>Capítulo II</strong>: Requirements Elicitation & Analysis<br>
-      <strong>Capítulo III</strong>: Requirements Specification<br>
-      <strong>Capítulo IV</strong>: Solution Software Design
-    </td>
+  <td><strong>TP1</strong></td>
+      <td>Viernes 3 de Mayo</td>
+      <td>
+        <ul>
+              <li>Jarama Peñaloza, Fiorella</li>
+              <li>Cuadros Rodriguez, Juan Alejandro</li>
+              <li>Lucas Coronel, Nadia Alessandra</li>
+              <li>Moreno Vergara, Johan Raúl</li>
+              <li>Ramirez Mendez, Sebastian Andre</li>
+        </ul>
+      </td>
+      <td>
+        <li>Correcciones levantadas.</li>
+        <li>Avance del punto 5.2.2. Sprint 2.</li>
+      </td>
   </tr>
   <tr>
-    <td>Fiorella Jarama Peñaloza</td>
+    <td><strong>TB2</strong></td>
+      <td>Domingo 9 de Junio</td>
+      <td>
+        <ul>
+              <li>Jarama Peñaloza, Fiorella</li>
+              <li>Cuadros Rodriguez, Juan Alejandro</li>
+              <li>Lucas Coronel, Nadia Alessandra</li>
+              <li>Moreno Vergara, Johan Raúl</li>
+              <li>Ramirez Mendez, Sebastian Andre</li>
+        </ul>
+      </td>
+      <td>
+        <li>Correcciones levantadas.</li>
+        <li>Desarrollo del Sprint 3</li>
+        <li>Creación del Video About-The-Product</li>
+        <li>Realización de entrevistas de validación</li>
+        <li>Desarrollo de evaluación por heurísticas</li>
+        <li>Avance de Conclusiones y Anexos</li>
+        <li>Creación del Video About-The-Team</li>
+      </td>
   </tr>
   <tr>
-    <td>Lucas Coronel, Nadia Alessandra</td>
+    <td><strong>TF</strong></td>
+      <td>Martes 25 de Junio</td>
+      <td>
+        <ul>
+              <li>Jarama Peñaloza, Fiorella</li>
+              <li>Cuadros Rodriguez, Juan Alejandro</li>
+              <li>Lucas Coronel, Nadia Alessandra</li>
+              <li>Moreno Vergara, Johan Raúl</li>
+              <li>Ramirez Mendez, Sebastian Andre</li>
+        </ul>
+      </td>
+      <td>
+        <li>Correcciones levantadas.</li>
+        <li>Desarrollo del Sprint 3</li>
+        <li>Mejora del Video About-The-Product</li>
+        <li>Finalización de Conclusiones y Anexos</li>
+      </td>
   </tr>
-  <tr>
-    <td>Moreno Vergara, Johan Raúl</td>
-  </tr>
-  <tr>
-    <td>Ramirez Mendez, Sebastian Andre</td>
-  </tr>
+  </tbody>
 </table>
-
-
 
 ## Project Report Collaboration Insights
 
-### **Reporte de colaboración de la entrega del TB1:**
+URL Project Report (Github): https://github.com/IoT-AgroConnect/Project-Report 
+
+
 
 ------
 
@@ -222,6 +285,18 @@ Abril 2025
     - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
     - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
     - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+
+  - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning](#6231-sprint-planning)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog](#6233-sprint-backlog)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
+
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -321,6 +396,16 @@ Abril 2025
 |-------------------------|-------------------------------|-------------------------|
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cuadros Rodríguez, Juan Alejandro**  <br> *TB2*  <br> Participé activamente en la implementación del módulo de estadísticas con filtros por fecha y rol. Coordiné puntos clave de integración entre componentes del frontend y colaboré en la depuración general de la interfaz. Además, brindé soporte técnico en la integración de la primera versión del mobile app. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TB2*  <br> Colaboré en la validación de usabilidad de la interfaz principal, incluyendo el Landing Page. Documenté observaciones durante las pruebas funcionales y apoyé la revisión visual del frontend. También ayudé en la revisión cruzada del diseño del prototipo móvil. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TB2*  <br> Consolidé y desplegué la versión final del Landing Page, coordinando con el equipo la conexión de endpoints y el uso de datos reales. Supervisé la integración del frontend completo, y participé en las pruebas iniciales del prototipo IoT con lógica de edge computing. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TB2*  <br> Refactoricé la lógica de reportes y estadísticas, asegurando que los datos personales y globales se visualicen según reglas temporales y de rol. Supervisé la calidad del código del frontend e integré la lógica del sistema con el backend. Colaboré en la validación funcional del módulo de sensores IoT. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TB2*  <br> Desarrollé la vista de tendencias (Top 15) y me encargué de asegurar su correcto funcionamiento en tiempo real. También implementé y validé la interfaz del prototipo IoT y participé en la construcción de la primera versión del mobile app. | *TB2*  <br> En este tramo del proyecto, el equipo consolidó su liderazgo colaborativo al entregar una versión funcional y sólida del sistema. Se completaron con éxito el Landing Page, el frontend completo, la primera versión del mobile app y el prototipo IoT. La coordinación entre miembros permitió una integración fluida de tecnologías diversas, con un enfoque técnico compartido y validación cruzada que elevó la calidad del entregable final. |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Cuadros Rodríguez, Juan Alejandro**  <br> *TB2*  <br> Establecí prioridades para el desarrollo del módulo de estadísticas, promoviendo una distribución equitativa de tareas. Colaboré en mantener la documentación técnica actualizada en GitHub. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TB2*  <br> Apoyé la organización del entorno colaborativo mediante Trello y control de versiones. Registré mejoras sugeridas y propuse acciones puntuales para mejorar la experiencia de usuario. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TB2*  <br> Lideré el cronograma de entregables de frontend y landing, y aseguré que todas las tareas de integración se completaran a tiempo. También di soporte en las validaciones del entorno móvil y pruebas de IoT. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TB2*  <br> Documenté la lógica de separación de datos por rol/fecha y coordiné con el backend para mantener consistencia. Aporté en la revisión técnica del código general y propuse refactorizaciones clave. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TB2*  <br> Organicé la estructura de archivos para la vista de tendencias y para los componentes de mobile. Verifiqué que la integración IoT se adapte al entorno de pruebas en edge computing. | *TPB*  <br> El equipo fortaleció su entorno colaborativo a través de una planificación precisa, cronogramas definidos, sesiones de revisión cruzada y comunicación continua. El cumplimiento de objetivos se mantuvo constante, incluso ante desafíos técnicos como el despliegue móvil o la integración de hardware. Esto permitió entregar una versión integrada, validada y funcional de todos los módulos clave del sistema. |
+
+### Tabla de Trabajo Colaborativo – TF
+
+
+| **Criterio específico** | **Acciones realizadas (TF)** | **Conclusiones (TF)** |
+|-------------------------|-------------------------------|-------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cuadros Rodríguez, Juan Alejandro**  <br> *TF*  <br> Participé activamente en la implementación del sistema embebido basado en la arquitectura Modest IoT y su integración con el backend. Además, brindé soporte técnico durante el despliegue de la versión final de la aplicación móvil. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TF*  <br> Contribuí en la validación de usabilidad de la interfaz principal del frontend web y colaboré en la integración de la API externa de notificaciones con el backend de AgroCuy. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TF*  <br> Lideré el despliegue productivo del backend, coordinando la conexión de endpoints, pruebas funcionales y uso de datos reales. Supervisé la integración final del frontend web y validé su operatividad. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TF*  <br> Refactoricé la lógica de reportes y estadísticas para asegurar la visualización según criterios de rol y tiempo. Supervisé la calidad del código del frontend y apoyé en pruebas funcionales del sistema IoT. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TF*  <br> Hice las conclusiones. | *TF*  <br> El equipo consolidó su liderazgo colaborativo al entregar una solución final funcional, integrada y técnicamente sólida. Cada integrante asumió responsabilidades estratégicas en diversas capas del sistema (web, móvil, embebido), coordinando esfuerzos y validando entre pares para garantizar la calidad. Este liderazgo conjunto permitió integrar tecnologías complejas y asegurar la estabilidad del producto final. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Cuadros Rodríguez, Juan Alejandro**  <br> *TF*  <br> Organicé prioridades técnicas para el desarrollo del módulo de estadísticas e impulsé una distribución equitativa de tareas. También mantuve la documentación técnica actualizada en GitHub. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TF*  <br> Fomenté un entorno colaborativo a través de la organización de tareas en Trello y control de versiones. Documenté mejoras en la experiencia de usuario y propuse acciones correctivas. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TF*  <br> Coordiné el cronograma de entregables de frontend y landing page, asegurando que cada tarea de integración se ejecutara a tiempo. Di soporte a las validaciones de la app móvil y al entorno IoT. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TF*  <br> Documenté la separación lógica de datos por rol y fecha, y aseguré su consistencia en coordinación con backend. También propuse mejoras técnicas clave para el código general. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TF*  <br> Hice las conclusiones. | *TF*  <br> El equipo demostró un entorno de trabajo colaborativo, organizado y alineado a metas claras. La planificación por entregables, el uso de tableros ágiles y las sesiones de validación cruzada permitieron cumplir todos los objetivos definidos, incluso frente a retos técnicos como la integración hardware-software y el despliegue en entornos reales. |
+
+
 
 
 ## Capítulo I: Introducción 
@@ -4007,11 +4092,11 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 
 #### 6.2.2.3. Sprint Backlog
 
-El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y sistema Embebido. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
+El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y . Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
 <https://trello.com/b/VboaXtwW/sprint-backlog-2>
 <img src="img/sprint-backlog-2.png" width="100%">
 
-<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
 <tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
 <tr><td colspan="1" valign="top">US02</td><td colspan="1" valign="top">Visualización de información de un asesor</td><td colspan="1" valign="top">TS01</td><td colspan="1" valign="top">Mejorar estilos en la página de información del asesor</td><td colspan="1" valign="top">Mejorar los estilos CSS en la página de información del asesor.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Nadia Lucas</td><td colspan="1" valign="top">Done</td></tr>
@@ -4375,6 +4460,8 @@ Finalmente, se comprobó el funcionamiento del Web Service al entrar al swagger 
 
 En el proyecto AgroCuy, se implementa un sistema de monitoreo inteligente basado en el microcontrolador ESP32 para supervisar en tiempo real las condiciones del criadero de cuyes. El circuito integra sensores ultrasónicos para detectar movimiento en zonas clave del corral, un sensor DHT22 para medir temperatura y humedad del ambiente, una pantalla LCD que muestra constantemente los valores capturados, y un servomotor que puede activarse automáticamente para abrir compuertas de ventilación o alimentación según las condiciones registradas. Esta solución permite a los criadores tomar decisiones oportunas, optimizando el bienestar de los animales y mejorando la eficiencia del manejo diario.
 
+https://wokwi.com/projects/432924428147171329
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
 
 En la elaboración de la Front-End y el Back-End y la Pruebas, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
@@ -4391,6 +4478,399 @@ Back-End
 Pruebas de Aceptación
 <img src="img/sprint2-insightaceptance.PNG" width="100%">
 
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning
+
+La planificación del segundo sprint se realizó de manera virtual mediante Google Meet. En esta sesión, el equipo acordó entregar la **versión final del aplicativo móvil** para criadores y asesores, aplicar mejoras en la **versión final de la aplicación web** y la integración **funcional del sistema IoT** para gestión de jaulas inteligentes.
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 3 |
+| **Sprint Planning Background** | La tercera y última iteración del proyecto AgroCuy se centró en aplicar mejoras en la aplicación web, implementar la arquitectura modest IoT en el sistema embebido y presentar la versión final de la aplicación movil. |
+| **Fecha** | 2025-06-30 |
+| **Hora** | 9:00 PM |
+| **Lugar** | Virtual (Google Meet) |
+| **Preparado por** | Lucas Coronel, Nadia Alessandra |
+| **Participantes de la reunión de planificación** | - Cuadros Rodríguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Méndez, Sebastián André |
+| **Resumen del Sprint n–1 (Review)** | Se entregó la versión final de la aplicación móvil, se integraron las notificaciones al correo electrónico y se aplicó la arquitectura Modest IoT exitosamente. |
+| **Resumen del Sprint n–1 (Retrospectiva)** | El equipo acordó documentar con mayor detalle los cambios realizados en el repositorio.
+| **Sprint Goal & User Stories** | El objetivo de este Sprint 3 es culminar la integración completa del ecosistema AgroCuy, afinando la interoperabilidad entre la app móvil, el sistema IoT y la plataforma web. Se priorizan historias de usuario relacionadas con la gestión de sensores, visualización de datos en tiempo real y despliegue de la versión final en producción. |
+| **Velocidad del Sprint (Story Points esperados)** | 140 |
+| **Suma total de Story Points asignados** | 184 |
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+Durante el segundo sprint, el equipo se reorganizó para abarcar aspectos más amplios y complejos del sistema AgroCuy, incluyendo el refinamiento del Frontend Web Application, del Mobile App y del prototipo IoT (sistema de sensores y notificaciones desde jaulas conectadas), tanto simulado como fisico.
+
+La distribución de liderazgo y colaboración por aspecto se presenta en la siguiente tabla:
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Frontend Web Final Version</th>
+    <th>Mobile App Final Version</th>
+    <th>IoT Final Version</th>
+    <th>Pruebas Automatizadas</th>
+    <th>Validación Usuario</th>
+  </tr>
+  <tr>
+    <td>Lucas Coronel, Nadia Alessandra</td>
+    <td>nad21lc</td>
+    <td></td>
+    <td></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Ramírez Méndez, Sebastián André</td>
+    <td>yorusaurio</td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Cuadros Rodríguez, Juan Alejandro</td>
+    <td>JuanAlejandroCuadrosRodriguez</td>
+    <td></td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Moreno Vergara, Johan Raúl</td>
+    <td>JohanMV</td>
+    <td>L</td>
+    <td></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Jarama Peñaloza, Fiorella</td>
+    <td>Fio0407</td>
+    <td></td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+
+> Esta distribución asegura cobertura de todos los aspectos clave en el Sprint 2, optimizando la colaboración entre miembros y alineando responsabilidades con los objetivos establecidos. La incorporación del prototipo IoT y la app móvil exigió una asignación técnica más específica, reforzada con validaciones funcionales y de usuario.
+
+
+#### 6.2.3.3. Sprint Backlog
+
+El objetivo de este tercer sprint es la implementación final e integrada del ecosistema AgroCuy, consolidando la app web, la app móvil y el sistema IoT. Se desarrollaron funcionalidades clave como el monitoreo ambiental en tiempo real, el envío de alertas por correo y la configuración personalizada de rangos por parte del criador, asegurando una solución funcional y lista para su validación en entorno real. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
+
+[<https://trello.com/b/VboaXtwW/sprint-backlog-2>](https://trello.com/b/9bBZQadB/sprint-backlog-3)
+
+<img src="img/sprint-backlog-3.PNG" width="100%">
+
+<table>
+  <tr>
+    <th colspan="1" valign="top">Sprint #</th>
+    <th colspan="7" valign="top">Sprint 3</th>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">User Story</td>
+    <td colspan="6" valign="top">Work-Item / Task</td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Id</td>
+    <td colspan="1" valign="top">Title</td>
+    <td colspan="1" valign="top">Id</td>
+    <td colspan="1" valign="top">Title</td>
+    <td colspan="1" valign="top">Description</td>
+    <td colspan="1" valign="top">Estimation</td>
+    <td colspan="1" valign="top">Assigned To</td>
+    <td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1" valign="top">US37</td>
+    <td valign="top">Integración con API para monitorear sensores de granja (IoT)</td>
+    <td valign="top">TS36</td>
+    <td valign="top">Implementación de arquitectura Modest IoT</td>
+    <td valign="top">Se implementó la arquitectura Modest IoT</td>
+    <td valign="top">5</td>
+    <td valign="top">Juan</td>
+    <td valign="top">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1" valign="top">US38</td>
+    <td valign="top">Recepción de alertas cuando los parámetros ambientales exceden los rangos aceptables</td>
+    <td valign="top">TS37</td>
+    <td valign="top">Implementación de API SendGrid para la recepción de alertas</td>
+    <td valign="top">El sistema detecta cuando un valor excede el límite configurado y genera una notificación inmediata al correo del usuario.</td>
+    <td valign="top">3</td>
+    <td valign="top">Fiorella Jarama</td>
+    <td valign="top">Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3" valign="top">US39</td>
+    <td rowspan="3" valign="top">Configuración personalizada por el criador de los rangos aceptables</td>
+    <td valign="top">TS38</td>
+    <td valign="top">Implementación de configuración personalizada de rangos ambientales en el backend</td>
+    <td valign="top">Se implementa la funcionalidad que permite al criador establecer los valores límite personalizados de temperatura, humedad, CO₂ y agua.</td>
+    <td valign="top">2</td>
+    <td valign="top">Nadia Lucas</td>
+    <td valign="top">Done</td>
+  </tr>
+  <tr>
+    <td valign="top">TS40</td>
+    <td valign="top">Implementación de configuración personalizada en el front-end web</td>
+    <td valign="top">Se habilita una sección en la interfaz web para que el criador registre y edite los rangos personalizados por cada parámetro ambiental.</td>
+    <td valign="top">3</td>
+    <td valign="top">Johan Moreno</td>
+    <td valign="top">Done</td>
+  </tr>
+  <tr>
+    <td valign="top">TS41</td>
+    <td valign="top">Implementación de configuración personalizada en la aplicación móvil</td>
+    <td valign="top">Se integra en la app móvil la opción para visualizar y modificar los valores límite establecidos por el criador.</td>
+    <td valign="top">3</td>
+    <td valign="top">Sebastián Ramirez</td>
+    <td valign="top">Done</td>
+  </tr>
+</table>
+
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo del proyecto AgroCuy finalizó el desarrollo e integración del ecosistema completo: aplicación web, aplicación móvil y sistema IoT. Se enfocó en cerrar la interoperabilidad entre componentes y optimizar la experiencia de usuario.
+
+Se implementaron mejoras significativas en los siguientes aspectos clave:
+
+- **Configuración personalizada de rangos ambientales** tanto en web como en móvil.
+- **Recepción de alertas** vía correo electrónico ante condiciones ambientales fuera de rango.
+- **Monitoreo en tiempo real** desde sensores IoT mediante arquitectura Modest IoT.
+- **Despliegue final del backend, app móvil y plataforma web.**
+
+A continuación, se listan algunos *commits* representativos que evidencian el cumplimiento de los objetivos del Sprint:
+
+
+| Repositorio             | Rama     | Commit ID | Mensaje del Commit                                                                    | Fecha         |
+|-------------------------|----------|-----------|----------------------------------------------------------------------------------------|---------------|
+| AgroCuy-mobileApp       | develop  | 9569c78   | Enhance login error handling and loading state management                             | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | b189111   | fix: remove unused publication service file                                           | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | 4baf477   | fix: update base URL for API endpoint and add new service files                       | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | a8f2725   | Add services for feeding schedules, notifications, publications, and sensor data      | 2025-07-06    |
+| Web-Services-main       | develop  | 7fe31bf   | fix: Ensure the Connection                                                             | 2025-07-05    |
+| Web-Services-main       | develop  | a49875d   | fix: WaterQuality with WaterQuantity site on CreateAcceptableRangeCommand             | 2025-07-05    |
+| Web-Services-main       | develop  | 6bdc17c   | feat: added email notifications via SendGrid                                          | 2025-07-04    |
+| Web-Services-main       | develop  | 464d30e   | fix: fix water quantity range & co₂ range                                             | 2025-07-04    |
+
+
+📌 **Repositorio Web Services**:  
+🔗 [https://github.com/IoT-AgroConnect/Web-Services-main](https://github.com/IoT-AgroConnect/Web-Services-main)
+
+📌 **Repositorio Mobile App**:  
+🔗 [https://github.com/IoT-AgroConnect/AgroCuy-mobileApp](https://github.com/IoT-AgroConnect/AgroCuy-mobileApp)
+
+Estos commits demuestran la entrega de funcionalidades completas y listas para validación en entorno real, garantizando una experiencia robusta para los usuarios del ecosistema AgroCuy.
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+
+Durante el Sprint 3, el equipo centró sus esfuerzos en la integración final de los componentes del ecosistema AgroCuy, priorizando la interoperabilidad entre la aplicación web, móvil y el sistema IoT, así como su despliegue en entornos productivos.
+
+>**Nota:** En este sprint, **no se incluyeron nuevas pruebas automatizadas** dentro del plan de trabajo. La validación de funcionalidades se realizó principalmente mediante pruebas manuales sobre los módulos integrados, enfocándose en asegurar el comportamiento esperado en condiciones reales de uso.
+
+Esta decisión se tomó con base en la necesidad de garantizar una entrega funcional completa y estable, dejando como recomendación para iteraciones futuras el fortalecimiento del testing automatizado continuo en nuevas funcionalidades o ajustes.
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+
+Durante el Sprint 3, se completó la ejecución final del ecosistema AgroCuy, incluyendo el despliegue funcional de la aplicación móvil, la aplicación web y el sistema embebido con arquitectura IoT. Se verificó que los módulos trabajen de forma integrada y se validó su correcto funcionamiento en condiciones reales.
+
+A continuación, se detallan las evidencias más relevantes:
+
+### Aplicación Web AgroCuy
+
+### Gestión de Jaulas y Sensores IoT - Web
+
+Se implementó una vista detallada por jaula, permitiendo a los criadores visualizar el estado en tiempo real de los sensores conectados (como humedad). Además, se incluye un componente visual intuitivo con cards individuales por jaula.
+
+<img src="img/iot_monitoring.png" alt="IoT Monitoring" width="600" /> <br>
+
+<img src="img/iot_monitoring_2.png" alt="IoT Monitoring 2" width="600" />
+
+
+---
+
+### Aplicación Móvil AgroCuy
+
+- Se compiló y desplegó la **versión final** de la app para dispositivos Android.
+- La APK incluye persistencia de sesión, gestión de usuarios, monitoreo de jaulas, recursos, gastos y citas.
+- Se probó exitosamente en entorno físico y virtual.
+
+🔗 **Enlace de descarga APK:**  
+[Descargar AgroCuy App](https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI)
+
+
+---
+
+####  Evidencias funcionales
+
+1. **Dashboard de jaula con sensores IoT y resumen de estado**
+   - Se visualiza el estado general de la jaula, cantidad de cuyes alojados, porcentaje de ocupación y fecha de creación.
+   - El módulo de monitoreo IoT muestra datos reales de sensores de agua, temperatura, CO₂, humedad y limpieza.
+   
+   ![Dashboard IoT Jaula](img/evidence_jaulaIot.png)
+
+2. **Panel de monitoreo IoT implementado**
+   - Se validó el sistema embebido que permite visualizar valores en tiempo real de sensores de agua (ml), temperatura (°C), humedad (%), CO₂ (ppm), y días desde la última limpieza.
+   - Los indicadores cambian de color según el nivel crítico, normal o regular.
+   
+   ![Monitoreo IoT](img/evidence_implementedIot.png)
+
+3. **Estado inicial sin cuyes registrados**
+   - Se muestra la interfaz amigable que invita al usuario a agregar su primer cuy.
+   - Esta vista se presenta cuando la jaula aún no tiene animales asignados.
+
+   ![Sin cuyes en jaula](img/evidence_cuy.png)
+
+4. **Registro exitoso de un cuy**
+   - Se registró correctamente un cuy llamado "Pepe", raza Andina, con peso y edad visibles.
+   - El estado del cuy aparece como “SANO” y se muestra su género mediante íconos.
+   
+   ![Cuy agregado exitosamente](img/evidence_addcuy.png)
+
+5. **Ficha detallada del cuy**
+   - Se visualiza la ficha técnica del cuy “Pepe”, con datos como sexo, raza, peso, edad, estado de salud, fecha de nacimiento e ingreso, y observaciones personalizadas.
+   - Este módulo permite una revisión rápida del historial individual del animal.
+
+   ![Ficha del cuy Pepe](img/evidence_infocuy.png)
+
+### Sistema Embebido 
+
+#### Sistema Embebido (Wokwi)
+
+Para la fase de simulación, utilizamos la plataforma Wokwi con una placa virtual ESP32, integrando sensores virtuales para medir temperatura, humedad, nivel de agua y CO₂. Estos datos fueron procesados localmente y visualizados mediante una pantalla LCD I2C 20x4. Además, se implementó la lógica para el envío de datos vía HTTP hacia un backend expuesto por una API REST, permitiendo probar la conectividad y funcionamiento del flujo completo de adquisición y transmisión de datos.
+
+La arquitectura del sistema sigue la estructura del framework ModestIoT, lo que nos permitió mantener una separación clara entre sensores, actuadores y lógica de comunicación, documentando cada componente con buenas prácticas de ingeniería embebida.
+
+![Sistema Embebido Wokwi](img/EmbebidoWokwi.png)
+
+La validación del sistema se realizó utilizando Postman, donde se confirmó que los datos enviados por la ESP32 virtual coincidían con los datos recibidos por el backend, demostrando un funcionamiento correcto de la lógica de red y serialización de datos en formato JSON.
+<br>
+![Prueba Wokwi](img/PruebasWokwi.png)
+
+https://wokwi.com/projects/432924428147171329
+
+#### Sistema Embebido Fisico
+
+En la implementación física del sistema embebido, se utilizó una placa ESP32 junto con tres potenciómetros, un sensor DHT11, un servo motor y una pantalla LCD I2C 20x4 para capturar, procesar y visualizar los datos en tiempo real. La lógica de programación cargada es la misma que en la simulación de Wokwi, lo que permitió mantener coherencia en el comportamiento del sistema. Una ventaja importante de esta versión física es su capacidad para conectarse tanto a la API en la nube como a una API local (servicio edge), lo que permite operar de forma flexible dependiendo del entorno: ya sea con conexión a Internet o en un entorno aislado. Esta doble conectividad garantiza mayor robustez, permitiendo seguir funcionando incluso si se pierde el acceso a la red externa.
+
+##### Se hace la verificacion del codigo
+![Verificacion del Codigo](img/VerificacionESP32.png)
+
+##### Luego se sube al ESP32
+
+![Subida de codigo al ESP32](img/CodigoESP32.png)
+
+##### El sistema funciona y envia datos correctamente
+
+![Sistema Funcionando ESP32](img/SistemaESP32.jpg)
+
+##### Respuesta de la API
+
+![Respuesta del API](img/APIResponse.png)
+
+##### Respuesta del Edge
+
+![Respuesta del Edge](img/EdgeResponse.png)
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+<h4>✔ Servicios Agregados:</h4>
+<ul>
+  <li><code>SendGridEmailService</code>: Servicio responsable de enviar correos electrónicos utilizando la API de SendGrid.</li>
+  <li><code>SensorThresholdAlertListener</code>: Escucha eventos cuando se crea un nuevo SensorData y compara sus valores con los límites establecidos para emitir alertas.</li>
+</ul>
+
+<h4>✔ Contexto:</h4>
+<p>Estos servicios fueron desarrollados como parte de la funcionalidad de alertas por sensores en jaulas de cuyes. Cuando un dato de sensor (temperatura, humedad, CO₂, agua) sobrepasa los valores definidos por el usuario como aceptables, se envía una alerta por correo electrónico al criador.</p>
+
+<h4>✔ Archivos involucrados:</h4>
+<ul>
+  <li><strong>SendGridEmailService.java</strong>: Implementa el envío de emails mediante la API de SendGrid. Se configura con variables de entorno <code>SENDGRID_API_KEY</code> y <code>EMAIL_FROM</code>.</li>
+  <li><strong>SensorThresholdAlertListener.java</strong>: Listener que responde al evento <code>SensorDataCreatedEvent</code>, compara los valores con los rangos de <code>AcceptableRange</code> del usuario y, si detecta una anomalía, dispara el envío del correo.</li>
+</ul>
+
+<h4>✔ Flujo funcional:</h4>
+<ol>
+  <li>Un <code>SensorData</code> es creado desde el backend.</li>
+  <li>Se dispara el <code>SensorDataCreatedEvent</code>.</li>
+  <li><code>SensorThresholdAlertListener</code> escucha el evento y busca el <code>AcceptableRange</code> correspondiente al <code>cageId</code>.</li>
+  <li>Si uno o más valores superan los límites definidos, se construye un mensaje de alerta.</li>
+  <li><code>SendGridEmailService</code> es invocado para enviar el correo al usuario dueño de la jaula.</li>
+</ol>
+
+<h4>✔ Aplicación externa: SendGrid</h4>
+<p>
+  <strong>SendGrid</strong> es un servicio de envío de correos electrónicos transaccionales y de marketing basado en la nube.
+  En este proyecto se utiliza SendGrid para <strong>enviar alertas por correo electrónico</strong> cuando los sensores registran datos que superan los rangos aceptables definidos por el usuario.
+</p>
+<p>
+  La integración se realiza mediante la <strong>API REST de SendGrid</strong>, utilizando una clave de autenticación (<code>SENDGRID_API_KEY</code>) configurada como variable de entorno en la plataforma Railway.
+</p>
+<p>
+  El correo electrónico se construye en el servicio <code>SendGridEmailService</code>, y se envía automáticamente con los detalles del sensor fuera de rango, la jaula y el criador correspondiente.
+</p>
+
+<img src="img/sendGridDashboard.png" width="80%">
+
+<img src="img/alertasAgroCuy.png" width="80%">
+
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+A continuación, se presentan las evidencias del despliegue exitoso de cada componente del sistema AgroCuy al finalizar el Sprint 3, dejando la solución lista para su validación y exposición final.
+
+#### Despliegue de la Aplicación Móvil
+La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra el enlace:
+
+🔗 **Enlace de descarga APK:**  
+[Descargar AgroCuy App](https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI)
+
+#### Despliegue de la Aplicación Web
+La aplicación web fue publicada en un entorno productivo, mostrando la interfaz final para asesores y criadores. Esta versión incluye las mejoras de UX y funcionalidades completas.
+
+ENLACE!!!
+
+#### Despliegue del Backend
+El backend fue desplegado en Railway en un entorno productivo, con servicios activos al 100% y documentación pública mediante Swagger. Esto garantiza que las APIs RESTful estén disponibles para las aplicaciones cliente.
+
+<img src="img/despligue-back-final.PNG" width="100%">
+
+<img src="img/railway-back-swagger.PNG" width="100%">
+
+🔗 Enlace a documentación Swagger: [https://web-services-main-production.up.railway.app/swagger-ui/index.html](https://web-services-main-production.up.railway.app/swagger-ui/index.html)
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
+
+Backend
+
+![Collaboration Insights](image-2.png)
+
+![Network](image-3.png)
+
+Frontend mobile
+
+![Collaboration Insights](image-1.png)
+
+![Network](image-4.png)
 
 ## 6.3. Validation Interviews.
 
@@ -4636,7 +5116,7 @@ Screenshot del video:
 
 # Conclusiones
 
-## Avance de Conclusiones y recomendaciones
+## Conclusiones y recomendaciones
 
 * La implementación del proceso Lean UX permitió a AgroTech identificar objetivos clave, competidores y necesidades del mercado. Desde la definición de problemas hasta la creación del Lean UX canvas, cada paso mejoró la eficiencia y agilidad en el desarrollo de AgroConnect.
 
@@ -4649,6 +5129,35 @@ Screenshot del video:
 * Al desarrollar el backend con Spring Boot y alinear los bounded contexts utilizando la arquitectura DDD, conseguimos establecer una estructura sólida y modularizada. La exhaustiva documentación en Swagger nos sirvió como una guía clara para comprender y trabajar con cada componente, lo que no solo optimiza la organización y mantenimiento del código, sino que también promueve la colaboración entre equipos y facilita la escalabilidad del proyecto a medida que avanza. Por otro lado, las entrevistas de validación del producto brindaron una visión completa de cómo perciben y qué necesitan los usuarios. Aunque se reconocieron aspectos positivos como la utilidad de la Landing Page y la facilidad de uso de la Web Application, también se identificaron áreas de mejora en términos de claridad de la información, diseño y navegación. Estos insights proporcionan una base sólida para implementar ajustes significativos y perfeccionar la experiencia del usuario en futuras iteraciones del producto, garantizando así una mayor satisfacción y usabilidad.
 
 * Finalmente, durante el desarrollo del trabajo aprendimos a planificar mejor la arquitectura del backend y optimizar las consultas a la base de datos desde el inicio para manejar eficientemente grandes volúmenes de datos. Asimismo, mejoramos la comunicación entre equipos para asegurar una integración fluida del frontend y backend, implementando estrategias de integración continua para facilitar actualizaciones rápidas y consistentes del sistema. Del mismo modo, nuestra startup AgroTech ha podido lograr una implementación exitosa de AgroConnect, demostrando competencia en la aplicación de metodologías como Lean UX y principios ágiles. Además, Hemos integrado eficientemente el frontend y backend mediante tecnologías open-source y prácticas colaborativas como GitFlow, garantizando estándares de seguridad y funcionalidad necesarios para cumplir con las expectativas del usuario final.
+
+* Se implementó con éxito un sistema de detección de sensores fuera de rango utilizando eventos de dominio y un listener desacoplado. Además, se integró el servicio externo SendGrid para el envío automático de correos electrónicos al criador. Esta solución permite alertar en tiempo real sobre condiciones críticas en las jaulas.
+
+* Se logró desplegar por primera vez el backend en una plataforma externa (Railway), configurando adecuadamente las variables de entorno como la API Key de SendGrid. Esto permitió validar que todo el sistema funcionaba de manera remota, asegurando conectividad desde cualquier cliente (web o móvil).
+
+* Se configuró y probó con éxito el prototipo físico de los sensores (temperatura, humedad, CO₂, calidad y cantidad de agua) utilizando ModestIoT tanto en hardware real como en emulador. Esto facilitó pruebas constantes del backend con datos reales y simulados, y validó el flujo completo de lectura, comparación y alerta.
+
+* La aplicación móvil fue adaptada para consumir los datos del backend desplegado, permitiendo a los usuarios visualizar información relevante de las jaulas. Esto completa el flujo de usuario desde sensores físicos hasta visualización en tiempo real en la app, demostrando una integración completa entre frontend y backend.
+
+* A lo largo del proyecto, el equipo fue capaz de integrar tecnologías nuevas como Railway, ModestIoT y SendGrid, demostrando flexibilidad técnica y capacidad de aprendizaje autónomo frente a herramientas modernas y servicios externos.
+
+* El uso de herramientas colaborativas como GitHub, Trello y Figma permitió mantener una comunicación constante y sincronización entre los miembros del equipo, incluso trabajando de forma remota.
+
+### Recomendaciones
+
+1. **Automatizar pruebas y despliegues**  
+   Se recomienda implementar pipelines de integración y entrega continua (CI/CD) para reducir errores humanos y asegurar despliegues consistentes en futuras versiones del producto.
+
+2. **Profundizar en la accesibilidad de la aplicación**  
+   Incluir prácticas y herramientas de accesibilidad (a11y) para que el sistema sea utilizable por personas con discapacidades visuales o motrices, lo cual ampliará su alcance e impacto.
+
+3. **Optimizar el rendimiento de sensores en condiciones reales**  
+   Aunque las pruebas con emuladores y hardware fueron exitosas, se sugiere realizar pruebas prolongadas en granjas reales para ajustar tolerancias, latencias y condiciones ambientales no simuladas.
+
+4. **Escalar la arquitectura para múltiples usuarios y jaulas**  
+   A medida que AgroConnect crezca, será necesario considerar un enfoque multi-tenant, en donde múltiples criadores puedan usar el sistema de forma independiente, segura y eficiente.
+
+5. **Establecer una hoja de ruta post-lanzamiento**  
+   Definir claramente próximos pasos tras esta entrega: soporte técnico, evolución del producto, alianzas estratégicas y potenciales rondas de financiación si AgroTech planea continuar como startup.
 
 ## Video About-the-Team.
 
