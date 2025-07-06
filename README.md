@@ -5040,6 +5040,27 @@ Screenshot del video:
 
 * La aplicación móvil fue adaptada para consumir los datos del backend desplegado, permitiendo a los usuarios visualizar información relevante de las jaulas. Esto completa el flujo de usuario desde sensores físicos hasta visualización en tiempo real en la app, demostrando una integración completa entre frontend y backend.
 
+* A lo largo del proyecto, el equipo fue capaz de integrar tecnologías nuevas como Railway, ModestIoT y SendGrid, demostrando flexibilidad técnica y capacidad de aprendizaje autónomo frente a herramientas modernas y servicios externos.
+
+* El uso de herramientas colaborativas como GitHub, Trello y Figma permitió mantener una comunicación constante y sincronización entre los miembros del equipo, incluso trabajando de forma remota.
+
+### Recomendaciones
+
+1. **Automatizar pruebas y despliegues**  
+   Se recomienda implementar pipelines de integración y entrega continua (CI/CD) para reducir errores humanos y asegurar despliegues consistentes en futuras versiones del producto.
+
+2. **Profundizar en la accesibilidad de la aplicación**  
+   Incluir prácticas y herramientas de accesibilidad (a11y) para que el sistema sea utilizable por personas con discapacidades visuales o motrices, lo cual ampliará su alcance e impacto.
+
+3. **Optimizar el rendimiento de sensores en condiciones reales**  
+   Aunque las pruebas con emuladores y hardware fueron exitosas, se sugiere realizar pruebas prolongadas en granjas reales para ajustar tolerancias, latencias y condiciones ambientales no simuladas.
+
+4. **Escalar la arquitectura para múltiples usuarios y jaulas**  
+   A medida que AgroConnect crezca, será necesario considerar un enfoque multi-tenant, en donde múltiples criadores puedan usar el sistema de forma independiente, segura y eficiente.
+
+5. **Establecer una hoja de ruta post-lanzamiento**  
+   Definir claramente próximos pasos tras esta entrega: soporte técnico, evolución del producto, alianzas estratégicas y potenciales rondas de financiación si AgroTech planea continuar como startup.
+
 ## Video About-the-Team.
 
 # Bibliografía
