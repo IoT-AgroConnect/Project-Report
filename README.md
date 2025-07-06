@@ -4725,6 +4725,18 @@ El backend fue desplegado en Railway en un entorno productivo, con servicios act
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 
+Backend
+
+![Collaboration Insights](image-2.png)
+
+![Network](image-3.png)
+
+Frontend mobile
+
+![Collaboration Insights](image-1.png)
+
+![Network](image-4.png)
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
@@ -4982,6 +4994,14 @@ Screenshot del video:
 * Al desarrollar el backend con Spring Boot y alinear los bounded contexts utilizando la arquitectura DDD, conseguimos establecer una estructura sólida y modularizada. La exhaustiva documentación en Swagger nos sirvió como una guía clara para comprender y trabajar con cada componente, lo que no solo optimiza la organización y mantenimiento del código, sino que también promueve la colaboración entre equipos y facilita la escalabilidad del proyecto a medida que avanza. Por otro lado, las entrevistas de validación del producto brindaron una visión completa de cómo perciben y qué necesitan los usuarios. Aunque se reconocieron aspectos positivos como la utilidad de la Landing Page y la facilidad de uso de la Web Application, también se identificaron áreas de mejora en términos de claridad de la información, diseño y navegación. Estos insights proporcionan una base sólida para implementar ajustes significativos y perfeccionar la experiencia del usuario en futuras iteraciones del producto, garantizando así una mayor satisfacción y usabilidad.
 
 * Finalmente, durante el desarrollo del trabajo aprendimos a planificar mejor la arquitectura del backend y optimizar las consultas a la base de datos desde el inicio para manejar eficientemente grandes volúmenes de datos. Asimismo, mejoramos la comunicación entre equipos para asegurar una integración fluida del frontend y backend, implementando estrategias de integración continua para facilitar actualizaciones rápidas y consistentes del sistema. Del mismo modo, nuestra startup AgroTech ha podido lograr una implementación exitosa de AgroConnect, demostrando competencia en la aplicación de metodologías como Lean UX y principios ágiles. Además, Hemos integrado eficientemente el frontend y backend mediante tecnologías open-source y prácticas colaborativas como GitFlow, garantizando estándares de seguridad y funcionalidad necesarios para cumplir con las expectativas del usuario final.
+
+* Se implementó con éxito un sistema de detección de sensores fuera de rango utilizando eventos de dominio y un listener desacoplado. Además, se integró el servicio externo SendGrid para el envío automático de correos electrónicos al criador. Esta solución permite alertar en tiempo real sobre condiciones críticas en las jaulas.
+
+* Se logró desplegar por primera vez el backend en una plataforma externa (Railway), configurando adecuadamente las variables de entorno como la API Key de SendGrid. Esto permitió validar que todo el sistema funcionaba de manera remota, asegurando conectividad desde cualquier cliente (web o móvil).
+
+* Se configuró y probó con éxito el prototipo físico de los sensores (temperatura, humedad, CO₂, calidad y cantidad de agua) utilizando ModestIoT tanto en hardware real como en emulador. Esto facilitó pruebas constantes del backend con datos reales y simulados, y validó el flujo completo de lectura, comparación y alerta.
+
+* La aplicación móvil fue adaptada para consumir los datos del backend desplegado, permitiendo a los usuarios visualizar información relevante de las jaulas. Esto completa el flujo de usuario desde sensores físicos hasta visualización en tiempo real en la app, demostrando una integración completa entre frontend y backend.
 
 ## Video About-the-Team.
 
