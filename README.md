@@ -4503,6 +4503,27 @@ El objetivo de este tercer sprint es la implementación final e integrada del ec
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
+A continuación, se presentan las evidencias del despliegue exitoso de cada componente del sistema AgroCuy al finalizar el Sprint 3, dejando la solución lista para su validación y exposición final.
+
+#### Despliegue de la Aplicación Móvil
+La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra una captura de la interfaz final y el enlace de descarga:
+
+ENLACE!!!
+
+#### Despliegue de la Aplicación Web
+La aplicación web fue publicada en un entorno productivo, mostrando la interfaz final para asesores y criadores. Esta versión incluye las mejoras de UX y funcionalidades completas.
+
+ENLACE!!!
+
+#### Despliegue del Backend
+El backend fue desplegado en Railway en un entorno productivo, con servicios activos al 100% y documentación pública mediante Swagger. Esto garantiza que las APIs RESTful estén disponibles para las aplicaciones cliente.
+
+<img src="img/despligue-back-final.PNG" width="100%">
+
+<img src="img/railway-back-swagger.PNG" width="100%">
+
+🔗 Enlace a documentación Swagger: [https://web-services-main-production.up.railway.app/swagger-ui/index.html](https://web-services-main-production.up.railway.app/swagger-ui/index.html)
+
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 
 ## 6.3. Validation Interviews.
