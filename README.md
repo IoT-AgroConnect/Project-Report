@@ -4603,6 +4603,57 @@ Esta decisión se tomó con base en la necesidad de garantizar una entrega funci
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
+
+Durante el Sprint 3, se completó la ejecución final del ecosistema AgroCuy, incluyendo el despliegue funcional de la aplicación móvil, la aplicación web y el sistema embebido con arquitectura IoT. Se verificó que los módulos trabajen de forma integrada y se validó su correcto funcionamiento en condiciones reales.
+
+A continuación, se detallan las evidencias más relevantes:
+
+---
+
+### 📱 Aplicación Móvil AgroCuy
+
+- Se compiló y desplegó la **versión final** de la app para dispositivos Android.
+- La APK incluye persistencia de sesión, gestión de usuarios, monitoreo de jaulas, recursos, gastos y citas.
+- Se probó exitosamente en entorno físico y virtual.
+
+🔗 **Enlace de descarga APK:**  
+[Descargar AgroCuy App](https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI)
+
+
+---
+
+####  Evidencias funcionales
+
+1. **Dashboard de jaula con sensores IoT y resumen de estado**
+   - Se visualiza el estado general de la jaula, cantidad de cuyes alojados, porcentaje de ocupación y fecha de creación.
+   - El módulo de monitoreo IoT muestra datos reales de sensores de agua, temperatura, CO₂, humedad y limpieza.
+   
+   ![Dashboard IoT Jaula](img/evidence_jaulaIot.png)
+
+2. **Panel de monitoreo IoT implementado**
+   - Se validó el sistema embebido que permite visualizar valores en tiempo real de sensores de agua (ml), temperatura (°C), humedad (%), CO₂ (ppm), y días desde la última limpieza.
+   - Los indicadores cambian de color según el nivel crítico, normal o regular.
+   
+   ![Monitoreo IoT](img/evidence_implementedIot.png)
+
+3. **Estado inicial sin cuyes registrados**
+   - Se muestra la interfaz amigable que invita al usuario a agregar su primer cuy.
+   - Esta vista se presenta cuando la jaula aún no tiene animales asignados.
+
+   ![Sin cuyes en jaula](img/evidence_cuy.png)
+
+4. **Registro exitoso de un cuy**
+   - Se registró correctamente un cuy llamado "Pepe", raza Andina, con peso y edad visibles.
+   - El estado del cuy aparece como “SANO” y se muestra su género mediante íconos.
+   
+   ![Cuy agregado exitosamente](img/evidence_addcuy.png)
+
+5. **Ficha detallada del cuy**
+   - Se visualiza la ficha técnica del cuy “Pepe”, con datos como sexo, raza, peso, edad, estado de salud, fecha de nacimiento e ingreso, y observaciones personalizadas.
+   - Este módulo permite una revisión rápida del historial individual del animal.
+
+   ![Ficha del cuy Pepe](img/evidence_infocuy.png)
+
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
 <h3>6.2.3.7. Services Documentation Evidence for Sprint Review</h3>
@@ -4655,7 +4706,8 @@ A continuación, se presentan las evidencias del despliegue exitoso de cada comp
 #### Despliegue de la Aplicación Móvil
 La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra una captura de la interfaz final y el enlace de descarga:
 
-https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI
+🔗 **Enlace de descarga APK:**  
+[Descargar AgroCuy App](https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI)
 
 #### Despliegue de la Aplicación Web
 La aplicación web fue publicada en un entorno productivo, mostrando la interfaz final para asesores y criadores. Esta versión incluye las mejoras de UX y funcionalidades completas.
