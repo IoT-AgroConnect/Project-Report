@@ -4395,6 +4395,23 @@ Pruebas de Aceptación
 
 #### 6.2.3.1. Sprint Planning
 
+La planificación del segundo sprint se realizó de manera virtual mediante Google Meet. En esta sesión, el equipo acordó entregar la **versión final del aplicativo móvil** para criadores y asesores, aplicar mejoras en la **versión final de la aplicación web** y la integración **funcional del sistema IoT** para gestión de jaulas inteligentes.
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 3 |
+| **Sprint Planning Background** | La tercera y última iteración del proyecto AgroCuy se centró en aplicar mejoras en la aplicación web, implementar la arquitectura modest IoT en el sistema embebido y presentar la versión final de la aplicación movil. |
+| **Fecha** | 2025-06-30 |
+| **Hora** | 9:00 PM |
+| **Lugar** | Virtual (Google Meet) |
+| **Preparado por** | Lucas Coronel, Nadia Alessandra |
+| **Participantes de la reunión de planificación** | - Cuadros Rodríguez, Juan Alejandro<br> - Jarama Peñaloza, Fiorella<br> - Lucas Coronel, Nadia Alessandra<br> - Moreno Vergara, Johan Raúl<br> - Ramírez Méndez, Sebastián André |
+| **Resumen del Sprint n–1 (Review)** | Se entregó la versión final de la aplicación móvil, se integraron las notificaciones al correo electrónico y se aplicó la arquitectura Modest IoT exitosamente. |
+| **Resumen del Sprint n–1 (Retrospectiva)** | El equipo acordó documentar con mayor detalle los cambios realizados en el repositorio.
+| **Sprint Goal & User Stories** | El objetivo de este Sprint 3 es culminar la integración completa del ecosistema AgroCuy, afinando la interoperabilidad entre la app móvil, el sistema IoT y la plataforma web. Se priorizan historias de usuario relacionadas con la gestión de sensores, visualización de datos en tiempo real y despliegue de la versión final en producción. |
+| **Velocidad del Sprint (Story Points esperados)** | 168 |
+| **Suma total de Story Points asignados** | 168 |
+
 #### 6.2.3.2. Aspect Leaders and Collaborators
 
 #### 6.2.3.3. Sprint Backlog
