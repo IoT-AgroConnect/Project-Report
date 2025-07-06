@@ -285,6 +285,18 @@ URL Project Report (Github): https://github.com/IoT-AgroConnect/Project-Report
     - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
     - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
     - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+
+  - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning](#6231-sprint-planning)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog](#6233-sprint-backlog)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
+
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -384,6 +396,16 @@ URL Project Report (Github): https://github.com/IoT-AgroConnect/Project-Report
 |-------------------------|-------------------------------|-------------------------|
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cuadros Rodríguez, Juan Alejandro**  <br> *TB2*  <br> Participé activamente en la implementación del módulo de estadísticas con filtros por fecha y rol. Coordiné puntos clave de integración entre componentes del frontend y colaboré en la depuración general de la interfaz. Además, brindé soporte técnico en la integración de la primera versión del mobile app. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TB2*  <br> Colaboré en la validación de usabilidad de la interfaz principal, incluyendo el Landing Page. Documenté observaciones durante las pruebas funcionales y apoyé la revisión visual del frontend. También ayudé en la revisión cruzada del diseño del prototipo móvil. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TB2*  <br> Consolidé y desplegué la versión final del Landing Page, coordinando con el equipo la conexión de endpoints y el uso de datos reales. Supervisé la integración del frontend completo, y participé en las pruebas iniciales del prototipo IoT con lógica de edge computing. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TB2*  <br> Refactoricé la lógica de reportes y estadísticas, asegurando que los datos personales y globales se visualicen según reglas temporales y de rol. Supervisé la calidad del código del frontend e integré la lógica del sistema con el backend. Colaboré en la validación funcional del módulo de sensores IoT. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TB2*  <br> Desarrollé la vista de tendencias (Top 15) y me encargué de asegurar su correcto funcionamiento en tiempo real. También implementé y validé la interfaz del prototipo IoT y participé en la construcción de la primera versión del mobile app. | *TB2*  <br> En este tramo del proyecto, el equipo consolidó su liderazgo colaborativo al entregar una versión funcional y sólida del sistema. Se completaron con éxito el Landing Page, el frontend completo, la primera versión del mobile app y el prototipo IoT. La coordinación entre miembros permitió una integración fluida de tecnologías diversas, con un enfoque técnico compartido y validación cruzada que elevó la calidad del entregable final. |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Cuadros Rodríguez, Juan Alejandro**  <br> *TB2*  <br> Establecí prioridades para el desarrollo del módulo de estadísticas, promoviendo una distribución equitativa de tareas. Colaboré en mantener la documentación técnica actualizada en GitHub. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TB2*  <br> Apoyé la organización del entorno colaborativo mediante Trello y control de versiones. Registré mejoras sugeridas y propuse acciones puntuales para mejorar la experiencia de usuario. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TB2*  <br> Lideré el cronograma de entregables de frontend y landing, y aseguré que todas las tareas de integración se completaran a tiempo. También di soporte en las validaciones del entorno móvil y pruebas de IoT. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TB2*  <br> Documenté la lógica de separación de datos por rol/fecha y coordiné con el backend para mantener consistencia. Aporté en la revisión técnica del código general y propuse refactorizaciones clave. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TB2*  <br> Organicé la estructura de archivos para la vista de tendencias y para los componentes de mobile. Verifiqué que la integración IoT se adapte al entorno de pruebas en edge computing. | *TPB*  <br> El equipo fortaleció su entorno colaborativo a través de una planificación precisa, cronogramas definidos, sesiones de revisión cruzada y comunicación continua. El cumplimiento de objetivos se mantuvo constante, incluso ante desafíos técnicos como el despliegue móvil o la integración de hardware. Esto permitió entregar una versión integrada, validada y funcional de todos los módulos clave del sistema. |
+
+### Tabla de Trabajo Colaborativo – TF
+
+
+| **Criterio específico** | **Acciones realizadas (TF)** | **Conclusiones (TF)** |
+|-------------------------|-------------------------------|-------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Cuadros Rodríguez, Juan Alejandro**  <br> *TF*  <br> Participé activamente en la implementación del sistema embebido basado en la arquitectura Modest IoT y su integración con el backend. Además, brindé soporte técnico durante el despliegue de la versión final de la aplicación móvil. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TF*  <br> Contribuí en la validación de usabilidad de la interfaz principal del frontend web y colaboré en la integración de la API externa de notificaciones con el backend de AgroCuy. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TF*  <br> Lideré el despliegue productivo del backend, coordinando la conexión de endpoints, pruebas funcionales y uso de datos reales. Supervisé la integración final del frontend web y validé su operatividad. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TF*  <br> Refactoricé la lógica de reportes y estadísticas para asegurar la visualización según criterios de rol y tiempo. Supervisé la calidad del código del frontend y apoyé en pruebas funcionales del sistema IoT. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TF*  <br> Hice las conclusiones. | *TF*  <br> El equipo consolidó su liderazgo colaborativo al entregar una solución final funcional, integrada y técnicamente sólida. Cada integrante asumió responsabilidades estratégicas en diversas capas del sistema (web, móvil, embebido), coordinando esfuerzos y validando entre pares para garantizar la calidad. Este liderazgo conjunto permitió integrar tecnologías complejas y asegurar la estabilidad del producto final. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Cuadros Rodríguez, Juan Alejandro**  <br> *TF*  <br> Organicé prioridades técnicas para el desarrollo del módulo de estadísticas e impulsé una distribución equitativa de tareas. También mantuve la documentación técnica actualizada en GitHub. <br><br> **Jarama Peñaloza, Fiorella**  <br> *TF*  <br> Fomenté un entorno colaborativo a través de la organización de tareas en Trello y control de versiones. Documenté mejoras en la experiencia de usuario y propuse acciones correctivas. <br><br> **Lucas Coronel, Nadia Alessandra**  <br> *TF*  <br> Coordiné el cronograma de entregables de frontend y landing page, asegurando que cada tarea de integración se ejecutara a tiempo. Di soporte a las validaciones de la app móvil y al entorno IoT. <br><br> **Ramírez Méndez, Sebastián André**  <br> *TF*  <br> Documenté la separación lógica de datos por rol y fecha, y aseguré su consistencia en coordinación con backend. También propuse mejoras técnicas clave para el código general. <br><br> **Moreno Vergara, Johan Raúl**  <br> *TF*  <br> Hice las conclusiones. | *TF*  <br> El equipo demostró un entorno de trabajo colaborativo, organizado y alineado a metas claras. La planificación por entregables, el uso de tableros ágiles y las sesiones de validación cruzada permitieron cumplir todos los objetivos definidos, incluso frente a retos técnicos como la integración hardware-software y el despliegue en entornos reales. |
+
+
 
 
 ## Capítulo I: Introducción 
@@ -4070,7 +4092,7 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 
 #### 6.2.2.3. Sprint Backlog
 
-El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y sistema Embebido. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
+El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y . Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
 <https://trello.com/b/VboaXtwW/sprint-backlog-2>
 <img src="img/sprint-backlog-2.png" width="100%">
 
@@ -4734,15 +4756,40 @@ Se implementó una vista detallada por jaula, permitiendo a los criadores visual
 
 #### Sistema Embebido (Wokwi)
 
-En el sistema embebido de Wokwi hemos simulado una obtención de datos y envío hacia el backend utilizando sensores virtuales y una lógica de programación cargada en una placa ESP32. Esta simulación nos permitió probar el flujo de información desde los sensores hasta el sistema de visualización LCD, y también verificar el envío correcto hacia la API del servidor mediante HTTP.
+Para la fase de simulación, utilizamos la plataforma Wokwi con una placa virtual ESP32, integrando sensores virtuales para medir temperatura, humedad, nivel de agua y CO₂. Estos datos fueron procesados localmente y visualizados mediante una pantalla LCD I2C 20x4. Además, se implementó la lógica para el envío de datos vía HTTP hacia un backend expuesto por una API REST, permitiendo probar la conectividad y funcionamiento del flujo completo de adquisición y transmisión de datos.
+
+La arquitectura del sistema sigue la estructura del framework ModestIoT, lo que nos permitió mantener una separación clara entre sensores, actuadores y lógica de comunicación, documentando cada componente con buenas prácticas de ingeniería embebida.
 
 ![Sistema Embebido Wokwi](img/EmbebidoWokwi.png)
 
-Se verifico la Obtentencion de los datos por medio de Postman y coinciden correctamente por lo enviado por el wokwi, se logro verificar el envio de los datos correctamente.
+La validación del sistema se realizó utilizando Postman, donde se confirmó que los datos enviados por la ESP32 virtual coincidían con los datos recibidos por el backend, demostrando un funcionamiento correcto de la lógica de red y serialización de datos en formato JSON.
 <br>
 ![Prueba Wokwi](img/PruebasWokwi.png)
 
 https://wokwi.com/projects/432924428147171329
+
+#### Sistema Embebido Fisico
+
+En la implementación física del sistema embebido, se utilizó una placa ESP32 junto con tres potenciómetros, un sensor DHT11, un servo motor y una pantalla LCD I2C 20x4 para capturar, procesar y visualizar los datos en tiempo real. La lógica de programación cargada es la misma que en la simulación de Wokwi, lo que permitió mantener coherencia en el comportamiento del sistema. Una ventaja importante de esta versión física es su capacidad para conectarse tanto a la API en la nube como a una API local (servicio edge), lo que permite operar de forma flexible dependiendo del entorno: ya sea con conexión a Internet o en un entorno aislado. Esta doble conectividad garantiza mayor robustez, permitiendo seguir funcionando incluso si se pierde el acceso a la red externa.
+
+##### Se hace la verificacion del codigo
+![Verificacion del Codigo](img/VerificacionESP32.png)
+
+##### Luego se sube al ESP32
+
+![Subida de codigo al ESP32](img/CodigoESP32.png)
+
+##### El sistema funciona y envia datos correctamente
+
+![Sistema Funcionando ESP32](img/SistemaESP32.jpg)
+
+##### Respuesta de la API
+
+![Respuesta del API](img/APIResponse.png)
+
+##### Respuesta del Edge
+
+![Respuesta del Edge](img/EdgeResponse.png)
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
@@ -4792,7 +4839,7 @@ https://wokwi.com/projects/432924428147171329
 A continuación, se presentan las evidencias del despliegue exitoso de cada componente del sistema AgroCuy al finalizar el Sprint 3, dejando la solución lista para su validación y exposición final.
 
 #### Despliegue de la Aplicación Móvil
-La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra una captura de la interfaz final y el enlace de descarga:
+La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra el enlace:
 
 🔗 **Enlace de descarga APK:**  
 [Descargar AgroCuy App](https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI)
@@ -5090,6 +5137,27 @@ Screenshot del video:
 * Se configuró y probó con éxito el prototipo físico de los sensores (temperatura, humedad, CO₂, calidad y cantidad de agua) utilizando ModestIoT tanto en hardware real como en emulador. Esto facilitó pruebas constantes del backend con datos reales y simulados, y validó el flujo completo de lectura, comparación y alerta.
 
 * La aplicación móvil fue adaptada para consumir los datos del backend desplegado, permitiendo a los usuarios visualizar información relevante de las jaulas. Esto completa el flujo de usuario desde sensores físicos hasta visualización en tiempo real en la app, demostrando una integración completa entre frontend y backend.
+
+* A lo largo del proyecto, el equipo fue capaz de integrar tecnologías nuevas como Railway, ModestIoT y SendGrid, demostrando flexibilidad técnica y capacidad de aprendizaje autónomo frente a herramientas modernas y servicios externos.
+
+* El uso de herramientas colaborativas como GitHub, Trello y Figma permitió mantener una comunicación constante y sincronización entre los miembros del equipo, incluso trabajando de forma remota.
+
+### Recomendaciones
+
+1. **Automatizar pruebas y despliegues**  
+   Se recomienda implementar pipelines de integración y entrega continua (CI/CD) para reducir errores humanos y asegurar despliegues consistentes en futuras versiones del producto.
+
+2. **Profundizar en la accesibilidad de la aplicación**  
+   Incluir prácticas y herramientas de accesibilidad (a11y) para que el sistema sea utilizable por personas con discapacidades visuales o motrices, lo cual ampliará su alcance e impacto.
+
+3. **Optimizar el rendimiento de sensores en condiciones reales**  
+   Aunque las pruebas con emuladores y hardware fueron exitosas, se sugiere realizar pruebas prolongadas en granjas reales para ajustar tolerancias, latencias y condiciones ambientales no simuladas.
+
+4. **Escalar la arquitectura para múltiples usuarios y jaulas**  
+   A medida que AgroConnect crezca, será necesario considerar un enfoque multi-tenant, en donde múltiples criadores puedan usar el sistema de forma independiente, segura y eficiente.
+
+5. **Establecer una hoja de ruta post-lanzamiento**  
+   Definir claramente próximos pasos tras esta entrega: soporte técnico, evolución del producto, alianzas estratégicas y potenciales rondas de financiación si AgroTech planea continuar como startup.
 
 ## Video About-the-Team.
 
