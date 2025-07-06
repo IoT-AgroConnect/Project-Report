@@ -4776,7 +4776,7 @@ En la implementación física del sistema embebido, se utilizó una placa ESP32 
 A continuación, se presentan las evidencias del despliegue exitoso de cada componente del sistema AgroCuy al finalizar el Sprint 3, dejando la solución lista para su validación y exposición final.
 
 #### Despliegue de la Aplicación Móvil
-La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra una captura de la interfaz final y el enlace de descarga:
+La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra el enlace:
 
 🔗 **Enlace de descarga APK:**  
 [Descargar AgroCuy App](https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI)
