@@ -222,6 +222,18 @@ Abril 2025
     - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
     - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
     - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+
+  - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning](#6231-sprint-planning)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog](#6233-sprint-backlog)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
+
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4017,7 +4029,7 @@ La distribución de liderazgo y colaboración por aspecto se presenta en la sigu
 
 #### 6.2.2.3. Sprint Backlog
 
-El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y sistema Embebido. Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
+El objetivo de este segundo sprint es la implementación de la parte faltante de Frontend y empezar con el Backend, Edge, Aplicacion Movil y . Igualmente, se trabajó con una tabla en Trello para manejar los Work-Items de forma adecuada.
 <https://trello.com/b/VboaXtwW/sprint-backlog-2>
 <img src="img/sprint-backlog-2.png" width="100%">
 
@@ -4385,6 +4397,8 @@ Finalmente, se comprobó el funcionamiento del Web Service al entrar al swagger 
 
 En el proyecto AgroCuy, se implementa un sistema de monitoreo inteligente basado en el microcontrolador ESP32 para supervisar en tiempo real las condiciones del criadero de cuyes. El circuito integra sensores ultrasónicos para detectar movimiento en zonas clave del corral, un sensor DHT22 para medir temperatura y humedad del ambiente, una pantalla LCD que muestra constantemente los valores capturados, y un servomotor que puede activarse automáticamente para abrir compuertas de ventilación o alimentación según las condiciones registradas. Esta solución permite a los criadores tomar decisiones oportunas, optimizando el bienestar de los animales y mejorando la eficiencia del manejo diario.
 
+https://wokwi.com/projects/432924428147171329
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint 
 
 En la elaboración de la Front-End y el Back-End y la Pruebas, todos los integrantes realizaron commits referentes al branch feature que les tocó trabajar.
@@ -4401,7 +4415,7 @@ Back-End
 Pruebas de Aceptación
 <img src="img/sprint2-insightaceptance.PNG" width="100%">
 
-### 6.2.3. Sprint 2
+### 6.2.3. Sprint 3
 
 #### 6.2.3.1. Sprint Planning
 
@@ -4423,6 +4437,71 @@ La planificación del segundo sprint se realizó de manera virtual mediante Goog
 | **Suma total de Story Points asignados** | 184 |
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
+
+Durante el segundo sprint, el equipo se reorganizó para abarcar aspectos más amplios y complejos del sistema AgroCuy, incluyendo el refinamiento del Frontend Web Application, del Mobile App y del prototipo IoT (sistema de sensores y notificaciones desde jaulas conectadas), tanto simulado como fisico.
+
+La distribución de liderazgo y colaboración por aspecto se presenta en la siguiente tabla:
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Frontend Web Final Version</th>
+    <th>Mobile App Final Version</th>
+    <th>IoT Final Version</th>
+    <th>Pruebas Automatizadas</th>
+    <th>Validación Usuario</th>
+  </tr>
+  <tr>
+    <td>Lucas Coronel, Nadia Alessandra</td>
+    <td>nad21lc</td>
+    <td></td>
+    <td></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Ramírez Méndez, Sebastián André</td>
+    <td>yorusaurio</td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Cuadros Rodríguez, Juan Alejandro</td>
+    <td>JuanAlejandroCuadrosRodriguez</td>
+    <td></td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Moreno Vergara, Johan Raúl</td>
+    <td>JohanMV</td>
+    <td>L</td>
+    <td></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Jarama Peñaloza, Fiorella</td>
+    <td>Fio0407</td>
+    <td></td>
+    <td></td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+
+> Esta distribución asegura cobertura de todos los aspectos clave en el Sprint 2, optimizando la colaboración entre miembros y alineando responsabilidades con los objetivos establecidos. La incorporación del prototipo IoT y la app móvil exigió una asignación técnica más específica, reforzada con validaciones funcionales y de usuario.
+
 
 #### 6.2.3.3. Sprint Backlog
 
@@ -4505,11 +4584,192 @@ El objetivo de este tercer sprint es la implementación final e integrada del ec
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
+Durante el Sprint 3, el equipo del proyecto AgroCuy finalizó el desarrollo e integración del ecosistema completo: aplicación web, aplicación móvil y sistema IoT. Se enfocó en cerrar la interoperabilidad entre componentes y optimizar la experiencia de usuario.
+
+Se implementaron mejoras significativas en los siguientes aspectos clave:
+
+- **Configuración personalizada de rangos ambientales** tanto en web como en móvil.
+- **Recepción de alertas** vía correo electrónico ante condiciones ambientales fuera de rango.
+- **Monitoreo en tiempo real** desde sensores IoT mediante arquitectura Modest IoT.
+- **Despliegue final del backend, app móvil y plataforma web.**
+
+A continuación, se listan algunos *commits* representativos que evidencian el cumplimiento de los objetivos del Sprint:
+
+
+| Repositorio             | Rama     | Commit ID | Mensaje del Commit                                                                    | Fecha         |
+|-------------------------|----------|-----------|----------------------------------------------------------------------------------------|---------------|
+| AgroCuy-mobileApp       | develop  | 9569c78   | Enhance login error handling and loading state management                             | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | b189111   | fix: remove unused publication service file                                           | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | 4baf477   | fix: update base URL for API endpoint and add new service files                       | 2025-07-06    |
+| AgroCuy-mobileApp       | develop  | a8f2725   | Add services for feeding schedules, notifications, publications, and sensor data      | 2025-07-06    |
+| Web-Services-main       | develop  | 7fe31bf   | fix: Ensure the Connection                                                             | 2025-07-05    |
+| Web-Services-main       | develop  | a49875d   | fix: WaterQuality with WaterQuantity site on CreateAcceptableRangeCommand             | 2025-07-05    |
+| Web-Services-main       | develop  | 6bdc17c   | feat: added email notifications via SendGrid                                          | 2025-07-04    |
+| Web-Services-main       | develop  | 464d30e   | fix: fix water quantity range & co₂ range                                             | 2025-07-04    |
+
+
+📌 **Repositorio Web Services**:  
+🔗 [https://github.com/IoT-AgroConnect/Web-Services-main](https://github.com/IoT-AgroConnect/Web-Services-main)
+
+📌 **Repositorio Mobile App**:  
+🔗 [https://github.com/IoT-AgroConnect/AgroCuy-mobileApp](https://github.com/IoT-AgroConnect/AgroCuy-mobileApp)
+
+Estos commits demuestran la entrega de funcionalidades completas y listas para validación en entorno real, garantizando una experiencia robusta para los usuarios del ecosistema AgroCuy.
+
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+
+Durante el Sprint 3, el equipo centró sus esfuerzos en la integración final de los componentes del ecosistema AgroCuy, priorizando la interoperabilidad entre la aplicación web, móvil y el sistema IoT, así como su despliegue en entornos productivos.
+
+>**Nota:** En este sprint, **no se incluyeron nuevas pruebas automatizadas** dentro del plan de trabajo. La validación de funcionalidades se realizó principalmente mediante pruebas manuales sobre los módulos integrados, enfocándose en asegurar el comportamiento esperado en condiciones reales de uso.
+
+Esta decisión se tomó con base en la necesidad de garantizar una entrega funcional completa y estable, dejando como recomendación para iteraciones futuras el fortalecimiento del testing automatizado continuo en nuevas funcionalidades o ajustes.
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
+
+Durante el Sprint 3, se completó la ejecución final del ecosistema AgroCuy, incluyendo el despliegue funcional de la aplicación móvil, la aplicación web y el sistema embebido con arquitectura IoT. Se verificó que los módulos trabajen de forma integrada y se validó su correcto funcionamiento en condiciones reales.
+
+A continuación, se detallan las evidencias más relevantes:
+
+### Aplicación Web AgroCuy
+
+### Gestión de Jaulas y Sensores IoT - Web
+
+Se implementó una vista detallada por jaula, permitiendo a los criadores visualizar el estado en tiempo real de los sensores conectados (como humedad). Además, se incluye un componente visual intuitivo con cards individuales por jaula.
+
+<img src="img/iot_monitoring.png" alt="IoT Monitoring" width="600" /> <br>
+
+<img src="img/iot_monitoring_2.png" alt="IoT Monitoring 2" width="600" />
+
+
+---
+
+### Aplicación Móvil AgroCuy
+
+- Se compiló y desplegó la **versión final** de la app para dispositivos Android.
+- La APK incluye persistencia de sesión, gestión de usuarios, monitoreo de jaulas, recursos, gastos y citas.
+- Se probó exitosamente en entorno físico y virtual.
+
+🔗 **Enlace de descarga APK:**  
+[Descargar AgroCuy App](https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI)
+
+
+---
+
+####  Evidencias funcionales
+
+1. **Dashboard de jaula con sensores IoT y resumen de estado**
+   - Se visualiza el estado general de la jaula, cantidad de cuyes alojados, porcentaje de ocupación y fecha de creación.
+   - El módulo de monitoreo IoT muestra datos reales de sensores de agua, temperatura, CO₂, humedad y limpieza.
+   
+   ![Dashboard IoT Jaula](img/evidence_jaulaIot.png)
+
+2. **Panel de monitoreo IoT implementado**
+   - Se validó el sistema embebido que permite visualizar valores en tiempo real de sensores de agua (ml), temperatura (°C), humedad (%), CO₂ (ppm), y días desde la última limpieza.
+   - Los indicadores cambian de color según el nivel crítico, normal o regular.
+   
+   ![Monitoreo IoT](img/evidence_implementedIot.png)
+
+3. **Estado inicial sin cuyes registrados**
+   - Se muestra la interfaz amigable que invita al usuario a agregar su primer cuy.
+   - Esta vista se presenta cuando la jaula aún no tiene animales asignados.
+
+   ![Sin cuyes en jaula](img/evidence_cuy.png)
+
+4. **Registro exitoso de un cuy**
+   - Se registró correctamente un cuy llamado "Pepe", raza Andina, con peso y edad visibles.
+   - El estado del cuy aparece como “SANO” y se muestra su género mediante íconos.
+   
+   ![Cuy agregado exitosamente](img/evidence_addcuy.png)
+
+5. **Ficha detallada del cuy**
+   - Se visualiza la ficha técnica del cuy “Pepe”, con datos como sexo, raza, peso, edad, estado de salud, fecha de nacimiento e ingreso, y observaciones personalizadas.
+   - Este módulo permite una revisión rápida del historial individual del animal.
+
+   ![Ficha del cuy Pepe](img/evidence_infocuy.png)
+
+### Sistema Embebido 
+
+#### Sistema Embebido (Wokwi)
+
+Para la fase de simulación, utilizamos la plataforma Wokwi con una placa virtual ESP32, integrando sensores virtuales para medir temperatura, humedad, nivel de agua y CO₂. Estos datos fueron procesados localmente y visualizados mediante una pantalla LCD I2C 20x4. Además, se implementó la lógica para el envío de datos vía HTTP hacia un backend expuesto por una API REST, permitiendo probar la conectividad y funcionamiento del flujo completo de adquisición y transmisión de datos.
+
+La arquitectura del sistema sigue la estructura del framework ModestIoT, lo que nos permitió mantener una separación clara entre sensores, actuadores y lógica de comunicación, documentando cada componente con buenas prácticas de ingeniería embebida.
+
+![Sistema Embebido Wokwi](img/EmbebidoWokwi.png)
+
+La validación del sistema se realizó utilizando Postman, donde se confirmó que los datos enviados por la ESP32 virtual coincidían con los datos recibidos por el backend, demostrando un funcionamiento correcto de la lógica de red y serialización de datos en formato JSON.
+<br>
+![Prueba Wokwi](img/PruebasWokwi.png)
+
+https://wokwi.com/projects/432924428147171329
+
+#### Sistema Embebido Fisico
+
+En la implementación física del sistema embebido, se utilizó una placa ESP32 junto con tres potenciómetros, un sensor DHT11, un servo motor y una pantalla LCD I2C 20x4 para capturar, procesar y visualizar los datos en tiempo real. La lógica de programación cargada es la misma que en la simulación de Wokwi, lo que permitió mantener coherencia en el comportamiento del sistema. Una ventaja importante de esta versión física es su capacidad para conectarse tanto a la API en la nube como a una API local (servicio edge), lo que permite operar de forma flexible dependiendo del entorno: ya sea con conexión a Internet o en un entorno aislado. Esta doble conectividad garantiza mayor robustez, permitiendo seguir funcionando incluso si se pierde el acceso a la red externa.
+
+##### Se hace la verificacion del codigo
+![Verificacion del Codigo](img/VerificacionESP32.png)
+
+##### Luego se sube al ESP32
+
+![Subida de codigo al ESP32](img/CodigoESP32.png)
+
+##### El sistema funciona y envia datos correctamente
+
+![Sistema Funcionando ESP32](img/SistemaESP32.jpg)
+
+##### Respuesta de la API
+
+![Respuesta del API](img/APIResponse.png)
+
+##### Respuesta del Edge
+
+![Respuesta del Edge](img/EdgeResponse.png)
+
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+<h4>✔ Servicios Agregados:</h4>
+<ul>
+  <li><code>SendGridEmailService</code>: Servicio responsable de enviar correos electrónicos utilizando la API de SendGrid.</li>
+  <li><code>SensorThresholdAlertListener</code>: Escucha eventos cuando se crea un nuevo SensorData y compara sus valores con los límites establecidos para emitir alertas.</li>
+</ul>
+
+<h4>✔ Contexto:</h4>
+<p>Estos servicios fueron desarrollados como parte de la funcionalidad de alertas por sensores en jaulas de cuyes. Cuando un dato de sensor (temperatura, humedad, CO₂, agua) sobrepasa los valores definidos por el usuario como aceptables, se envía una alerta por correo electrónico al criador.</p>
+
+<h4>✔ Archivos involucrados:</h4>
+<ul>
+  <li><strong>SendGridEmailService.java</strong>: Implementa el envío de emails mediante la API de SendGrid. Se configura con variables de entorno <code>SENDGRID_API_KEY</code> y <code>EMAIL_FROM</code>.</li>
+  <li><strong>SensorThresholdAlertListener.java</strong>: Listener que responde al evento <code>SensorDataCreatedEvent</code>, compara los valores con los rangos de <code>AcceptableRange</code> del usuario y, si detecta una anomalía, dispara el envío del correo.</li>
+</ul>
+
+<h4>✔ Flujo funcional:</h4>
+<ol>
+  <li>Un <code>SensorData</code> es creado desde el backend.</li>
+  <li>Se dispara el <code>SensorDataCreatedEvent</code>.</li>
+  <li><code>SensorThresholdAlertListener</code> escucha el evento y busca el <code>AcceptableRange</code> correspondiente al <code>cageId</code>.</li>
+  <li>Si uno o más valores superan los límites definidos, se construye un mensaje de alerta.</li>
+  <li><code>SendGridEmailService</code> es invocado para enviar el correo al usuario dueño de la jaula.</li>
+</ol>
+
+<h4>✔ Aplicación externa: SendGrid</h4>
+<p>
+  <strong>SendGrid</strong> es un servicio de envío de correos electrónicos transaccionales y de marketing basado en la nube.
+  En este proyecto se utiliza SendGrid para <strong>enviar alertas por correo electrónico</strong> cuando los sensores registran datos que superan los rangos aceptables definidos por el usuario.
+</p>
+<p>
+  La integración se realiza mediante la <strong>API REST de SendGrid</strong>, utilizando una clave de autenticación (<code>SENDGRID_API_KEY</code>) configurada como variable de entorno en la plataforma Railway.
+</p>
+<p>
+  El correo electrónico se construye en el servicio <code>SendGridEmailService</code>, y se envía automáticamente con los detalles del sensor fuera de rango, la jaula y el criador correspondiente.
+</p>
+
+<img src="img/sendGridDashboard.png" width="80%">
+
+<img src="img/alertasAgroCuy.png" width="80%">
+
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
@@ -4518,7 +4778,8 @@ A continuación, se presentan las evidencias del despliegue exitoso de cada comp
 #### Despliegue de la Aplicación Móvil
 La versión final de la aplicación móvil fue compilada y desplegada para su uso en dispositivos Android mediante archivo APK. A continuación, se muestra una captura de la interfaz final y el enlace de descarga:
 
-ENLACE!!!
+🔗 **Enlace de descarga APK:**  
+[Descargar AgroCuy App](https://upcedupe-my.sharepoint.com/:u:/g/personal/u20191e575_upc_edu_pe/EYtXyw6t56hAuOmCKx5PIfgBGngfpQznB6lKpSUvAgrVbA?e=d9tELI)
 
 #### Despliegue de la Aplicación Web
 La aplicación web fue publicada en un entorno productivo, mostrando la interfaz final para asesores y criadores. Esta versión incluye las mejoras de UX y funcionalidades completas.
@@ -4535,6 +4796,18 @@ El backend fue desplegado en Railway en un entorno productivo, con servicios act
 🔗 Enlace a documentación Swagger: [https://web-services-main-production.up.railway.app/swagger-ui/index.html](https://web-services-main-production.up.railway.app/swagger-ui/index.html)
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
+
+Backend
+
+![Collaboration Insights](image-2.png)
+
+![Network](image-3.png)
+
+Frontend mobile
+
+![Collaboration Insights](image-1.png)
+
+![Network](image-4.png)
 
 ## 6.3. Validation Interviews.
 
@@ -4780,7 +5053,7 @@ Screenshot del video:
 
 # Conclusiones
 
-## Avance de Conclusiones y recomendaciones
+## Conclusiones y recomendaciones
 
 * La implementación del proceso Lean UX permitió a AgroTech identificar objetivos clave, competidores y necesidades del mercado. Desde la definición de problemas hasta la creación del Lean UX canvas, cada paso mejoró la eficiencia y agilidad en el desarrollo de AgroConnect.
 
@@ -4793,6 +5066,35 @@ Screenshot del video:
 * Al desarrollar el backend con Spring Boot y alinear los bounded contexts utilizando la arquitectura DDD, conseguimos establecer una estructura sólida y modularizada. La exhaustiva documentación en Swagger nos sirvió como una guía clara para comprender y trabajar con cada componente, lo que no solo optimiza la organización y mantenimiento del código, sino que también promueve la colaboración entre equipos y facilita la escalabilidad del proyecto a medida que avanza. Por otro lado, las entrevistas de validación del producto brindaron una visión completa de cómo perciben y qué necesitan los usuarios. Aunque se reconocieron aspectos positivos como la utilidad de la Landing Page y la facilidad de uso de la Web Application, también se identificaron áreas de mejora en términos de claridad de la información, diseño y navegación. Estos insights proporcionan una base sólida para implementar ajustes significativos y perfeccionar la experiencia del usuario en futuras iteraciones del producto, garantizando así una mayor satisfacción y usabilidad.
 
 * Finalmente, durante el desarrollo del trabajo aprendimos a planificar mejor la arquitectura del backend y optimizar las consultas a la base de datos desde el inicio para manejar eficientemente grandes volúmenes de datos. Asimismo, mejoramos la comunicación entre equipos para asegurar una integración fluida del frontend y backend, implementando estrategias de integración continua para facilitar actualizaciones rápidas y consistentes del sistema. Del mismo modo, nuestra startup AgroTech ha podido lograr una implementación exitosa de AgroConnect, demostrando competencia en la aplicación de metodologías como Lean UX y principios ágiles. Además, Hemos integrado eficientemente el frontend y backend mediante tecnologías open-source y prácticas colaborativas como GitFlow, garantizando estándares de seguridad y funcionalidad necesarios para cumplir con las expectativas del usuario final.
+
+* Se implementó con éxito un sistema de detección de sensores fuera de rango utilizando eventos de dominio y un listener desacoplado. Además, se integró el servicio externo SendGrid para el envío automático de correos electrónicos al criador. Esta solución permite alertar en tiempo real sobre condiciones críticas en las jaulas.
+
+* Se logró desplegar por primera vez el backend en una plataforma externa (Railway), configurando adecuadamente las variables de entorno como la API Key de SendGrid. Esto permitió validar que todo el sistema funcionaba de manera remota, asegurando conectividad desde cualquier cliente (web o móvil).
+
+* Se configuró y probó con éxito el prototipo físico de los sensores (temperatura, humedad, CO₂, calidad y cantidad de agua) utilizando ModestIoT tanto en hardware real como en emulador. Esto facilitó pruebas constantes del backend con datos reales y simulados, y validó el flujo completo de lectura, comparación y alerta.
+
+* La aplicación móvil fue adaptada para consumir los datos del backend desplegado, permitiendo a los usuarios visualizar información relevante de las jaulas. Esto completa el flujo de usuario desde sensores físicos hasta visualización en tiempo real en la app, demostrando una integración completa entre frontend y backend.
+
+* A lo largo del proyecto, el equipo fue capaz de integrar tecnologías nuevas como Railway, ModestIoT y SendGrid, demostrando flexibilidad técnica y capacidad de aprendizaje autónomo frente a herramientas modernas y servicios externos.
+
+* El uso de herramientas colaborativas como GitHub, Trello y Figma permitió mantener una comunicación constante y sincronización entre los miembros del equipo, incluso trabajando de forma remota.
+
+### Recomendaciones
+
+1. **Automatizar pruebas y despliegues**  
+   Se recomienda implementar pipelines de integración y entrega continua (CI/CD) para reducir errores humanos y asegurar despliegues consistentes en futuras versiones del producto.
+
+2. **Profundizar en la accesibilidad de la aplicación**  
+   Incluir prácticas y herramientas de accesibilidad (a11y) para que el sistema sea utilizable por personas con discapacidades visuales o motrices, lo cual ampliará su alcance e impacto.
+
+3. **Optimizar el rendimiento de sensores en condiciones reales**  
+   Aunque las pruebas con emuladores y hardware fueron exitosas, se sugiere realizar pruebas prolongadas en granjas reales para ajustar tolerancias, latencias y condiciones ambientales no simuladas.
+
+4. **Escalar la arquitectura para múltiples usuarios y jaulas**  
+   A medida que AgroConnect crezca, será necesario considerar un enfoque multi-tenant, en donde múltiples criadores puedan usar el sistema de forma independiente, segura y eficiente.
+
+5. **Establecer una hoja de ruta post-lanzamiento**  
+   Definir claramente próximos pasos tras esta entrega: soporte técnico, evolución del producto, alianzas estratégicas y potenciales rondas de financiación si AgroTech planea continuar como startup.
 
 ## Video About-the-Team.
 
